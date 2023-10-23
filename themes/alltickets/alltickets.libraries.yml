@@ -1,0 +1,29 @@
+# Archivo: alltickets.libraries.yml
+header:
+  version: 1.x
+  css:
+    theme:
+      assets/css/header.css: {}
+  js:
+    assets/js/header.js: {}
+  dependencies:
+    - core/jquery
+
+footer:
+  version: 1.x
+  css:
+    theme:
+      assets/css/footer.css: {}
+  dependencies:
+    - core/jquery
+
+
+general:
+  version: 1.x
+  css:
+    theme:
+      assets/css/general.css: {}
+  js:
+    assets/js/general.js: {}
+  dependencies:
+    - core/jquery

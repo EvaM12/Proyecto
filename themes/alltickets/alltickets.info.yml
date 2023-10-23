@@ -1,0 +1,14 @@
+name: AllTickets
+type: theme
+description: 'Tema de la tienda'
+core_version_requirement: ^8 || ^9 || ^10
+base theme: false
+
+regions:
+  header: 'Header'
+  navigation: 'Navigation'
+  content: 'Content'
+  footer: 'Footer'
+
+libraries:
+  - clinica/general
