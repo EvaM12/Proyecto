@@ -1,0 +1,49 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #969fa8;
+    font-size: 14px;
+}
+
+/* estilos de la cabecera */
+header {
+    top: 0;
+    background-color: #f5f7f7;
+}
+
+.cabecera {
+    margin: 0 auto;
+    width: 75%;
+}
+
+button {
+    border: none;
+    border-radius: 2em !important;
+    text-transform: uppercase !important;
+    color: #f5f7f7 !important;
+    padding: 1em;
+    /* "to left" / "to right" - affects initial color */
+    background: linear-gradient(to right, #0477bf 50%, #969fa8 50%) left;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+
+button:hover {
+    background-position: right;
+}
+
+@media (min-width: 768px) and (max-width:950px) {
+    #block-clinica-content>div:last-of-type{
+        margin-top: 11.5em;
+    }
+}
+
+@media (min-width: 951px){
+    #block-clinica-content>div:last-of-type{
+        margin-top: 9.5em;
+    }
+}

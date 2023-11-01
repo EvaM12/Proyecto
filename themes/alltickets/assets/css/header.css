@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+    width: 100%;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #969fa8;
+    font-size: 14px;
+}
+
+/* estilos de la cabecera */
+header {
+    top: 0;
+    background-color: #f5f7f7;
+}
+
+.cabecera {
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+
+@media (max-width:767px) {
+    .mas768 {
+        display: none;
+    }
+
+    .menos768 {
+        display: block;
+    }
+
+    .cabecera {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecera img {
+        margin: 1em auto;
+    }
+
+    .cabecera>* {
+        margin: 0.5em 0 1em;
+    }
+
+}
+
+@media (min-width:768px) {
+    .mas768 {
+        display: block;
+    }
+
+    .menos768 {
+        display: none;
+    }
+
+    .cabecera,
+    .cabecera section {
+        display: flex;
+        flex-direction: row;
+        padding: 5px 0;
+    }
+
+    .cabecera section * {
+        margin: 0;
+        line-height: 1.5em;
+    }
+
+    .cabecera section div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .social {
+        margin: 0 0.5em !important;
+    }
+
+    .social:hover>svg {
+        fill: #0477bf;
+    }
+
+    .telefono {
+        color: #969fa8;
+        text-decoration: none;
+    }
+
+    .telefono span {
+        color: #0477bf;
+        font-weight: bold;
+        font-size: 1.2em;
+        padding: 0 1%;
+    }
+
+    .telefono:hover>span svg {
+        fill: black;
+    }
+
+    header,
+    .menu {
+        z-index: 3;
+        position: fixed;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .cabecera section p {
+        width: 100%;
+    }
+
+    .salto {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .cabecera {
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .salto {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    * {
+        font-size: 13px;
+    }
+
+    header,
+    .menu {
+        width: 100%;
+    }
+
+    .cabecera {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .cabecera section {
+        margin: 0;
+    }
+
+
+    .cabecera section:nth-child(2) {
+        text-align: end;
+    }
+}
+
+@media (max-width: 1130px) {
+    .cabecera {
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+
+@media (min-width:1025px) {
+    .cabecera section {
+        text-align: center;
+        margin: auto 0 !important;
+    }
+}
+
+/* estilos del menu */
+
+@media(max-width:767px) {
+    .menu {
+        width: 100%;
+        height: auto;
+        background-color: #1d1d22;
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        text-align: center;
+        margin: 0;
+        z-index: 10 !important;
+        transform: translateY(-100%);
+        transition: all 1s ease-in;
+    }
+
+    .mostrar {
+        transform: translateY(100%);
+        transition: all 1s ease-in;
+        z-index: 10;
+    }
+
+
+    .menu img {
+        margin: 4em 0 2em;
+        filter: drop-shadow(0px 0px 15px white);
+    }
+
+    .menu ul {
+        width: 40%;
+        margin: 0 auto;
+        list-style: none;
+        padding: 0;
+        text-align: justify;
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .menu ul li {
+        padding: 0.5em;
+    }
+
+    .menu ul li>a {
+        color: white !important;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: lighter;
+    }
+
+    .menu ul li>* {
+        color: white;
+        display: inline-block;
+    }
+
+    .menu li ul {
+        padding: 0.3em 0.5em;
+        width: 100%;
+    }
+
+
+    .cerrar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 2em;
+        z-index: 1;
+    }
+
+    .cerrar:target~.menu {
+        display: none;
+    }
+
+
+    /* colapsar submenus */
+    .coll i {
+        background-color: rgba(255, 255, 255, 0.3);
+        padding: 0.1em 0.25em;
+        line-height: 2em;
+        font-size: 1.5em;
+    }
+
+    .content {
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+
+    .menu .active i {
+        color: #3ec7c5;
+    }
+
+    .content li a {
+        color: white !important;
+        font-size: 1em !important;
+    }
+
+    /* redes sociales */
+    .menu div i {
+        color: #3ec7c5;
+        font-size: 1.2em;
+        padding: 0 0.5em;
+    }
+
+    .menu div {
+        padding: 1.5em 0;
+    }
+}
+
+
+@media (max-width:650px) {
+
+    .menu ul {
+        width: 65%;
+    }
+}
+
+@media (max-width:500px) {
+
+    .menu ul {
+        width: 70%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .menu ul {
+        width: 80%;
+    }
+}
+
+.cabTel{
+    color: #0477bf;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+}
