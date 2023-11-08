@@ -1,0 +1,53 @@
+.banner-section {
+    padding: 200px 0 140px;
+    background: url('../images/fondo.jpg') center/cover no-repeat #171744;
+    position: relative
+}
+
+.texto {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.texto .cate {
+    color: #31d7a9;
+    text-transform: capitalize;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -8px
+}
+
+.texto .title {
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.texto .title span {
+    color: #fff
+}
+
+@media (min-width:576px) {
+    h2 {
+        font-size: 50px;
+        line-height: 60px;
+        margin-top: -13px
+    }
+
+    .texto {
+        margin-bottom: 46px
+    }
+
+    .texto .cate {
+        font-size: 24px;
+        margin-bottom: 25px;
+        margin-top: -6px
+    }
+
+    .texto .title {
+        margin-bottom: 24px
+    }
+}

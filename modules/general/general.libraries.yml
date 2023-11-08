@@ -1,0 +1,7 @@
+cabecera:
+  version: 1.x
+  css:
+    theme:
+      assets/css/cabecera.css: {}
+  dependencies:
+    - core/jquery

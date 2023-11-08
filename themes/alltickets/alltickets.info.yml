@@ -9,5 +9,5 @@ regions:
   content: 'Content'
   footer: 'Footer'
 
-# libraries:
-#   - clinica/general
+libraries:
+  - alltickets/general

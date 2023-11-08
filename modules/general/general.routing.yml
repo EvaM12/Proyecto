@@ -1,0 +1,7 @@
+general.inicio:
+  path: '/inicio'
+  defaults:
+    _controller: '\Drupal\general\Controller\GeneralController::inicio'
+    _title: 'Pagina principal'
+  requirements:
+    _permission: 'access content'

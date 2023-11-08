@@ -1,0 +1,36 @@
+{{ attach_library('alltickets/header') }}
+{{ attach_library('alltickets/general') }}
+
+<header>
+	<div class="logo">
+		<a href="#top">
+			<img src="{{ file_url('themes/alltickets/assets/images/logo.png') }}" alt="logo">
+		</a>
+	</div>
+	<ul class="menu">
+		<li>
+			<a class="nav-link" href="#home">Partidos</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#feature">Noticias</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#doc">Equipos</a>
+		</li>
+		<li>
+			<a class="nav-link" href="#support">Directo</a>
+		</li>
+		<li>
+			<a class="nav-link d-md-none" href="#support">Inicio / Registro</a>
+		</li>
+	</ul>
+	<div>
+		<a href="sesion" class="sesion">Inicio / Registro</a>
+	</div>
+	<div class="header-bar d-md-none">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+</header>
+{# arreglar cabecera de 768 a 872 #}

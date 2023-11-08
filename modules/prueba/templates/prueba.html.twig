@@ -1,0 +1,9 @@
+{% if results %}
+  <ul>
+    {% for row in results %}
+      <li>{{ row.nombre }} {{ row.apellidos }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No hay resultados disponibles.</p>
+{% endif %}

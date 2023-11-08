@@ -1,0 +1,4 @@
+services:
+  general.config:
+    class: Drupal\Core\Config\ConfigFactory
+    arguments: ['general.settings']
