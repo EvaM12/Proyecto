@@ -70,18 +70,23 @@ class PruebaController extends ControllerBase
     public function prueba()
     {
         // Realizar una consulta a la base de datos.
-        $query = $this->database->select('prueba', 'pr')
-            ->fields('pr', ['nombre', 'apellidos'])
-            ->execute();
+        // $query = $this->database->select('prueba', 'pr')
+        //     ->fields('pr', ['nombre', 'apellidos'])
+        //     ->execute();
 
         // Obtener los resultados.
-        $results = $query->fetchAll();
+        // $results = $query->fetchAll();
+
+        // $data = [
+        //     'results' => $results
+        // ];
 
         $data = [
-            'results' => $results
+            'datos' => 'funciona'
         ];
 
         $template = $this->twig->load('@prueba/prueba.html.twig');
+        // $html = $template->render();
         $html = $template->render($data);
 
         // Devuelve el HTML renderizado como respuesta.

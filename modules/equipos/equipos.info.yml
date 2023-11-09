@@ -1,0 +1,5 @@
+name: Equipos
+type: module
+description: 'Muestra los equipos y su informacion.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom

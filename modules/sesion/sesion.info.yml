@@ -1,0 +1,5 @@
+name: Sesion
+type: module
+description: 'Modulo de inicio y/o registro.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Custom

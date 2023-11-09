@@ -1,0 +1,15 @@
+sesion.sesion:
+  path: '/sesion'
+  defaults:
+    _controller: '\Drupal\sesion\Controller\SesionController::sesion'
+    _title: 'Inicio / Registro'
+  requirements:
+    _permission: 'access content'
+
+sesion.personal:
+  path: '/personal'
+  defaults:
+    _controller: '\Drupal\sesion\Controller\SesionController::personal'
+    _title: 'Datos personales'
+  requirements:
+    _permission: 'access content'

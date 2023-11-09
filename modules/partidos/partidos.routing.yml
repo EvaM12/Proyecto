@@ -1,0 +1,15 @@
+partidos.listado:
+  path: '/listado'
+  defaults:
+    _controller: '\Drupal\partidos\Controller\PartidosController::listado'
+    _title: 'Listado de partidos'
+  requirements:
+    _permission: 'access content'
+
+partidos.partido:
+  path: '/partido/{id}'
+  defaults:
+    _controller: '\Drupal\partidos\Controller\PartidosController::partido'
+    _title: 'Datos personales' #buscar como poner el el nombre del partido
+  requirements:
+    _permission: 'access content'

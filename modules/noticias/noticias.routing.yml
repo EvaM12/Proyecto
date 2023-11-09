@@ -1,0 +1,15 @@
+general.noticias:
+  path: '/noticias'
+  defaults:
+    _controller: '\Drupal\noticias\Controller\NoticiasController::notGeneral'
+    _title: 'Noticias'
+  requirements:
+    _permission: 'access content'
+
+general.noticia:
+  path: '/noticias/{tipo}/{id}'
+    defaults:
+    _controller: '\Drupal\noticias\Controller\NoticiasController::tipoNoticia'
+    _title: 'Pagina principal' #buscar como poner el titulo de cabecera
+  requirements:
+    _permission: 'access content'

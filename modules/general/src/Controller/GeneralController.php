@@ -10,41 +10,51 @@ use Drupal\Core\Template\TwigEnvironment;
 use Drupal\Core\Render\Markup;
 use Drupal\Core\Block\BlockPluginInterface;
 
-class GeneralController extends ControllerBase {
+class GeneralController extends ControllerBase
+{
 
-  protected $twig;
+    protected $twig;
 
-  public function __construct(TwigEnvironment $twig) {
-    $this->twig = $twig;
-  }
+    public function __construct(TwigEnvironment $twig)
+    {
+        $this->twig = $twig;
+    }
 
-  public static function create(ContainerInterface $container) {
-    return new static(
-      $container->get('twig'),
-    );
-  }
+    public static function create(ContainerInterface $container)
+    {
+        return new static(
+            $container->get('twig'),
+        );
+    }
 
-  public function inicio() {
+    public function inicio()
+    {
 
-    // Cargar la primera plantilla
-    $template1 = $this->twig->load('@general/cabecera.html.twig');
-    $html1 = $template1->render();
+        $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
+        $titulo = end($parts);
 
-    // Cargar la segunda plantilla
-    $template2 = $this->twig->load('@general/inicio.html.twig');
-    $html2 = $template2->render();
+        $data = [
+            'titulo' => $titulo
+        ];
+        // Cargar la primera plantilla
+        $template1 = $this->twig->load('@general/cabecera.html.twig');
+        $html1 = $template1->render($data);
 
-    // Combinar el contenido de ambas plantillas
-    $combinedHtml = $html1 . $html2;
+        // Cargar la segunda plantilla
+        $template2 = $this->twig->load('@general/inicio.html.twig');
+        $html2 = $template2->render();
 
-    // Envuelve el contenido de la plantilla en un objeto renderizable
-    $content = [
-       '#markup' => Markup::create($combinedHtml),
-    ];
+        // Combinar el contenido de ambas plantillas
+        $combinedHtml = $html1 . $html2;
 
-    // Agrega el contenido de la plantilla al bloque "Main page content"
-    $build['main_page_content']['#markup'] = $content['#markup'];
+        // Envuelve el contenido de la plantilla en un objeto renderizable
+        $content = [
+            '#markup' => Markup::create($combinedHtml),
+        ];
 
-    return $build;
-  }
+        // Agrega el contenido de la plantilla al bloque "Main page content"
+        $build['main_page_content']['#markup'] = $content['#markup'];
+
+        return $build;
+    }
 }
