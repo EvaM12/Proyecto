@@ -1,12 +1,13 @@
 footer {
     padding: 2em 0 0;
     border-top: 6px solid #f1f1f1;
+    background-color: #0477bf;
 }
 @media (max-width: 479px){
     footer{
         display: block;
     }
-    
+
     footer p {
         margin: 2em 0 !important;
         text-align: center;
@@ -28,7 +29,7 @@ footer {
         text-decoration: none;
         color: #969fa8;
     }
-    
+
     footer .legal p {
         padding: 2em 0;
     }

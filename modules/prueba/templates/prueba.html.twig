@@ -15,25 +15,12 @@
 {% endblock %}
 
 {% set javascriptCode %}
-    <script>document.write(helloWorld("world!"))</script>
 {% endset %}
 
 <p> aquí {{ javascriptCode|raw }}</p> #}
 
-{% block javascripts %}
-    <script src="{{ file_url('modules/prueba/assets/js/prueba.js') }}"></script>
-{% endblock %}
+{# template.twig #}
+{{ attach_library('prueba/prueba') }}
 
-{# Ejecuta la función JavaScript y asigna el resultado a una variable Twig #}
-{% set arrayEnTwig %}
-    <script>
-        var miArray = obtenerArray();
-        document.write(JSON.stringify(miArray));
-    </script>
-{% endset %}
-
-{# Convierte la cadena JSON a un array en Twig #}
-{% set arrayEnTwig = arrayEnTwig|json_decode %}
-
-{# Imprime el array en Twig #}
-<p> aquí {{ arrayEnTwig|join(', ') }}</p>
+<div class="prueba" onload="helloWorld('world!')"></div>
+{# <script>helloWorld("world!")</script> #}

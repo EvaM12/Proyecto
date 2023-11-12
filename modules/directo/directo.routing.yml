@@ -1,6 +1,14 @@
 directo.directo:
   path: '/directo'
   defaults:
+    _controller: '\Drupal\directo\Controller\DirectoController::listado'
+    _title: 'Partidos en directo'
+  requirements:
+    _permission: 'access content'
+
+directo.partido:
+  path: '/directo/{id}'
+  defaults:
     _controller: '\Drupal\directo\Controller\DirectoController::directo'
     _title: 'Partidos en directo'
   requirements:
