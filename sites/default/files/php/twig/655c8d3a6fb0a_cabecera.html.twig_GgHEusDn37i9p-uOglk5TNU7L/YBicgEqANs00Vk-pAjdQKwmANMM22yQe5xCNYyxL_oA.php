@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @prueba/prueba.html.twig */
-class __TwigTemplate_fc001ec3103032af8a12d28d792d726a extends Template
+/* @general/cabecera.html.twig */
+class __TwigTemplate_dc22ea3f31d2ed1a8fdbb423f9a619f7 extends Template
 {
     private $source;
     private $macros = [];
@@ -35,26 +35,28 @@ class __TwigTemplate_fc001ec3103032af8a12d28d792d726a extends Template
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 10
-        echo "
-";
-        // line 12
-        echo "
-";
-        // line 21
-        echo "
-";
-        // line 23
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("prueba/prueba"), "html", null, true);
+        // line 1
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("general/cabecera"), "html", null, true);
         echo "
 
-<div class=\"prueba\" onload=\"helloWorld('world!')\"></div>
+
+<section class=\"banner-section\" id=\"top\">
+\t<div class=\"container texto\">
+\t\t<p class=\"title h1\">
+\t\t\t<span class=\"d-block\">";
+        // line 7
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["titulo"] ?? null), 7, $this->source), "html", null, true);
+        echo "</span>
+        </p>
+\t\t<span class=\"cate\">Easy way to build perfect websites</span>
+\t</div>
+</section>
 ";
     }
 
     public function getTemplateName()
     {
-        return "@prueba/prueba.html.twig";
+        return "@general/cabecera.html.twig";
     }
 
     public function isTraitable()
@@ -64,19 +66,19 @@ class __TwigTemplate_fc001ec3103032af8a12d28d792d726a extends Template
 
     public function getDebugInfo()
     {
-        return array (  48 => 23,  45 => 21,  42 => 12,  39 => 10,);
+        return array (  48 => 7,  39 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "@prueba/prueba.html.twig", "C:\\xampp\\htdocs\\AllTickets\\modules\\prueba\\templates\\prueba.html.twig");
+        return new Source("", "@general/cabecera.html.twig", "C:\\xampp\\htdocs\\AllTickets\\modules\\general\\templates\\cabecera.html.twig");
     }
     
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("escape" => 23);
-        static $functions = array("attach_library" => 23);
+        static $filters = array("escape" => 1);
+        static $functions = array("attach_library" => 1);
 
         try {
             $this->sandbox->checkSecurity(

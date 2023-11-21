@@ -1,0 +1,44 @@
+<div class="video"></div>
+<script>
+    //http://api-app.espn.com/v1/video/clips/38727871
+    // dame las noticias de la liga española
+    //https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news
+    $(document).ready(function () {
+        $.ajax({
+            url: "https://api-app.espn.com/v1/video/clips/" + {{id}},
+            method: "GET",
+            success: function (data) {
+                // Obtener los datos de los eventos
+                var videoData = data.videos[0];
+
+                // Mostrar los datos en la tabla
+                var videoBody = $(".video");
+
+                var title = videoData.headline;
+                var desc = videoData.description;
+                var video = videoData.links.source.href;
+                var partes = videoData.links.source.href.split('.');
+                var tipo = partes[partes.length - 1];
+                var fecha = data.timestamp;
+
+                var categories = '';
+                for (var j = 0; j < videoData.categories.length; j++) {
+                    categories = categories + videoData.categories[j].description + ', ';
+                }
+
+                categories = categories.slice(0, -2);
+
+                var video =
+                    "<h1>" + title + "</h1>" +
+                    "<p>" + desc + "</p>" +
+                    "<video controls> <source src='" + video + "' type='video/" + tipo + "'>Tu navegador no soporta el tag de video.</video>" +
+                    "<p>" + categories + "</p> <p>" + fecha + "</p>";
+                videoBody.append(video);
+            },
+            error: function () {
+                console.log("Error al obtener los datos de la API");
+            }
+        });
+    });
+
+</script>

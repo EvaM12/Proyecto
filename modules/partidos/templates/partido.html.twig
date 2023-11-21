@@ -1,0 +1,50 @@
+{#
+    recibir el id
+    hacer el script para obtener lso datos del partido
+    segun sea el nombre del estadio, importar el fichero de ese estadio
+
+    pensar en que en los svg de los estadios pintar las secciones directamente e importar las secciones de otra manera
+ #}
+{% for local in local %}
+    <p>{{ local.local }} vs {{ local.visitante }}</p>
+    <p>{{ local.estadio }} ({{local.ciudad}}, {{local.pais}})</p>
+    <p>{{local.fecha}}</p>
+    <p>{{local.competicion}}</p>
+    <br><br>
+{% endfor %}
+
+{% set estadio = "estadio2" %}
+{% set fichero = "@partidos/estadios/" ~ estadio ~ ".twig" %}
+
+{% block estadio %}
+   {{ include(fichero) }}
+{% endblock %}
+
+
+ {# <div id="event-uid">
+    {% set plantilla = local ~ '.twig' %}
+    {% include plantilla %}
+</div> #}
+{# introducir ruta al estadio #}
+{#<script>
+    var eventUidDiv = $("#event-uid");
+    $.ajax({
+        url: "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard/" + {{id}},
+        method: "GET"
+    }).then(function(partido){
+        if(partido.competitions[0].date < 'fechaactual'){
+            //redireccionar a inicio
+        } else {
+            var date = partido.date;
+            var estadio = partido.competitions[0].venue.fullName;
+            var ciudad = partido.competitions[0].venue.address.city;
+            var pais = partido.competitions[0].venue.address.country;
+            var local = partido.competitions[0].competitors[0].team.name;
+            var visitante = partido.competitions[0].competitors[1].team.name;
+
+            $("#event-uid").prepend('<p>' + local + ' vs '+ visitante + '</p><b>Fecha: </b>' + date + '<br><b>Estadio: </b>' + estadio + '<br><b>Ciudad: </b>' + ciudad + ', '+ pais+ '<br><br><br>');
+        }
+    }).catch(function (error) {
+        console.log("Error, no se han podido obtener los datos:", error);
+    });
+</script> #}

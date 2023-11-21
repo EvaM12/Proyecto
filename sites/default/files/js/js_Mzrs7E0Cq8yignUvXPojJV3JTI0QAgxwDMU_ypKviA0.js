@@ -4,5 +4,4 @@
 ;
 /* @license GNU-GPL-2.0-or-later https://www.drupal.org/licensing/faq */
 var URLactual=window.location.href.split('/');var dir=URLactual[URLactual.length-1];;
-function helloWorld(name){$('.prueba').append(name);}$('.prueba').append('fuera funcion');function obtenerArray(){return ['Elemento1','Elemento2','Elemento3'];}function obtenerString(){return "valor1,valor2,valor3";}function convertirStringAArray(){var stringObtenido=obtenerString();return stringObtenido.split(',');};
 ;

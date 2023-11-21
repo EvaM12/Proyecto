@@ -1,0 +1,49 @@
+{# hay que llamar a http://now.core.api.espn.com/v1/sports/news/38884097 #}
+
+<div class="noticias"></div>
+<script>
+    //http://api-app.espn.com/v1/video/clips/38727871
+    // dame las noticias de la liga española
+    //https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news
+    $(document).ready(function () {
+        $.ajax({
+            url: "https://now.core.api.espn.com/v1/sports/news/" + {{id}},
+            method: "GET",
+            success: function (data) {
+                // Obtener los datos de los eventos
+                var newsData = data.headlines[0];
+
+                // Mostrar los datos en la tabla
+                var noticiasBody = $(".noticias");
+
+                var title = newsData.title;
+                var desc = newsData.description;
+                var story = newsData.story;
+                var image = newsData.images[0].url;
+                var width = newsData.images[0].width;
+                var height = newsData.images[0].height;
+                var fecha = data.timestamp;
+
+                var categories = '';
+                for (var j = 0; j < newsData.categories.length; j++) {
+                    categories = categories + newsData.categories[j].description + ', ';
+                }
+
+                categories = categories.slice(0, -2);
+
+                var noticias =
+                    "<h1>" + title + "</h1>" +
+                    "<p>" + desc + "</p>" +
+                    "<p>" + story + "</p>" +
+                    "<img src='" + image + "' width='" + width + "' height='" + height + "'>" +
+                    "<p>" + categories + "</p>" +
+                    "<p>" + fecha + "</p>";
+                noticiasBody.append(noticias);
+            },
+            error: function () {
+                console.log("Error al obtener los datos de la API");
+            }
+        });
+    });
+
+</script>

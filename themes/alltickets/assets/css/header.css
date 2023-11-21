@@ -5,7 +5,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 25px 0;
+    padding: 1em 0;
     z-index: 9;
     background-color: rgba(3, 22, 55, .25);
     /* max-width: 1635px; */

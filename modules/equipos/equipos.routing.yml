@@ -1,15 +1,15 @@
-equipos.listado:
-  path: '/listado'
-  defaults:
-    _controller: '\Drupal\equipos\Controller\PartidosController::listado'
-    _title: 'Listado de equipos'
-  requirements:
-    _permission: 'access content'
+# equipos.listado:
+#   path: '/listado'
+#   defaults:
+#     _controller: '\Drupal\equipos\Controller\EquiposController::listado'
+#     _title: 'Listado de equipos'
+#   requirements:
+#     _permission: 'access content'
 
-equipos.equipos:
-  path: '/equipo/{nombre}'
-  defaults:
-    _controller: '\Drupal\equipos\Controller\PartidosController::equipo'
-    _title: 'Datos personales' #buscar como poner el nombre del equipo
-  requirements:
-    _permission: 'access content'
+# equipos.equipos:
+#   path: '/equipo/{nombre}'
+#   defaults:
+#     _controller: '\Drupal\equipos\Controller\EquiposController::equipo'
+#     _title: 'Datos personales' #buscar como poner el nombre del equipo
+#   requirements:
+#     _permission: 'access content'
