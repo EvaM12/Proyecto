@@ -15,6 +15,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Drupal\Core\Render\RendererInterface;
 use Drupal\Core\Template\TwigEnvironment;
 use Drupal\Core\Render\Markup;
+use Symfony\Component\HttpFoundation\RequestStack;
 
 /**
  * Class PartidosController.
@@ -45,6 +46,8 @@ class PartidosController extends ControllerBase
      */
     protected $renderer;
 
+    protected $request;
+
     /**
      * Constructor.
      *
@@ -54,15 +57,18 @@ class PartidosController extends ControllerBase
      *   El entorno Twig.
      * @param \Drupal\Core\Render\RendererInterface $renderer
      *   El renderizador.
+     * @param \Symfony\Component\HttpFoundation\RequestStack $requestStack
+     *   El stack de solicitud.
      */
-    public function __construct(Connection $database, TwigEnvironment $twig, RendererInterface $renderer)
+    public function __construct(Connection $database, TwigEnvironment $twig, RendererInterface $renderer, RequestStack $requestStack)
     {
         $this->database = $database;
         $this->twig = $twig;
         $this->renderer = $renderer;
+        $this->request = $requestStack->getCurrentRequest();
     }
 
-    /**
+/**
      * {@inheritdoc}
      */
     public static function create(ContainerInterface $container)
@@ -70,7 +76,8 @@ class PartidosController extends ControllerBase
         return new static(
             $container->get('database'),
             $container->get('twig'),
-            $container->get('renderer')
+            $container->get('renderer'),
+            $container->get('request_stack')
         );
     }
 
@@ -80,20 +87,22 @@ class PartidosController extends ControllerBase
      * @return array
      *   El array de los proximos partidos.
      */
+
+    // si la conexion a internet es lenta esto falla
     public function listaPartidos()
     {
-        //seleccionar de la bbdd los partidos cuya fecha sea mayor a la actual
-        //si no hay partidos, mostrar un mensaje de que no hay partidos
-        //si hay partidos, mostrarlos en una tabla
-
         $fechaActual = date("Y-m-d\TH:i\Z");
+        $hora = substr($fechaActual, 11, 2);
+        $hora = strval(intval($hora) - 1);
+        $hora = str_pad($hora, 2, '0', STR_PAD_LEFT);
+        $fechaActual = substr_replace($fechaActual, $hora, 11, 2);
 
         // Realizar una consulta a la base de datos.
         $query = $this->database->select('partidos', 'par')
             ->fields('par', ['idPartido', 'idLiga', 'fecha'])
             ->condition('fecha', $fechaActual, '>=')
             ->orderBy('fecha', 'ASC') // Ordenar por fecha de forma ascendente
-            ->range(0, 30) // Mostrar solo los primeros 20 resultados
+            ->range(0, 25) // Mostrar solo los primeros 20 resultados
             ->execute()
             ->fetchAll(\PDO::FETCH_OBJ);
 
@@ -103,7 +112,6 @@ class PartidosController extends ControllerBase
             $partidos[] = [
                 'idPartido' => $row->idPartido,
                 'idLiga' => $row->idLiga
-                //'fecha' => $row->fecha
             ];
         }
         $listaPartidos = $this->datosPartidos($partidos);
@@ -135,7 +143,7 @@ class PartidosController extends ControllerBase
                 //'fecha' => $row->fecha
             ];
         }
-        
+
         $listaPartidos = $this->datosPartidos($partidos);
         return $listaPartidos;
     }
@@ -172,6 +180,15 @@ class PartidosController extends ControllerBase
                 // Procesar la respuesta (decodificar el JSON)
                 $partidosData = json_decode($response, true);
 
+                $fechaCompleta = $partidosData["date"];
+
+                list($fecha, $hora) = explode('T', $fechaCompleta);
+                list($anio, $mes, $dia) = explode('-', $fecha);
+                $hora = str_replace('Z', '', $hora);
+                $hora = explode(':', $hora);
+                $hora[0] = strval(intval($hora[0]) + 1);
+                $hora = implode(':', $hora);
+
                 // filtrar si el partido no ha empezado (solo por verificar)
                 if ($partidosData["competitions"][0]["status"]["type"]["name"] == "STATUS_SCHEDULED") {
                     $listaPartidos[] = [
@@ -182,8 +199,10 @@ class PartidosController extends ControllerBase
                         "pais" => $partidosData["competitions"][0]["venue"]["address"]["country"],
                         "local" => $partidosData["competitions"][0]["competitors"][0]["team"]["displayName"],
                         "visitante" => $partidosData["competitions"][0]["competitors"][1]["team"]["displayName"],
-
-                        "fecha" => $partidosData["date"],
+                        "anio" => $anio,
+                        "mes" => date("M", mktime(0, 0, 0, $mes, 1)),
+                        "dia" => $dia,
+                        "hora" => $hora
                     ];
                 }
             }
@@ -264,6 +283,54 @@ class PartidosController extends ControllerBase
 
         // Cargar la segunda plantilla
         $template2 = $this->twig->load('@partidos/partido.html.twig');
+        $html2 = $template2->render($data2);
+
+        // Combinar el contenido de ambas plantillas
+        $combinedHtml = $html1 . $html2;
+
+        // Envuelve el contenido de la plantilla en un objeto renderizable
+        $content = [
+            '#markup' => Markup::create($combinedHtml),
+        ];
+
+        // Agrega el contenido de la plantilla al bloque "Main page content"
+        $build['main_page_content']['#markup'] = $content['#markup'];
+
+        return $build;
+    }
+
+    /**
+     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido', el cual sera la informacion del partido.
+     *
+     * @param int $id
+     *   Identificador del partido.
+     *
+     * @return array
+     *   Codigo de los detalles del partido.
+     */
+    public function compra($id)
+    {
+        $local = $this->local($id);
+
+        $titulo = 'Entradas ' . $local[0]['local'];
+
+        $data = [
+            'titulo' => $titulo
+        ];
+
+        $dato = $this->request->request->get('entradas');
+        $data2 = [
+            'id' => $id,
+            'local' => $local,
+            'entradas' => $dato
+        ];
+
+        // Cargar la primera plantilla
+        $template1 = $this->twig->load('@general/cabecera.html.twig');
+        $html1 = $template1->render($data);
+
+        // Cargar la segunda plantilla
+        $template2 = $this->twig->load('@partidos/compra.html.twig');
         $html2 = $template2->render($data2);
 
         // Combinar el contenido de ambas plantillas

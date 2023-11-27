@@ -1,0 +1,99 @@
+.listaPartidos{
+    font-family: nunito, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f1f1f1 !important;
+    color: #121212;
+}
+
+.listaPartidos>div>div{
+    background-color: white !important;
+    border-radius: 0.25em;
+}
+
+.partidos li {
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.partidos li>div {
+    display: grid;
+    align-items: center;
+	margin: 1em 0;
+}
+
+.day {
+	font-size: 1.75em;
+}
+
+.month {
+	font-size: 1.2em;
+}
+
+.entradas {
+    color: #121212;
+    align-self: center;
+    /* margin-left: 16px; */
+    flex-shrink: 0;
+    /* min-width: 12em */
+    margin-left: 1em !important;
+}
+
+.enlace,
+.enlace span {
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
+.enlace {
+    isolation: isolate;
+    border: 1px solid transparent;
+    background-color: #024ddf;
+	width: fit-content;
+    transition: background-color .2s;
+    min-height: 0;
+    padding: 0.5em 1em;
+    border-radius: 0.25em;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.enlace span {
+    white-space: inherit;
+    margin-right: 0.5em;
+}
+
+.flecha {
+    fill: currentcolor;
+    width: 1.5em;
+    height: 1.5em;
+    transition: transform .2s ease-out;
+    transform: rotate(-90deg);
+    vertical-align: top;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    list-style: none;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: inherit
+}
+
+@media (max-width: 992px) {
+    .col-lg-9 {
+      order: 2;
+    }
+
+    .col-lg-3 {
+      order: 1;
+    }
+  }

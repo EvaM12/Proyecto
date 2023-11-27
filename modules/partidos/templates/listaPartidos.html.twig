@@ -1,7 +1,58 @@
-{% for partido in partidos %}
-    <p>{{ partido.local }} vs {{ partido.visitante }}</p>
-    <p>{{ partido.estadio }} ({{partido.ciudad}}, {{partido.pais}})</p>
-    <p>{{partido.fecha}}</p>
-    <p>{{partido.competicion}}</p>
-    <br><br>
-{% endfor %}
+{{ attach_library('partidos/listaPartidos') }}
+<section class="listaPartidos">
+    <div class="container d-flex pt-3 pb-3 div">
+        <div class="col-lg-9 col col-12 p-1">
+            <ul class="partidos container">
+            {% for partido in partidos %}
+                <li class="d-flex">
+                    <div class="text-center col-2">
+                        <span class="month">{{ partido.mes }}</span>
+                        <span class="day fw-bold">{{ partido.dia }}</span>
+                        <span class="year">{{ partido.anio }}</span>
+                    </div>
+                    <div class="col-7 text-wrap pe-0">
+                        <p class="h5 mt-1">{{partido.competicion}}</p>
+                        <p class="h3 fw-bold has-spacing">{{ partido.local }} vs {{ partido.visitante }}</p>
+                        <p class="m-0">
+                            <span>{{ partido.hora }}</span> -
+                            <span>{{ partido.estadio }} ({{partido.ciudad}}, {{partido.pais}})</span>
+                        </p>
+                    </div>
+                    <div class="entradas text-end col-2 m-0 p-0">
+                        <a href="http://localhost/AllTickets/partido/{{partido.id}}" data-testid="event-list-link" class="enlace d-inine-block position-relative">
+                            <span>Entradas</span>
+                            <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1.5em" height="1.5em"
+                                aria-hidden="true" focusable="false">
+                                <path d="M3.47 8.26 4.53 7.2 12 14.67l7.47-7.47 1.06 1.06L12 16.8 3.47 8.26Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+
+        <div class="filtros col-lg-3 col col-12 p-1 d-flex flex-column">
+            <select name="liga" id="liga">
+                <option value="">Escoja liga</option>
+                <option value="eng.1">English Premier League</option>
+                <option value="esp.1">Spanish La Liga</option>
+                <option value="ita.1">Italian Serie A</option>
+                <option value="ger.1">German Bundesliga</option>
+                <option value="fra.1">French Ligue 1</option>
+                <option value="uefa.champions">UEFA Champions League</option>
+                <option value="uefa.europa">UEFA Europa League</option>
+                <option value="uefa.europa.conf">UEFA Conferece League</option>
+            </select>
+            <select name="equipo" id="equipo" disabled="true">
+                <option value="">Escoja equipo</option>
+            </select>
+
+            <label for="fecha-inicial">Fecha Inicial:</label>
+            <input type="date" id="fecha-inicial" disabled="true">
+
+            <button id="filtrar" disabled="true">Aplicar filtros</button>
+        </div>
+    </div>
+</section>

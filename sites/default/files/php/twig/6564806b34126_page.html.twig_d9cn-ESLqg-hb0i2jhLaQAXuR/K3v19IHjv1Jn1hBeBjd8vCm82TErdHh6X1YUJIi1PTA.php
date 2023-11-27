@@ -41,14 +41,16 @@ class __TwigTemplate_088af545fe6538de8917b37f462d5bec extends Template
         // line 2
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "header", [], "any", false, false, true, 2), 2, $this->source), "html", null, true);
         echo "
-    ";
-        // line 3
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "content", [], "any", false, false, true, 3), 3, $this->source), "html", null, true);
+    <main>
+        ";
+        // line 4
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "content", [], "any", false, false, true, 4), 4, $this->source), "html", null, true);
         echo "
+    </main>
     <footer>
         ";
-        // line 5
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "footer", [], "any", false, false, true, 5), 5, $this->source), "html", null, true);
+        // line 7
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "footer", [], "any", false, false, true, 7), 7, $this->source), "html", null, true);
         echo "
     </footer>
 </body>";
@@ -66,7 +68,7 @@ class __TwigTemplate_088af545fe6538de8917b37f462d5bec extends Template
 
     public function getDebugInfo()
     {
-        return array (  51 => 5,  46 => 3,  42 => 2,  39 => 1,);
+        return array (  53 => 7,  47 => 4,  42 => 2,  39 => 1,);
     }
 
     public function getSourceContext()

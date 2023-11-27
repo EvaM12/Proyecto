@@ -1,0 +1,53 @@
+{#
+    recibir jugadores
+ #}
+
+<div class="porteros"></div>
+<div class="defensas"></div>
+<div class="centrocampistas"></div>
+<div class="delanteros"></div>
+
+
+{% for jug in jugadores %}
+    <script>
+        {# https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/197052 #}
+        porDiv = $('.porteros');
+        defDiv = $('.defensas');
+        medDiv = $('.centrocampistas');
+        delDiv = $('.delanteros');
+
+        porDiv.empty();
+        porDiv.append(`<h3>Porteros</h3>`);
+        defDiv.empty();
+        defDiv.append(`<h3>Defensas</h3>`);
+        medDiv.empty();
+        medDiv.append(`<h3>Centrocampistas</h3>`);
+        delDiv.empty();
+        delDiv.append(`<h3>Delanteros</h3>`);
+        $.ajax({
+            url: "https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/"+ {{jug.idJugador}},
+            method: "GET",
+            success: function (data) {
+
+                switch(data.athlete.position.abbreviation){
+                    case('F'):
+                        delDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                        break;
+                    case('M'):
+                        medDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                        break;
+                    case('D'):
+                        defDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                        break;
+                    case('G'):
+                        porDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Saves: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Clean Sheets: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                        break;
+                }
+            },
+            error: function () {
+                console.log("Error al obtener los datos de la API");
+                reject("Error al obtener los datos de la API");
+            }
+        });
+    </script>
+{% endfor %}

@@ -1,17 +1,4 @@
-{#
-    recibir el id
-    hacer el script para obtener lso datos del partido
-    segun sea el nombre del estadio, importar el fichero de ese estadio
-
-    pensar en que en los svg de los estadios pintar las secciones directamente e importar las secciones de otra manera
- #}
-{% for local in local %}
-    <p>{{ local.local }} vs {{ local.visitante }}</p>
-    <p>{{ local.estadio }} ({{local.ciudad}}, {{local.pais}})</p>
-    <p>{{local.fecha}}</p>
-    <p>{{local.competicion}}</p>
-    <br><br>
-{% endfor %}
+{{ attach_library('partidos/datosPartidos') }}
 
 {% set estadio = "estadio2" %}
 {% set fichero = "@partidos/estadios/" ~ estadio ~ ".twig" %}
@@ -21,30 +8,164 @@
 {% endblock %}
 
 
- {# <div id="event-uid">
-    {% set plantilla = local ~ '.twig' %}
-    {% include plantilla %}
-</div> #}
-{# introducir ruta al estadio #}
-{#<script>
-    var eventUidDiv = $("#event-uid");
-    $.ajax({
-        url: "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard/" + {{id}},
-        method: "GET"
-    }).then(function(partido){
-        if(partido.competitions[0].date < 'fechaactual'){
-            //redireccionar a inicio
-        } else {
-            var date = partido.date;
-            var estadio = partido.competitions[0].venue.fullName;
-            var ciudad = partido.competitions[0].venue.address.city;
-            var pais = partido.competitions[0].venue.address.country;
-            var local = partido.competitions[0].competitors[0].team.name;
-            var visitante = partido.competitions[0].competitors[1].team.name;
+<section class="cont container mt-4 mb-4 p-0">
+    <section class="cabecera d-flex align-items-center flex-row p-3">
+    {% for local in local %}
+        {% set id = local.id %}
+        <img src="{{ file_url('modules/partidos/assets/images/' ~ local.competicion|replace({' ': ''}) ~ '.png') }}" width="150" height="150">
+        <div class="ps-3">
+            <p class="fw-light m-0 h4">{{ local.competicion }}</p>
+            <p class="fw-bold h2">{{ local.local }} vs {{ local.visitante }}</p>
+            <p class="m-0 h6">{{local.dia ~ '/' ~ local.mes ~ '/' ~ local.anio ~ ' ' ~ local.hora}}</p>
+            <p class="m-0 h4">{{ local.estadio }} ({{local.ciudad}}, {{local.pais}})</p>
+        </div>
+    {% endfor %}
+    </section>
 
-            $("#event-uid").prepend('<p>' + local + ' vs '+ visitante + '</p><b>Fecha: </b>' + date + '<br><b>Estadio: </b>' + estadio + '<br><b>Ciudad: </b>' + ciudad + ', '+ pais+ '<br><br><br>');
-        }
-    }).catch(function (error) {
-        console.log("Error, no se han podido obtener los datos:", error);
+    <section class="d-flex pt-4">
+        <section class="mapa col-5 mb-3 ps-2 pe-2">
+            <div class="estadio">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    {# <image href="../arrow-left.svg"/> #}
+                </svg>
+            </div>
+            <article class="mt-3">
+                <p class="fw-bold h3"> Notas generales</p>
+                <div class="notas">
+                    <ul class="notasLista mb-0">
+                        <li class="lh-sm">Todas las ventas son definitivas</li>
+                        <li class="lh-sm">Puede haber restricciones para ciertas edades. Para más información,
+                            contacta con el local en el que se celebra el evento</li>
+                        <li class="lh-sm">La fecha y hora de los eventos puede cambiar, así que depende de ti
+                            mirar la programación local por si hay cambios</li>
+                        <li class="lh-sm">Después de tu compra, recibirás un e-mail de confirmación con la
+                            información y la hora de entrega de tu entrada </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+
+        <section class="entradas col-7 pt-3 mb-3 ps-2 pe-2">
+            <p class="info text-center">
+                <i class="i-ok-sign align-items-center"></i>&nbsp;
+                Si compras dos entradas o más, te garantizamos que los asientos estarán juntos
+            </p>
+            <div class="d-grid">
+                <div class="d-flex flex-column f-list">
+                    <div class="p-0 mb-2 d-flex align-items-stretch position-relative secciones bWht">
+                        <div class="lateralIzq" style="background:#a3d165;">
+                        </div>
+                        <div class="d-flex flex-fill flex-row flex-grow-1 align-items-stretch col-8 ps-3 pb-2 pt-2">
+                            <div class="justify-content-center align-items-center d-flex flex-column">
+                                <p class="fw-bold lh-1 h4 text-start w-100">Sección: A01</p>
+                                <div class="cnRed1">
+                                    <p class="fw-bold m-0 lh-1">4 entradas restantes</p>
+                                    <p class="m-0 lh-1">en este listado en nuestro sitio web</p>
+                                </div>
+                                <div class="fw-light cGry2">
+                                    <em>Envío Seguro</em>
+                                    <br>
+                                    <div class="d-flex flex-top cGry1 fw-bold lh-1">
+                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span>
+                                            Visibilidad sin limitaciones. &nbsp;
+                                            <span>
+                                                <span class="fs-6 hover">
+                                                    <i class="i-info-sign align-items-center cGry1"></i>
+                                                </span>
+                                                <div class="text-center fw-light lh-1">
+                                                    <p class="fs-6 m-0">
+                                                        Disfrutarás de una vista clara del
+                                                        espectáculo.
+                                                    </p>
+                                                </div>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-fill flex-row text-end position-relative lateralDer">
+                            <div class="d-flex flex-column flex-fill justify-content-center align-items-end">
+                                <span class="fw-bold fs-6">228 €</span>
+                                <p class="fs-6 cGry3 mb-0">Por entrada</p>
+                                <form method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
+                                    <input type="number" name="entradas" id="entradas">
+                                    <button type="submit" class="btn pri">Comprar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-0 d-flex align-items-stretch position-relative secciones bWht">
+                        <div class="lateralIzq" style="background:#a3d165;">
+                        </div>
+                        <div class="d-flex flex-fill flex-row flex-grow-1 align-items-stretch col-8 ps-3 pb-2 pt-2">
+                            <div class="justify-content-center align-items-center d-flex flex-column">
+                                <p class="fw-bold lh-1 h4 text-start w-100">Sección: A15</p>
+                                <div class="fw-light cGry2 ">
+                                    <em>Entrada electrónica</em>
+                                    <br>
+                                    <div class="d-flex flex-top cGry1 fw-bold lh-1">
+                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span>
+                                            Visibilidad sin limitaciones. &nbsp;
+                                            <span>
+                                                <span class="fs-6 hover">
+                                                    <i class="i-info-sign align-items-center cGry1"></i>
+                                                </span>
+                                                <div class="text-center fw-light lh-1">
+                                                    <p class="fs-6 m-0">
+                                                        Disfrutarás de una vista clara del
+                                                        espectáculo.
+                                                    </p>
+                                                </div>
+                                            </span>
+                                        </span>
+                                    </div>
+                                    <div class="d-flex flex-top cGry1 fw-bold lh-1">
+                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span>
+                                            Seccion más vendida. &nbsp;
+                                            <span>
+                                                <span class="fs-6 hover">
+                                                    <i class="i-info-sign align-items-center cGry1"></i>
+                                                </span>
+                                                <div class="text-center fw-light lh-1">
+                                                    <p class="fs-6 m-0">
+                                                        Esta sección tiene el mayor número de ventas exitosas para este evento en los últimos 7 días en nuestro sitio.
+                                                    </p>
+                                                </div>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-fill flex-row text-end position-relative lateralDer">
+                            <div class="d-flex flex-column flex-fill justify-content-center align-items-end">
+                                <span class="fw-bold fs-6">228 €</span>
+                                <p class="fs-6 cGry3 mb-0">Por entrada</p>
+                                <form method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
+                                    <input type="number" name="entradas" id="entradas">
+                                    <button type="submit" class="btn pri">Comprar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</section>
+<script>
+    $(document).ready(function () {
+        $('.hover').hover(
+            function () {
+                $(this).next().css({ "display": "block" });
+            },
+            function () {
+                $(this).next().css({ "display": "none" });
+            }
+        );
     });
-</script> #}
+</script>

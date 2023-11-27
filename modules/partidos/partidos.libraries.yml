@@ -1,0 +1,27 @@
+listaPartidos:
+    version: 1.x
+    css:
+        theme:
+            assets/css/listaPartidos.css: {}
+    js:
+        assets/js/listaPartidos.js: {}
+
+datosPartidos:
+    version: 1.x
+    css:
+        theme:
+            assets/css/datosPartidos.css: {}
+            assets/css/iconos.css: {}
+            assets/css/colores.css: {}
+    js:
+        assets/js/datosPartidos.js: {}
+
+compra:
+    version: 1.x
+    css:
+        theme:
+            assets/css/compra.css: {}
+            assets/css/iconos.css: {}
+            assets/css/colores.css: {}
+    # js:
+    #     assets/js/compra.js: {}

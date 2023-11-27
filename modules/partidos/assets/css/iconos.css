@@ -1,0 +1,68 @@
+@font-face {
+    font-family: goicons;
+    src: url(https://img.vggcdn.net/img/fonts/goicons/set_73/goicons.eot);
+    src: url(https://img.vggcdn.net/img/fonts/goicons/set_73/goicons.eot?#iefix) format('embedded-opentype'), url(https://img.vggcdn.net/img/fonts/goicons/set_73/goicons.svg#goicons) format('svg'), url(https://img.vggcdn.net/img/fonts/goicons/set_73/goicons.woff) format('woff'), url(https://img.vggcdn.net/img/fonts/goicons/set_73/goicons.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal
+}
+
+[class*=" i-"],
+[class^=i-] {
+    font-family: goicons;
+    speak: none;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.i-ok-sign:before {
+    content: "\f058";
+}
+
+.i-thumbs-up:before {
+    content: "\ecf4";
+}
+
+.i-info-sign:before {
+    content: "\f05a";
+}
+
+.i-warning-sign:before {
+    content: "\f071";
+}
+
+.i-star:before {
+    content: "\ece5";
+}
+
+.i-flame:before {
+    content: "\f0d2";
+}
+
+.i-furniture:before {
+    content: "\ecde";
+}
+
+.i-remove:before {
+    content: "\f00d";
+}
+
+.i-lock:before {
+    content: "\f023";
+}
+
+.i-stadium:before {
+    content: "\e607";
+}
+
+.i-eye:before {
+    content: "\e90c";
+}
+
+.i-ok:before {
+    content: "\f00c";
+}
