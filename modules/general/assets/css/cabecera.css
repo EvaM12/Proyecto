@@ -28,13 +28,13 @@ h2 {
     margin-top: -8px
 }
 
-.texto .title {
+.texto .titleCab {
     font-weight: 700;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
 
-.texto .title span {
+.texto .titleCab span {
     color: #fff
 }
 
@@ -55,7 +55,7 @@ h2 {
         margin-top: -6px
     }
 
-    .texto .title {
+    .texto .titleCab {
         margin-bottom: 24px
     }
 }

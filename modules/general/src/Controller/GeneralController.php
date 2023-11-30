@@ -36,6 +36,7 @@ class GeneralController extends ControllerBase
         $data = [
             'titulo' => $titulo
         ];
+
         // Cargar la primera plantilla
         $template1 = $this->twig->load('@general/cabecera.html.twig');
         $html1 = $template1->render($data);

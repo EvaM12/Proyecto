@@ -23,5 +23,5 @@ compra:
             assets/css/compra.css: {}
             assets/css/iconos.css: {}
             assets/css/colores.css: {}
-    # js:
-    #     assets/js/compra.js: {}
+    js:
+        assets/js/compra.js: {}

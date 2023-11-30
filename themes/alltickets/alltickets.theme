@@ -1,74 +1,14 @@
 <?php
 
-use Drupal\Core\Block\BlockBase;
-use Drupal\Core\Database\Database;
-use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
-use Symfony\Component\DependencyInjection\ContainerInterface;
-
-/**
- * Implementa la clase del bloque personalizado.
- */
-class CustomDatabaseBlock extends BlockBase implements ContainerFactoryPluginInterface {
-
-  /**
-   * La conexión de la base de datos.
-   *
-   * @var \Drupal\Core\Database\Connection
-   */
-  protected $database;
-
-  /**
-   * Constructor de la clase.
-   *
-   * @param array $configuration
-   *   La configuración del bloque.
-   * @param string $plugin_id
-   *   El ID del plugin.
-   * @param mixed $plugin_definition
-   *   La definición del plugin.
-   * @param \Drupal\Core\Database\Connection $database
-   *   La conexión de la base de datos.
-   */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, Connection $database) {
-    parent::__construct($configuration, $plugin_id, $plugin_definition);
-    $this->database = $database;
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public static function create(ContainerInterface $container, array $configuration, $plugin_id, $plugin_definition) {
-    return new static(
-      $configuration,
-      $plugin_id,
-      $plugin_definition,
-      $container->get('database')
-    );
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function build() {
-    // Realiza la consulta a la tabla de la base de datos.
-    $query = $database->select('menu_link_content_field_revision', 't');
-    $query->fields('t', ['title', 'link__url']);
-    // Agrega condiciones, si es necesario.
-    // $query->condition(...);
-    $results = $query->execute()->fetchAll();
-
-    // Construye el contenido del bloque.
-    $content = '';
-    foreach ($results as $result) {
-      $content .= '<div>';
-      $content .= '<p>Campo 1: ' . $result->title . '</p>';
-      $content .= '<p>Campo 2: ' . $result->link__uri . '</p>';
-      $content .= '</div>';
+function alltickets_preprocess_block__alltickets_header(array &$variables) {
+    // Verificar si existe una variable de sesión
+    if (isset($_SESSION['IDuser']) && $_SESSION['IDuser'] !== '') {
+        // Obtener el valor de la variable de sesión
+        $valorSesion = $_SESSION['IDuser'];
+    } else {
+        $valorSesion = '';
     }
 
-    return [
-      '#markup' => $content,
-    ];
-  }
-
+    // Pasar el valor a la plantilla
+    $variables['email'] = $valorSesion;
 }

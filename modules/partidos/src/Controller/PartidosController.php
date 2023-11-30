@@ -127,7 +127,7 @@ class PartidosController extends ControllerBase
      * @return array
      *   El array con los datos del partido.
      */
-    public function local($id)
+    public function eqLocal($id)
     {
         $query = $this->database->select('partidos', 'par')
             ->fields('par', ['idPartido', 'idLiga'])
@@ -189,6 +189,11 @@ class PartidosController extends ControllerBase
                 $hora[0] = strval(intval($hora[0]) + 1);
                 $hora = implode(':', $hora);
 
+                $fechaObjetivo = strtotime($fecha);
+                $hoy = time();
+                $diferenciaEnSegundos = $fechaObjetivo - $hoy;
+                $dif = floor($diferenciaEnSegundos / (60 * 60 * 24)) + 1;
+
                 // filtrar si el partido no ha empezado (solo por verificar)
                 if ($partidosData["competitions"][0]["status"]["type"]["name"] == "STATUS_SCHEDULED") {
                     $listaPartidos[] = [
@@ -201,13 +206,60 @@ class PartidosController extends ControllerBase
                         "visitante" => $partidosData["competitions"][0]["competitors"][1]["team"]["displayName"],
                         "anio" => $anio,
                         "mes" => date("M", mktime(0, 0, 0, $mes, 1)),
+                        "mesComp" => date("F", mktime(0, 0, 0, $mes, 1)),
                         "dia" => $dia,
-                        "hora" => $hora
+                        "diaSem" => date("l", strtotime($fecha)),
+                        "hora" => $hora,
+                        "dif" => $dif
                     ];
                 }
             }
         }
         return $listaPartidos;
+    }
+
+    public function inicioSesion($mail, $passwd)
+    {
+        $mysql = mysqli_connect("localhost", "root", "");
+        $mysql->select_db("alltickets");
+
+        //extraigo cuantos usuarios hay con estas credanciales y si hay alguno extraigo sus datos
+        $query2 = "SELECT count(*) as num_usuario FROM usuarios WHERE email='$mail' and passwd='$passwd'";
+        $resultado2 = $mysql->query($query2);
+        $result2 = $resultado2->fetch_assoc();
+
+        if ($result2["num_usuario"] == false) {
+            return false;
+        } else {
+            session_start();
+
+            $query1 = "SELECT email FROM usuarios WHERE email='$mail' and passwd='$passwd'";
+            $resultado1 = $mysql->query($query1);
+            $result1 = $resultado1->fetch_assoc();
+            $_SESSION['IDuser'] = $result1["email"];
+            return true;
+        }
+    }
+
+    public function registro($name, $surname, $passwd, $email, $phone)
+    {
+        $mysql = mysqli_connect("localhost", "root", "");
+        $mysql->select_db("alltickets");
+
+        $query = "INSERT INTO `usuarios`(`id`,`name`, `surname`, `passwd`, `email`, `phone`) VALUES ('0','$name','$surname','$passwd','$email','$phone')";
+        $resultado = $mysql->query($query);
+
+        if ($resultado) {
+            session_start();
+
+            $query1 = "SELECT email FROM usuarios WHERE email='$email' and passwd='$passwd'";
+            $resultado1 = $mysql->query($query1);
+            $result1 = $resultado1->fetch_assoc();
+            $_SESSION['IDuser'] = $result1["email"];
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
@@ -263,7 +315,7 @@ class PartidosController extends ControllerBase
      */
     public function partido($id)
     {
-        $local = $this->local($id);
+        $eqLocal = $this->eqLocal($id);
 
         $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
         $titulo = end($parts);
@@ -274,7 +326,7 @@ class PartidosController extends ControllerBase
 
         $data2 = [
             'id' => $id,
-            'local' => $local
+            'local' => $eqLocal
         ];
 
         // Cargar la primera plantilla
@@ -310,21 +362,126 @@ class PartidosController extends ControllerBase
      */
     public function compra($id)
     {
-        $local = $this->local($id);
-
-        $titulo = 'Entradas ' . $local[0]['local'];
+        $eqLocal = $this->eqLocal($id);
+        $titulo = 'Entradas ' . $eqLocal[0]['local'];
 
         $data = [
-            'titulo' => $titulo
+            'titulo' => $titulo,
+            'subtitulo' => '
+                <div class="p-1 m-0 fw-normal lh-sm">
+                    <div class="p-2 text-center fs-5">
+                        <div class="d-flex flex-column align-items-center text-center d-inline">
+                            <div class="d-inline">
+                                <span>
+                                    Prices include an approximate VAT and also a booking fee, shipping fee is not included.
+                                </span>
+                                <span>
+                                    <span class="hover">&nbsp;
+                                        <i class="i-info-sign align-items-center"></i>
+                                    </span>
+                                    <div class="text-center fw-light lh-1 abajo">
+                                        <p class="fs-6 m-0 text-wrap">
+                                            Delivery and handling fees will be calculated later during the checkout process, when you select your preferred payment process, when you select your preferred delivery method and (if applicable) location. location.
+                                        </p>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>'
         ];
 
-        $dato = $this->request->request->get('entradas');
+        $entradas = $this->request->request->get('entradas');
+        $seccion = $this->request->request->get('seccion');
+        $precio = $this->request->request->get('precio');
         $data2 = [
             'id' => $id,
-            'local' => $local,
-            'entradas' => $dato
+            'eqLocal' => $this->eqLocal($id),
+            'entradas' => $entradas,
+            'seccion' => $seccion,
+            'precio' => $precio,
+            'presesion' => 'hide',
+            'conf' => 'hide',
+            'sesion' => '',
+            'pago' => '',
+            'fallo' => ''
         ];
 
+        if ($this->request->request->get('SignIn') !== null) {
+            if ($this->inicioSesion($this->request->request->get('userIn'), $this->request->request->get('passIn'))) {
+                $data2 = [
+                    'sesion' => 'hide',
+                    'presesion' => '',
+                    'id' => $id,
+                    'eqLocal' => $this->eqLocal($id),
+                    'entradas' => $entradas,
+                    'seccion' => $seccion,
+                    'precio' => $precio,
+                    'conf' => 'hide',
+                    'pago' => '',
+                    'fallo' => ''
+                ];
+            } else {
+                $data2 = [
+                    'id' => $id,
+                    'eqLocal' => $this->eqLocal($id),
+                    'entradas' => $entradas,
+                    'seccion' => $seccion,
+                    'precio' => $precio,
+                    'presesion' => 'hide',
+                    'conf' => 'hide',
+                    'sesion' => '',
+                    'pago' => '',
+                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">Incorrect email or password.</p></div>'
+                ];
+            }
+        }
+
+        if ($this->request->request->get('SignUp') !== null) {
+            if ($this->registro($this->request->request->get('name'), $this->request->request->get('surname'), $this->request->request->get('pass'), $this->request->request->get('email'), $this->request->request->get('phone'))) {
+                //ir a pagina de inicio y enviar mail
+                $data2 = [
+                    'sesion' => 'hide',
+                    'presesion' => '',
+                    'id' => $id,
+                    'eqLocal' => $this->eqLocal($id),
+                    'entradas' => $entradas,
+                    'seccion' => $seccion,
+                    'precio' => $precio,
+                    'conf' => 'hide',
+                    'pago' => '',
+                    'fallo' => ''
+                ];
+            } else {
+                $data2 = [
+                    'id' => $id,
+                    'eqLocal' => $this->eqLocal($id),
+                    'entradas' => $entradas,
+                    'seccion' => $seccion,
+                    'precio' => $precio,
+                    'presesion' => 'hide',
+                    'conf' => 'hide',
+                    'sesion' => '',
+                    'pago' => '',
+                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">This user already exists in our page.</p></div>'
+                ];
+            }
+        }
+
+        if ($this->request->request->get('pago') !== null) {
+            $data2 = [
+                'pago' => 'hide',
+                'eqLocal' => $this->eqLocal($id),
+                'conf' => '',
+                'id' => $id,
+                'entradas' => $entradas,
+                'seccion' => $seccion,
+                'precio' => $precio,
+                'presesion' => 'hide',
+                'sesion' => '',
+                'fallo' => ''
+            ];
+        }
         // Cargar la primera plantilla
         $template1 = $this->twig->load('@general/cabecera.html.twig');
         $html1 = $template1->render($data);

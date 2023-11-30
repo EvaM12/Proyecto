@@ -8,7 +8,7 @@
 {% endblock %}
 
 
-<section class="cont container mt-4 mb-4 p-0">
+<section class="cont container mt-4 p-0 pb-2">
     <section class="cabecera d-flex align-items-center flex-row p-3">
     {% for local in local %}
         {% set id = local.id %}
@@ -23,7 +23,7 @@
     </section>
 
     <section class="d-flex pt-4">
-        <section class="mapa col-5 mb-3 ps-2 pe-2">
+        <section class="mapa col-5 mb-3 ps-4 pe-4">
             <div class="estadio">
                 <svg xmlns="http://www.w3.org/2000/svg">
                     {# <image href="../arrow-left.svg"/> #}
@@ -45,7 +45,7 @@
             </article>
         </section>
 
-        <section class="entradas col-7 pt-3 mb-3 ps-2 pe-2">
+        <section class="entradas col-7 pt-3 mb-3 ps-4 pe-4">
             <p class="info text-center">
                 <i class="i-ok-sign align-items-center"></i>&nbsp;
                 Si compras dos entradas o más, te garantizamos que los asientos estarán juntos
@@ -66,7 +66,7 @@
                                     <em>Envío Seguro</em>
                                     <br>
                                     <div class="d-flex flex-top cGry1 fw-bold lh-1">
-                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span class="cAzul4 i-thumbs-up position-relative me-2"></span>
                                         <span>
                                             Visibilidad sin limitaciones. &nbsp;
                                             <span>
@@ -86,14 +86,16 @@
                             </div>
                         </div>
                         <div class="d-flex flex-fill flex-row text-end position-relative lateralDer">
-                            <div class="d-flex flex-column flex-fill justify-content-center align-items-end">
+                            <form class="d-flex flex-column flex-fill justify-content-center align-items-end" method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
                                 <span class="fw-bold fs-6">228 €</span>
+                                <input class="d-none" type="number" value="228" name="precio" id="precio">
+                                <input class="d-none" type="text" value="Tribuna Superiorr" name="seccion" id="seccion">
                                 <p class="fs-6 cGry3 mb-0">Por entrada</p>
-                                <form method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
+                                <div>
                                     <input type="number" name="entradas" id="entradas">
                                     <button type="submit" class="btn pri">Comprar</button>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="p-0 d-flex align-items-stretch position-relative secciones bWht">
@@ -106,7 +108,7 @@
                                     <em>Entrada electrónica</em>
                                     <br>
                                     <div class="d-flex flex-top cGry1 fw-bold lh-1">
-                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span class="cAzul4 i-thumbs-up position-relative me-2"></span>
                                         <span>
                                             Visibilidad sin limitaciones. &nbsp;
                                             <span>
@@ -123,7 +125,7 @@
                                         </span>
                                     </div>
                                     <div class="d-flex flex-top cGry1 fw-bold lh-1">
-                                        <span class="cGrn1 i-thumbs-up position-relative me-2"></span>
+                                        <span class="cAzul4 i-thumbs-up position-relative me-2"></span>
                                         <span>
                                             Seccion más vendida. &nbsp;
                                             <span>
@@ -142,14 +144,16 @@
                             </div>
                         </div>
                         <div class="d-flex flex-fill flex-row text-end position-relative lateralDer">
-                            <div class="d-flex flex-column flex-fill justify-content-center align-items-end">
-                                <span class="fw-bold fs-6">228 €</span>
+                            <form class="d-flex flex-column flex-fill justify-content-center align-items-end" method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
+                                <span class="fw-bold fs-6">105 €</span>
+                                <input class="d-none" type="number" value="105" name="precio" id="precio">
+                                <input class="d-none" type="text" value="Tribuna Inferiorr" name="seccion" id="seccion">
                                 <p class="fs-6 cGry3 mb-0">Por entrada</p>
-                                <form method="post" action="http://localhost/AllTickets/partido/{{id}}/compra">
+                                <div>
                                     <input type="number" name="entradas" id="entradas">
                                     <button type="submit" class="btn pri">Comprar</button>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

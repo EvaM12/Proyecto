@@ -1,10 +1,18 @@
-# sesion.sesion:
-#   path: '/sesion'
-#   defaults:
-#     _controller: '\Drupal\sesion\Controller\SesionController::sesion'
-#     _title: 'Inicio / Registro'
-#   requirements:
-#     _permission: 'access content'
+sesion.sesion:
+  path: '/sesion'
+  defaults:
+    _controller: '\Drupal\sesion\Controller\SesionController::sesion'
+    _title: 'Inicio / Registro'
+  requirements:
+    _permission: 'access content'
+
+sesion.finsesion:
+  path: '/finsesion'
+  defaults:
+    _controller: '\Drupal\sesion\Controller\SesionController::finsesion'
+    _title: 'Inicio / Registro'
+  requirements:
+    _permission: 'access content'
 
 # sesion.personal:
 #   path: '/personal'

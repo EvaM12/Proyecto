@@ -1,0 +1,7 @@
+sesion:
+    version: 1.x
+    css:
+        theme:
+            assets/css/sesion.css: {}
+    js:
+        assets/js/sesion.js: {}
