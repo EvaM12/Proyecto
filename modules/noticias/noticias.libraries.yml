@@ -1,0 +1,17 @@
+listaNoticias:
+    version: 1.x
+    css:
+        theme:
+            assets/css/listaNoticias.css: {}
+            assets/css/responsive.css: {}
+    js:
+        assets/js/listaNoticias.js: {}
+
+noticia:
+    version: 1.x
+    css:
+        theme:
+            assets/css/noticia.css: {}
+            assets/css/responsive.css: {}
+    # js:
+    #     assets/js/listaNoticias.js: {}

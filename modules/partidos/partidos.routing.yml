@@ -1,23 +1,23 @@
 partidos.listado:
-  path: '/partidos'
+  path: '/fixtures'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::listado'
-    _title: 'Listado de partidos'
+    _title: 'Fixtures list'
   requirements:
     _permission: 'access content'
 
 partidos.partido:
-  path: '/partido/{id}'
+  path: '/fixtures/{id}'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::partido'
-    _title: 'Datos personales' #buscar como poner el nombre del partido
+    _title: 'Fixture data'
   requirements:
     _permission: 'access content'
 
 partidos.compra:
-  path: '/partido/{id}/compra'
+  path: '/fixtures/{id}/buy'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::compra'
-    _title: 'Datos personales' #buscar como poner el nombre del partido
+    _title: 'Tickets purchase'
   requirements:
     _permission: 'access content'

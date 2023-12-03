@@ -1,10 +1,6 @@
 {# hay que llamar a http://now.core.api.espn.com/v1/sports/news/38884097 #}
-
-<div class="noticias"></div>
+ {{ attach_library('noticias/noticia') }}
 <script>
-    //http://api-app.espn.com/v1/video/clips/38727871
-    // dame las noticias de la liga española
-    //https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news
     $(document).ready(function () {
         $.ajax({
             url: "https://now.core.api.espn.com/v1/sports/news/" + {{id}},
@@ -14,9 +10,9 @@
                 var newsData = data.headlines[0];
 
                 // Mostrar los datos en la tabla
-                var noticiasBody = $(".noticias");
+                var noticiasBody = $("#noticias");
 
-                var title = newsData.title;
+                var title = newsData.headline;
                 var desc = newsData.description;
                 var story = newsData.story;
                 var image = newsData.images[0].url;
@@ -24,26 +20,188 @@
                 var height = newsData.images[0].height;
                 var fecha = data.timestamp;
 
+                const dateString = fecha;
+                const dateObject = new Date(dateString);
+
+                // Restar una hora
+                dateObject.setHours(dateObject.getHours() - 1);
+
+                // Obtener los componentes de la fecha
+                const day = dateObject.getDate();
+                const month = dateObject.toLocaleString('en-US', { month: 'long' });
+                const year = dateObject.getFullYear();
+                const hours = dateObject.getHours();
+                const minutes = dateObject.getMinutes();
+
+                // Formatear la fecha en el nuevo formato
+                const fechaRes = `${day} ${month} ${year} ${hours}:${minutes}`;
+
                 var categories = '';
                 for (var j = 0; j < newsData.categories.length; j++) {
-                    categories = categories + newsData.categories[j].description + ', ';
+                    categories += `<li><p>${newsData.categories[j].description}</p></li>`;
                 }
 
-                categories = categories.slice(0, -2);
+                noticiasBody.append(`
+                <h3 class="fw-semibold mb-3">${title}</h3>
+                <p>${fechaRes}</p>
+                <p>${desc}</p>
+                <p>${story}</p>
 
-                var noticias =
-                    "<h1>" + title + "</h1>" +
-                    "<p>" + desc + "</p>" +
-                    "<p>" + story + "</p>" +
-                    "<img src='" + image + "' width='" + width + "' height='" + height + "'>" +
-                    "<p>" + categories + "</p>" +
-                    "<p>" + fecha + "</p>";
-                noticiasBody.append(noticias);
+                <blockquote>
+                    <img src="${image}" width="${width}" height="${height}">
+                </blockquote>
+
+                <ul class="post-tags pb-3 pt-3 list-unstyled float-start w-100 text-wrap">
+                    ${categories}
+                </ul>`);
             },
             error: function () {
                 console.log("Error al obtener los datos de la API");
             }
         });
     });
-
 </script>
+
+<div class="container pb-3 pt-3">
+	<div class="row">
+		<!--News Start-->
+		<div class="col-lg-8 col col-12 ps-lg-2 pe-lg-2">
+			<div class="news-large-post float-start w-100 overflow-hidden">
+				<div class="post-txt float-start w-100 pt-lg-4 ps-lg-5 pe-lg-5 pb-lg-4" id="noticias">
+
+				</div>
+			</div>
+		</div>
+		<!--News End-->
+		<!--Sidebar Start-->
+		<div class="col-lg-4 sidebar float-start col col-12">
+			<h4>Points Table</h4>
+			<div class="point-table w-100 overflow-hidden float-start">
+				<table class="w-100 overflow-hidden">
+					<thead class="bAzul5">
+						<tr>
+							<th>P</th>
+							<th>Team</th>
+							<th>W</th>
+							<th>L</th>
+							<th>Pts</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>
+								<strong>Bethlehem</strong>
+							</td>
+							<td>22</td>
+							<td>2</td>
+							<td>
+								<strong>140</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>
+								<strong>Chirston Battery</strong>
+							</td>
+							<td>19</td>
+							<td>5</td>
+							<td>
+								<strong>138</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>
+								<strong>Charlotte</strong>
+							</td>
+							<td>18</td>
+							<td>3</td>
+							<td>
+								<strong>130</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>
+								<strong>FC Cincinnati</strong>
+							</td>
+							<td>17</td>
+							<td>2</td>
+							<td>
+								<strong>126</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>
+								<strong>Indy Eleven</strong>
+							</td>
+							<td>16</td>
+							<td>2</td>
+							<td>
+								<strong>110</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>
+								<strong>Louisville City</strong>
+							</td>
+							<td>15</td>
+							<td>6</td>
+							<td>
+								<strong>108</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>
+								<strong>Nashville SC</strong>
+							</td>
+							<td>14</td>
+							<td>8</td>
+							<td>
+								<strong>106</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>
+								<strong>NYK Red Bulls</strong>
+							</td>
+							<td>14</td>
+							<td>8</td>
+							<td>
+								<strong>106</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>
+								<strong>North Carolina</strong>
+							</td>
+							<td>14</td>
+							<td>8</td>
+							<td>
+								<strong>106</strong>
+							</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>
+								<strong>Ottawa Fury</strong>
+							</td>
+							<td>14</td>
+							<td>8</td>
+							<td>
+								<strong>106</strong>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<!--Sidebar End-->
+	</div>
+</div>

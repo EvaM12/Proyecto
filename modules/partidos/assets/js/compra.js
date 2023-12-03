@@ -53,17 +53,12 @@ $(document).ready(function () {
     });
 
     $('.user-select-close').click(function () {
-        window.location.href = 'http://localhost/AllTickets/partidos';
+        window.location.href = 'http://localhost/AllTickets/fixtures';
     });
 
     $('.user-select-none').click(function () {
         $('#modAb').addClass('hide');
     });
-
-    $('#ocultarDatos').click(function () {
-        $('#datos').addClass('hide');
-        $('#sesion').removeClass('hide');
-    })
 
     $('#js-siTab').click(function () {
         $('#js-siTab').addClass('act');

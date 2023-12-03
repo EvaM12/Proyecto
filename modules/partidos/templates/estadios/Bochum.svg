@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.34444355964660645,0,0,0.34444355964660645,-4.741076469421387,20.09489631652832)">
+            <g>
+                <path fill="#050505" stroke="#000000"
+                    d="M 1105.156 277.741 Q 1105.156 271.132 1100.375 266.632 Q 1095.453 261.992 1088.704 261.992 L 275.966 261.992 Q 269.076 261.992 264.296 266.632 Q 259.515 271.132 259.515 277.741 L 259.515 737.120 Q 259.515 743.588 264.296 748.229 Q 269.076 752.728 275.966 752.728 L 1088.704 752.728 Q 1095.453 752.728 1100.375 748.229 Q 1105.156 743.588 1105.156 737.120 L 1105.156 277.741 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" fill="#050505" stroke="#000000"
+                    d="M 1105.156 277.741 L 1105.156 737.120 Q 1105.156 743.588 1100.375 748.229 Q 1095.453 752.728 1088.704 752.728 L 275.966 752.728 Q 269.076 752.728 264.296 748.229 Q 259.515 743.588 259.515 737.120 L 259.515 277.741 Q 259.515 271.132 264.296 266.632 Q 269.076 261.992 275.966 261.992 L 1088.704 261.992 Q 1095.453 261.992 1100.375 266.632 Q 1105.156 271.132 1105.156 277.741 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 1073.237 722.356 L 293.683 722.356 L 293.683 292.364 L 1073.237 292.364 L 1073.237 722.356 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000" d="M 683.601 292.927 L 683.601 721.794"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 727.753 465.317 Q 746.032 482.753 746.032 507.360 Q 746.032 531.967 727.753 549.544 Q 709.333 566.839 683.460 566.839 Q 657.447 566.839 639.027 549.544 Q 620.607 531.967 620.607 507.360 Q 620.607 482.753 639.027 465.317 Q 657.447 447.881 683.460 447.881 Q 709.333 447.881 727.753 465.317 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 418.969 458.005 L 418.969 366.889 L 294.246 366.889 L 294.246 647.832 L 418.969 647.832 L 418.969 556.856"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 418.969 556.856 Q 431.765 548.700 439.076 535.904 Q 446.810 522.687 446.810 507.360 Q 446.810 492.174 439.076 478.957 Q 431.765 466.020 418.969 458.005 L 418.969 556.856 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 947.389 458.005 L 947.389 366.889 L 1073.237 366.889 L 1073.237 647.832 L 947.389 647.832 L 947.389 556.856"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 947.389 458.005 L 947.389 556.856 Q 934.453 548.700 927.000 535.904 Q 919.267 522.687 919.267 507.360 Q 919.267 492.174 927.000 478.957 Q 934.453 466.020 947.389 458.005 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 343.460 562.621 L 295.652 562.621 L 295.652 451.678 L 343.460 451.678 L 343.460 562.621 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                    d="M 1070.846 451.678 L 1070.846 562.621 L 1023.038 562.621 L 1023.038 451.678 L 1070.846 451.678 z"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+            <g sprite-identifier="s58936">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 865.834 196.608 L 865.834 150.206 L 685.147 150.206 L 685.147 196.608 L 865.834 196.608 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="775.491" y="178.407">L</text>
+            </g>
+            <g sprite-identifier="s98963">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1052.145 196.608 L 1052.145 96.773 L 869.349 96.773 L 869.349 142.050 L 871.458 144.159 L 871.458 196.608 L 1052.145 196.608 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="960.747" y="151.690">M</text>
+            </g>
+            <g sprite-identifier="s57952">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 79.813 860.296 L 124.668 889.263 L 257.124 795.334 L 230.971 773.117 L 230.971 714.060 L 79.813 714.060 L 79.813 860.296 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="168.468" y="806.661">E2</text>
+            </g>
+            <g sprite-identifier="s57954">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 230.971 296.442 L 79.813 296.442 L 79.813 504.548 L 230.971 504.548 L 230.971 296.442 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="155.392" y="405.495">G</text>
+            </g>
+            <g sprite-identifier="s58511" data-original-title="">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 297.058 829.362 L 261.624 799.130 L 129.870 892.637 L 262.749 978.411 L 297.058 978.411 L 297.058 829.362 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="213.464" y="893.770">E1</text>
+            </g>
+            <g sprite-identifier="s58514">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 498.133 96.773 L 498.133 196.608 L 679.523 196.608 L 679.523 96.773 L 498.133 96.773 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="588.828" y="151.690">K</text>
+            </g>
+            <g sprite-identifier="s57955">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 286.231 196.608 L 308.307 196.608 L 308.307 54.589 L 203.973 54.589 L 133.667 124.895 L 209.035 154.986 L 251.640 225.714 L 286.231 196.608 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="220.987" y="145.152">H2</text>
+            </g>
+            <g sprite-identifier="s58935">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 205.098 159.486 L 129.449 129.254 L 79.813 178.890 L 79.813 290.818 L 230.971 290.818 L 230.971 243.150 L 247.281 229.370 L 205.098 159.486 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="163.547" y="215.036">H1</text>
+            </g>
+            <g sprite-identifier="s58937">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1268.687 510.172 L 1130.888 510.172 L 1130.888 753.150 L 1113.311 770.586 L 1268.687 748.791 L 1268.687 510.172 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1190.999" y="645.379">P</text>
+            </g>
+            <g sprite-identifier="s330210">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1178.415 82.571 L 1136.934 54.589 L 1057.769 54.589 L 1057.769 196.608 L 1094.047 196.608 L 1128.497 133.613 L 1162.666 155.549 L 1178.415 82.571 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1118.092" y="130.598">N1</text>
+            </g>
+            <g sprite-identifier="s58508">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1053.551 860.296 L 915.751 860.296 L 915.751 978.411 L 1053.551 978.411 L 1053.551 860.296 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="984.651" y="924.354">A</text>
+            </g>
+            <g sprite-identifier="s98964">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1106.562 777.054 L 1059.176 823.456 L 1059.176 978.411 L 1143.824 978.411 L 1194.866 931.306 L 1167.166 875.904 L 1177.290 852.282 L 1234.238 880.685 L 1268.687 839.626 L 1268.687 754.416 L 1106.562 777.054 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1163.932" y="871.413">Q</text>
+            </g>
+            <g sprite-identifier="s58509">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 685.147 978.411 L 910.127 978.411 L 910.127 860.296 L 685.147 860.296 L 685.147 978.411 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="797.637" y="924.354">B</text>
+            </g>
+            <g sprite-identifier="s58510">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 679.523 860.296 L 451.731 860.296 L 451.731 978.411 L 679.523 978.411 L 679.523 860.296 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="565.627" y="924.354">C</text>
+            </g>
+            <g sprite-identifier="s58516">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1268.687 268.320 L 1130.888 268.320 L 1130.888 504.548 L 1268.687 504.548 L 1268.687 268.320 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1199.788" y="391.434">O</text>
+            </g>
+            <g sprite-identifier="s57951">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 446.107 860.296 L 302.683 860.296 L 302.683 978.411 L 446.107 978.411 L 446.107 860.296 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="374.395" y="924.354">D</text>
+            </g>
+            <g sprite-identifier="s57953">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 79.813 708.435 L 230.971 708.435 L 230.971 510.172 L 79.813 510.172 L 79.813 708.435 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="155.392" y="614.304">F</text>
+            </g>
+            <g sprite-identifier="s330209">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 1268.687 186.624 L 1232.550 150.487 L 1168.431 162.298 L 1179.118 190.280 L 1130.888 240.057 L 1130.888 262.695 L 1268.687 262.695 L 1268.687 186.624 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1199.788" y="211.591">N2</text>
+            </g>
+            <g sprite-identifier="s57956">
+                <path fill="#f1f1f1" stroke="#000000"
+                    d="M 492.509 196.608 L 492.509 96.773 L 313.932 96.773 L 313.932 196.608 L 492.509 196.608 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="403.220" y="151.690">I</text>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

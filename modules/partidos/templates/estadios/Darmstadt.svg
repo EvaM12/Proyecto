@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.3439769148826599,0,0,0.3439769148826599,-6.430277347564697,22.690147399902344)">
+            <g sprite-identifier="s942218" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 379.944 49.213 L 367.252 49.213 Q 273.632 55.900 200.073 94.522 L 261.077 217.484 L 379.944 217.484 L 379.944 49.213 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="290.009" y="138.349">Away Fans</text>
+                <circle cx="290.009" cy="100.84899999999999" fill="#a3d165" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s475412">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 387.041 885.655 L 470.835 885.655 L 470.835 778.660 L 387.041 778.660 L 387.041 885.655 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="428.938" y="837.158">A</text>
+            </g>
+            <g sprite-identifier="s475413" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 474.929 778.660 L 474.929 885.655 L 556.540 885.655 L 556.540 778.660 L 474.929 778.660 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="515.735" y="837.158">B</text>
+            </g>
+            <g sprite-identifier="s475414">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 560.498 885.655 L 636.513 885.655 L 636.513 778.660 L 560.498 778.660 L 560.498 885.655 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="598.506" y="837.158">C</text>
+            </g>
+            <g sprite-identifier="s475415">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 727.268 885.655 L 805.467 885.655 L 805.467 778.660 L 727.268 778.660 L 727.268 885.655 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="766.367" y="837.158">D</text>
+            </g>
+            <g sprite-identifier="s475416">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 888.988 885.655 L 888.988 778.660 L 809.697 778.660 L 809.697 885.655 L 888.988 885.655 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="849.343" y="837.158">E</text>
+            </g>
+            <g sprite-identifier="s1172482" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 254.389 209.432 L 251.660 209.432 L 193.795 93.294 Q 164.044 99.572 134.430 131.506 Q 123.375 144.744 112.594 159.756 Q 95.808 183.639 82.161 209.432 Q 23.614 319.566 23.614 464.091 Q 23.614 642.461 112.594 768.425 Q 177.009 859.589 260.667 884.836 L 260.667 885.655 L 360.565 885.655 L 361.657 727.347 L 261.895 727.347 L 261.895 725.846 Q 222.455 713.563 192.840 653.788 Q 155.447 578.728 155.447 472.415 Q 155.447 366.103 192.840 290.907 Q 220.817 234.680 257.528 220.623 L 257.528 215.983 L 254.389 209.432 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                <g transform="matrix(-1.837e-16, -1, 1, -1.837e-16, -398.320, 576.523)"><text style="font-size: 25px;"
+                        x="89.106" y="496.828">Nordkurve</text></g>
+                <circle cx="89.106" cy="459.328" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s475417">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 893.082 885.655 L 981.517 885.655 L 981.517 778.660 L 893.082 778.660 L 893.082 885.655 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="937.299" y="837.158">F</text>
+            </g>
+            <g sprite-identifier="s475418">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 640.607 778.660 L 640.607 885.655 L 723.174 885.655 L 723.174 778.660 L 640.607 778.660 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="681.891" y="837.158">S</text>
+            </g>
+            <g sprite-identifier="s475410">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 787.452 910.630 L 575.237 910.630 L 575.237 969.722 L 787.452 969.722 L 787.452 910.630 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="681.345" y="945.176">VIP</text>
+            </g>
+            <g sprite-identifier="s946498" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 986.839 220.350 L 986.839 27.378 L 384.039 27.378 L 384.039 220.350 L 986.839 220.350 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 25px;"
+                    x="685.439" y="128.864">STEHPLATZ</text>
+            </g>
+            <g sprite-identifier="s946500" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 990.933 217.484 L 990.933 217.484 L 990.933 222.124 L 1118.535 223.216 L 1118.535 224.990 Q 1155.383 239.047 1183.360 295.410 Q 1220.617 370.607 1220.617 476.919 Q 1220.617 583.095 1183.360 658.155 Q 1153.609 717.930 1114.168 730.213 L 1114.168 732.123 L 1013.588 732.123 L 1013.588 890.432 L 1113.486 890.432 L 1113.486 889.886 Q 1198.372 865.048 1263.469 772.792 Q 1352.586 646.828 1352.586 468.458 Q 1352.586 290.224 1263.469 164.123 Q 1200.828 75.552 1120.037 49.213 L 990.933 49.213 L 990.933 217.484 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                <g transform="matrix(-1.837e-16, 1, -1, -1.837e-16, 1735.984, -812.234)"><text style="font-size: 25px;"
+                        x="1274.113" y="471.293">Stehplatz Südkurve</text></g>
+            </g>
+            <g>
+                <path stroke="#000000" fill="#050505" d="M 964.480 232.359 L 964.480 248.344"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke="#000000" fill="#050505"
+                    d="M 1043.887 261.105 Q 1043.887 255.047 1039.762 250.793 Q 1035.637 246.410 1029.708 246.410 L 334.251 246.410 Q 328.322 246.410 324.196 250.793 Q 320.071 255.047 320.071 261.105 L 320.071 688.563 Q 320.071 694.750 324.196 699.004 Q 328.322 703.258 334.251 703.258 L 1029.708 703.258 Q 1035.637 703.258 1039.762 699.004 Q 1043.887 694.750 1043.887 688.563 L 1043.887 261.105 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                    d="M 1043.887 261.105 L 1043.887 688.563 Q 1043.887 694.750 1039.762 699.004 Q 1035.637 703.258 1029.708 703.258 L 334.251 703.258 Q 328.322 703.258 324.196 699.004 Q 320.071 694.750 320.071 688.563 L 320.071 261.105 Q 320.071 255.047 324.196 250.793 Q 328.322 246.410 334.251 246.410 L 1029.708 246.410 Q 1035.637 246.410 1039.762 250.793 Q 1043.887 255.047 1043.887 261.105 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 1014.754 674.383 L 349.462 674.383 L 349.462 275.414 L 1014.754 275.414 L 1014.754 674.383 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 682.173 275.930 L 682.173 419.919"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 682.173 531.167 L 682.173 675.156"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 735.541 474.963 Q 735.541 497.780 719.943 514.151 Q 704.216 530.264 682.044 530.264 Q 659.872 530.264 644.145 514.151 Q 628.547 497.780 628.547 474.963 Q 628.547 452.017 644.145 435.904 Q 659.872 419.791 682.044 419.791 Q 704.216 419.791 719.943 435.904 Q 735.541 452.017 735.541 474.963 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 456.327 429.072 L 456.327 344.766 L 349.978 344.766 L 349.978 605.289 L 456.327 605.289 L 456.327 520.854"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 456.327 429.072 L 456.327 520.854 Q 467.284 513.249 473.471 501.389 Q 480.046 489.143 480.046 474.963 Q 480.046 460.912 473.471 448.666 Q 467.284 436.677 456.327 429.072 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 907.374 429.072 L 907.374 344.766 L 1014.754 344.766 L 1014.754 605.289 L 907.374 605.289 L 907.374 520.854"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 907.374 429.072 L 907.374 520.854 Q 896.288 513.249 889.972 501.389 Q 883.269 489.143 883.269 474.963 Q 883.269 460.912 889.972 448.666 Q 896.288 436.677 907.374 429.072 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 391.873 423.271 L 391.873 526.139 L 351.138 526.139 L 351.138 423.271 L 391.873 423.271 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 1012.821 526.139 L 971.957 526.139 L 971.957 423.271 L 1012.821 423.271 L 1012.821 526.139 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke="#000000" fill="#050505" d="M 964.480 232.359 L 964.480 248.344"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

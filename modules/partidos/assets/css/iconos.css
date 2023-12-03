@@ -66,3 +66,15 @@
 .i-ok:before {
     content: "\f00c";
 }
+
+.i-user:before {
+    content: "\e007";
+}
+
+.i-mail:before {
+    content: "\e005";
+}
+
+.i-phone:before {
+    content: "\ea1d";
+}

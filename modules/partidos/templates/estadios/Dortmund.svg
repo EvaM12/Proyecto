@@ -1,0 +1,1393 @@
+<svg style="overflow: hidden; touch-action: none; user-select: none;" version="1.1"
+        xmlns="http://www.w3.org/2000/svg" width="455" height="396" xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:ev="http://www.w3.org/2001/xml-events">
+        <defs>
+            <clipPath id="clip-1" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-2" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-3" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-4" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-5" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-6" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-7" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-8" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-9" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-10" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-11" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-12" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-13" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-14" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-15" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-16" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-17" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-18" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-19" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z" fill="none"></path>
+            </clipPath>
+            <clipPath id="clip-20" fill="#999999">
+                <path d="M2946.8,1991h-64v-471h-1689.7v471h-63.3v149.4h63.3v471.6h1689.7v-471.6h64z"></path>
+            </clipPath>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="viewport-20231030100438863" class="svg-pan-zoom_viewport"
+            transform="matrix(0.09822949767112732,0,0,0.09822949767112732,42.353824615478516,18.92510986328125)">
+            <g>
+                <g sprite-identifier="s700805">
+                    <path d="M2371.3,1424v-75.5h696.7v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2719.65" y="1410.25" font-size="80" text-anchor="middle" eid="1349" t="tc">1</text>
+                    <path d="M2371.3,1424v-75.5h696.7v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700812">
+                    <path d="M2007.8,1424v-75.5h353.5v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2184.55" y="1410.25" font-size="80" text-anchor="middle" eid="1349" t="tc">2</text>
+                    <path d="M2007.8,1424v-75.5h353.5v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700857">
+                    <path d="M1008.1,1424v-75.5h160.1v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1088.15" y="1410.25" font-size="80" text-anchor="middle" eid="1349" t="tc">4</text>
+                    <path d="M1008.1,1424v-75.5h160.1v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700880">
+                    <path d="M1008.1,2783.5v-83.7h160.1v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1088.15" y="2765.65" font-size="80" text-anchor="middle" eid="1349" t="tc">5</text>
+                    <path d="M1008.1,2783.5v-83.7h160.1v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700916">
+                    <path d="M2229.3,2783.5v-83.7h838.7v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2648.65" y="2765.65" font-size="80" text-anchor="middle" eid="1349" t="tc">7</text>
+                    <path d="M2229.3,2783.5v-83.7h838.7v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700940">
+                    <path d="M3104.4,2159.1v-692.4h82.1v692.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3145.45" y="1836.9" font-size="80" text-anchor="middle" eid="1349" t="tc">9</text>
+                    <path d="M3104.4,2159.1v-692.4h82.1v692.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700813">
+                    <path d="M2371.3,1274.8v-41.7h415v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2847.89722" y="1307.46389" font-size="80" text-anchor="middle" eid="1246" t="tc">20</text>
+                    <path d="M2371.3,1274.8v-41.7h415v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700814">
+                    <path d="M2371.3,1338.5v-53.7h425v-51.7h110.6v105.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2371.3,1338.5v-53.7h425v-51.7h110.6v105.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700815">
+                    <path d="M2916.9,1338.5v-105.4h151.1v105.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2916.9,1338.5v-105.4h151.1v105.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700816">
+                    <path d="M2649,1223.1v-92.2h137.3v92.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2853.06667" y="1202.73611" font-size="80" text-anchor="middle" eid="1246" t="tc">21</text>
+                    <path d="M2649,1223.1v-92.2h137.3v92.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700817">
+                    <path d="M2796.3,1223.1v-92.2h110.6v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,1223.1v-92.2h110.6v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700818">
+                    <path d="M2916.9,1223.1v-92.2h151.1v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2916.9,1223.1v-92.2h151.1v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700819">
+                    <path d="M2649,1120.8v-92.4h137.3v92.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2849.59444" y="1100.33611" font-size="80" text-anchor="middle" eid="1246" t="tc">22</text>
+                    <path d="M2649,1120.8v-92.4h137.3v92.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700820">
+                    <path d="M2796.3,1120.8v-92.4h110.6v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,1120.8v-92.4h110.6v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700821">
+                    <path d="M2916.9,1120.9v-92.4h144c2.3,0 4.6,0 7.1,0.1v92.4h-151.1z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;"
+                        fill="#f1f1f1"></path>
+                    <path d="M2916.9,1120.9v-92.4h144c2.3,0 4.6,0 7.1,0.1v92.4h-151.1z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700822">
+                    <path d="M1306.1,1274.8v-41.7h393.9v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1239.16111" y="1312.67222" font-size="80" text-anchor="middle" eid="1246" t="tc">23</text>
+                    <path d="M1306.1,1274.8v-41.7h393.9v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700823">
+                    <path d="M1296.1,1284.8v-51.7h-117.9v105.4h91.9h26h403.9v-53.7z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1296.1,1284.8v-51.7h-117.9v105.4h91.9h26h403.9v-53.7z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700824">
+                    <path d="M1008.1,1338.5v-105.4h160.1v105.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,1338.5v-105.4h160.1v105.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700825">
+                    <path d="M1306.1,1223.1v-92.2h103.1v92.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1236.12222" y="1201" font-size="80" text-anchor="middle" eid="1246" t="tc">24</text>
+                    <path d="M1306.1,1223.1v-92.2h103.1v92.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700826">
+                    <path d="M1178.2,1223.1v-92.2h118v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1178.2,1223.1v-92.2h118v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700827">
+                    <path d="M1008.1,1223.1v-92.2h160.1v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,1223.1v-92.2h160.1v92.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s843510" data-original-title="">
+                    <path d="M1419.2,1223.1v-92.2h31v40.8h249.8v51.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1245" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1419.2,1223.1v-92.2h31v40.8h249.8v51.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700828">
+                    <path d="M1306.1,1120.8v-92.4h103.1v92.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1236.12222" y="1102.07222" font-size="80" text-anchor="middle" eid="1246" t="tc">25</text>
+                    <path d="M1306.1,1120.8v-92.4h103.1v92.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700829">
+                    <path d="M1178.2,1120.8v-92.4h118v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1178.2,1120.8v-92.4h118v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700830">
+                    <path d="M1008.1,1120.9v-92.4c1.7,0 3.3,0 4.9,0h155.2v92.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,1120.9v-92.4c1.7,0 3.3,0 4.9,0h155.2v92.4z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s57996" data-original-title="" cursor="pointer">
+                    <path d="M1710,1338.4v-53.6h651.4v53.6z" fill="#050505" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1245" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2033.96389" y="1302.61389" font-size="80" text-anchor="middle" eid="1245" t="tc">26</text>
+                    <path d="M1710,1338.4v-53.6h651.4v53.6z" fill="#050505" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                    <circle cx="2033.96389" cy="1237.61389" fill="#e53935" r="10" stroke="#000" stroke-width="2">
+                    </circle>
+                </g>
+                <g fill="#f9b172" stroke-width="1" sprite-identifier="s700831">
+                    <path d="M1710,1274.9v-103.2h651.4v103.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1411" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1710,1274.9v-103.2h651.4v103.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s58973" data-original-title="">
+                    <path d="M1178.2,1424v-75.5h665.6v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="2201" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1511" y="1410.25" font-size="80" text-anchor="middle" eid="2201" t="tc">3</text>
+                    <path d="M1178.2,1424v-75.5h665.6v75.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700833">
+                    <path d="M3068,1018.5c-2.4,0 -4.8,-0.1 -7.1,-0.1h-264.6v-109.2h271.7z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;"
+                        fill="#f1f1f1"></path>
+                    <path d="M3068,1018.5c-2.4,0 -4.8,-0.1 -7.1,-0.1h-264.6v-109.2h271.7z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700834">
+                    <path d="M2796.3,899.2v-85.8h271.7v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2932.15" y="880.3" font-size="80" text-anchor="middle" eid="1349" t="tc">30</text>
+                    <path d="M2796.3,899.2v-85.8h271.7v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700835">
+                    <path d="M2796.3,803.4v-96.3h271.7v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,803.4v-96.3h271.7v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#d4ffb2" stroke-width="1" sprite-identifier="s700836">
+                    <path d="M2317.4,1018.4v-109.2h468.9v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1246" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2317.4,1018.4v-109.2h468.9v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700838">
+                    <path d="M2317.4,899.2v-85.8h468.9v85.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2317.4,899.2v-85.8h468.9v85.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700839">
+                    <path d="M2317.4,803.4v-96.3h468.9v96.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2551.85" y="877.6875" font-size="80" text-anchor="middle" eid="1349" t="tc">31</text>
+                    <path d="M2317.4,803.4v-96.3h468.9v96.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#f9b172" stroke-width="1" sprite-identifier="s700840">
+                    <path d="M1761.6,1018.4v-109.2h545.8v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1411" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1761.6,1018.4v-109.2h545.8v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700841">
+                    <path d="M1761.6,899.2v-85.8h545.8v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2034.5" y="880.3" font-size="80" text-anchor="middle" eid="1246" t="tc">32</text>
+                    <path d="M1761.6,899.2v-85.8h545.8v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700842">
+                    <path d="M1761.6,803.4v-96.3h545.8v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1761.6,803.4v-96.3h545.8v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#d4ffb2" stroke-width="1" sprite-identifier="s700843">
+                    <path d="M1286,1018.4v-109.2h465.5v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1246" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1286,1018.4v-109.2h465.5v109.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700844">
+                    <path d="M1286,899.2v-85.8h465.5v85.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1286,899.2v-85.8h465.5v85.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700845">
+                    <path d="M1286,803.4v-96.3h465.5v96.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1518.75" y="882.375" font-size="80" text-anchor="middle" eid="1349" t="tc">33</text>
+                    <path d="M1286,803.4v-96.3h465.5v96.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700846">
+                    <path d="M1008.1,909.2h268v109.2h-263c-1.6,0 -3.3,0 -4.9,0v-109.2z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;"
+                        fill="#f1f1f1"></path>
+                    <path d="M1008.1,909.2h268v109.2h-263c-1.6,0 -3.3,0 -4.9,0v-109.2z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700847">
+                    <path d="M1008.1,899.2v-85.8h268v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1142.1" y="880.3" font-size="80" text-anchor="middle" eid="1349" t="tc">34</text>
+                    <path d="M1008.1,899.2v-85.8h268v85.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700848">
+                    <path d="M1008.1,803.4v-96.3h268v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,803.4v-96.3h268v96.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700849">
+                    <path
+                        d="M699.9,1144.5c26.4,-25.5 56,-47.4 88.1,-65.1c56,-30.9 119.4,-48.4 183.6,-50.7v169.2c-33.9,2.1 -66.2,11 -96.1,26.7c-19.4,10.1 -37.4,22.9 -53.6,38z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="835.75" y="1169.65" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">35</text>
+                    <path
+                        d="M699.9,1144.5c26.4,-25.5 56,-47.4 88.1,-65.1c56,-30.9 119.4,-48.4 183.6,-50.7v169.2c-33.9,2.1 -66.2,11 -96.1,26.7c-19.4,10.1 -37.4,22.9 -53.6,38z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700850">
+                    <path
+                        d="M574.6,1424c2.7,-66.2 21.4,-131.2 54.3,-188.4c17.6,-30.6 39,-58.8 63.9,-84l121.9,117.9c0,0.1 -0.1,0.1 -0.1,0.2c-10.6,10.7 -20.2,22.5 -28.7,34.9c-24,35.3 -38.4,76.5 -41.8,119.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="694.65" y="1311.8" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">36</text>
+                    <path
+                        d="M574.6,1424c2.7,-66.2 21.4,-131.2 54.3,-188.4c17.6,-30.6 39,-58.8 63.9,-84l121.9,117.9c0,0.1 -0.1,0.1 -0.1,0.2c-10.6,10.7 -20.2,22.5 -28.7,34.9c-24,35.3 -38.4,76.5 -41.8,119.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700851">
+                    <path
+                        d="M696.9,917.3c46.2,-16.7 94.9,-25.2 144.7,-25.2h130v126.6c-64.3,2.3 -127.8,19.4 -184.2,49.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="832.6875" y="907.375" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">37</text>
+                    <path
+                        d="M696.9,917.3c46.2,-16.7 94.9,-25.2 144.7,-25.2h130v126.6c-64.3,2.3 -127.8,19.4 -184.2,49.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700852">
+                    <path d="M600.7,756.6c76.2,-32.8 157.2,-49.5 241,-49.5h130v175h-130c-51.7,0 -102.1,8.9 -149.9,26.5z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M600.7,756.6c76.2,-32.8 157.2,-49.5 241,-49.5h130v175h-130c-51.7,0 -102.1,8.9 -149.9,26.5z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700853">
+                    <path
+                        d="M451.1,1149.7c21.2,-49.7 51.6,-94.5 90.4,-133.3c2.9,-2.9 6,-5.9 9.2,-8.9c40.1,-37.8 86,-66.9 136.7,-86.6l91.2,152.3c-32.6,18.5 -62.7,41.3 -89.4,67.8c-25.8,25.6 -48.2,54.4 -66.7,85.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="542.975" y="1033.7375" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">38</text>
+                    <path
+                        d="M451.1,1149.7c21.2,-49.7 51.6,-94.5 90.4,-133.3c2.9,-2.9 6,-5.9 9.2,-8.9c40.1,-37.8 86,-66.9 136.7,-86.6l91.2,152.3c-32.6,18.5 -62.7,41.3 -89.4,67.8c-25.8,25.6 -48.2,54.4 -66.7,85.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700854">
+                    <path
+                        d="M282.4,1073.9c31.9,-73.5 77.4,-139.1 135.2,-195.1c51,-49.4 109.4,-89.1 173.8,-118.1l90.7,151.5c-51.3,20.2 -97.8,49.8 -138.4,88.1c-3.3,3.1 -6.4,6.2 -9.4,9.1c-39.6,39.6 -70.7,85.5 -92.4,136.2z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M282.4,1073.9c31.9,-73.5 77.4,-139.1 135.2,-195.1c51,-49.4 109.4,-89.1 173.8,-118.1l90.7,151.5c-51.3,20.2 -97.8,49.8 -138.4,88.1c-3.3,3.1 -6.4,6.2 -9.4,9.1c-39.6,39.6 -70.7,85.5 -92.4,136.2z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700855">
+                    <path
+                        d="M417.2,1424v-107.4c0,-54.6 10.1,-107.6 30.1,-157.6l170.2,76.5c-32.1,57.5 -50.3,122.5 -53,188.5z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="415.7875" y="1315.5" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">39</text>
+                    <path
+                        d="M417.2,1424v-107.4c0,-54.6 10.1,-107.6 30.1,-157.6l170.2,76.5c-32.1,57.5 -50.3,122.5 -53,188.5z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700856">
+                    <path
+                        d="M232.2,1424v-107.4c0,-80.9 15.6,-159.4 46.3,-233.4l159.7,71.7c-20.6,51.3 -31,105.7 -31,161.7v107.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M232.2,1424v-107.4c0,-80.9 15.6,-159.4 46.3,-233.4l159.7,71.7c-20.6,51.3 -31,105.7 -31,161.7v107.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700858">
+                    <path d="M1178.2,2894.1v-100.6h231v100.6z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1245.08889" y="2869.53611" font-size="80" text-anchor="middle" eid="1247" t="tc">40</text>
+                    <path d="M1178.2,2894.1v-100.6h231v100.6z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700859">
+                    <path d="M1008.1,2894.1v-100.6h160.1v100.6z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,2894.1v-100.6h160.1v100.6z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700860">
+                    <path d="M1734.6,2894.1v-41.7h298.4v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1725.81389" y="2872.94444" font-size="80" text-anchor="middle" eid="1246" t="tc">41</text>
+                    <path d="M1734.6,2894.1v-41.7h298.4v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700861">
+                    <path d="M1419.2,2894.1v-100.6h613.8v48.9h-308.4v51.7z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1419.2,2894.1v-100.6h613.8v48.9h-308.4v51.7z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700862">
+                    <path d="M2043,2894.1v-41.7h297.6v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2341.10556" y="2878.15278" font-size="80" text-anchor="middle" eid="1246" t="tc">42</text>
+                    <path d="M2043,2894.1v-41.7h297.6v41.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700863">
+                    <path d="M2350.6,2894.1v-51.7h-307.6v-48.9h596v100.6z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2350.6,2894.1v-51.7h-307.6v-48.9h596v100.6z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700864">
+                    <path d="M2649,2894.1v-100.6h257.9v100.6z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2849.13056" y="2874.74444" font-size="80" text-anchor="middle" eid="1247" t="tc">43</text>
+                    <path d="M2649,2894.1v-100.6h257.9v100.6z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700865">
+                    <path d="M2916.9,2894.1v-100.6h151.1v100.6z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2916.9,2894.1v-100.6h151.1v100.6z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700866">
+                    <path d="M1306.1,2978.9v-74.8h288v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1240.03056" y="2967.23611" font-size="80" text-anchor="middle" eid="1246" t="tc">44</text>
+                    <path d="M1306.1,2978.9v-74.8h288v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700867">
+                    <path d="M1178.2,2978.9v-74.8h118v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1178.2,2978.9v-74.8h118v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700868">
+                    <path d="M1008.1,2978.9v-74.8h160.1v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,2978.9v-74.8h160.1v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s1017794" data-original-title="" cursor="pointer">
+                    <path d="M1604.2,2978.9v-74.8h120.4v74.8z" stroke="#000000" fill-opacity="0.19000000000000003"
+                        stroke-width="3px" eid="1245" t="tc" style="display: none; opacity: 1;" fill="#050505"></path>
+                    <path d="M1604.2,2978.9v-74.8h120.4v74.8z" stroke="#000000" fill-opacity="0.19000000000000003"
+                        stroke-width="3px" obs="true" fill="#050505" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700869">
+                    <path d="M1734.6,2978.9v-74.8h606v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1245" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2037.6" y="2965.5" transform="" font-size="80" text-anchor="middle" eid="1245"
+                        t="tc">45</text>
+                    <path d="M1734.6,2978.9v-74.8h606v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700870">
+                    <path d="M2483.2,2978.9v-74.8h303.1v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2848.29167" y="2968.97222" font-size="80" text-anchor="middle" eid="1246" t="tc">46</text>
+                    <path d="M2483.2,2978.9v-74.8h303.1v74.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700871">
+                    <path d="M2796.3,2978.9v-74.8h110.6v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,2978.9v-74.8h110.6v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700872">
+                    <path d="M2916.9,2978.9v-74.8h151.1v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2916.9,2978.9v-74.8h151.1v74.8z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s1017795" data-original-title="" cursor="pointer">
+                    <path d="M2350.6,2978.9v-74.8h122.6v74.8z" stroke="#000000" fill-opacity="0.19000000000000003"
+                        stroke-width="3px" eid="1245" t="tc" style="display: none; opacity: 1;" fill="#050505"></path>
+                    <path d="M2350.6,2978.9v-74.8h122.6v74.8z" stroke="#000000" fill-opacity="0.19000000000000003"
+                        stroke-width="3px" obs="true" fill="#050505" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700873">
+                    <path d="M1306.1,3078.2v-89.3h418.5v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1237.57222" y="3061.02222" font-size="80" text-anchor="middle" eid="1246" t="tc">47</text>
+                    <path d="M1306.1,3078.2v-89.3h418.5v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700874">
+                    <path d="M1178.2,3078.2v-89.3h118v89.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1178.2,3078.2v-89.3h118v89.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700875">
+                    <path d="M1013,3078.3c-1.6,0 -3.3,0 -4.9,0v-89.3h160.1v89.3z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1013,3078.3c-1.6,0 -3.3,0 -4.9,0v-89.3h160.1v89.3z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700876">
+                    <path d="M1734.6,3078.2v-89.3h606v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1411" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2037.6" y="3057.55" transform="" font-size="80" text-anchor="middle" eid="1411"
+                        t="tc">48</text>
+                    <path d="M1734.6,3078.2v-89.3h606v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700877">
+                    <path d="M2350.6,3078.2v-89.3h435.7v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2847.96389" y="3059.28611" font-size="80" text-anchor="middle" eid="1246" t="tc">49</text>
+                    <path d="M2350.6,3078.2v-89.3h435.7v89.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700878">
+                    <path d="M2796.3,3078.2v-89.3h110.6v89.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,3078.2v-89.3h110.6v89.3z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700879">
+                    <path d="M2916.9,3078.3v-89.3h151.1v89.3c-2.4,0 -4.8,0.1 -7.1,0.1h-144z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" eid="1327" t="tc" style="display: none; opacity: 1;"
+                        fill="#f1f1f1"></path>
+                    <path d="M2916.9,3078.3v-89.3h151.1v89.3c-2.4,0 -4.8,0.1 -7.1,0.1h-144z" stroke="#000000"
+                        fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700881">
+                    <path d="M1008.1,3221.5v-83h268v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,3221.5v-83h268v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700882">
+                    <path d="M1008.1,3298.4v-66.9h268v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1142.1" y="3288.95" font-size="80" text-anchor="middle" eid="1349" t="tc">50</text>
+                    <path d="M1008.1,3298.4v-66.9h268v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700883">
+                    <path d="M1008.1,3406.5v-98.1h268v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1008.1,3406.5v-98.1h268v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#d4ffb2" stroke-width="1" sprite-identifier="s700884">
+                    <path d="M1286,3221.5v-83h465.5v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1246" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1286,3221.5v-83h465.5v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700885">
+                    <path d="M1286,3298.4v-66.9h465.5v66.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1286,3298.4v-66.9h465.5v66.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700886">
+                    <path d="M1286,3406.5v-98.1h465.5v98.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1520.3125" y="3289.2625" font-size="80" text-anchor="middle" eid="1349" t="tc">51</text>
+                    <path d="M1286,3406.5v-98.1h465.5v98.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#f9b172" stroke-width="1" sprite-identifier="s700887">
+                    <path d="M1761.6,3221.5v-83h545.8v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1411" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1761.6,3221.5v-83h545.8v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700888">
+                    <path d="M1761.6,3298.4v-66.9h545.8v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1246" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2034.5" y="3288.95" font-size="80" text-anchor="middle" eid="1246" t="tc">52</text>
+                    <path d="M1761.6,3298.4v-66.9h545.8v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#a5b9ef" stroke-width="1" sprite-identifier="s700889">
+                    <path d="M1761.6,3406.5v-98.1h545.8v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1247" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1761.6,3406.5v-98.1h545.8v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#d4ffb2" stroke-width="1" sprite-identifier="s700890">
+                    <path d="M2317.4,3221.5v-83h468.9v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1246" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2317.4,3221.5v-83h468.9v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700891">
+                    <path d="M2317.4,3298.4v-66.9h468.9v66.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2317.4,3298.4v-66.9h468.9v66.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700892">
+                    <path d="M2317.4,3406.5v-98.1h468.9v98.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2551.85" y="3292.3875" font-size="80" text-anchor="middle" eid="1349" t="tc">53</text>
+                    <path d="M2317.4,3406.5v-98.1h468.9v98.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700893">
+                    <path d="M2796.3,3221.5v-83h271.7v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,3221.5v-83h271.7v83z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700894">
+                    <path d="M2796.3,3298.4v-66.9h271.7v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="2932.15" y="3288.95" font-size="80" text-anchor="middle" eid="1349" t="tc">54</text>
+                    <path d="M2796.3,3298.4v-66.9h271.7v66.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700895">
+                    <path d="M2796.3,3406.5v-98.1h271.7v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2796.3,3406.5v-98.1h271.7v98.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s58561" data-original-title="">
+                    <path
+                        d="M3104.4,2930.3c41.9,-3 82.3,-16.9 117.1,-40.3c13.5,-9.1 26.3,-19.7 37.8,-31.4c1.3,-1.3 2.7,-2.7 4,-4.2l114.9,103.5c-25,24.9 -53,46.5 -83.4,64.2c-57.7,33.7 -123.4,52.9 -190.4,55.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3241.3" y="2990.1" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">55</text>
+                    <path
+                        d="M3104.4,2930.3c41.9,-3 82.3,-16.9 117.1,-40.3c13.5,-9.1 26.3,-19.7 37.8,-31.4c1.3,-1.3 2.7,-2.7 4,-4.2l114.9,103.5c-25,24.9 -53,46.5 -83.4,64.2c-57.7,33.7 -123.4,52.9 -190.4,55.7z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s99014" data-original-title="">
+                    <path
+                        d="M3270.1,2847c13,-15 24.2,-31.4 33.2,-48.9c15.8,-30.6 24.8,-63.6 26.9,-98.3h168.1c-4.8,59.2 -22,115.4 -51,167.2c-17,30.4 -37.9,58.5 -62,83.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3384.2" y="2849.3" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">56</text>
+                    <path
+                        d="M3270.1,2847c13,-15 24.2,-31.4 33.2,-48.9c15.8,-30.6 24.8,-63.6 26.9,-98.3h168.1c-4.8,59.2 -22,115.4 -51,167.2c-17,30.4 -37.9,58.5 -62,83.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700535">
+                    <path
+                        d="M3104.4,3221.5v-133.5c67.1,-2.7 132.9,-21.5 191,-54.5l87.5,156.5c-51,21 -105.2,31.6 -161.2,31.6h-117.3z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3243.65" y="3256.2375" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">57</text>
+                    <path
+                        d="M3104.4,3221.5v-133.5c67.1,-2.7 132.9,-21.5 191,-54.5l87.5,156.5c-51,21 -105.2,31.6 -161.2,31.6h-117.3z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700544">
+                    <path
+                        d="M3104.4,3406.5v-175h117.3c57.7,0 113.6,-11 166.2,-32.8l85.8,153.4c-79.3,36.1 -164,54.4 -251.9,54.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M3104.4,3406.5v-175h117.3c57.7,0 113.6,-11 166.2,-32.8l85.8,153.4c-79.3,36.1 -164,54.4 -251.9,54.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700536" data-original-title="">
+                    <path
+                        d="M3304.1,3028.3c31,-18.6 59.6,-41.2 85,-67.1c25.1,-25.6 46.8,-54.3 64.6,-85.2l162.5,78.3c-19.7,49.5 -48.5,94.6 -85.7,133.9c-3,3.2 -5.8,6.1 -8.7,8.9c-37.8,37.8 -81.4,67.7 -129.6,88.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3525.775" y="3120.575" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">58</text>
+                    <path
+                        d="M3304.1,3028.3c31,-18.6 59.6,-41.2 85,-67.1c25.1,-25.6 46.8,-54.3 64.6,-85.2l162.5,78.3c-19.7,49.5 -48.5,94.6 -85.7,133.9c-3,3.2 -5.8,6.1 -8.7,8.9c-37.8,37.8 -81.4,67.7 -129.6,88.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700545" data-original-title="">
+                    <path
+                        d="M3397.1,3194.7c49,-21.6 93.3,-52.1 131.8,-90.5c2.9,-2.9 5.8,-5.9 8.9,-9.1c37.8,-40 67.2,-85.9 87.4,-136.4l157.8,76.1c-27.7,65.4 -66.4,125 -115,177.3c-53,56.9 -115.3,102.6 -185.2,135.8z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M3397.1,3194.7c49,-21.6 93.3,-52.1 131.8,-90.5c2.9,-2.9 5.8,-5.9 8.9,-9.1c37.8,-40 67.2,-85.9 87.4,-136.4l157.8,76.1c-27.7,65.4 -66.4,125 -115,177.3c-53,56.9 -115.3,102.6 -185.2,135.8z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700537" data-original-title="">
+                    <path d="M3458.6,2867.3c28.3,-52 45,-108.3 49.7,-167.5h137.9v97.2c0,51.1 -8.9,100.8 -26.4,148z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3649.275" y="2843.275" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">59</text>
+                    <path d="M3458.6,2867.3c28.3,-52 45,-108.3 49.7,-167.5h137.9v97.2c0,51.1 -8.9,100.8 -26.4,148z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700546" data-original-title="" cursor="pointer">
+                    <path
+                        d="M3628.8,2949.3c18.1,-48.5 27.3,-99.8 27.3,-152.3v-97.2h175v97.2c0,79 -14.9,155.9 -44.3,228.5z"
+                        stroke="#000000" fill-opacity="0.19000000000000003" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#050505"></path>
+                    <path
+                        d="M3628.8,2949.3c18.1,-48.5 27.3,-99.8 27.3,-152.3v-97.2h175v97.2c0,79 -14.9,155.9 -44.3,228.5z"
+                        stroke="#000000" fill-opacity="0.19000000000000003" stroke-width="3px" obs="true" fill="#050505"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s58006" data-original-title="">
+                    <path d="M1178.2,2783.5v-83.7h665.6v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="2201" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="1511" y="2765.65" font-size="80" text-anchor="middle" eid="2201" t="tc">6</text>
+                    <path d="M1178.2,2783.5v-83.7h665.6v83.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s99016" data-original-title="">
+                    <path d="M3196.5,2657v-141.4h199.3v141.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3296.15" y="2610.3" font-size="80" text-anchor="middle" eid="17932" t="tc">60</text>
+                    <path d="M3196.5,2657v-141.4h199.3v141.4z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s99017">
+                    <path d="M3196.5,2505.6v-336.5h199.3v336.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3296.15" y="2361.35" font-size="80" text-anchor="middle" eid="17932" t="tc">61</text>
+                    <path d="M3196.5,2505.6v-336.5h199.3v336.5z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700904">
+                    <path d="M3307,2159.1v-432.1h88.8v432.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3301.05278" y="1968.78611" font-size="80" text-anchor="middle" eid="1247" t="tc">62</text>
+                    <path d="M3307,2159.1v-432.1h88.8v432.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700905">
+                    <path d="M3196.5,2159.1v-432.1h100.5v432.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M3196.5,2159.1v-432.1h100.5v432.1z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s99018" data-original-title="" cursor="pointer">
+                    <path d="M3196.5,1716.9v-250.2h199.3v250.2z" fill="#050505" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3296.15" y="1615.8" font-size="80" text-anchor="middle" eid="17932" t="tc">63</text>
+                    <path d="M3196.5,1716.9v-250.2h199.3v250.2z" fill="#050505" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                    <circle cx="3296.15" cy="1550.8" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s58562" data-original-title="" cursor="pointer">
+                    <path
+                        d="M3329.8,1424c-3.3,-41.8 -17.1,-82.1 -40,-116.8c-7.1,-10.8 -15.2,-21.1 -24.1,-30.8l123.4,-116.4c22.7,24.3 42.3,51.3 58.5,80.3c31.2,56 49,119.3 51.7,183.6h-169.5z"
+                        fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003"
+                        eid="17933" t="tc" style="display: none; opacity: 1;"></path><text x="3382.5" y="1316"
+                        font-size="80" text-anchor="middle" eid="17933" t="tc">64</text>
+                    <path
+                        d="M3329.8,1424c-3.3,-41.8 -17.1,-82.1 -40,-116.8c-7.1,-10.8 -15.2,-21.1 -24.1,-30.8l123.4,-116.4c22.7,24.3 42.3,51.3 58.5,80.3c31.2,56 49,119.3 51.7,183.6h-169.5z"
+                        fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                    <circle cx="3382.5" cy="1251" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s58979" data-original-title="" cursor="pointer">
+                    <path
+                        d="M3258.8,1269.2c-14.2,-14.3 -30,-26.7 -46.9,-37c-32.4,-19.7 -69.5,-31.4 -107.5,-34.1v-169.3c67.5,2.8 133.8,22.3 191.8,56.5c31.5,18.6 60.4,41.2 86,67.4z"
+                        fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003"
+                        eid="17933" t="tc" style="display: none; opacity: 1;"></path><text x="3243.3" y="1173"
+                        font-size="80" text-anchor="middle" eid="17933" t="tc">65</text>
+                    <path
+                        d="M3258.8,1269.2c-14.2,-14.3 -30,-26.7 -46.9,-37c-32.4,-19.7 -69.5,-31.4 -107.5,-34.1v-169.3c67.5,2.8 133.8,22.3 191.8,56.5c31.5,18.6 60.4,41.2 86,67.4z"
+                        fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                    <circle cx="3243.3" cy="1108" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s700910">
+                    <path
+                        d="M3509.3,1424c-2.6,-64.2 -19.9,-127.4 -50.3,-183.7l161.4,-69.9c17.1,46.6 25.7,95.8 25.7,146.2v107.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3652.55" y="1318.075" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">66</text>
+                    <path
+                        d="M3509.3,1424c-2.6,-64.2 -19.9,-127.4 -50.3,-183.7l161.4,-69.9c17.1,46.6 25.7,95.8 25.7,146.2v107.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700911">
+                    <path
+                        d="M3656.2,1424v-107.4c0,-51.8 -8.9,-102.2 -26.5,-150.2l160.7,-69.6c27.1,70 40.8,144 40.8,219.8v107.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M3656.2,1424v-107.4c0,-51.8 -8.9,-102.2 -26.5,-150.2l160.7,-69.6c27.1,70 40.8,144 40.8,219.8v107.4z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700912">
+                    <path
+                        d="M3454.1,1231.5c-17,-29.7 -37.5,-57.2 -61.2,-82c-25.9,-27.2 -55.3,-50.8 -87.4,-70.2l87.1,-151.4c48.1,21.1 91.5,50.9 129.2,88.6c1.8,1.8 3.8,3.8 5.9,6c38.9,40.4 68.9,87 89.1,138.6z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3522.0875" y="1044.325" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">67</text>
+                    <path
+                        d="M3454.1,1231.5c-17,-29.7 -37.5,-57.2 -61.2,-82c-25.9,-27.2 -55.3,-50.8 -87.4,-70.2l87.1,-151.4c48.1,21.1 91.5,50.9 129.2,88.6c1.8,1.8 3.8,3.8 5.9,6c38.9,40.4 68.9,87 89.1,138.6z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700913">
+                    <path
+                        d="M3626.1,1157c-20.7,-52.6 -51.4,-100.2 -91.1,-141.5c-2.2,-2.2 -4.1,-4.3 -6,-6.1c-38.3,-38.3 -82.4,-68.6 -131.2,-90.3l87.6,-152.2c66.4,31.9 125.9,75.1 177,128.6c53.6,56 95.4,120.6 124.3,192z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M3626.1,1157c-20.7,-52.6 -51.4,-100.2 -91.1,-141.5c-2.2,-2.2 -4.1,-4.3 -6,-6.1c-38.3,-38.3 -82.4,-68.6 -131.2,-90.3l87.6,-152.2c66.4,31.9 125.9,75.1 177,128.6c53.6,56 95.4,120.6 124.3,192z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700914">
+                    <path
+                        d="M3296.9,1074.2c-58.5,-33.5 -124.9,-52.6 -192.5,-55.4v-126.7h117.3c56.2,0 110.5,10.7 161.7,31.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="3243.9" y="914.9625" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">68</text>
+                    <path
+                        d="M3296.9,1074.2c-58.5,-33.5 -124.9,-52.6 -192.5,-55.4v-126.7h117.3c56.2,0 110.5,10.7 161.7,31.8z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700915">
+                    <path
+                        d="M3388.5,915.1c-52.7,-21.9 -108.8,-33 -166.7,-33h-117.3v-175h117.3c88.9,0 174.4,18.7 254.5,55.5z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M3388.5,915.1c-52.7,-21.9 -108.8,-33 -166.7,-33h-117.3v-175h117.3c88.9,0 174.4,18.7 254.5,55.5z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s59560">
+                    <path d="M3441,2657.1v-235.2h184.2v235.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3533.1" y="2563.5" font-size="80" text-anchor="middle" eid="1247" t="tc">70</text>
+                    <path d="M3441,2657.1v-235.2h184.2v235.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700917">
+                    <path d="M3441,2411.8v-242.7h184.2v242.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3533.1" y="2314.45" font-size="80" text-anchor="middle" eid="1247" t="tc">71</text>
+                    <path d="M3441,2411.8v-242.7h184.2v242.7z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700918">
+                    <path d="M3441,2159.1v-216.1h184.2v216.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1245" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3533.1" y="2075.05" font-size="80" text-anchor="middle" eid="1245" t="tc">72</text>
+                    <path d="M3441,2159.1v-216.1h184.2v216.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700919">
+                    <path d="M3441,1933v-206h184.2v206z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1245" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3533.1" y="1854" font-size="80" text-anchor="middle" eid="1245" t="tc">73</text>
+                    <path d="M3441,1933v-206h184.2v206z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700920">
+                    <path d="M3441,1716.9v-250.2h184.2v250.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1247" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3533.1" y="1615.8" font-size="80" text-anchor="middle" eid="1247" t="tc">74</text>
+                    <path d="M3441,1716.9v-250.2h184.2v250.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700493">
+                    <path d="M3635.2,2657.1v-235.2h89.5v235.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3729.95" y="2561.9375" font-size="80" text-anchor="middle" eid="1349" t="tc">75</text>
+                    <path d="M3635.2,2657.1v-235.2h89.5v235.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700494">
+                    <path d="M3734.7,2657.1v-235.2h96.4v235.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M3734.7,2657.1v-235.2h96.4v235.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700921">
+                    <path d="M3635.2,2411.9v-345h89.5v345z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M3635.2,2411.9v-345h89.5v345z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700922">
+                    <path d="M3734.7,2411.9v-345h96.4v345z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3729.775" y="2263.4" font-size="80" text-anchor="middle" eid="1349" t="tc">76</text>
+                    <path d="M3734.7,2411.9v-345h96.4v345z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#98ff82" stroke-width="1" sprite-identifier="s700923">
+                    <path d="M3635.2,2056.9v-329.9h89.5v329.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1327" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M3635.2,2056.9v-329.9h89.5v329.9z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700924">
+                    <path d="M3734.7,2056.9v-329.9h96.4v329.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3731.3375" y="1917.5125" font-size="80" text-anchor="middle" eid="1349" t="tc">77</text>
+                    <path d="M3734.7,2056.9v-329.9h96.4v329.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700925">
+                    <path d="M3635.2,1716.9v-250.2h89.5v250.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="1349" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3731.5125" y="1614.2375" font-size="80" text-anchor="middle" eid="1349" t="tc">78</text>
+                    <path d="M3635.2,1716.9v-250.2h89.5v250.2z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700926">
+                    <path d="M3734.7,1716.9v-250.2h96.4v250.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1350" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M3734.7,1716.9v-250.2h96.4v250.2z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s59562">
+                    <path d="M3104.4,2657v-487.9h82.1v487.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="3145.45" y="2437.05" font-size="80" text-anchor="middle" eid="17932" t="tc">8</text>
+                    <path d="M3104.4,2657v-487.9h82.1v487.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700932">
+                    <path
+                        d="M689.4,2951.6c-24.2,-25.1 -45.1,-53.2 -62.2,-83.5c-29.4,-52.1 -46.7,-108.7 -51.6,-168.3h168.1c2.2,36.1 11.9,70.3 28.8,101.8c8,15 17.7,29.2 28.7,42.3z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="688.4" y="2849.7" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">85</text>
+                    <path
+                        d="M689.4,2951.6c-24.2,-25.1 -45.1,-53.2 -62.2,-83.5c-29.4,-52.1 -46.7,-108.7 -51.6,-168.3h168.1c2.2,36.1 11.9,70.3 28.8,101.8c8,15 17.7,29.2 28.7,42.3z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700933">
+                    <path
+                        d="M971.6,3078c-66.6,-2.4 -132,-21.1 -189.6,-54c-31.2,-17.9 -60,-39.8 -85.7,-65.2l111.4,-107.2c2.3,2.5 4.5,4.9 6.8,7.1c13.4,13.6 28.3,25.6 44.4,35.6c33.8,21.2 72.7,33.7 112.7,36.2z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1327"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="833.95" y="2988.8" font-size="80"
+                        text-anchor="middle" eid="1327" t="tc">86</text>
+                    <path
+                        d="M971.6,3078c-66.6,-2.4 -132,-21.1 -189.6,-54c-31.2,-17.9 -60,-39.8 -85.7,-65.2l111.4,-107.2c2.3,2.5 4.5,4.9 6.8,7.1c13.4,13.6 28.3,25.6 44.4,35.6c33.8,21.2 72.7,33.7 112.7,36.2z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700934">
+                    <path
+                        d="M444.5,2947.5c-18.1,-47.9 -27.3,-98.5 -27.3,-150.4v-97.2h148.4c4.7,59.6 21.6,116.2 50.3,168.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="413.425" y="2872.7" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">87</text>
+                    <path
+                        d="M444.5,2947.5c-18.1,-47.9 -27.3,-98.5 -27.3,-150.4v-97.2h148.4c4.7,59.6 21.6,116.2 50.3,168.4z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700935">
+                    <path
+                        d="M276.4,3025.2c-29.3,-72.5 -44.2,-149.3 -44.2,-228.2v-97.2h175v97.2c0,53.4 9.5,105.4 28.2,154.7z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M276.4,3025.2c-29.3,-72.5 -44.2,-149.3 -44.2,-228.2v-97.2h175v97.2c0,53.4 9.5,105.4 28.2,154.7z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700936">
+                    <path
+                        d="M678.4,3189c-50.3,-21 -95.7,-51.3 -135.1,-90.1l-0.7,-0.7c-0.4,-0.4 -0.7,-0.7 -1.1,-1.1c-40.7,-40.7 -72,-87.8 -93.3,-140.3l172.6,-79.8c17.9,31 39.7,59.6 64.9,85.2c26,26.4 55.2,49.2 87,67.9z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="532.325" y="3133.5625" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">88</text>
+                    <path
+                        d="M678.4,3189c-50.3,-21 -95.7,-51.3 -135.1,-90.1l-0.7,-0.7c-0.4,-0.4 -0.7,-0.7 -1.1,-1.1c-40.7,-40.7 -72,-87.8 -93.3,-140.3l172.6,-79.8c17.9,31 39.7,59.6 64.9,85.2c26,26.4 55.2,49.2 87,67.9z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700937">
+                    <path
+                        d="M583.4,3349.2c-64.5,-30.2 -122.9,-71.2 -173.4,-121.9c-55.6,-55.8 -99.2,-120.6 -129.8,-192.8l158.9,-73.5c21.8,53.6 53.9,101.7 95.4,143.2c0.4,0.4 0.8,0.8 1.2,1.2l0.6,0.6c39.9,39.5 86,70.3 137,91.7z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M583.4,3349.2c-64.5,-30.2 -122.9,-71.2 -173.4,-121.9c-55.6,-55.8 -99.2,-120.6 -129.8,-192.8l158.9,-73.5c21.8,53.6 53.9,101.7 95.4,143.2c0.4,0.4 0.8,0.8 1.2,1.2l0.6,0.6c39.9,39.5 86,70.3 137,91.7z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s700938">
+                    <path
+                        d="M841.7,3221.5c-53.2,0 -105,-9.6 -153.9,-28.6l93.6,-157.8c58,32.3 123.6,50.6 190.3,53v133.5h-130z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1349"
+                        t="tc" style="display: none; opacity: 1;"></path><text x="831.3125" y="3257.0375" font-size="80"
+                        text-anchor="middle" eid="1349" t="tc">89</text>
+                    <path
+                        d="M841.7,3221.5c-53.2,0 -105,-9.6 -153.9,-28.6l93.6,-157.8c58,32.3 123.6,50.6 190.3,53v133.5h-130z"
+                        fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                        style="opacity: 1;"></path>
+                </g>
+                <g fill="#e1ed7b" stroke-width="1" sprite-identifier="s700939">
+                    <path
+                        d="M841.7,3406.5c-86.8,0 -170.6,-17.9 -249.1,-53.1l90.1,-151.8c50.5,19.9 104,29.9 159,29.9h130v175z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" eid="1350" t="tc"
+                        style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path
+                        d="M841.7,3406.5c-86.8,0 -170.6,-17.9 -249.1,-53.1l90.1,-151.8c50.5,19.9 104,29.9 159,29.9h130v175z"
+                        stroke="#000000" fill-opacity="0.3" stroke-width="3px" obs="true" fill="#f1f1f1"
+                        style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701779">
+                    <path d="M608.4,1631.5v-164.8h366.2v164.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="1573.1" font-size="80" text-anchor="middle" eid="17932" t="tc">10</text>
+                    <path d="M608.4,1631.5v-164.8h366.2v164.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701788">
+                    <path d="M608.4,1862.7v-221.1h366.2v221.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="1776.15" font-size="80" text-anchor="middle" eid="17932" t="tc">11</text>
+                    <path d="M608.4,1862.7v-221.1h366.2v221.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701780">
+                    <path d="M608.4,2073.6v-201h366.2v201z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="1997.1" font-size="80" text-anchor="middle" eid="17932" t="tc">12</text>
+                    <path d="M608.4,2073.6v-201h366.2v201z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701782">
+                    <path d="M608.4,2274.5v-190.9h366.2v190.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="2203.05" font-size="80" text-anchor="middle" eid="17932" t="tc">13</text>
+                    <path d="M608.4,2274.5v-190.9h366.2v190.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701783">
+                    <path d="M608.4,2488.9v-204.3h366.2v204.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="2410.75" font-size="80" text-anchor="middle" eid="17932" t="tc">14</text>
+                    <path d="M608.4,2488.9v-204.3h366.2v204.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701784">
+                    <path d="M608.4,2659.7v-160.8h366.2v160.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="791.5" y="2603.3" font-size="80" text-anchor="middle" eid="17932" t="tc">15</text>
+                    <path d="M608.4,2659.7v-160.8h366.2v160.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701785">
+                    <path d="M232.2,1631.5v-164.8h366.2v164.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="415.3" y="1573.1" font-size="80" text-anchor="middle" eid="17932" t="tc">80</text>
+                    <path d="M232.2,1631.5v-164.8h366.2v164.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701786">
+                    <path d="M232.2,1862.7v-221.1h366.2v221.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="415.3" y="1776.15" font-size="80" text-anchor="middle" eid="17932" t="tc">81</text>
+                    <path d="M232.2,1862.7v-221.1h366.2v221.1z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701787">
+                    <path d="M232.2,2274.5v-401.9h366.2v401.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="415.3" y="2097.55" font-size="80" text-anchor="middle" eid="17932" t="tc">82</text>
+                    <path d="M232.2,2274.5v-401.9h366.2v401.9z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701789">
+                    <path d="M232.2,2488.9v-204.3h366.2v204.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="415.3" y="2410.75" font-size="80" text-anchor="middle" eid="17932" t="tc">83</text>
+                    <path d="M232.2,2488.9v-204.3h366.2v204.3z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g sprite-identifier="s701781">
+                    <path d="M232.2,2659.7v-160.8h366.2v160.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" eid="17932" t="tc" style="display: none; opacity: 1;"></path>
+                    <text x="415.3" y="2603.3" font-size="80" text-anchor="middle" eid="17932" t="tc">84</text>
+                    <path d="M232.2,2659.7v-160.8h366.2v160.8z" fill="#f1f1f1" stroke="#000000" stroke-width="3px"
+                        fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s1173709">
+                    <path d="M2371.3,1223.1v-51.4h250.9v-40.8h16.8v92.2z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" eid="1245" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2371.3,1223.1v-51.4h250.9v-40.8h16.8v92.2z" stroke="#000000" fill-opacity="0.3"
+                        stroke-width="3px" obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s1294989">
+                    <path d="M2622.2,1120.8v-92.4h16.8v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1245" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M2622.2,1120.8v-92.4h16.8v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+                <g fill="#ff75d3" stroke-width="1" sprite-identifier="s1294990" data-original-title="">
+                    <path d="M1419.2,1120.8v-92.4h31v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        eid="1245" t="tc" style="display: none; opacity: 1;" fill="#f1f1f1"></path>
+                    <path d="M1419.2,1120.8v-92.4h31v92.4z" stroke="#000000" fill-opacity="0.3" stroke-width="3px"
+                        obs="true" fill="#f1f1f1" style="opacity: 1;"></path>
+                </g>
+            </g>
+            <g id="Config" fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                style="mix-blend-mode: normal">
+                <g stroke="none" fill="#999999">
+                    <g>
+                        <g fill="#4b8037">
+                            <path d="M1024,2657v-1190.3h2028.5v1190.3z"></path>
+                        </g>
+                        <g>
+                            <g clip-path="url(#clip-1)">
+                                <g fill="#2b5e17">
+                                    <path d="M1194.1,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M1301.9,1388v1399.4h-102.7v-1399.4h102.7M1306.9,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M968.7,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M1076.4,1388v1399.4h-102.7v-1399.4h102.7M1081.4,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M1306.9,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M1081.4,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M2885.2,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M1419.6,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M1527.4,1388v1399.4h-102.7v-1399.4h102.7M1532.4,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M1532.4,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M1645.1,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M1752.8,1388v1399.4h-102.7v-1399.4h102.7M1757.8,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M1757.8,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M1870.6,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M1978.3,1388v1399.4h-102.7v-1399.4h102.7M1983.3,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M1983.3,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M2096,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path
+                                        d="M2203.8,1388v1399.4h-102.8v-1399.4h102.8M2208.8,1383h-112.8v1409.4h112.7v-1409.4z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M2208.8,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M2321.5,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M2429.3,1388v1399.4h-102.7v-1399.4h102.7M2434.3,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M2434.3,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M2547,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M2654.7,1388v1399.4h-102.7v-1399.4h102.7M2659.7,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#4b8037">
+                                    <path d="M2659.7,2792.4v-1409.4h112.7v1409.4z"></path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M2772.5,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M2880.2,1388v1399.4h-102.7v-1399.4h102.7M2885.2,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                                <g fill="#2b5e17">
+                                    <path d="M2997.9,2792.4v-1409.4h112.7v1409.4z"></path>
+                                    <path d="M3105.7,1388v1399.4h-102.7v-1399.4h102.7M3110.7,1383h-112.7v1409.4h112.7z">
+                                    </path>
+                                </g>
+                            </g>
+                            <g clip-path="url(#clip-2)">
+                                <path d="M2884.4,2614h-1692.9v-1095.5h1692.9zM1196.5,2609h1682.9v-1085.5h-1682.9z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-3)">
+                                <path d="M1510,2461.3h-318v-790.6h318zM1197.1,2456.3h308v-780.6h-308z" fill="#050505"
+                                    stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-4)">
+                                <path d="M1319,2248h-125.8v-364.7h125.8zM1198.2,2243h115.8v-354.7h-115.8z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-5)">
+                                <path
+                                    d="M2048.9,2246.1c-104.6,0 -189.6,-84.9 -189.6,-189.2c0,-104.3 85.1,-189.2 189.6,-189.2c104.6,0 189.6,84.9 189.6,189.2c0,104.3 -85,189.2 -189.6,189.2zM2048.9,1872.8c-101.8,0 -184.6,82.6 -184.6,184.2c0,101.5 82.8,184.2 184.6,184.2c101.8,0 184.6,-82.6 184.6,-184.2c0,-101.6 -82.8,-184.2 -184.6,-184.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-6)">
+                                <path
+                                    d="M1509,2238.1l-2.8,-4.1c58.5,-39.8 93.4,-105.6 93.4,-176.2c0,-70.9 -35.2,-136.9 -94.2,-176.6l2.8,-4.1c60.3,40.7 96.4,108.3 96.4,180.8c0,72.1 -35.7,139.5 -95.6,180.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-7)">
+                                <path
+                                    d="M1262.1,2610.1h-5c0,-34.7 -28.3,-62.9 -63.1,-62.9v-5c37.6,0 68.1,30.4 68.1,67.9z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-8)">
+                                <path d="M1193.5,1587v-5c34.8,0 63.1,-28.2 63.1,-62.9h5c0,37.4 -30.6,67.9 -68.1,67.9z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-9)">
+                                <path d="M2883.9,2461.3h-318v-790.6h318zM2570.9,2456.3h308v-780.6h-308z" fill="#050505"
+                                    stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-10)">
+                                <path d="M2883.9,2248h-125.8v-364.7h125.8zM2763.1,2243h115.8v-354.7h-115.8z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-11)">
+                                <path
+                                    d="M2566.9,2238.1c-59.9,-40.7 -95.6,-108.1 -95.6,-180.3c0,-72.5 36,-140.1 96.4,-180.8l2.8,4.1c-59,39.7 -94.2,105.8 -94.2,176.6c0,70.5 34.9,136.4 93.4,176.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-12)">
+                                <path
+                                    d="M2820.5,2610.1h-5c0,-37.4 30.5,-67.9 68.1,-67.9v5c-34.9,0 -63.1,28.2 -63.1,62.9z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-13)">
+                                <path d="M2881.3,1588.1c-37.5,0 -68.1,-30.5 -68.1,-67.9h5c0,34.7 28.3,62.9 63.1,62.9z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-14)">
+                                <path d="M1196.5,2142.8h-68.2v-154.3h68.2zM1133.3,2137.8h58.2v-144.3h-58.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-15)">
+                                <path d="M1196.5,2142.8h-68.2v-154.3h68.2zM1133.3,2137.8h58.2v-144.3h-58.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-16)">
+                                <path d="M2947.8,2142.8h-68.2v-154.3h68.2zM2884.6,2137.8h58.2v-144.3h-58.2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-17)">
+                                <path
+                                    d="M2041.1,2062.5c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                                <path
+                                    d="M2045.6,2069.5c-3.9,0 -7,-3.1 -7,-7c0,-3.9 3.1,-7 7,-7c3.9,0 7,3.1 7,7c0,3.9 -3.1,7 -7,7zM2045.6,2060.5c-1.1,0 -2,0.9 -2,2c0,1.1 0.9,2 2,2c1.1,0 2,-0.9 2,-2c0,-1.1 -0.9,-2 -2,-2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-18)">
+                                <path
+                                    d="M2660.7,2062.5c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                                <path
+                                    d="M2665.2,2069.5c-3.9,0 -7,-3.1 -7,-7c0,-3.9 3.1,-7 7,-7c3.9,0 7,3.1 7,7c0,3.9 -3.2,7 -7,7zM2665.2,2060.5c-1.1,0 -2,0.9 -2,2c0,1.1 0.9,2 2,2c1.1,0 2,-0.9 2,-2c0,-1.1 -0.9,-2 -2,-2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-19)">
+                                <path
+                                    d="M1391.7,2062.5c0,-2.48528 2.01472,-4.5 4.5,-4.5c2.48528,0 4.5,2.01472 4.5,4.5c0,2.48528 -2.01472,4.5 -4.5,4.5c-2.48528,0 -4.5,-2.01472 -4.5,-4.5z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                                <path
+                                    d="M1396.2,2069.5c-3.9,0 -7,-3.1 -7,-7c0,-3.9 3.1,-7 7,-7c3.9,0 7,3.1 7,7c0,3.9 -3.2,7 -7,7zM1396.2,2060.5c-1.1,0 -2,0.9 -2,2c0,1.1 0.9,2 2,2c1.1,0 2,-0.9 2,-2c0,-1.1 -0.9,-2 -2,-2z"
+                                    fill="#050505" stroke="#000000" fill-opacity="0.19000000000000003"></path>
+                            </g>
+                            <g clip-path="url(#clip-20)" fill="none">
+                                <g font-family="sans-serif" font-weight="normal" font-size="12" text-anchor="start"></g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g fill="#999999">
+                    <path d="M1460.2,1161.7v-133.3h1152v133.3z" fill="#050505" stroke="#000000"
+                        fill-opacity="0.19000000000000003"></path><text x="2038.01259" y="1125.8513" fill="#000000"
+                        stroke="none" font-family="arial" font-weight="400" font-size="80"
+                        text-anchor="middle">27</text>
+                </g>
+            </g>
+        </g>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

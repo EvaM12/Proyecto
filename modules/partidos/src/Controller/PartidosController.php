@@ -9,6 +9,7 @@
 
 namespace Drupal\partidos\Controller;
 
+use Drupal\Core\Site\Settings;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\Core\Database\Connection;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -68,7 +69,7 @@ class PartidosController extends ControllerBase
         $this->request = $requestStack->getCurrentRequest();
     }
 
-/**
+    /**
      * {@inheritdoc}
      */
     public static function create(ContainerInterface $container)
@@ -194,6 +195,20 @@ class PartidosController extends ControllerBase
                 $diferenciaEnSegundos = $fechaObjetivo - $hoy;
                 $dif = floor($diferenciaEnSegundos / (60 * 60 * 24)) + 1;
 
+                $file_path = 'http://localhost/AllTickets/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.twig';
+                if (file_exists($file_path)) {
+                    $secciones = true;
+                } else {
+                    $secciones = false;
+                }
+
+                $file_path = 'http://localhost/AllTickets/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.svg';
+                if (file_exists($file_path)) {
+                    $svg = true;
+                } else {
+                    $svg = false;
+                }
+
                 // filtrar si el partido no ha empezado (solo por verificar)
                 if ($partidosData["competitions"][0]["status"]["type"]["name"] == "STATUS_SCHEDULED") {
                     $listaPartidos[] = [
@@ -210,7 +225,9 @@ class PartidosController extends ControllerBase
                         "dia" => $dia,
                         "diaSem" => date("l", strtotime($fecha)),
                         "hora" => $hora,
-                        "dif" => $dif
+                        "dif" => $dif, //diferencia de dias
+                        "secciones" => $secciones,
+                        "svg" => $svg
                     ];
                 }
             }
@@ -262,6 +279,14 @@ class PartidosController extends ControllerBase
         }
     }
 
+    public function ticket($user, $fixture, $cant, $seccion, $precio){
+        $mysql = mysqli_connect("localhost", "root", "");
+        $mysql->select_db("alltickets");
+
+        $query = "INSERT INTO `compra`(`id`,`user`, `fixture`, `cant`, `seccion`, `precio`) VALUES ('0','$user','$fixture','$cant','$seccion','$precio')";
+        $resultado = $mysql->query($query);
+    }
+
     /**
      * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido', el cual sera el listado de partidos.
      *
@@ -270,11 +295,8 @@ class PartidosController extends ControllerBase
      */
     public function listado()
     {
-        $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
-        $titulo = end($parts);
-
         $data = [
-            'titulo' => $titulo,
+            'titulo' => 'fixtures',
         ];
 
         $partidos = $this->listaPartidos();
@@ -317,11 +339,8 @@ class PartidosController extends ControllerBase
     {
         $eqLocal = $this->eqLocal($id);
 
-        $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
-        $titulo = end($parts);
-
         $data = [
-            'titulo' => $titulo
+            'titulo' => 'fixtures'
         ];
 
         $data2 = [
@@ -394,6 +413,23 @@ class PartidosController extends ControllerBase
         $entradas = $this->request->request->get('entradas');
         $seccion = $this->request->request->get('seccion');
         $precio = $this->request->request->get('precio');
+        if($_SESSION['IDuser'] != ''){
+            $sesionIni = 'd-none';
+            $pago = '<script>$(document).ready(function() {
+                $("#ocultarDatos").click(function () {
+                    $("#datos").addClass("hide");
+                    $("#pago").removeClass("hide");
+                })
+            });</script>';
+        } else {
+            $sesionIni = '';
+            $pago = '<script>$(document).ready(function() {
+                $("#ocultarDatos").click(function () {
+                    $("#datos").addClass("hide");
+                    $("#sesion").removeClass("hide");
+                })
+            });</script>';
+        }
         $data2 = [
             'id' => $id,
             'eqLocal' => $this->eqLocal($id),
@@ -404,7 +440,9 @@ class PartidosController extends ControllerBase
             'conf' => 'hide',
             'sesion' => '',
             'pago' => '',
-            'fallo' => ''
+            'fallo' => '',
+            'sesionIni' => $sesionIni,
+            'sesionPago'=> $pago
         ];
 
         if ($this->request->request->get('SignIn') !== null) {
@@ -419,7 +457,9 @@ class PartidosController extends ControllerBase
                     'precio' => $precio,
                     'conf' => 'hide',
                     'pago' => '',
-                    'fallo' => ''
+                    'fallo' => '',
+                    'sesionIni' => $sesionIni,
+                    'sesionPago'=> $pago
                 ];
             } else {
                 $data2 = [
@@ -432,7 +472,9 @@ class PartidosController extends ControllerBase
                     'conf' => 'hide',
                     'sesion' => '',
                     'pago' => '',
-                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">Incorrect email or password.</p></div>'
+                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">Incorrect email or password.</p></div>',
+                    'sesionIni' => $sesionIni,
+                    'sesionPago'=> $pago
                 ];
             }
         }
@@ -450,7 +492,9 @@ class PartidosController extends ControllerBase
                     'precio' => $precio,
                     'conf' => 'hide',
                     'pago' => '',
-                    'fallo' => ''
+                    'fallo' => '',
+                    'sesionIni' => $sesionIni,
+                    'sesionPago'=> $pago
                 ];
             } else {
                 $data2 = [
@@ -463,12 +507,15 @@ class PartidosController extends ControllerBase
                     'conf' => 'hide',
                     'sesion' => '',
                     'pago' => '',
-                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">This user already exists in our page.</p></div>'
+                    'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">This user already exists in our page.</p></div>',
+                    'sesionIni' => $sesionIni,
+                    'sesionPago'=> $pago
                 ];
             }
         }
 
         if ($this->request->request->get('pago') !== null) {
+            $this->ticket($_SESSION['IDuser'],$id, $this->request->request->get('entradas'), $this->request->request->get('seccion'),$this->request->request->get('precio'));
             $data2 = [
                 'pago' => 'hide',
                 'eqLocal' => $this->eqLocal($id),
@@ -479,7 +526,9 @@ class PartidosController extends ControllerBase
                 'precio' => $precio,
                 'presesion' => 'hide',
                 'sesion' => '',
-                'fallo' => ''
+                'fallo' => '',
+                'sesionIni' => $sesionIni,
+                'sesionPago'=> $pago
             ];
         }
         // Cargar la primera plantilla

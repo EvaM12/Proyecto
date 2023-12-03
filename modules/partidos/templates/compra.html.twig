@@ -1,5 +1,5 @@
 {{ attach_library('partidos/compra') }}
-
+{{sesionPago|raw}}
 {% for local in eqLocal %}
 	<section class="contenido container d-flex ps-3  pt-4">
 		<section class="informacion col-md-4 col col-12 mb-3 pe-2">
@@ -255,14 +255,14 @@
 						<p class="m-0 fw-bold lh-1 mb-3 cGry1 h4">
 							Do you want to leave these entries?
 						</p>
-						<div class="gRow d-inline-block">
+						<div class="modal d-inline-block">
 							<p class="fs-6 mb-3 fw-bold cGry1">
 								If you choose to leave them free, it is possible that someone will acquire them.
 							</p>
 							<p class="cnRed1 fw-bold">
 								Please, take in count that this tickets might not be avaliable, or not at least at the same price, if leave now.
 							</p>
-							<div class="gRow mb-0 d-flex">
+							<div class="modal mb-0 d-flex">
 								<div class="__release w-100">
 									<button class=" btn err fw-bold cWht p-2 d-inline-block text-center text-decoration-none user-select-close fs-6">
 										Leave my tickets
@@ -332,7 +332,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="d-table-cell bGry6 p-2 text-center align-items-center ticket-right" style="width: 30%;">
+								<div class="d-table-cell bGry6 p-2 text-center align-items-center ticket-right position-relative" style="width: 30%;">
 									<div class="position-relative h-100">
 										<div class="bdrb">
 											<p class="mb-3 m-0 fw-normal lh-1 text-uppercase ms-3 me-3 bdr h2">
@@ -386,7 +386,7 @@
 			</div>
 {% endfor %}
 
-            <div id="sesion" class="tile hide {{sesion}} {{pago}}">
+            <div id="sesion" class="tile hide {{sesion}} {{pago}} {{sesionIni}}">
                 <ul class="tabs d-block m-0">
                     <li id="js-siTab" class="act">
                         <a>Sign In</a>
@@ -397,7 +397,7 @@
                 </ul>
                 <div id="js-siPanel" class="">
                     {{fallo|raw}}
-                    <form action="http://localhost/AllTickets/partido/{{id}}/compra" class="" id="sign-in-html" method="post">
+                    <form action="http://localhost/AllTickets/fixtures/{{id}}/buy" class="" id="sign-in-html" method="post">
                         <div class="tile m-3 mt-0">
                             <div class="mb-3">
                                 <label for="userIn">Email</label><br>
@@ -424,7 +424,7 @@
                     </form>
                 </div>
                 <div id="js-nuPanel" class="hide">
-                    <form action="http://localhost/AllTickets/partido/{{id}}/compra" class="sign-up-htm" method="post">
+                    <form action="http://localhost/AllTickets/fixtures/{{id}}/buy" class="sign-up-htm" method="post">
                         <div class="tile m-3 mt-0">
                             <div class="mb-3 d-flex" id="nombre">
                                 <div class="col-md-6 col col-12">
@@ -498,7 +498,7 @@
 
             <div id="pago" class="tile {{presesion}} {{pago}}">
                 <div id="js-payPanel" class="">
-                    <form action="http://localhost/AllTickets/partido/{{id}}/compra" class="" id="SignIn" method="post">
+                    <form action="http://localhost/AllTickets/fixtures/{{id}}/buy" class="" id="SignIn" method="post">
                         <div class="tile m-3 mt-0">
                             <div class="mb-3 ps-2 pe-2">
                                 <label for="CardNumber">Card number</label><br>
