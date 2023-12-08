@@ -2,6 +2,6 @@ general.inicio:
   path: '/inicio'
   defaults:
     _controller: '\Drupal\general\Controller\GeneralController::inicio'
-    _title: 'Pagina principal'
+    _title: 'AllTickets'
   requirements:
     _permission: 'access content'

@@ -1,4 +1,3 @@
-{# hay que llamar a http://now.core.api.espn.com/v1/sports/news/38884097 #}
  {{ attach_library('noticias/noticia') }}
 <script>
     $(document).ready(function () {
@@ -14,7 +13,7 @@
 
                 var title = newsData.headline;
                 var desc = newsData.description;
-                var story = newsData.story;
+                var story = newsData.story.replace(/<a\b[^>]*>(.*?)<\/a>/gi, '$1');;
                 var image = newsData.images[0].url;
                 var width = newsData.images[0].width;
                 var height = newsData.images[0].height;
@@ -42,16 +41,16 @@
                 }
 
                 noticiasBody.append(`
-                <h3 class="fw-semibold mb-3">${title}</h3>
+                <h1 class="fw-semibold mb-3">${title}</h1>
                 <p>${fechaRes}</p>
                 <p>${desc}</p>
                 <p>${story}</p>
 
                 <blockquote>
-                    <img src="${image}" width="${width}" height="${height}">
+                    <img src="${image}">
                 </blockquote>
 
-                <ul class="post-tags pb-3 pt-3 list-unstyled float-start w-100 text-wrap">
+                <ul class="post-tags p-3 list-unstyled float-start w-100 text-wrap m-0">
                     ${categories}
                 </ul>`);
             },
@@ -65,143 +64,12 @@
 <div class="container pb-3 pt-3">
 	<div class="row">
 		<!--News Start-->
-		<div class="col-lg-8 col col-12 ps-lg-2 pe-lg-2">
+		<div class="col col-12 ps-lg-2 pe-lg-2">
 			<div class="news-large-post float-start w-100 overflow-hidden">
-				<div class="post-txt float-start w-100 pt-lg-4 ps-lg-5 pe-lg-5 pb-lg-4" id="noticias">
+				<div class="post-txt float-start w-100 pt-lg-4 ps-lg-5 pe-lg-5 pb-lg-4 p-3" id="noticias">
 
 				</div>
 			</div>
 		</div>
-		<!--News End-->
-		<!--Sidebar Start-->
-		<div class="col-lg-4 sidebar float-start col col-12">
-			<h4>Points Table</h4>
-			<div class="point-table w-100 overflow-hidden float-start">
-				<table class="w-100 overflow-hidden">
-					<thead class="bAzul5">
-						<tr>
-							<th>P</th>
-							<th>Team</th>
-							<th>W</th>
-							<th>L</th>
-							<th>Pts</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>
-								<strong>Bethlehem</strong>
-							</td>
-							<td>22</td>
-							<td>2</td>
-							<td>
-								<strong>140</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td>
-								<strong>Chirston Battery</strong>
-							</td>
-							<td>19</td>
-							<td>5</td>
-							<td>
-								<strong>138</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>3</td>
-							<td>
-								<strong>Charlotte</strong>
-							</td>
-							<td>18</td>
-							<td>3</td>
-							<td>
-								<strong>130</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>4</td>
-							<td>
-								<strong>FC Cincinnati</strong>
-							</td>
-							<td>17</td>
-							<td>2</td>
-							<td>
-								<strong>126</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>5</td>
-							<td>
-								<strong>Indy Eleven</strong>
-							</td>
-							<td>16</td>
-							<td>2</td>
-							<td>
-								<strong>110</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>6</td>
-							<td>
-								<strong>Louisville City</strong>
-							</td>
-							<td>15</td>
-							<td>6</td>
-							<td>
-								<strong>108</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>7</td>
-							<td>
-								<strong>Nashville SC</strong>
-							</td>
-							<td>14</td>
-							<td>8</td>
-							<td>
-								<strong>106</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>8</td>
-							<td>
-								<strong>NYK Red Bulls</strong>
-							</td>
-							<td>14</td>
-							<td>8</td>
-							<td>
-								<strong>106</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>9</td>
-							<td>
-								<strong>North Carolina</strong>
-							</td>
-							<td>14</td>
-							<td>8</td>
-							<td>
-								<strong>106</strong>
-							</td>
-						</tr>
-						<tr>
-							<td>10</td>
-							<td>
-								<strong>Ottawa Fury</strong>
-							</td>
-							<td>14</td>
-							<td>8</td>
-							<td>
-								<strong>106</strong>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		<!--Sidebar End-->
 	</div>
 </div>

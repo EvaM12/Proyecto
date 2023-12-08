@@ -162,11 +162,8 @@ class EquiposController extends ControllerBase
         $nombre = $this->agregarEspacios($nombre);
         $jugadores = $this->listaJugadores($nombre);
 
-        $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
-        $titulo = end($parts);
-
         $data = [
-            'titulo' => $titulo
+            'titulo' => $nombre
         ];
 
         $data2 = [

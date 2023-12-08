@@ -10,47 +10,6 @@ main{
 }
 
 
-.bAzul5 {
-    background-color: #072273 !important;
-}
-
-/* estilos de la tabla de puntos */
-
-.point-table {
-    border-radius: 0.5em;
-    border: 1px solid #e1e1e1;
-}
-
-.point-table table thead tr th {
-    line-height: 46px;
-    padding: 0 0.5em;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.point-table table tbody tr {
-    border-bottom: 1px solid #e1e1e1;
-    background: #fafafa;
-}
-
-.point-table table tbody tr td {
-    padding: 11px 10px 11px;
-    color: #777777;
-}
-
-.point-table table tbody tr td img {
-    margin-right: 5px;
-}
-
-.point-table table tbody tr:nth-child(even) {
-    background-color: #f0f0f0;
-}
-
-.point-table table tbody tr:hover {
-    background-color: #ddd;
-}
-
-
 /* estilos de la noticia */
 .news-large-post {
     background: #fff;
@@ -83,18 +42,15 @@ main{
     position: relative;
 }
 
-.post-txt blockquote p { /*arreglarlo en el otro lado*/
-    margin: 0px;
-    color: #fff;
-    font-size: 24px;
-    line-height: 32px;
-    font-weight: 300;
-    font-style: italic;
+.post-txt blockquote img,
+.post-txt blockquote video {
+    width: 100%;
 }
 
 
 .post-tags li {
     display: inline-block;
+    margin-right: 0.5em;
 }
 
 .post-tags li p {

@@ -185,7 +185,7 @@ function detalles(liga, equipo, fecha) {
                                 </p>
                             </div>
                             <div class="entradas text-end col-2 m-0 p-0">
-                                <a href="http://localhost/AllTickets/partido/`+id+`" data-testid="event-list-link" class="enlace d-inine-block position-relative">
+                                <a href="http://localhost/AllTickets/matches/`+id+`" data-testid="event-list-link" class="enlace d-inine-block position-relative">
                                     <span>Entradas</span>
                                     <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1.5em" height="1.5em"
                                         aria-hidden="true" focusable="false">
@@ -261,7 +261,7 @@ $(document).ready(function () {
             $('#fecha-inicial').prop('disabled', false);
             $('#filtrar').prop('disabled', false);
             $('#equipo').empty();
-            $('#equipo').append('<option value="">Seleccione equipo</option>');
+            $('#equipo').append('<option value="">Choose team</option>');
 
             valorLiga = $(this).val();
             // Utilizar la función equipos dentro de una Promesa

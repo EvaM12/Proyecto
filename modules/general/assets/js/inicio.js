@@ -7,7 +7,7 @@ $(document).ready(function () {
         autoplayHoverPause: true, // Pausar la reproducción automática al pasar el mouse sobre el carrusel
         dots: false,
         nav: true, // Habilitar flechas de navegación
-        navText: ["<", ">"],
+        navText: ["<i class='fs-5'><</i>", "<i class='fs-5'>></i>"],
         responsive: {
             0: {
                 items: 1

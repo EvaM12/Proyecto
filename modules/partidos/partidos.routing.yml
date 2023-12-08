@@ -1,21 +1,21 @@
 partidos.listado:
-  path: '/fixtures'
+  path: '/matches'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::listado'
-    _title: 'Fixtures list'
+    _title: 'Matches list'
   requirements:
     _permission: 'access content'
 
 partidos.partido:
-  path: '/fixtures/{id}'
+  path: '/matches/{id}'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::partido'
-    _title: 'Fixture data'
+    _title: 'Match data'
   requirements:
     _permission: 'access content'
 
 partidos.compra:
-  path: '/fixtures/{id}/buy'
+  path: '/matches/{id}/buy'
   defaults:
     _controller: '\Drupal\partidos\Controller\PartidosController::compra'
     _title: 'Tickets purchase'

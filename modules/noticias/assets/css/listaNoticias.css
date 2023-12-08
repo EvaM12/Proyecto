@@ -71,10 +71,6 @@ main {
     -webkit-transition: all ease-in-out 0.5s;
 }
 
-/* estilos del lateral */
-.sidebar {
-    background: #fff;
-    padding: 1.5em;
-    border-radius: 0.25em;
-    box-shadow: 0 0.5em 1em rgba(0, 0, 0, .07);
+select {
+    border-radius: 0.5em;
 }

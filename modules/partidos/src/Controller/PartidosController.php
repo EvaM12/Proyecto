@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @file
  * Contains Drupal\partidos\Controller\PartidosController.
@@ -47,6 +46,11 @@ class PartidosController extends ControllerBase
      */
     protected $renderer;
 
+    /**
+     * La respuesta de la solicitud
+     *
+     * @var \Symfony\Component\HttpFoundation\RequestStak
+     */
     protected $request;
 
     /**
@@ -88,10 +92,9 @@ class PartidosController extends ControllerBase
      * @return array
      *   El array de los proximos partidos.
      */
-
-    // si la conexion a internet es lenta esto falla
     public function listaPartidos()
     {
+        //Obtencion de la fecha actual, quitendole 1 hora (la API de ESPN trabaja con la zona horaria de Reino Unido)
         $fechaActual = date("Y-m-d\TH:i\Z");
         $hora = substr($fechaActual, 11, 2);
         $hora = strval(intval($hora) - 1);
@@ -102,8 +105,8 @@ class PartidosController extends ControllerBase
         $query = $this->database->select('partidos', 'par')
             ->fields('par', ['idPartido', 'idLiga', 'fecha'])
             ->condition('fecha', $fechaActual, '>=')
-            ->orderBy('fecha', 'ASC') // Ordenar por fecha de forma ascendente
-            ->range(0, 25) // Mostrar solo los primeros 20 resultados
+            ->orderBy('fecha', 'ASC')
+            ->range(0, 25) // Mostrar solo los primeros 25 resultados
             ->execute()
             ->fetchAll(\PDO::FETCH_OBJ);
 
@@ -141,7 +144,6 @@ class PartidosController extends ControllerBase
             $partidos[] = [
                 'idPartido' => $row->idPartido,
                 'idLiga' => $row->idLiga
-                //'fecha' => $row->fecha
             ];
         }
 
@@ -150,7 +152,7 @@ class PartidosController extends ControllerBase
     }
 
     /**
-     * Retrieves data for a list of soccer matches from ESPN API.
+     * Devuelve toda la informacion relacionada con el evento enviado.
      *
      * @param array $partidos
      *  Un array con los partidos a buscar.
@@ -181,6 +183,7 @@ class PartidosController extends ControllerBase
                 // Procesar la respuesta (decodificar el JSON)
                 $partidosData = json_decode($response, true);
 
+                //obtene la fecha del evento y la desglosa en dia, mes, año y hora
                 $fechaCompleta = $partidosData["date"];
 
                 list($fecha, $hora) = explode('T', $fechaCompleta);
@@ -190,19 +193,21 @@ class PartidosController extends ControllerBase
                 $hora[0] = strval(intval($hora[0]) + 1);
                 $hora = implode(':', $hora);
 
+                //calcula la difernecia de dias enstre la fecha actual y la del evento
                 $fechaObjetivo = strtotime($fecha);
                 $hoy = time();
                 $diferenciaEnSegundos = $fechaObjetivo - $hoy;
                 $dif = floor($diferenciaEnSegundos / (60 * 60 * 24)) + 1;
 
-                $file_path = 'http://localhost/AllTickets/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.twig';
+                //verifica si existen los ficheros twig y svg para mostrarlos posteriormente en partido.html.twig
+                $file_path = 'C:\xampp\htdocs\AllTickets\modules\partidos\templates/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.twig';
                 if (file_exists($file_path)) {
                     $secciones = true;
                 } else {
                     $secciones = false;
                 }
 
-                $file_path = 'http://localhost/AllTickets/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.svg';
+                $file_path = 'C:\xampp\htdocs\AllTickets\modules\partidos\templates/estadios/' . $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"] . '.svg';
                 if (file_exists($file_path)) {
                     $svg = true;
                 } else {
@@ -218,6 +223,7 @@ class PartidosController extends ControllerBase
                         "ciudad" => $partidosData["competitions"][0]["venue"]["address"]["city"],
                         "pais" => $partidosData["competitions"][0]["venue"]["address"]["country"],
                         "local" => $partidosData["competitions"][0]["competitors"][0]["team"]["displayName"],
+                        "local2" => $partidosData["competitions"][0]["competitors"][0]["team"]["shortDisplayName"],
                         "visitante" => $partidosData["competitions"][0]["competitors"][1]["team"]["displayName"],
                         "anio" => $anio,
                         "mes" => date("M", mktime(0, 0, 0, $mes, 1)),
@@ -235,6 +241,19 @@ class PartidosController extends ControllerBase
         return $listaPartidos;
     }
 
+    /**
+     * verificacion de inicio de sesion
+     *
+     * @param $mail
+     * indica el email del usuario
+     *
+     * @param $passwd
+     * contraseña del usuario
+     *
+     * @return bool
+     * si no hay usuarios con esos datos devuelve un false, si no devuelve true e indica como variable
+     * de sesion IDuser el email del usuario
+     */
     public function inicioSesion($mail, $passwd)
     {
         $mysql = mysqli_connect("localhost", "root", "");
@@ -258,6 +277,27 @@ class PartidosController extends ControllerBase
         }
     }
 
+    /**
+     * formulario de registro de usuarios
+     *
+     * @param $name
+     * nombre del usuario
+     *
+     * @param $surname
+     * apellidos del usuario
+     *
+     * @param $email
+     * email del usuario
+     *
+     * @param $passwd
+     * constraseña del usuario
+     *
+     * @param $phone
+     * telefono del usuario
+     *
+     * @return bool
+     * si los datos se han insertado cooresctamente devuelve un true, sino devuelve false
+     */
     public function registro($name, $surname, $passwd, $email, $phone)
     {
         $mysql = mysqli_connect("localhost", "root", "");
@@ -279,16 +319,37 @@ class PartidosController extends ControllerBase
         }
     }
 
-    public function ticket($user, $fixture, $cant, $seccion, $precio){
+    /**
+     * inserta en la tabla compra de la base de datos los datos de esta compra
+     *
+     * @param $user
+     * usuario que realiza la compra
+     *
+     * @param $match
+     * identificador del evento
+     *
+     * @param $cant
+     * numero de entradas
+     *
+     * @param $seccion
+     * seccion de la entrada
+     *
+     * @param $precio
+     * precio por entrada
+     *
+     */
+    public function ticket($user, $match, $cant, $seccion, $precio){
         $mysql = mysqli_connect("localhost", "root", "");
         $mysql->select_db("alltickets");
+        $fecha = date('d/m/Y H:i');
 
-        $query = "INSERT INTO `compra`(`id`,`user`, `fixture`, `cant`, `seccion`, `precio`) VALUES ('0','$user','$fixture','$cant','$seccion','$precio')";
-        $resultado = $mysql->query($query);
+        $query = "INSERT INTO `compra`(`id`,`user`, `match`, `cant`, `seccion`, `precio`, `fecha`) VALUES ('0','$user','$match','$cant','$seccion','$precio','$fecha')";
+        $mysql->query($query);
     }
 
     /**
-     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido', el cual sera el listado de partidos.
+     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido',
+     * el cual sera el listado de partidos.
      *
      * @return array
      *   Codigo del listado de partidos.
@@ -296,7 +357,7 @@ class PartidosController extends ControllerBase
     public function listado()
     {
         $data = [
-            'titulo' => 'fixtures',
+            'titulo' => 'matches',
         ];
 
         $partidos = $this->listaPartidos();
@@ -327,7 +388,8 @@ class PartidosController extends ControllerBase
     }
 
     /**
-     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido', el cual sera la informacion del partido.
+     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido',
+     * el cual sera la informacion del partido.
      *
      * @param int $id
      *   Identificador del partido.
@@ -340,7 +402,7 @@ class PartidosController extends ControllerBase
         $eqLocal = $this->eqLocal($id);
 
         $data = [
-            'titulo' => 'fixtures'
+            'titulo' => 'matches'
         ];
 
         $data2 = [
@@ -371,7 +433,8 @@ class PartidosController extends ControllerBase
     }
 
     /**
-     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido', el cual sera la informacion del partido.
+     * Devuelve el contenido, obtenido de renderizar las plantillas, que aparecera en el bloque 'contenido',
+     * el cual sera la informacion del partido.
      *
      * @param int $id
      *   Identificador del partido.
@@ -382,7 +445,7 @@ class PartidosController extends ControllerBase
     public function compra($id)
     {
         $eqLocal = $this->eqLocal($id);
-        $titulo = 'Entradas ' . $eqLocal[0]['local'];
+        $titulo = 'Tickets ' . $eqLocal[0]['local'];
 
         $data = [
             'titulo' => $titulo,
@@ -413,7 +476,9 @@ class PartidosController extends ControllerBase
         $entradas = $this->request->request->get('entradas');
         $seccion = $this->request->request->get('seccion');
         $precio = $this->request->request->get('precio');
-        if($_SESSION['IDuser'] != ''){
+
+        //si la sesion ya esta iniciada de antes, este codigo evita que se muestren los formulario de nicio o registro
+        if(isset($_SESSION['IDuser'])){
             $sesionIni = 'd-none';
             $pago = '<script>$(document).ready(function() {
                 $("#ocultarDatos").click(function () {
@@ -445,6 +510,7 @@ class PartidosController extends ControllerBase
             'sesionPago'=> $pago
         ];
 
+        //si se ha pulsado el submit del formulario de inicio de sesion
         if ($this->request->request->get('SignIn') !== null) {
             if ($this->inicioSesion($this->request->request->get('userIn'), $this->request->request->get('passIn'))) {
                 $data2 = [
@@ -479,6 +545,7 @@ class PartidosController extends ControllerBase
             }
         }
 
+        //si se ha pulsado el submit del formulario de registro
         if ($this->request->request->get('SignUp') !== null) {
             if ($this->registro($this->request->request->get('name'), $this->request->request->get('surname'), $this->request->request->get('pass'), $this->request->request->get('email'), $this->request->request->get('phone'))) {
                 //ir a pagina de inicio y enviar mail
@@ -514,6 +581,7 @@ class PartidosController extends ControllerBase
             }
         }
 
+        //si se ha pulsado el submit del formulario de pago
         if ($this->request->request->get('pago') !== null) {
             $this->ticket($_SESSION['IDuser'],$id, $this->request->request->get('entradas'), $this->request->request->get('seccion'),$this->request->request->get('precio'));
             $data2 = [

@@ -3,142 +3,26 @@
     listar todos los equipos y sus escudos
     mostrar tabla de puntos ( pensarla para las europeas )
  #}
-
-<select name="liga" id="liga">
-    <option value="esp.1">LaLiga EA Sports &#x1f1ea;&#x1f1f8;</option>
-    <option value="eng.1">English Premier League &#x1f3f4;&#xe0067;&#xe0062;&#xe0065;&#xe006e;&#xe0067;&#xe007f;</option>
-    <option value="ita.1">Italian Serie A &#x1f1ee;&#x1f1f9;</option>
-    <option value="ger.1">German Bundesliga &#x1f1e9;&#x1f1ea;</option>
-    <option value="fra.1">French Ligue 1 &#x1f1eb;&#x1f1f7;</option>
-    <option value="uefa.champions">UEFA Champions League</option>
-    <option value="uefa.europa">UEFA Europa League</option>
-    <option value="uefa.europa.conf">UEFA Conference League</option>
-</select>
-
-<div class="equipos"></div>
-
-<div class="tabla"></div>
-
-<script>
-    function obtenerEquipos(liga){
-        $.ajax({
-            url: "https://site.api.espn.com/apis/site/v2/sports/soccer/" + liga + "/teams",
-            method: "GET",
-            success: function (data) {
-                var equipos = [];
-                equiposDiv = $('.equipos');
-                equiposDiv.empty();
-                equiposDiv.append(`<h1>${data.sports[0].leagues[0].shortName}</h1><div class="listado">`);
-
-                var teams = data.sports[0].leagues[0].teams;
-                for (var i = 0; i <teams.length; i++) {
-                    ruta = 'http://localhost/AllTickets/equipo/'+enlace(teams[i].team.shortDisplayName);
-
-                    equiposDiv.append(`<a href="${ruta}">${teams[i].team.displayName}</a><img src="${teams[i].team.logos[0].href}" alt="${teams[i].team.logos[0].alt}" width="100" height="100">`)
-                }
-                equiposDiv.append(`</div>`);
-                // al hacer el enlace extraer el shortDisplayName, quitarle los espacios y los acentos
-            },
-            error: function () {
-                console.log("Error al obtener los datos de la API");
-                reject("Error al obtener los datos de la API");
-            }
-        });
-    }
-
-    function enlace(equipo){
-        // Quitar espacios
-        let sinEspacios = equipo.replace(/\s/g, '');
-
-        // Quitar acentos
-        let sinAcentos = sinEspacios.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-
-        return sinAcentos;
-    }
-
-    function id(liga) {
-        return new Promise(function (resolve, reject) {
-            var equipos = [];
-            $.ajax({
-                url: "https://site.api.espn.com/apis/site/v2/sports/soccer/" + liga + "/teams",
-                method: "GET",
-                success: function (data) {
-                    var teams = data.sports[0].leagues[0].teams;
-                    for (var i = 0; i < teams.length; i++) {
-                        var id = teams[i].team.id;
-                        equipos.push(id);
-                    }
-                    resolve(equipos);
-                },
-                error: function () {
-                    console.log("Error al obtener los datos de la API");
-                    reject("Error al obtener los datos de la API");
-                }
-            });
-        });
-    }
-
-    function tabla(liga) { //clasisficacion de la liga
-        var texto = '<table><tr><th>Equipo</th><th>PJ</th><th>V</th><th>E</th><th>D</th><th>Dif</th><th>Puntos</th></tr>';
-        id(liga).then(function (equipos) {
-            // Aquí tienes el array de equipos
-            var tablaDiv = $(".tabla");
-            tablaDiv.empty();
-            var promises = [];
-
-            for (var i = 0; i < equipos.length; i++) {
-                var promise = $.ajax({
-                    url: "https://site.api.espn.com/apis/site/v2/sports/soccer/" + liga + "/teams/" + equipos[i],
-                    method: "GET"
-                });
-                promises.push(promise);
-            }
-
-            Promise.all(promises).then(function (responses) {
-                responses.sort(function (a, b) {
-                    var posA = a.team.record.items[0].stats[23].value;
-                    var posB = b.team.record.items[0].stats[23].value;
-                    return posA - posB; // Orden ascendente por posición
-                });
-
-                responses.forEach(function (data) {
-                    var nombre = data.team.name;
-                    var pj = data.team.record.items[0].stats[0].value;
-                    var puntos = data.team.record.items[0].stats[3].value;
-                    var vic = data.team.record.items[0].stats[8].value;
-                    var emp = data.team.record.items[0].stats[7].value;
-                    var derr = data.team.record.items[0].stats[1].value;
-                    var pos = data.team.record.items[0].stats[23].value;
-                    var dif = data.team.record.items[0].stats[2].value;
-
-                    texto += '<tr><td>' + nombre + '</td>';
-                    texto += '<td>' + pj + '</td>';
-                    texto += '<td>' + vic + '</td>';
-                    texto += '<td>' + emp + '</td>';
-                    texto += '<td>' + derr + '</td>';
-                    texto += '<td>' + dif + '</td>';
-                    texto += '<td>' + puntos + '</td></tr>';
-                });
-
-                texto += '</table>'; // Cerrar la tabla después de agregar todas las filas
-                tablaDiv.append(texto);
-            }).catch(function (error) {
-                console.log("Error en la función tabla:", error);
-            });
-
-        }).catch(function (error) {
-            console.log(error);
-        });
-    }
-
-    $(document).ready(function () {
-        obtenerEquipos('esp.1');
-        tabla('esp.1');
-
-        $('#liga').on('change', function () {
-            var liga = $(this).val();
-            obtenerEquipos(liga);
-            tabla(liga);
-        });
-    });
-</script>
+{{ attach_library('equipos/listaEquipos') }}
+<div class="container bWht p-2 mt-3 pb-3">
+    <div class="d-block d-md-flex">
+        <div class="col-md-7 col-lg-8 col col-12 bWht pe-md-2">
+            <select name="liga" id="liga">
+                <option value="esp.1">Spanish LaLiga</option>
+                <option value="eng.1">English Premier League </option>
+                <option value="ita.1">Italian Serie A </option>
+                <option value="ger.1">German Bundesliga </option>
+                <option value="fra.1">French Ligue 1 </option>
+                <option value="uefa.champions">UEFA Champions League</option>
+                <option value="uefa.europa">UEFA Europa League</option>
+                <option value="uefa.europa.conf">UEFA Conference League</option>
+            </select>
+            <section class="equipos "></section>
+        </div>
+        <section class="col-md-5 col-lg-4 col col-12 float-start bWht ps-md-2">
+            <h4>Points Table</h4>
+            <div class="point-table w-100 overflow-hidden float-start text-center">
+            </div>
+        </section>
+    </div>
+</div>

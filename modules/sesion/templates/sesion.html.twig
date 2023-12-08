@@ -5,7 +5,7 @@
             <input type="checkbox" id="flip">
             <div class="cover position-absolute top-0 h-100 w-50 ">
                 <div class="position-absolute top-0 h-100 w-100">
-                    <img src="images/frontImg.jpg" alt="" class="position-absolute h-100 w-100">
+                    <img src="{{file_url('modules/sesion/assets/images/fondo.jpg')}}" alt="" class="position-absolute h-100 w-100">
                     <div class="text position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center text-center">
                         <span class="text-1 fw-bold">All European football in your hand</span>
                         <span class="text-2 fw-semibold">Try it!</span>
@@ -40,37 +40,37 @@
                         {{ fallo|raw }}
                         <form onsubmit="return validarFormulario()" method="post" action="http://localhost/AllTickets/sesion" class="sign-up-form">
                             <div class="mt-4">
-                                <div class="box d-flex flex-row">
+                                <div class="box d-md-flex flex-row">
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="i-user cLila"></i>
                                         <input type="text" placeholder="Name" name="name" required class="w-100 h-100 fw-semibold">
                                     </div>
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="i-user cLila"></i>
-                                        <input type="text" placeholder="Surname" name="surname" required class="w-100 h-100 fw-semibold" pattern="[A-Za-z0-9]{8,12}">
+                                        <input type="text" placeholder="Surname" name="surname" required class="w-100 h-100 fw-semibold">
                                     </div>
                                 </div>
-                                <div class="box d-flex flex-row">
+                                <div class="box d-md-flex flex-row">
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="cLila i-mail"></i>
-                                        <input type="email" placeholder="Email" required class="w-100 h-100 fw-semibold" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email">
+                                        <input type="email" placeholder="Email" required class="w-100 h-100 fw-semibold" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" id="email">
                                     </div>
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="cLila i-mail"></i>
-                                        <input type="email" placeholder="Repeat email" required class="w-100 h-100 fw-semibold" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="emailRep">
+                                        <input type="email" placeholder="Repeat email" required class="w-100 h-100 fw-semibold" pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="emailRep" id="emailRep">
                                     </div>
                                 </div>
-                                <div class="box d-flex flex-row">
+                                <div class="box d-md-flex flex-row">
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="cLila i-lock"></i>
-                                        <input type="password" name="pass" placeholder="Password" required class="w-100 h-100 fw-semibold" pattern="[A-Za-z0-9]{8,12}">
+                                        <input type="password" name="pass" placeholder="Password" required class="w-100 h-100 fw-semibold" pattern="[A-Za-z0-9]{8,12}" id="pass">
                                     </div>
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="cLila i-lock"></i>
-                                        <input type="password" name="passRep" placeholder="Repeat password" required class="w-100 h-100 fw-semibold" pattern="[A-Za-z0-9]{8,12}">
+                                        <input type="password" name="passRep" placeholder="Repeat password" required class="w-100 h-100 fw-semibold" pattern="[A-Za-z0-9]{8,12}" id="passRep">
                                     </div>
                                 </div>
-                                <div class="box d-flex flex-row">
+                                <div class="box d-md-flex flex-row">
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                         <i class="cLila i-phone"></i>
                                         <input type="tel" placeholder="Enter telephone" required class="w-100 h-100 fw-semibold" pattern="^(\+34|0034|34)?[6-7]\d{8}$" name="phone">

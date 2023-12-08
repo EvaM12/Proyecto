@@ -1,6 +1,6 @@
 {{ attach_library('general/inicio')}}
 
-<p class="h1 text-center mb-3 mt-4">Next Features</p>
+<p class="h1 text-center mb-3 mt-4">Next Matches</p>
 <div class="owl-carousel owl-theme container mb-4">
 	{% for partido in partidos %}
 		<div class="item partido text-center m-2 p-2 lh-1">
@@ -12,7 +12,7 @@
 					<!-- poner selector en el css con important-->
 					<p class="text-uppercase fw-bold p-2 h3">{{partido.local}}</p>
 				</article>
-				<p class="col col-2">vs</p>
+				<p class="col col-2 fs-2">vs</p>
 				<article class="visitante col col-5">
 					<img
 					src="{{partido.logoVisitante}}" alt="visitante" class="m-auto p-2">
@@ -24,8 +24,8 @@
 			<section class="d-flex flex-row m-auto text-center align-items-center justify-items-center">
 				<p class="fecha col col-6">{{partido.dia ~ ' ' ~ partido.mes ~ ' ' ~ partido.anio ~ ' ' ~ partido.hora }}</p>
 				<div class="entradas text-end col-2 m-0 p-0 d-grid align-items-center m-auto">
-                        <a href="http://localhost/AllTickets/partido/{{partido.id}}" data-testid="event-list-link" class="enlace d-inine-block position-relative">
-                            <span>Entradas</span>
+                        <a href="http://localhost/AllTickets/matches/{{partido.id}}" data-testid="event-list-link" class="enlace d-inine-block position-relative">
+                            <span>Tickets</span>
                             <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1em" height="1em"
                                 aria-hidden="true" focusable="false">
                                 <path d="M3.47 8.26 4.53 7.2 12 14.67l7.47-7.47 1.06 1.06L12 16.8 3.47 8.26Z">
@@ -38,11 +38,12 @@
 	{% endfor %}
 </div>
 
-<section class="nosotros position-relative mt-4 mb-4">
-	<div class="izquierda">
-		<p style="height: 250px;">jfrleoremvroemvoemovrerem</p>
+<section class="nosotros position-relative mt-4 mb-4 ">
+	<div class="izquierda p-4">
+        <p class="h1 pt-3 pb-3 text-center">About us<p>
+		<p>AllTickets is a comprehensive platform dedicated to the sale of tickets for soccer matches of the main European leagues and UEFA competitions, such as the Champions League or the Europa League. This project arises as a response to the growing demand from soccer fans looking for a complete and convenient experience to purchase tickets, access detailed information about matches and teams, and enjoy real-time functionalities.
+Unlike other tools, our application focuses exclusively on providing a complete and secure ticketing experience, without delving into the realm of sports betting. Although there are similar tools in the market, specialization and security are the pillars that differentiate our platform, offering users a reliable experience focused solely on their passion for soccer.</p>
 	</div>
-	<div class="derecha position-absolute"></div>
 </section>
 
 <section class="noticias container pb-3 pb-md-0">
@@ -90,14 +91,14 @@
     {% endfor %}
 </section>
 
-<section class="competiciones mt-4 pb-4 d-md-flex m-auto d-none">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/GermanBundesliga.png') }}" alt="bundesliga">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/EnglishPremierLeague.png') }}" alt="premier">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/UEFAChampionsLeague.png') }}" alt="champions">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/SpanishLaLiga.png') }}" alt="liga">
-    <img width="75" height="75" class="col col-4" src="{{ file_url('') }}" alt="logo">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/ItalianSerieA.png') }}" alt="seriea">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/UEFAEuropaLeague.png') }}" alt="europa">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/UEFAConferenceLeague.png') }}" alt="conf">
-    <img width="75" height="75" class="col col-1" src="{{ file_url('modules/partidos/assets/images/FrenchLigue1.png') }}" alt="ligue">
+<section class="competiciones mt-4 pb-4 d-md-flex align-items-center justify-content-center m-auto d-none">
+    <img src="{{ file_url('modules/partidos/assets/images/GermanBundesliga.png') }}" alt="bundesliga">
+    <img src="{{ file_url('modules/partidos/assets/images/EnglishPremierLeague.png') }}" alt="premier">
+    <img src="{{ file_url('modules/partidos/assets/images/UEFAChampionsLeague.png') }}" alt="champions">
+    <img src="{{ file_url('modules/partidos/assets/images/SpanishLaLiga.png') }}" alt="liga">
+    <img src="{{ file_url('themes/alltickets/assets/images/logo2.png') }}" alt="logo" style="width: max-content">
+    <img src="{{ file_url('modules/partidos/assets/images/ItalianSerieA.png') }}" alt="seriea">
+    <img src="{{ file_url('modules/partidos/assets/images/UEFAEuropaLeague.png') }}" alt="europa">
+    <img src="{{ file_url('modules/partidos/assets/images/UEFAConferenceLeague.png') }}" alt="conf">
+    <img src="{{ file_url('modules/partidos/assets/images/FrenchLigue1.png') }}" alt="ligue">
 </section>

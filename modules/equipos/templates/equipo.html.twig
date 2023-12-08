@@ -1,53 +1,126 @@
-{#
-    recibir jugadores
- #}
+{{ attach_library('equipos/equipos') }}
 
-<div class="porteros"></div>
-<div class="defensas"></div>
-<div class="centrocampistas"></div>
-<div class="delanteros"></div>
+<div class="container bWht p-2 mt-3 mb-3">
+    <section class="porteros"><p class="fs-1 fw-semibold text-uppercase mt-2 titulo p-2">Goalkeeper</p><section class="listado"></section></section>
+    <section class="defensas"><p class="fs-1 fw-semibold text-uppercase mt-2 titulo p-2">Defenders</p><section class="listado"></section></section>
+    <section class="centrocampistas"><p class="fs-1 fw-semibold text-uppercase mt-2 titulo p-2">Midfielders</p><section class="listado"></section></section>
+    <section class="delanteros"><p class="fs-1 fw-semibold text-uppercase mt-2 titulo p-2">Forwards</p><section class="listado"></section></section>
+</div>
 
+<script>
+    var porSection = $('.porteros .listado');
+    var defSection = $('.defensas .listado');
+    var medSection = $('.centrocampistas .listado');
+    var delSection = $('.delanteros .listado');
 
-{% for jug in jugadores %}
-    <script>
-        {# https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/197052 #}
-        porDiv = $('.porteros');
-        defDiv = $('.defensas');
-        medDiv = $('.centrocampistas');
-        delDiv = $('.delanteros');
+    var jugadores = [];
+    {% for jug in jugadores %}
+        jugadores.push('{{ jug.idJugador }}');
+    {% endfor %}
 
-        porDiv.empty();
-        porDiv.append(`<h3>Porteros</h3>`);
-        defDiv.empty();
-        defDiv.append(`<h3>Defensas</h3>`);
-        medDiv.empty();
-        medDiv.append(`<h3>Centrocampistas</h3>`);
-        delDiv.empty();
-        delDiv.append(`<h3>Delanteros</h3>`);
+    // Realizar la solicitud AJAX para cada jugador
+    jugadores.forEach(function (jugadorId) {
         $.ajax({
-            url: "https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/"+ {{jug.idJugador}},
+            url: "https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/" + jugadorId,
             method: "GET",
             success: function (data) {
+                var jugadorHTML = '';
 
-                switch(data.athlete.position.abbreviation){
-                    case('F'):
-                        delDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                switch (data.athlete.position.abbreviation) {
+                    case 'F':
+                        jugadorHTML = `<div class="p-1">
+                            <div class="jugador">
+                                <div class="num">${data.athlete.jersey}</div>
+                                <div class="datos">
+                                    <h4>${data.athlete.displayName}</h4>
+                                    <p>${data.athlete.position.name}</p>
+                                    <ul>
+                                        <li>${data.athlete.age} <span>Age</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[0].displayValue} <span>Matches</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[1].displayValue} <span>Goals</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[2].displayValue} <span>Assists</span></li>
+                                    </ul>
+                                </div>
+                                <img src="${data.athlete.team.logos[0].href}" alt="">
+                            </div>
+                        </div>`;
                         break;
-                    case('M'):
-                        medDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                    case 'M':
+                        jugadorHTML = `<div class="p-1">
+                            <div class="jugador">
+                                <div class="num">${data.athlete.jersey}</div>
+                                <div class="datos">
+                                    <h4>${data.athlete.displayName}</h4>
+                                    <p>${data.athlete.position.name}</p>
+                                    <ul>
+                                        <li>${data.athlete.age} <span>Age</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[0].displayValue} <span>Matches</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[1].displayValue} <span>Goals</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[2].displayValue} <span>Assists</span></li>
+                                    </ul>
+                                </div>
+                                <img src="${data.athlete.team.logos[0].href}" alt="">
+                            </div>
+                        </div>`;
                         break;
-                    case('D'):
-                        defDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Goles: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Asistencias: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                    case 'D':
+                        jugadorHTML = `<div class="p-1">
+                            <div class="jugador">
+                                <div class="num">${data.athlete.jersey}</div>
+                                <div class="datos">
+                                    <h4>${data.athlete.displayName}</h4>
+                                    <p>${data.athlete.position.name}</p>
+                                    <ul>
+                                        <li>${data.athlete.age} <span>Age</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[0].displayValue} <span>Matches</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[1].displayValue} <span>Goals</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[2].displayValue} <span>Assists</span></li>
+                                    </ul>
+                                </div>
+                                <img src="${data.athlete.team.logos[0].href}" alt="">
+                            </div>
+                        </div>`;
                         break;
-                    case('G'):
-                        porDiv.append(`<h4>${data.athlete.displayName}</h4><p>Dorsal: ${data.athlete.jersey}</p><p>Partidos: ${data.athlete.statsSummary.statistics[0].displayValue}</p><p>Saves: ${data.athlete.statsSummary.statistics[1].displayValue}</p><p>Clean Sheets: ${data.athlete.statsSummary.statistics[2].displayValue}</p><p>Edad: ${data.athlete.age}</p><p>Pais: <img src="${data.athlete.flag.href}" alt="${data.athlete.flag.alt}"></p>`);
+                    case 'G':
+                        jugadorHTML = `<div class="p-1">
+                            <div class="jugador">
+                                <div class="num">${data.athlete.jersey}</div>
+                                <div class="datos">
+                                    <h4>${data.athlete.displayName}</h4>
+                                    <p>${data.athlete.position.name}</p>
+                                    <ul>
+                                        <li>${data.athlete.age} <span>Age</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[0].displayValue} <span>Matches</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[1].displayValue} <span>Saves</span></li>
+                                        <li>${data.athlete.statsSummary.statistics[2].displayValue} <span>Clean sheets</span></li>
+                                    </ul>
+                                </div>
+                                <img src="${data.athlete.team.logos[0].href}" alt="">
+                            </div>
+                        </div>`;
+                        break;
+                }
+
+                // Agregar el jugador al área correspondiente y ordenar por dorsal
+                switch (data.athlete.position.abbreviation) {
+                    case 'F':
+                        delSection.append(jugadorHTML);
+                        break;
+                    case 'M':
+                        medSection.append(jugadorHTML);
+                        break;
+                    case 'D':
+                        defSection.append(jugadorHTML);
+                        break;
+                    case 'G':
+                        porSection.append(jugadorHTML);
                         break;
                 }
             },
             error: function () {
                 console.log("Error al obtener los datos de la API");
-                reject("Error al obtener los datos de la API");
             }
         });
-    </script>
-{% endfor %}
+    });
+</script>
+

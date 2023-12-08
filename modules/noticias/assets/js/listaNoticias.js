@@ -54,7 +54,7 @@ function obtenerDatosVariasLigas(ligas) {
                 enlace = `http://localhost/AllTickets/news/news/${id}`;
             }
 
-            if (article.images[0] !== undefined && article.images[0] !== null){
+            if (article.images[0] !== undefined && article.images[0] !== null) {
                 src = article.images[0].url
                 alt = article.images[0].caption
             }
@@ -75,6 +75,11 @@ function obtenerDatosVariasLigas(ligas) {
             // Formatear la fecha en el nuevo formato
             const formattedDate = `${day} ${month} ${year} ${hours}:${minutes}`;
 
+            var texto = article.description;
+            if (window.innerWidth < 768) {
+                texto = texto.substring(0, texto.length / 2) + '...';
+            }
+
             articlesDiv.append(`<article class="news-list-post mb-4">
                 <div class="post-thumb">
                     <img src="${src}" alt="${alt}">
@@ -84,7 +89,7 @@ function obtenerDatosVariasLigas(ligas) {
                         <a href="${enlace}">${article.headline}</a>
                     </h4>
                     <span>${formattedDate}</span>
-                    <p>${article.description}</p>
+                    <p>${texto}</p>
                 </div>
             </article>`);
         });

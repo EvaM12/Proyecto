@@ -10,6 +10,6 @@ noticias.noticia:
   path: '/news/{tipo}/{id}'
   defaults:
     _controller: '\Drupal\noticias\Controller\NoticiasController::tipoNoticia'
-    _title: 'Pagina principal' #buscar como poner el titulo de cabecera
+    _title: 'News'
   requirements:
     _permission: 'access content'

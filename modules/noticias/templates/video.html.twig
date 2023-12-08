@@ -1,8 +1,5 @@
-<div class="video"></div>
+{{ attach_library('noticias/noticia') }}
 <script>
-    //http://api-app.espn.com/v1/video/clips/38727871
-    // dame las noticias de la liga española
-    //https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news
     $(document).ready(function () {
         $.ajax({
             url: "https://api-app.espn.com/v1/video/clips/" + {{id}},
@@ -12,7 +9,7 @@
                 var videoData = data.videos[0];
 
                 // Mostrar los datos en la tabla
-                var videoBody = $(".video");
+                var videoBody = $("#video");
 
                 var title = videoData.headline;
                 var desc = videoData.description;
@@ -21,19 +18,39 @@
                 var tipo = partes[partes.length - 1];
                 var fecha = data.timestamp;
 
+                const dateString = fecha;
+                const dateObject = new Date(dateString);
+
+                // Restar una hora
+                dateObject.setHours(dateObject.getHours() - 1);
+
+                // Obtener los componentes de la fecha
+                const day = dateObject.getDate();
+                const month = dateObject.toLocaleString('en-US', { month: 'long' });
+                const year = dateObject.getFullYear();
+                const hours = dateObject.getHours();
+                const minutes = dateObject.getMinutes();
+
+                // Formatear la fecha en el nuevo formato
+                const fechaRes = `${day} ${month} ${year} ${hours}:${minutes}`;
+
                 var categories = '';
                 for (var j = 0; j < videoData.categories.length; j++) {
-                    categories = categories + videoData.categories[j].description + ', ';
+                    categories += `<li><p>${videoData.categories[j].description}</p></li>`;
                 }
 
-                categories = categories.slice(0, -2);
+                videoBody.append(`
+                    <h1 class="fw-semibold mb-3">${title}</h1>
+                    <p>${fechaRes}</p>
+                    <p>${desc}</p>
 
-                var video =
-                    "<h1>" + title + "</h1>" +
-                    "<p>" + desc + "</p>" +
-                    "<video controls> <source src='" + video + "' type='video/" + tipo + "'>Tu navegador no soporta el tag de video.</video>" +
-                    "<p>" + categories + "</p> <p>" + fecha + "</p>";
-                videoBody.append(video);
+                    <blockquote>
+                        <video controls> <source src ="${video}" type="video/${tipo}">Your browser does not support this video tag</video>
+                    </blockquote>
+
+                    <ul class="post-tags p-3 list-unstyled float-start w-100 text-wrap m-0">
+                        ${categories}
+                    </ul>`);
             },
             error: function () {
                 console.log("Error al obtener los datos de la API");
@@ -42,3 +59,16 @@
     });
 
 </script>
+
+<div class="container pb-3 pt-3">
+	<div class="row">
+		<!--News Start-->
+		<div class="col col-12 ps-lg-2 pe-lg-2">
+			<div class="news-large-post float-start w-100 overflow-hidden">
+				<div class="post-txt float-start w-100 pt-lg-4 ps-lg-5 pe-lg-5 pb-lg-4 p-3" id="video">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

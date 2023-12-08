@@ -1,8 +1,8 @@
 sesion.sesion:
-  path: '/sesion'
+  path: '/session'
   defaults:
     _controller: '\Drupal\sesion\Controller\SesionController::sesion'
-    _title: 'Inicio / Registro'
+    _title: 'Login / Sign Up'
   requirements:
     _permission: 'access content'
 
@@ -10,7 +10,7 @@ sesion.finsesion:
   path: '/finsesion'
   defaults:
     _controller: '\Drupal\sesion\Controller\SesionController::finsesion'
-    _title: 'Inicio / Registro'
+    _title: 'Login / Sign Up'
   requirements:
     _permission: 'access content'
 

@@ -1,10 +1,12 @@
 $(document).ready(function () {
+    /* codigo para mostrar los popups */
     $('.hover').hover(function () {
         $(this).next().css({ "display": "block" });
     }, function () {
         $(this).next().css({ "display": "none" });
     });
 
+    /* codigo para el temporizador y posterior redireccion */
     const countdownWorker = new Worker(URL.createObjectURL(new Blob([`
         let timeLeft = 600;
 
@@ -36,12 +38,12 @@ $(document).ready(function () {
             $('.fondo').removeClass('hide');
 
             setTimeout(function () {
-                window.location.href = 'http://localhost/AllTickets/partidos';
+                window.location.href = 'http://localhost/AllTickets/matches';
             }, 5000);
         }
     };
 
-
+    /* codigo botones modales */
     $('#abandonar').click(function () {
         $('#modAb').removeClass('hide');
         $('.fondo').removeClass('hide');
@@ -53,13 +55,14 @@ $(document).ready(function () {
     });
 
     $('.user-select-close').click(function () {
-        window.location.href = 'http://localhost/AllTickets/fixtures';
+        window.location.href = 'http://localhost/AllTickets/matches';
     });
 
     $('.user-select-none').click(function () {
         $('#modAb').addClass('hide');
     });
 
+    /* codigo formulario */
     $('#js-siTab').click(function () {
         $('#js-siTab').addClass('act');
         $('#js-nuTab').removeClass('act');
@@ -73,34 +76,6 @@ $(document).ready(function () {
         $('#js-siPanel').addClass('hide');
         $('#js-nuPanel').removeClass('hide');
     })
-
-
-    if ($(window).width() < 768) {
-        $('.contenido').removeClass('d-flex');
-        $('#nombre').removeClass('d-flex');
-    }
-
-    $(window).resize(function () {
-        if ($(window).width() < 768) {
-            $('.contenido').removeClass('d-flex');
-            $('#nombre').removeClass('d-flex');
-        } else {
-            $('.contenido').addClass('d-flex');
-            $('#nombre').addClass('d-flex');
-        }
-    });
-
-    if ($(window).width() < 576) {
-        $('#info').removeClass('d-flex');
-    }
-
-    $(window).resize(function () {
-        if ($(window).width() < 576) {
-            $('#info').removeClass('d-flex');
-        } else {
-            $('#info').addClass('d-flex');
-        }
-    });
 
 
     $('.sign-up-htm').submit(function (event) {
@@ -139,4 +114,32 @@ $(document).ready(function () {
         // Redirigir al usuario a la nueva página
         window.location.href = 'http://localhost/AllTickets/inicio';
     }
+
+    /* codigo de cambios de tamaño del pantalla */
+    if ($(window).width() < 768) {
+        $('.contenido').removeClass('d-flex');
+        $('#nombre').removeClass('d-flex');
+    }
+
+    $(window).resize(function () {
+        if ($(window).width() < 768) {
+            $('.contenido').removeClass('d-flex');
+            $('#nombre').removeClass('d-flex');
+        } else {
+            $('.contenido').addClass('d-flex');
+            $('#nombre').addClass('d-flex');
+        }
+    });
+
+    if ($(window).width() < 576) {
+        $('#info').removeClass('d-flex');
+    }
+
+    $(window).resize(function () {
+        if ($(window).width() < 576) {
+            $('#info').removeClass('d-flex');
+        } else {
+            $('#info').addClass('d-flex');
+        }
+    });
 });

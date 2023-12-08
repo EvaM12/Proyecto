@@ -158,9 +158,9 @@ class GeneralController extends ControllerBase
                 $id = end($trozos);
 
                 if (strpos($news[$i]['links']['api']['news']['href'], 'video') !== false) {
-                    $enlace = 'http://localhost/AllTickets/noticias/video/' . $id;
+                    $enlace = 'http://localhost/AllTickets/news/video/' . $id;
                 } else {
-                    $enlace = 'http://localhost/AllTickets/noticias/noticia/' . $id;
+                    $enlace = 'http://localhost/AllTickets/news/news/' . $id;
                 }
 
                 $fechaOriginal = $news[$i]['published'];
@@ -195,12 +195,8 @@ class GeneralController extends ControllerBase
 
     public function inicio()
     {
-
-        $parts = explode('/', rtrim($_SERVER['REQUEST_URI'], '/'));
-        $titulo = end($parts);
-
         $data = [
-            'titulo' => $titulo
+            'titulo' => 'AllTickets'
         ];
 
         $partidos = $this->listaPartidos();

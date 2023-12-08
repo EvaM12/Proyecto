@@ -1,37 +1,35 @@
-.listaPartidos{
+.listaPartidos {
     background-color: #f1f1f1 !important;
     color: #121212;
 }
 
-.listaPartidos>div>div{
+.listaPartidos>div>div {
     background-color: white !important;
     border-radius: 0.25em;
 }
 
-.partidos li {
-	border-bottom: 1px solid #bfbfbf;
+.partidos li, .filtros {
+    border-bottom: 1px solid #bfbfbf;
 }
 
 .partidos li>div {
     display: grid;
     align-items: center;
-	margin: 1em 0;
+    margin: 1em 0;
 }
 
 .day {
-	font-size: 1.75em;
+    font-size: 1.75em;
 }
 
 .month {
-	font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 .entradas {
     color: #121212;
     align-self: center;
-    /* margin-left: 16px; */
     flex-shrink: 0;
-    /* min-width: 12em */
     margin-left: 1em !important;
 }
 
@@ -54,7 +52,7 @@
     isolation: isolate;
     border: 1px solid transparent;
     background-color: #024ddf;
-	width: fit-content;
+    width: fit-content;
     transition: background-color .2s;
     min-height: 0;
     padding: 0.5em 1em;
@@ -89,10 +87,66 @@
 
 @media (max-width: 992px) {
     .col-lg-9 {
-      order: 2;
+        order: 2;
     }
 
     .col-lg-3 {
-      order: 1;
+        order: 1;
     }
-  }
+}
+
+select {
+    padding: 0 0.5em;
+    border-radius: 1em;
+    width: 100%;
+    background-color: #fff;
+}
+
+.filtros button {
+    width: 100%;
+    border-radius: 0.5em;
+    background-color: #21b0f5;
+    color: #fff;
+}
+
+.filtros label {
+    width: 40%;
+}
+
+.filtros input {
+    width: 60%;
+}
+
+@media(max-width:767px){
+    .partidos li>div {
+        display: block;
+        align-items: center;
+        margin: 0.5em 0;
+        text-align: center;
+    }
+
+    .day {
+        font-size: 1.5em;
+    }
+
+    .month, .year {
+        font-size: 1.5em;
+    }
+
+    .entradas {
+        margin: auto;
+        padding: 0.5em;
+    }
+}
+
+.filtros section {
+    width: 100%;
+}
+
+@media(min-width:768px) and (max-width:1023px){
+    .filtros section {
+        width: 60%;
+        margin: auto;
+        padding: 1em;
+    }
+}

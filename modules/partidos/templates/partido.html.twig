@@ -19,7 +19,7 @@
             <div class="estadio">
                 {% for local in local %}
                     {% if local.svg == true %}
-                        <svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/' ~ local.local ~ '.svg')}}">
+                        <svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/' ~ local.local2 ~ '.svg')}}">
                     {% else %}
                         <svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/advertencia.svg')}}">
                     {% endif %}
@@ -49,7 +49,7 @@
                     {% for local in local %}
                         {% block estadio %}
                             {% if local.secciones == true %}
-                                {{ include("@partidos/estadios/" ~ local.local ~ ".twig")}}
+                                {{ include("@partidos/estadios/" ~ local.local2 ~ ".twig")}}
                             {% else %}
                                 {{ include("@partidos/estadios/default.twig")}}
                             {% endif %}

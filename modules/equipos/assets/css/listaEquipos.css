@@ -1,0 +1,95 @@
+main {
+    font-size: 16px;
+}
+
+.container {
+    border-radius: 0.5em;
+}
+
+.bAzul5 {
+    background-color: #072273 !important;
+}
+
+.bWht {
+    background-color: #fff!important
+}
+
+/* estilos de la tabla de puntos */
+
+.point-table {
+    border-radius: 0.5em;
+    border: 1px solid #e1e1e1;
+}
+
+.point-table table thead tr th {
+    line-height: 46px;
+    padding: 0 0.5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.point-table table tbody tr {
+    border-bottom: 1px solid #e1e1e1;
+    background: #fafafa;
+}
+
+.point-table table tbody tr td {
+    padding: 11px 10px 11px;
+    color: #777777;
+}
+
+.point-table table tbody tr td img {
+    margin-right: 5px;
+}
+
+.point-table table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.point-table table tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* estilos de los equipos */
+.listado {
+    display: grid;
+    grid-auto-rows: minmax(100px, auto); /* Altura mínima de 100px, altura máxima automática */
+    grid-gap: 20px; /* Espacio entre celdas */
+    justify-content: center; /* Centrar el contenido horizontalmente */
+}
+
+@media(max-width:1023px){
+    .listado {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+    }
+}
+
+@media(max-width:767px){
+    .listado {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual ancho */
+    }
+}
+
+@media(min-width:1023.5px){
+    .listado {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
+    }
+}
+
+article {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.listado a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}

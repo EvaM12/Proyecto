@@ -1,14 +1,14 @@
 equipos.listado:
-  path: '/equipos'
+  path: '/teams'
   defaults:
     _controller: '\Drupal\equipos\Controller\EquiposController::equipos'
-    _title: 'Listado de equipos'
+    _title: 'Teams list'
   requirements:
     _permission: 'access content'
 equipos.equipos:
-  path: '/equipo/{nombre}'
+  path: '/teams/{nombre}'
   defaults:
     _controller: '\Drupal\equipos\Controller\EquiposController::jugadores'
-    _title: 'Datos personales' #buscar como poner el nombre del equipo
+    _title: 'Team players' 
   requirements:
     _permission: 'access content'

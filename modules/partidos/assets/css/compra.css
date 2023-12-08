@@ -1,23 +1,8 @@
-.cabecera .titulo {
-    color: #fff !important;
-    -o-text-overflow: ellipsis;
-    text-overflow: ellipsis;
-    -webkit-box-ordinal-group: 0;
-    -ms-flex-order: -1;
-    order: -1;
-    overflow: hidden
-}
-
-.cabecera {
-    background-color: #37383a !important;
-    padding: .5em 4%
-}
-
+/* estilo de cada bloque */
 .tile,
 input {
     background-color: #fff
 }
-
 
 .tile {
     -webkit-box-shadow: 1px 2px 1px #dfdfe0, -1px -1px 0 #f2f2f2;
@@ -213,7 +198,20 @@ input {
     transform: translate(-50%, -50%);
     max-width: 60%;
     padding: 1.25em;
-    border-radius: .5em
+    border-radius: .5em;
+    height: min-content;
+}
+
+.modal{
+    position: relative;
+}
+
+@media(max-width:767px) {
+    #kick-user-modal,
+    #modAb {
+        width: 90%;
+        max-width: none;
+    }
 }
 
 .fondo {
@@ -265,7 +263,6 @@ input {
 .ticket-left {
     border-radius: 0.5em 0 0 0.5em
 }
-
 
 .hide {
     display: none

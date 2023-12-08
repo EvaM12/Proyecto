@@ -3,28 +3,25 @@
 
 <header class="d-flex flex-row text-wrap position-fixed">
 	<div class="logo">
-		<a href="#top">
+		<a href="http://localhost/AllTickets/inicio">
 			<img src="{{ file_url('themes/alltickets/assets/images/logo.png') }}" alt="logo">
 		</a>
 	</div>
 	<ul class="menu">
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/fixtures">Partidos</a>
+			<a class="nav-link" href="http://localhost/AllTickets/matches">Matches</a>
 		</li>
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/news">Noticias</a>
+			<a class="nav-link" href="http://localhost/AllTickets/news">News</a>
 		</li>
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/equipos">Equipos</a>
-		</li>
-		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/directo">Directo</a>
+			<a class="nav-link" href="http://localhost/AllTickets/teams">Teams</a>
 		</li>
 		<li>
             {% if email is not empty %}
                 <a class="nav-link d-md-none d-block" href="http://localhost/AllTickets/finsesion">{{ email }}</a>
             {% else %}
-                <a class="nav-link d-md-none d-block" href="http://localhost/AllTickets/sesion">Inicio / Registro</a>
+                <a class="nav-link d-md-none d-block" href="http://localhost/AllTickets/sesion">Login / Sign up</a>
             {% endif %}
 		</li>
 	</ul>
@@ -32,7 +29,7 @@
         {% if email is not empty %}
             <a class="nav-link d-md-block d-none sesion" href="http://localhost/AllTickets/finsesion">{{ email }}</a>
         {% else %}
-            <a class="nav-link d-md-block d-none sesion" href="http://localhost/AllTickets/sesion">Inicio / Registro</a>
+            <a class="nav-link d-md-block d-none sesion" href="http://localhost/AllTickets/sesion">Login / Sign up</a>
         {% endif %}
 	</div>
 	<div class="header-bar d-md-none d-block">

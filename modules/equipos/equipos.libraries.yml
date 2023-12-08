@@ -1,0 +1,15 @@
+listaEquipos:
+    version: 1.x
+    css:
+        theme:
+            assets/css/listaEquipos.css: {}
+    js:
+        assets/js/listaEquipos.js: {}
+
+equipos:
+    version: 1.x
+    css:
+        theme:
+            assets/css/equipos.css: {}
+    js:
+        assets/js/equipos.js: {}

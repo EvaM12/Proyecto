@@ -16,6 +16,16 @@ header>div {
 
 header .logo {
     text-align: center;
+    width: 25%;
+    margin: 0;
+}
+
+header .logo a{
+    width: 80%;
+}
+
+header .logo img {
+    width: 60%;
 }
 
 header .menu {
