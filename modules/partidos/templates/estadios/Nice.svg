@@ -1,0 +1,330 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="460" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.3637264668941498,0,0,0.3637264668941498,-17.697704315185547,16.154767990112305)">
+            <g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1185.450, -186.050)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 901.059 197.348 Q 901.059 192.116 897.099 188.439 Q 892.998 184.904 887.341 184.904 L 484.300 184.904 Q 478.643 184.904 474.542 188.439 Q 470.441 192.116 470.441 197.348 L 470.441 802.051 Q 470.441 807.284 474.542 810.819 Q 478.643 814.496 484.300 814.496 L 887.341 814.496 Q 892.998 814.496 897.099 810.819 Q 901.059 807.284 901.059 802.051 L 901.059 197.348 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1185.450, -186.050)">
+                    <path stroke-width="1.8" fill="#050505" stroke="#000000"
+                        d="M 901.059 197.348 L 901.059 802.051 Q 901.059 807.284 897.099 810.819 Q 892.998 814.496 887.341 814.496 L 484.300 814.496 Q 478.643 814.496 474.542 810.819 Q 470.441 807.284 470.441 802.051 L 470.441 197.348 Q 470.441 192.116 474.542 188.439 Q 478.643 184.904 484.300 184.904 L 887.341 184.904 Q 892.998 184.904 897.099 188.439 Q 901.059 192.116 901.059 197.348 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1184.672, -185.131)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 873.412 209.581 L 873.412 789.960 L 496.391 789.960 L 496.391 209.581 L 873.412 209.581 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1184.460, -185.060)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000" d="M 872.917 499.700 L 496.604 499.700"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1184.672, -185.131)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 737.085 499.771 Q 737.085 519.145 721.812 532.721 Q 706.397 546.439 684.901 546.439 Q 663.265 546.439 647.850 532.721 Q 632.718 519.145 632.718 499.771 Q 632.718 480.255 647.850 466.679 Q 663.265 453.103 684.901 453.103 Q 706.397 453.103 721.812 466.679 Q 737.085 480.255 737.085 499.771 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1427.770, -428.511)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 971.697 546.014 L 1051.315 546.014 L 1051.315 453.244 L 804.965 453.244 L 804.965 546.014 L 884.866 546.014"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1371.202, -371.661)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 846.401 504.437 Q 858.138 510.094 871.432 510.094 Q 884.725 510.094 896.321 504.437 Q 907.493 499.064 914.847 489.447 L 828.016 489.447 Q 835.087 498.922 846.401 504.437 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 941.221, 58.037)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 485.149 452.749 L 564.767 452.749 L 564.767 546.509 L 318.417 546.509 L 318.417 452.749 L 398.318 452.749"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 998.708, 0.834)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 473.906 495.104 Q 485.644 489.306 498.937 489.306 Q 512.089 489.306 523.826 495.104 Q 534.998 500.619 542.352 510.236 L 455.522 510.236 Q 462.593 500.619 473.906 495.104 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1455.700, -455.875)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 907.140 482.164 L 1004.435 482.164 L 1004.435 517.660 L 907.140 517.660 L 907.140 482.164 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 914.210, 85.614)">
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 365.651 482.164 L 462.946 482.164 L 462.946 517.660 L 365.651 517.660 L 365.651 482.164 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+            </g>
+            <g sprite-identifier="s467732">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1515.668, -882.983)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1378.561 302.281 L 1378.561 265.560 L 1245.956 265.560 Q 1184.025 265.560 1125.737 287.126 Q 1067.595 308.401 1020.090 348.474 L 1033.788 367.126 Q 1065.263 335.797 1105.773 319.039 Q 1146.138 302.281 1190.582 302.281 L 1378.561 302.281 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1229.326" y="321.343">A3</text>
+            </g>
+            <g sprite-identifier="s467753" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1460.732, -654.639)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 963.696 360.715 L 963.696 445.378 L 1151.675 445.378 L 1151.675 360.715 L 963.696 360.715 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1057.686" y="408.046">A1</text>
+                <circle cx="1057.686" cy="373.046" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467741" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1556.761, -756.498)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1059.726 451.061 L 1253.533 450.915 L 1253.533 349.203 L 1059.726 349.203 L 1059.726 451.061 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1156.630" y="405.132">A2</text>
+                <circle cx="1156.630" cy="370.132" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467742" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1772.354, -540.468)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1232.768 564.795 L 1043.332 564.795 L 1043.332 666.508 L 1235.683 666.508 Q 1240.491 666.508 1245.592 667.091 L 1269.490 568.001 Q 1251.420 564.795 1232.768 564.795 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1156.411" y="620.943">B2</text>
+                <circle cx="1156.411" cy="585.943" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467743">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1915.378, -298.937)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1144.972 772.082 Q 1098.050 725.014 1033.642 712.045 L 1009.890 810.698 Q 1047.048 815.652 1075.026 841.590 Q 1103.150 867.383 1111.019 904.395 L 1204.426 883.703 Q 1191.894 819.295 1144.972 772.082 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1107.158" y="813.220">C2</text>
+            </g>
+            <g sprite-identifier="s467733">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1852.937, -605.022)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1346.867 645.087 L 1351.530 620.606 Q 1298.051 602.828 1241.949 602.828 L 1106.429 602.828 L 1106.429 639.550 L 1297.322 639.550 Q 1322.386 639.550 1346.867 645.087 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1228.979" y="628.958">B3</text>
+            </g>
+            <g sprite-identifier="s467734">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1988.311, -290.704)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1042.750 757.874 L 1038.378 781.918 Q 1096.666 796.927 1139.653 839.331 Q 1182.349 881.590 1198.233 939.732 L 1240.637 930.844 Q 1209.890 870.516 1158.160 825.342 Q 1106.575 780.169 1042.750 757.874 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1153.308" y="867.603">C3</text>
+            </g>
+            <g sprite-identifier="s467735" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1816.507, 80.590)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 828.396 773.612 Q 834.662 799.404 834.662 826.071 L 834.662 1132.666 L 907.521 1132.666 L 907.521 917.729 Q 907.521 836.854 872.112 764.432 L 828.396 773.612 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="867.959" y="953.549">D3</text>
+                <circle cx="867.959" cy="918.549" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467756" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1608.201, -74.966)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 883.842 621.990 Q 883.842 618.785 883.551 615.433 L 799.325 631.899 L 799.325 917.802 L 883.842 917.802 L 883.842 621.990 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="841.583" y="771.617">D1</text>
+                <circle cx="841.583" cy="736.617" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467744">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1854.176, -131.651)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1041.074 863.740 Q 1041.074 845.962 1038.159 828.330 L 944.753 848.876 Q 946.356 858.931 946.356 867.965 L 946.356 894.195 L 1041.074 894.195 L 1041.074 863.740 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="987.913" y="866.262">D2</text>
+            </g>
+            <g sprite-identifier="s467755">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1788.310, -291.797)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1016.156 772.956 L 1016.156 805.889 L 1099.945 789.714 Q 1096.010 752.847 1070.801 725.451 Q 1045.591 697.910 1009.161 690.624 L 980.163 772.956 L 1016.156 772.956 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1040.054" y="753.257">C1</text>
+            </g>
+            <g sprite-identifier="s467752" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1545.177, 178.951)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 730.472 591.025 L 635.754 591.025 L 635.754 1133.103 L 730.472 1133.103 L 730.472 591.025 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="683.113" y="867.064">E</text>
+                <circle cx="683.113" cy="832.064" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467754" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1664.886, -450.486)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1162.021 566.180 Q 1153.569 564.868 1145.701 564.868 L 953.350 564.868 L 953.350 649.531 L 1132.586 649.531 L 1162.021 566.180 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1057.686" y="612.200">B1</text>
+                <circle cx="1057.686" cy="577.2" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467757" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1321.497, 211.738)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 597.138 636.927 L 512.621 636.927 L 512.621 896.308 L 597.138 896.308 L 597.138 636.927 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="554.879" y="771.617">F1</text>
+                <circle cx="554.879" cy="736.617" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467745" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1240.841, 482.995)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 331.710 865.197 Q 331.710 868.694 331.418 871.900 L 425.407 889.241 Q 426.427 878.603 426.427 869.277 L 426.427 834.596 L 331.710 834.596 L 331.710 865.197 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="382.923" y="866.918">F2</text>
+            </g>
+            <g sprite-identifier="s467758" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1105.540, 421.720)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 387.156 686.180 L 302.638 686.180 L 302.638 747.382 L 296.664 747.382 L 296.664 841.080 Q 315.025 837.291 331.491 827.528 Q 347.812 817.765 360.198 803.193 Q 373.167 787.747 380.161 768.949 Q 387.156 750.005 387.156 729.896 L 387.156 686.180 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="341.910" y="768.630">G1</text>
+            </g>
+            <g sprite-identifier="s467746" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1076.032, 556.147)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 257.830 712.920 Q 253.895 749.787 229.123 778.348 Q 204.205 807.055 168.212 816.235 L 168.212 919.259 Q 203.039 914.159 234.806 897.838 Q 266.573 881.517 291.345 856.016 Q 316.409 830.370 331.855 798.020 Q 347.447 765.524 351.673 730.260 L 257.830 712.920 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="259.942" y="821.089">G2</text>
+            </g>
+            <g sprite-identifier="s467737" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1144.593, 642.340)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 267.083 823.157 Q 258.777 859.149 239.105 890.916 Q 219.287 922.538 190.288 945.998 L 202.675 963.776 Q 237.793 937.984 265.626 904.177 Q 293.312 870.516 311.964 831.317 L 267.083 823.157 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="250.126" y="902.466">G3</text>
+            </g>
+            <g sprite-identifier="s467736" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1447.836, 451.010)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 464.242 1076.272 Q 464.242 1098.713 459.724 1120.717 L 505.772 1129.023 Q 537.102 1060.243 537.102 984.760 L 537.102 769.823 L 464.242 769.823 L 464.242 1076.272 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="498.413" y="954.423">F3</text>
+            </g>
+            <g sprite-identifier="s467759" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 917.051, 296.911)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 204.496 558.894 L 204.496 655.069 L 398.303 655.069 Q 406.901 655.069 415.644 653.612 L 415.644 558.894 L 204.496 558.894 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="310.070" y="611.981">H1</text>
+            </g>
+            <g sprite-identifier="s467740">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 464.227, -287.498)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 372.147 -103.767 L 299.287 -103.767 L 299.287 1.151 Q 299.287 85.668 337.757 160.423 Q 355.826 195.396 381.327 225.997 Q 406.974 256.598 438.304 280.496 L 452.438 263.884 Q 414.114 231.825 393.130 187.089 Q 372.147 142.499 372.147 92.663 L 372.147 -103.767 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="375.863" y="62.364">J3</text>
+            </g>
+            <g sprite-identifier="s467761" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 679.601, -185.349)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 376.373 303.957 Q 376.373 326.835 385.116 347.818 Q 393.713 368.074 409.160 383.811 Q 424.606 399.403 444.861 408.146 Q 465.699 417.327 488.577 417.618 L 488.577 321.443 L 460.890 321.443 L 460.890 76.634 L 376.373 76.634 L 376.373 303.957 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="432.475" y="252.126">J1</text>
+                <circle cx="432.475" cy="217.126" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467739" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 479.819, 171.228)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 324.351 367.928 L 324.351 331.206 L 136.372 331.206 Q 98.922 331.206 63.366 318.820 Q 27.811 306.434 -1.625 283.119 L -15.759 299.585 Q 29.705 333.101 82.456 350.441 Q 135.352 367.928 191.746 367.928 L 324.351 367.928 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="133.296" y="330.523">I3</text>
+                <circle cx="133.296" cy="295.523" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467738" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 824.301, 517.458)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M -16.051 675.688 L -16.051 712.410 L 119.469 712.410 Q 174.551 712.410 226.281 695.652 Q 278.012 679.040 322.893 646.981 L 310.507 629.349 Q 280.926 652.227 246.536 664.031 Q 212.001 675.688 174.842 675.688 L -16.051 675.688 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="131.421" y="675.879">H3</text>
+                <circle cx="131.421" cy="640.879" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467750">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 866.122, -500.104)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 691.128 107.235 L 691.128 257.326 L 775.645 257.326 L 775.645 107.235 L 691.128 107.235 M 685.299 -88.030 L 590.581 -88.030 L 590.581 454.048 L 685.299 454.048 L 685.299 -88.030 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="683.113" y="147.009">K</text>
+            </g>
+            <g sprite-identifier="s467749" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 474.354, -86.478)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 176.955 102.791 Q 176.955 145.341 192.838 184.248 Q 208.722 223.155 238.303 253.902 Q 267.447 283.775 305.043 300.824 Q 342.493 317.727 383.877 319.767 L 383.877 217.909 Q 360.999 216.452 340.161 206.543 Q 319.906 196.780 304.460 180.313 Q 289.014 163.847 280.416 143.155 Q 271.673 121.734 271.673 98.710 L 271.673 68.109 L 176.955 68.109 L 176.955 102.791 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="280.416" y="198.938">J2</text>
+                <circle cx="280.416" cy="163.938" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467762" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1179.420, -685.168)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 960.709 164.066 L 988.396 164.066 L 988.396 79.548 Q 965.518 79.840 944.680 88.874 Q 924.571 97.617 908.979 113.210 Q 893.532 128.947 884.935 149.348 Q 876.192 170.332 876.192 193.210 L 876.192 414.704 L 960.709 414.704 L 960.709 164.066 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="932.294" y="252.126">L1</text>
+                <circle cx="932.294" cy="217.126" fill="#e53935" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467751" data-original-title="" cursor="pointer">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1277.562, -889.686)">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1143.369 183.519 Q 1164.207 173.465 1187.085 172.007 L 1187.085 70.295 Q 1145.701 72.189 1108.251 89.239 Q 1070.655 106.142 1041.511 136.160 Q 1011.930 166.907 996.046 205.814 Q 980.163 244.722 980.163 287.126 L 980.163 317.582 L 1074.881 317.582 L 1074.881 291.352 Q 1074.881 268.183 1083.624 246.762 Q 1092.221 226.215 1107.668 209.603 Q 1123.114 193.137 1143.369 183.519 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="1083.624" y="198.938">L2</text>
+                <circle cx="1083.624" cy="163.938" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s467763">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1062.188, -903.820)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 1050.400 -82.128 L 1036.411 -101.217 Q 978.851 -50.944 947.230 18.273 Q 915.609 87.490 915.609 163.410 L 915.609 259.585 L 988.469 259.585 L 988.469 71.752 Q 988.469 28.473 1004.352 -11.017 Q 1020.382 -50.652 1050.400 -82.128 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="983.004" y="59.184">L3</text>
+            </g>
+            <g sprite-identifier="s467760">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 712.388, 92.248)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 216.809 354.230 L 216.809 450.405 L 403.331 450.405 L 403.331 354.230 L 216.809 354.230 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="310.070" y="407.318">I1</text>
+            </g>
+            <g sprite-identifier="s467747" data-original-title="">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 816.432, 403.505)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 291.709 560.278 L 97.902 560.278 L 97.902 661.990 L 288.795 661.990 Q 302.201 661.990 315.025 660.533 L 315.025 557.946 Q 303.658 560.278 291.709 560.278 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="206.463" y="614.968">H2</text>
+            </g>
+            <g sprite-identifier="s467748">
+                <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 604.701, 194.106)">
+                    <path fill="#f1f1f1" stroke="#000000"
+                        d="M 301.473 348.547 L 109.122 348.547 L 109.122 450.260 L 301.473 450.260 L 301.473 348.547 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="205.298" y="404.403">I2</text>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

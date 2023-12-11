@@ -1,5 +1,0 @@
-name: Directo
-type: module
-description: 'Muestra los partidos en directo.'
-core_version_requirement: ^8 || ^9 || ^10
-package: Custom

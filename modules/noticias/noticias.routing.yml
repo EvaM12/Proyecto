@@ -1,15 +1,21 @@
+# Este fichero YAML define la configuración de rutas para el módulo noticias.
+# Contiene dos definiciones de ruta: noticias.noticias y noticias.noticia.
+# La ruta noticias.noticias corresponde a la ruta '/noticias' y es gestionada por el método NoticiasController::notGeneral.
+# La ruta noticias.noticia corresponde a la ruta '/noticias/{tipo}/{id}' y es gestionada por el método NoticiasController::tipoNoticia.
+# Ambas rutas requieren que se conceda el permiso 'access content'.
+
 noticias.noticias:
-  path: '/news'
-  defaults:
-    _controller: '\Drupal\noticias\Controller\NoticiasController::notGeneral'
-    _title: 'News'
-  requirements:
-    _permission: 'access content'
+    path: '/news'
+    defaults:
+        _controller: '\Drupal\noticias\Controller\NoticiasController::notGeneral'
+        _title: 'News'
+    requirements:
+        _permission: 'access content'
 
 noticias.noticia:
-  path: '/news/{tipo}/{id}'
-  defaults:
-    _controller: '\Drupal\noticias\Controller\NoticiasController::tipoNoticia'
-    _title: 'News'
-  requirements:
-    _permission: 'access content'
+    path: '/news/{tipo}/{id}'
+    defaults:
+        _controller: '\Drupal\noticias\Controller\NoticiasController::tipoNoticia'
+        _title: 'News'
+    requirements:
+        _permission: 'access content'

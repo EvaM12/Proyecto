@@ -1,5 +1,13 @@
+{# Asocia la libreria 'noticias/noticia' a esta plantilla. #}
 {{ attach_library('noticias/noticia') }}
+
 <script>
+    /**
+     * Realiza una solicitud AJAX a la API de ESPN para obtener los datos de un video.
+     * Luego, muestra los datos obtenidos en la página web.
+     *
+     * @param {number} id - El ID del video a solicitar a la API.
+     */
     $(document).ready(function () {
         $.ajax({
             url: "https://api-app.espn.com/v1/video/clips/" + {{id}},

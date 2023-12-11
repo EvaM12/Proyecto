@@ -1,3 +1,9 @@
+# Este fichero YAML define las librerías para el módulo equipos.
+# Incluye tres bibliotecas: listaPartidos, datosPartidos y compra.
+# La biblioteca listaPartidos incluye archivos CSS y JS para la lista de partidos.
+# La biblioteca datosPartidos incluye archivos CSS y JS para el listado de las plantillas de los patidos.
+# La biblioteca compra incluye archivos CSS y JS para mostrar los detalles de la venta de entradas.
+
 listaPartidos:
     version: 1.x
     css:

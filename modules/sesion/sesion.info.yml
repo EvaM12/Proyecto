@@ -1,3 +1,8 @@
+# Este archivo YAML define la información del módulo de inicio y/o registro llamado "Sesion".
+# El módulo se utiliza para el inicio de sesión y el registro de usuarios.
+# Requiere una versión de núcleo de Drupal 8, 9 o 10.
+# El módulo está empaquetado como "Custom".
+
 name: Sesion
 type: module
 description: 'Modulo de inicio y/o registro.'

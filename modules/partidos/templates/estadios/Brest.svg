@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.38589930534362793,0,0,0.38589930534362793,-48.22066116333008,-2.3768601417541504)">
+            <g>
+                <path stroke="#000000" fill="#050505"
+                    d="M 1070.395 291.360 Q 1066.168 287.211 1060.404 287.211 L 356.066 287.211 Q 350.110 287.211 346.075 291.360 Q 341.848 295.718 341.848 301.733 L 341.848 731.800 Q 341.848 737.610 346.075 742.173 Q 350.110 746.323 356.066 746.323 L 1060.404 746.323 Q 1066.168 746.323 1070.395 742.173 Q 1074.622 737.610 1074.622 731.800 L 1074.622 301.733 Q 1074.622 295.718 1070.395 291.360 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                    d="M 1070.395 291.360 Q 1074.622 295.718 1074.622 301.733 L 1074.622 731.800 Q 1074.622 737.610 1070.395 742.173 Q 1066.168 746.323 1060.404 746.323 L 356.066 746.323 Q 350.110 746.323 346.075 742.173 Q 341.848 737.610 341.848 731.800 L 341.848 301.733 Q 341.848 295.718 346.075 291.360 Q 350.110 287.211 356.066 287.211 L 1060.404 287.211 Q 1066.168 287.211 1070.395 291.360 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 1046.955 717.900 L 371.437 717.900 L 371.437 315.426 L 1046.955 315.426 L 1046.955 717.900 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 709.196 316.048 L 709.196 717.486"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 747.622 477.245 Q 763.568 493.636 763.568 516.664 Q 763.568 539.691 747.622 556.081 Q 731.675 572.470 709.196 572.470 Q 686.717 572.470 670.770 556.081 Q 654.632 539.691 654.632 516.664 Q 654.632 493.636 670.770 477.245 Q 686.717 460.856 709.196 460.856 Q 731.675 460.856 747.622 477.245 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 479.988 470.399 L 479.988 385.340 L 372.013 385.340 L 372.013 647.986 L 479.988 647.986 L 479.988 562.928"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 479.988 470.399 L 479.988 562.928 Q 491.132 555.459 497.472 543.219 Q 504.196 530.977 504.196 516.664 Q 504.196 502.556 497.472 490.109 Q 491.132 478.076 479.988 470.399 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 937.828 470.399 L 937.828 385.340 L 1046.955 385.340 L 1046.955 647.986 L 937.828 647.986 L 937.828 562.928"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 937.828 470.399 L 937.828 562.928 Q 926.684 555.459 920.152 543.219 Q 913.427 530.977 913.427 516.664 Q 913.427 502.556 920.152 490.109 Q 926.684 478.076 937.828 470.399 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 414.472 464.590 L 414.472 568.528 L 373.165 568.528 L 373.165 464.590 L 414.472 464.590 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 1045.035 464.590 L 1045.035 568.528 L 1003.535 568.528 L 1003.535 464.590 L 1045.035 464.590 z"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+            <g sprite-identifier="s111756" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 539.615 57.645 L 886.385 57.645 L 886.385 243.061 L 539.615 243.061 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="713"
+                    y="155.353">Tribune Credit Mutuel Arkea Centrale</text>
+                <circle cx="713" cy="120.35300000000001" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s111757">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 348.706 57.821 L 538.706 57.821 L 538.706 243.238 L 348.706 243.238 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="443.706" y="155.529">
+                    <tspan dy="1.2em" x="443.706">Tribune Credit Mutuel</tspan>
+                    <tspan dy="1.2em" x="443.706">Arkea Laterale Nord</tspan>
+                </text>
+            </g>
+            <g sprite-identifier="s97901" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 534.476 775.264 L 887.053 775.264 L 887.053 980.618 L 534.476 980.618 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="710.765" y="882.941">Tribune Foucauld Centrale</text>
+                <circle cx="710.765" cy="847.941" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s97902" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 302.995 775.142 L 534.760 775.142 L 534.760 981.025 L 348.878 981.025 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="418.878" y="883.084">
+                    <tspan dy="1.2em" x="418.878">Tribune Foucauld </tspan>
+                    <tspan dy="1.2em" x="418.878">Laterale Nord</tspan>
+                </text>
+            </g>
+            <g sprite-identifier="s111758">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 887.529 57.468 L 1077.529 57.468 L 1077.529 242.885 L 887.529 242.885 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="982.529" y="155.176">
+                    <tspan dy="1.2em" x="982.529">Tribune Credit Mutuel</tspan>
+                    <tspan dy="1.2em" x="982.529">Arkea Laterale Sud</tspan>
+                </text>
+            </g>
+            <g sprite-identifier="s94883">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 886.353 774.911 L 1076.353 774.911 L 1076.353 980.265 L 886.353 980.265 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="981.353" y="882.588">
+                    <tspan dy="1.2em" x="981.353">Tribune Foucauld </tspan>
+                    <tspan dy="1.2em" x="981.353">Laterale Sud</tspan>
+                </text>
+            </g>
+            <g sprite-identifier="s94884" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1097.870 287.789 L 1224.953 287.789 L 1224.953 748.211 L 1097.870 748.211 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1161.412" y="523.000">Tribune Quimper</text>
+                <circle cx="1161.412" cy="488" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s94885" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 197.870 289.832 L 324.953 289.832 L 324.953 429.226 L 197.870 429.226 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="261.412" y="364.529">Visiteurs</text>
+            </g>
+            <g sprite-identifier="s1819189" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 194.341 443.224 L 321.424 443.224 L 321.424 748.070 L 194.341 748.070 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="257.882" y="600.647">Top Atlantique</text>
+                <circle cx="257.882" cy="565.647" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

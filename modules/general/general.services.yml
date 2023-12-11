@@ -1,4 +1,5 @@
+# Este servicio proporciona la fábrica de configuración para el módulo general.
 services:
-  general.config:
-    class: Drupal\Core\Config\ConfigFactory
-    arguments: ['general.settings']
+    general.config:
+        class: Drupal\Core\Config\ConfigFactory
+        arguments: ['general.settings']

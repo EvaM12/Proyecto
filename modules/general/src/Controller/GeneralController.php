@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * @file
+ * Contains the GeneralController class.
+ *
+ * This class is responsible for handling general functionalities in the Drupal module.
+ */
+
 namespace Drupal\general\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
@@ -10,12 +17,25 @@ use Drupal\Core\Template\TwigEnvironment;
 use Drupal\Core\Render\Markup;
 use Symfony\Component\HttpFoundation\RequestStack;
 
+/**
+ * Defines the GeneralController class.
+ */
 class GeneralController extends ControllerBase
 {
     protected $database;
     protected $renderer;
     protected $twig;
 
+    /**
+     * Genera el constructor.
+     *
+     * @param \Drupal\Core\Database\Connection $database
+     *   The database connection.
+     * @param \Drupal\Core\Template\TwigEnvironment $twig
+     *   The Twig environment.
+     * @param \Drupal\Core\Render\RendererInterface $renderer
+     *   The renderer.
+     */
     public function __construct(Connection $database, TwigEnvironment $twig, RendererInterface $renderer)
     {
         $this->twig = $twig;
@@ -23,6 +43,15 @@ class GeneralController extends ControllerBase
         $this->renderer = $renderer;
     }
 
+    /**
+     * Crea un objeto GeneralController.
+     *
+     * @param \Symfony\Component\DependencyInjection\ContainerInterface $container
+     *   The container interface.
+     *
+     * @return \Drupal\general\Controller\GeneralController
+     *   The GeneralController object.
+     */
     public static function create(ContainerInterface $container)
     {
         return new static(
@@ -32,6 +61,12 @@ class GeneralController extends ControllerBase
         );
     }
 
+    /**
+     * Recupera una lista de los próximos partidos.
+     *
+     * @return array
+     * Un array de los próximos partidos.
+     */
     public function listaPartidos()
     {
         $fechaActual = date("Y-m-d\TH:i\Z");
@@ -61,6 +96,15 @@ class GeneralController extends ControllerBase
         return $listaPartidos;
     }
 
+    /**
+     * Recupera los detalles de una lista de coincidencias.
+     *
+     * @param array $partidos
+     * Un array de partidos.
+     *
+     * @return array
+     * Un array de detalles de las coincidencias.
+     */
     public function datosPartidos($partidos)
     {
         $listaPartidos = array();
@@ -121,9 +165,14 @@ class GeneralController extends ControllerBase
         return $listaPartidos;
     }
 
+    /**
+     * Recupera los últimos artículos de noticias.
+     *
+     * @return array
+     * Un array de artículos de noticias.
+     */
     public function noticias()
     {
-        //ver como hacerlo con todas, aunque sean 2 de cada sin que se exceda el tiempo
         // URL de la API de ESPN
         $url = "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/news";
 
@@ -177,8 +226,6 @@ class GeneralController extends ControllerBase
                     'width' => $news[$i]['images'][0]['width'],
                     'fecha' => $fecha
                 ];
-                // titulo, descripcion, imagen(url, ancho y alto), categorias, fecha y enlace
-                //pensar si necesito el ancho y el alto
             }
         }
 
@@ -193,6 +240,12 @@ class GeneralController extends ControllerBase
         return $noticia;
     }
 
+    /**
+     * Renderiza la pagina de inicio.
+     *
+     * @return array
+     *   El codigo de la página.
+     */
     public function inicio()
     {
         $data = [

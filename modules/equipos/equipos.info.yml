@@ -1,3 +1,8 @@
+# Documentación del módulo de Equipos
+# Este archivo de configuración define las propiedades del módulo de Equipos.
+# El módulo muestra información sobre los equipos.
+# Requiere una versión de Drupal core igual o superior a 8.
+# Pertenece al paquete personalizado.
 name: Equipos
 type: module
 description: 'Muestra los equipos y su informacion.'

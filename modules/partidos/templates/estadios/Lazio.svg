@@ -1,0 +1,1482 @@
+<svg style="overflow: hidden; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"
+    version="1.1" xmlns="http://www.w3.org/2000/svg" width="461" height="399" xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ev="http://www.w3.org/2001/xml-events">
+    <defs>
+        <clipPath id="clip-1" fill="#999999">
+            <path
+                d="M1245.9,1024.7c-101.7,0 -184.2,82.5 -184.2,184.2v564.3c0,101.7 82.5,184.2 184.2,184.2h1445.2c101.7,0 184.2,-82.5 184.2,-184.2v-564.3c0.1,-101.8 -82.4,-184.2 -184.1,-184.2z"
+                id="SVGID_00000093156725826406818850000017046697420811792514_" fill="none"></path>
+        </clipPath>
+        <style type="text/css">
+            .svg-pan-zoom-control {
+                cursor: pointer;
+                fill: white;
+                fill-opacity: 1;
+                stroke-width: 20;
+                stroke: rgb(0, 0, 0);
+            }
+
+            .svg-pan-zoom-control-background {
+                fill: grey;
+            }
+        </style>
+    </defs>
+    <g id="viewport-20231211170451853" class="svg-pan-zoom_viewport"
+        transform="matrix(0.10304264345751146,0,0,0.10304264345751146,35.02718783657649,83.83978429207399)">
+        <g>
+            <g sprite-identifier="s295977">
+                <path d="M252.3,2281.9c-32,-44.4 -61.6,-90.4 -88,-137l271.5,-139.3c19.5,33.1 40.9,66 64,97.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="326.01182" y="2160.0615" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">22 AD</text>
+                <path d="M252.3,2281.9c-32,-44.4 -61.6,-90.4 -88,-137l271.5,-139.3c19.5,33.1 40.9,66 64,97.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295924" data-original-title="" cursor="pointer">
+                <path
+                    d="M2683.6,771.9c6.3,-16.8 47.2,-138.4 81.5,-241c15,6.4 29.7,13.1 43.8,20l7.7,3.7l32.3,-79.2l-0.4,-1.4c19.7,8.3 39.2,17.1 58.4,26.1l-111,290.3l-35.9,-12.7l-8.4,17.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2795.25" y="646.65" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">2 BC</text>
+                <path
+                    d="M2683.6,771.9c6.3,-16.8 47.2,-138.4 81.5,-241c15,6.4 29.7,13.1 43.8,20l7.7,3.7l32.3,-79.2l-0.4,-1.4c19.7,8.3 39.2,17.1 58.4,26.1l-111,290.3l-35.9,-12.7l-8.4,17.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2795.25" cy="601.65" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295923" data-original-title="" cursor="pointer">
+                <path d="M2811.1,795.8l110.4,-288.8c35.5,17.1 70.3,35.3 103.5,54.3l-100.4,223.9l-36.7,-18.3l-23.9,47.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2918.05" y="672.8" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">2 BD</text>
+                <path d="M2811.1,795.8l110.4,-288.8c35.5,17.1 70.3,35.3 103.5,54.3l-100.4,223.9l-36.7,-18.3l-23.9,47.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2918.05" cy="627.8" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295920" data-original-title="" cursor="pointer">
+                <path
+                    d="M2661.3,790.6c-21.8,-7.3 -44.1,-14.3 -66.6,-20.8l-7.5,-2.2l-7,22l-54.8,-14.3l96.3,-294.3c45.3,12.5 88.5,27.1 128.8,43.6c-48,143.2 -77,228.9 -81.8,241.7c-1.7,4.6 -2.8,9.6 -3.3,14.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2637.95" y="647.8" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">2 BS</text>
+                <path
+                    d="M2661.3,790.6c-21.8,-7.3 -44.1,-14.3 -66.6,-20.8l-7.5,-2.2l-7,22l-54.8,-14.3l96.3,-294.3c45.3,12.5 88.5,27.1 128.8,43.6c-48,143.2 -77,228.9 -81.8,241.7c-1.7,4.6 -2.8,9.6 -3.3,14.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2637.95" cy="602.8" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295922" data-original-title="" cursor="pointer">
+                <path
+                    d="M2385.1,764.6l44,-222l56.5,10.4l20.6,-98.5c34.5,6.6 68.1,14.1 99.9,22.5l-96.3,294.4l-13.4,-3.5l-6.7,21.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2495.6" y="634.15" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">3 BD</text>
+                <path
+                    d="M2385.1,764.6l44,-222l56.5,10.4l20.6,-98.5c34.5,6.6 68.1,14.1 99.9,22.5l-96.3,294.4l-13.4,-3.5l-6.7,21.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2495.6" cy="589.15" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295912">
+                <path d="M3095.1,404.9c-60.3,-31.4 -124,-60.6 -189.6,-86.7l48.1,-128.5c67.7,28.4 133.5,60.2 195.7,94.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3027.4" y="312.3" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">4 AD</text>
+                <path d="M3095.1,404.9c-60.3,-31.4 -124,-60.6 -189.6,-86.7l48.1,-128.5c67.7,28.4 133.5,60.2 195.7,94.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295913" data-original-title="" cursor="pointer">
+                <path d="M2890.6,312.2c-49.6,-19.4 -101.1,-37.4 -153.2,-53.6l40.9,-134c54.6,17.7 108.5,37.5 160.4,58.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2838.05" y="230.4" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">4 AS</text>
+                <path d="M2890.6,312.2c-49.6,-19.4 -101.1,-37.4 -153.2,-53.6l40.9,-134c54.6,17.7 108.5,37.5 160.4,58.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2838.05" cy="185.4" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295918" data-original-title="" cursor="pointer">
+                <path d="M3031.6,546.6c-56.2,-32.1 -116.2,-61.7 -178.6,-88l46.9,-125.4c65.3,26.1 128.7,55.1 188.6,86.4z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2970.75" y="454.9" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">4 BD</text>
+                <path d="M3031.6,546.6c-56.2,-32.1 -116.2,-61.7 -178.6,-88l46.9,-125.4c65.3,26.1 128.7,55.1 188.6,86.4z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2970.75" cy="404.9" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295919">
+                <path d="M2838.2,452.4c-46.4,-19.1 -94.7,-36.8 -143.9,-52.5l38.5,-125.9c51.8,16.1 102.9,34 152.3,53.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2789.7" y="375.2" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">4 BS</text>
+                <path d="M2838.2,452.4c-46.4,-19.1 -94.7,-36.8 -143.9,-52.5l38.5,-125.9c51.8,16.1 102.9,34 152.3,53.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295914" data-original-title="" cursor="pointer">
+                <path d="M2722.1,254c-47,-14.3 -95.4,-27.3 -144,-38.9l36.8,-137c50.2,12.4 99.9,26.4 148.2,41.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2670.6" y="178.05" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">5 AD</text>
+                <path d="M2722.1,254c-47,-14.3 -95.4,-27.3 -144,-38.9l36.8,-137c50.2,12.4 99.9,26.4 148.2,41.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2670.6" cy="133.05" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s345069">
+                <path d="M2247.9,308.4c-28.6,-2.9 -57.6,-5.3 -86.4,-7.2l12.2,-133.1c30.7,2.4 61.6,5.4 91.8,8.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2213.5" y="247.25" font-size="30"
+                    text-anchor="middle" eid="587" t="tc">5 AL</text>
+                <path d="M2247.9,308.4c-28.6,-2.9 -57.6,-5.3 -86.4,-7.2l12.2,-133.1c30.7,2.4 61.6,5.4 91.8,8.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295921">
+                <path d="M2679,395c-45.3,-14.1 -92,-26.8 -139,-38l34,-126.6c48.4,11.5 96.6,24.5 143.4,38.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2628.7" y="324.7" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">5 BD</text>
+                <path d="M2679,395c-45.3,-14.1 -92,-26.8 -139,-38l34,-126.6c48.4,11.5 96.6,24.5 143.4,38.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s345074">
+                <path
+                    d="M2145.6,300.2c-49.7,-2.9 -100.4,-4.4 -150.7,-4.4c-9.5,0 -19,0.1 -28.5,0.2v-136.5c63.9,0.3 128.3,2.8 191.5,7.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2062.15" y="244.85" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">5 SD</text>
+                <path
+                    d="M2145.6,300.2c-49.7,-2.9 -100.4,-4.4 -150.7,-4.4c-9.5,0 -19,0.1 -28.5,0.2v-136.5c63.9,0.3 128.3,2.8 191.5,7.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295934" data-original-title="" cursor="pointer">
+                <path
+                    d="M1425.1,767.9l-19.4,5l-96.9,-296.2c31.6,-8.3 64.9,-15.7 99.1,-22.2l20.6,98.5l57.4,-10.6l44.3,223.7l-98.3,23.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1419.5" y="634.15" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">10 BC</text>
+                <path
+                    d="M1425.1,767.9l-19.4,5l-96.9,-296.2c31.6,-8.3 64.9,-15.7 99.1,-22.2l20.6,98.5l57.4,-10.6l44.3,223.7l-98.3,23.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1419.5" cy="589.15" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295935" data-original-title="" cursor="pointer">
+                <path
+                    d="M1246.2,766.1c-5.1,-13.7 -34.1,-99.3 -81.8,-241.7c40.3,-16.4 83.6,-31 128.8,-43.5l96.9,296.1l-48.9,12.7l-7.1,-22.4l-7.5,2.1c-23.5,6.7 -46.7,14 -69.2,21.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1277.25" y="647.9" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">10 BS</text>
+                <path
+                    d="M1246.2,766.1c-5.1,-13.7 -34.1,-99.3 -81.8,-241.7c40.3,-16.4 83.6,-31 128.8,-43.5l96.9,296.1l-48.9,12.7l-7.1,-22.4l-7.5,2.1c-23.5,6.7 -46.7,14 -69.2,21.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1277.25" cy="602.9" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295936" data-original-title="" cursor="pointer">
+                <path
+                    d="M1153.5,774.9l-35,14.4l-106.5,-278.5c18.8,-8.7 37.9,-17.1 57.1,-25.2l28.2,69.1l7.7,-3.7c14.4,-7 29.4,-13.8 44.6,-20.3c31.2,93.1 67.7,201.8 79,233.9l-66.7,25z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1120.3" y="649.6" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">11 BD</text>
+                <path
+                    d="M1153.5,774.9l-35,14.4l-106.5,-278.5c18.8,-8.7 37.9,-17.1 57.1,-25.2l28.2,69.1l7.7,-3.7c14.4,-7 29.4,-13.8 44.6,-20.3c31.2,93.1 67.7,201.8 79,233.9l-66.7,25z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1120.3" cy="604.6" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295937" data-original-title="" cursor="pointer">
+                <path d="M1022.5,758.3l-34,19.1l-96.7,-205.3c33.9,-19 69.4,-37.3 105.7,-54.5l106.2,277.8l-48.9,20.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="997.75" y="678.55" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">11 BS</text>
+                <path d="M1022.5,758.3l-34,19.1l-96.7,-205.3c33.9,-19 69.4,-37.3 105.7,-54.5l106.2,277.8l-48.9,20.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="997.75" cy="633.55" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295926">
+                <path d="M1646.1,176.5c30.2,-3.4 61,-6.3 91.9,-8.7l12.7,138.7c-28.8,2.6 -57.7,5.6 -85.9,9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1698.4" y="250.65" font-size="30"
+                    text-anchor="middle" eid="587" t="tc">12 AL</text>
+                <path d="M1646.1,176.5c30.2,-3.4 61,-6.3 91.9,-8.7l12.7,138.7c-28.8,2.6 -57.7,5.6 -85.9,9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295928" data-original-title="" cursor="pointer">
+                <path d="M1150,124.1c48.2,-15.4 97.9,-29.6 147.9,-42.1l35.6,132.4c-48.6,11.5 -97,24.5 -144,38.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1241.75" y="179.55" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">12 AS</text>
+                <path d="M1150,124.1c48.2,-15.4 97.9,-29.6 147.9,-42.1l35.6,132.4c-48.6,11.5 -97,24.5 -144,38.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1241.75" cy="134.55" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s345053" data-original-title="" cursor="pointer">
+                <path d="M1194.1,268.4c46.9,-14.1 95.1,-27.1 143.5,-38.6l37.2,138.5c-47,11.6 -93.4,24.6 -138.3,38.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1284.45" y="330.45" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">12 BS</text>
+                <path d="M1194.1,268.4c46.9,-14.1 95.1,-27.1 143.5,-38.6l37.2,138.5c-47,11.6 -93.4,24.6 -138.3,38.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1284.45" cy="285.45" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295925">
+                <path d="M1753.9,166.7c64.9,-4.7 130.9,-7.1 196.4,-7.2v136.7c-61.7,1 -123.4,4.1 -183.7,9.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1852.1" y="247.4" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">12 SS</text>
+                <path d="M1753.9,166.7c64.9,-4.7 130.9,-7.1 196.4,-7.2v136.7c-61.7,1 -123.4,4.1 -183.7,9.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295929">
+                <path d="M974.7,188c51.8,-21.4 105.6,-41.2 160.1,-59l39.3,128.8c-52.1,16.1 -103.6,34.1 -153.3,53.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1074.4" y="232.1" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">13 AD</text>
+                <path d="M974.7,188c51.8,-21.4 105.6,-41.2 160.1,-59l39.3,128.8c-52.1,16.1 -103.6,34.1 -153.3,53.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295930">
+                <path d="M759.5,291.3c63.6,-35.2 130.9,-67.9 200.4,-97.1l46,122.8c-66.8,26.6 -131.6,56.1 -192.8,88z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="882.7" y="314.6" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">13 AS</text>
+                <path d="M759.5,291.3c63.6,-35.2 130.9,-67.9 200.4,-97.1l46,122.8c-66.8,26.6 -131.6,56.1 -192.8,88z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295932">
+                <path d="M1026.4,326.2c49.4,-19.2 100.6,-37 152.4,-53.1l42.4,139c-48.9,15.9 -97,33.5 -143.1,52.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1123.8" y="380.85" font-size="40"
+                    text-anchor="middle" eid="587" t="tc">13 BD</text>
+                <path d="M1026.4,326.2c49.4,-19.2 100.6,-37 152.4,-53.1l42.4,139c-48.9,15.9 -97,33.5 -143.1,52.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295933" data-original-title="" cursor="pointer">
+                <path d="M819.9,419.6c60.8,-31.7 125.1,-61.1 191.5,-87.5l51.9,138.6c-62.3,26.2 -122.3,55.5 -178.4,86.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="587"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="941.6" y="459.85" font-size="50"
+                    text-anchor="middle" eid="587" t="tc">13 BS</text>
+                <path d="M819.9,419.6c60.8,-31.7 125.1,-61.1 191.5,-87.5l51.9,138.6c-62.3,26.2 -122.3,55.5 -178.4,86.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="941.6" cy="409.85" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s345063" data-original-title="" cursor="pointer">
+                <path d="M2323.2,749.7l5.4,-35.8l-7.1,-1l30.9,-184.4l60.9,11.2l-43.8,221.2z" fill="#050505"
+                    stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="588" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="-184.15794" y="2455.5998"
+                    transform="rotate(-79.07098) scale(1.00004,1.00004)" font-size="30" text-anchor="middle" eid="588"
+                    t="tc">3 BS</text>
+                <path d="M2323.2,749.7l5.4,-35.8l-7.1,-1l30.9,-184.4l60.9,11.2l-43.8,221.2z" fill="#050505"
+                    stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="-184.15794" cy="2415.5998" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295941">
+                <path d="M2381,325.7c-38.4,-6.1 -77.8,-11.4 -117.1,-15.7l17.7,-131.3c41.3,4.9 82.7,10.9 123.4,17.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="588"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2334.45" y="264.2" font-size="40"
+                    text-anchor="middle" eid="588" t="tc">5 BL</text>
+                <path d="M2381,325.7c-38.4,-6.1 -77.8,-11.4 -117.1,-15.7l17.7,-131.3c41.3,4.9 82.7,10.9 123.4,17.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295938" data-original-title="" cursor="pointer">
+                <path d="M2524.4,353.5c-41.7,-9.5 -84.5,-17.9 -127.6,-25.2l23.9,-129.2c46.4,8 92.6,17.4 137.7,27.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="588"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2477.6" y="288.3" font-size="40"
+                    text-anchor="middle" eid="588" t="tc">5 BS</text>
+                <path d="M2524.4,353.5c-41.7,-9.5 -84.5,-17.9 -127.6,-25.2l23.9,-129.2c46.4,8 92.6,17.4 137.7,27.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2477.6" cy="243.3" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295939" data-original-title="" cursor="pointer">
+                <path d="M1501.6,539.5l60,-11l32.4,193.5l4.2,27.7l-52.5,12.7z" fill="#050505" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="588" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="863.52776" y="-1430.86469"
+                    transform="rotate(81.65679) scale(0.99998,0.99998)" font-size="30" text-anchor="middle" eid="588"
+                    t="tc">10 BD</text>
+                <path d="M1501.6,539.5l60,-11l32.4,193.5l4.2,27.7l-52.5,12.7z" fill="#050505" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+                <circle cx="863.52776" cy="-1470.86469" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295943" data-original-title="" cursor="pointer">
+                <path d="M1353.2,226.2c45.2,-10.4 91.5,-19.7 137.8,-27.6l25.8,139.4c-42.6,7.8 -85.1,16.7 -126.5,26.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="588"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1435" y="293.6" font-size="40"
+                    text-anchor="middle" eid="588" t="tc">12 BD</text>
+                <path d="M1353.2,226.2c45.2,-10.4 91.5,-19.7 137.8,-27.6l25.8,139.4c-42.6,7.8 -85.1,16.7 -126.5,26.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1435" cy="248.60000000000002" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295942">
+                <path d="M1506.7,195.9c40.8,-6.8 82.3,-12.7 123.5,-17.5l18.7,139.2c-39,5 -78.1,10.9 -116.4,17.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="588"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1577.8" y="268.8" font-size="40"
+                    text-anchor="middle" eid="588" t="tc">12 BL</text>
+                <path d="M1506.7,195.9c40.8,-6.8 82.3,-12.7 123.5,-17.5l18.7,139.2c-39,5 -78.1,10.9 -116.4,17.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295955">
+                <path d="M640.8,362.8c33.8,-22.1 69,-43.5 104.7,-63.7l125.5,266.4c-25.8,14.8 -51.2,30.4 -75.6,46.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="755.9" y="470.45" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">15 A</text>
+                <path d="M640.8,362.8c33.8,-22.1 69,-43.5 104.7,-63.7l125.5,266.4c-25.8,14.8 -51.2,30.4 -75.6,46.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295954">
+                <path
+                    d="M829.4,762.4l-27.6,-135.7c24.5,-16 50,-31.7 76,-46.7l96.7,205.2l-49.8,27.9l35.3,60.6l-30.8,19.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="888.15" y="751.4" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">15 B</text>
+                <path
+                    d="M829.4,762.4l-27.6,-135.7c24.5,-16 50,-31.7 76,-46.7l96.7,205.2l-49.8,27.9l35.3,60.6l-30.8,19.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295972">
+                <path d="M501.9,463.5c39.8,-32 82,-62.8 125.6,-91.9l154.6,249c-33.4,22.3 -65.6,45.8 -96.1,70.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="642" y="546.15" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">16 AD</text>
+                <path d="M501.9,463.5c39.8,-32 82,-62.8 125.6,-91.9l154.6,249c-33.4,22.3 -65.6,45.8 -96.1,70.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295971">
+                <path d="M373.7,578.1c36.2,-36.1 75,-71.2 115.8,-104.6l184.1,227.2c-28.9,23.6 -56.5,48.2 -82.3,73.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="523.65" y="638.75" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">16 AS</text>
+                <path d="M373.7,578.1c36.2,-36.1 75,-71.2 115.8,-104.6l184.1,227.2c-28.9,23.6 -56.5,48.2 -82.3,73.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295953">
+                <path
+                    d="M603.1,784.7c54.7,-53.1 116.6,-103 184.3,-148.5l27,133l105,136.9v60.7c-20.4,16.2 -39.9,33.1 -58,50.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="761.25" y="841.8" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">16 B</text>
+                <path
+                    d="M603.1,784.7c54.7,-53.1 116.6,-103 184.3,-148.5l27,133l105,136.9v60.7c-20.4,16.2 -39.9,33.1 -58,50.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295970">
+                <path d="M261.9,703c31,-39 64.7,-77.1 100.5,-113.6l217.4,195.9c-29.1,29 -56.4,59.4 -81.4,90.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="420.85" y="747.55" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">17 AD</text>
+                <path d="M261.9,703c31,-39 64.7,-77.1 100.5,-113.6l217.4,195.9c-29.1,29 -56.4,59.4 -81.4,90.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295969">
+                <path d="M169.7,834.2c24.9,-40.4 52.6,-80.2 82.3,-118.6l236.4,172.6c-22.6,28.9 -43.6,58.8 -62.5,89.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="329.05" y="861.45" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">17 AS</text>
+                <path d="M169.7,834.2c24.9,-40.4 52.6,-80.2 82.3,-118.6l236.4,172.6c-22.6,28.9 -43.6,58.8 -62.5,89.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295960">
+                <path
+                    d="M439.9,985.1c41.6,-66.5 92.6,-130.1 151.7,-189.1l258.3,232.6c-39.7,39.9 -73.6,83.3 -100.8,129.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="644.9" y="991.85" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">17 B</text>
+                <path
+                    d="M439.9,985.1c41.6,-66.5 92.6,-130.1 151.7,-189.1l258.3,232.6c-39.7,39.9 -73.6,83.3 -100.8,129.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295968">
+                <path d="M88.3,989.2c21.1,-48.1 45.7,-95.6 73.1,-141.3l256.2,143.1c-22,36.5 -41.5,74.4 -58.1,112.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="252.95" y="990.8" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">18 AD</text>
+                <path d="M88.3,989.2c21.1,-48.1 45.7,-95.6 73.1,-141.3l256.2,143.1c-22,36.5 -41.5,74.4 -58.1,112.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295967">
+                <path d="M30.9,1149.4c13.8,-49.2 31,-98.1 51.1,-145.5l271.3,114.5c-14.2,34.4 -26.3,69.7 -36,105.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="192.1" y="1128.8" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">18 AS</text>
+                <path d="M30.9,1149.4c13.8,-49.2 31,-98.1 51.1,-145.5l271.3,114.5c-14.2,34.4 -26.3,69.7 -36,105.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295959">
+                <path d="M332.7,1227.8c21.8,-79.4 55.1,-156.4 98.8,-229l309.5,172.9c-25.8,46.1 -45.6,95.4 -58.9,146.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="536.85" y="1173.7" transform=""
+                    font-size="50" text-anchor="middle" eid="1872" t="tc">18 B</text>
+                <path d="M332.7,1227.8c21.8,-79.4 55.1,-156.4 98.8,-229l309.5,172.9c-25.8,46.1 -45.6,95.4 -58.9,146.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295966">
+                <path
+                    d="M178.6,1372.7v-17.7h-35.2v-18.4h-33.5v-15.1h-36.8v-20.5h-25.1v-19.5h-46.2c6.4,-39.2 14.8,-78.3 24.9,-116.6l286.5,74.3c-8.8,34.3 -15.6,69.4 -20.3,104.7h-85.6l-13.4,28.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="157.5" y="1283.8" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">19 AD</text>
+                <path
+                    d="M178.6,1372.7v-17.7h-35.2v-18.4h-33.5v-15.1h-36.8v-20.5h-25.1v-19.5h-46.2c6.4,-39.2 14.8,-78.3 24.9,-116.6l286.5,74.3c-8.8,34.3 -15.6,69.4 -20.3,104.7h-85.6l-13.4,28.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295965">
+                <path d="M207,1491v-108.5l10.5,-22.6h73.4c-4.9,43 -6.9,87 -5.8,131.1z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="-1425.45" y="257.95" transform="rotate(-90)"
+                    font-size="30" text-anchor="middle" eid="1872" t="tc">19 AS</text>
+                <path d="M207,1491v-108.5l10.5,-22.6h73.4c-4.9,43 -6.9,87 -5.8,131.1z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295958" data-original-title="" cursor="pointer">
+                <path d="M301.2,1491c-2.2,-84.6 7,-167.8 27.5,-247.8l349.8,90.8c-11.5,49.9 -17.3,102.7 -17.2,157z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="489.69074" y="1382.1" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">19 B</text>
+                <path d="M301.2,1491c-2.2,-84.6 7,-167.8 27.5,-247.8l349.8,90.8c-11.5,49.9 -17.3,102.7 -17.2,157z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="489.69074" cy="1332.1" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295964">
+                <path d="M220.1,1633.6l-13.1,-20.4v-106.2h78.7c0.3,7.4 0.7,14.7 1.2,21.9c2.2,34.8 6.3,70 12.1,104.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="-1570.3" y="262" transform="rotate(-90)"
+                    font-size="30" text-anchor="middle" eid="1872" t="tc">20 AD</text>
+                <path d="M220.1,1633.6l-13.1,-20.4v-106.2h78.7c0.3,7.4 0.7,14.7 1.2,21.9c2.2,34.8 6.3,70 12.1,104.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295963">
+                <path
+                    d="M32.8,1828.8c-10.3,-37.6 -19.1,-75.8 -26,-113.9h41.1v-19.5h25.1v-20.7h36.8v-15.1h33.5v-18.4h35.2v-17.7h16.1l16.7,26h90.5c6.4,35 14.7,70 24.7,104.2z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="166.65" y="1741.15" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">20 AS</text>
+                <path
+                    d="M32.8,1828.8c-10.3,-37.6 -19.1,-75.8 -26,-113.9h41.1v-19.5h25.1v-20.7h36.8v-15.1h33.5v-18.4h35.2v-17.7h16.1l16.7,26h90.5c6.4,35 14.7,70 24.7,104.2z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295957">
+                <path
+                    d="M342,1749.8c-21.2,-72.6 -34.4,-147.2 -39.2,-221.9c-0.4,-6.9 -0.8,-13.8 -1.1,-20.9h359.8c0.3,14.5 1.1,29.2 2.2,43.8c2.9,37.5 9.2,75.2 18.5,112.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="491.95" y="1643.4" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">20 B</text>
+                <path
+                    d="M342,1749.8c-21.2,-72.6 -34.4,-147.2 -39.2,-221.9c-0.4,-6.9 -0.8,-13.8 -1.1,-20.9h359.8c0.3,14.5 1.1,29.2 2.2,43.8c2.9,37.5 9.2,75.2 18.5,112.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295962" data-original-title="" cursor="pointer">
+                <path d="M86.6,1985.6c-19.1,-46.4 -35.7,-93.9 -49.4,-141.5l293.9,-75c11.1,36.1 24.4,72.2 39.5,107.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="203.9" y="1892.35" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">21 AD</text>
+                <path d="M86.6,1985.6c-19.1,-46.4 -35.7,-93.9 -49.4,-141.5l293.9,-75c11.1,36.1 24.4,72.2 39.5,107.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="203.9" cy="1842.35" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295961" data-original-title="" cursor="pointer">
+                <path
+                    d="M156.4,2130.9c-23.5,-42.5 -44.9,-86.3 -63.7,-130.5l284.2,-109.1c15.1,33.9 32.2,67.7 50.8,100.4z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="260.2" y="2026.1" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">21 AS</text>
+                <path
+                    d="M156.4,2130.9c-23.5,-42.5 -44.9,-86.3 -63.7,-130.5l284.2,-109.1c15.1,33.9 32.2,67.7 50.8,100.4z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="260.2" cy="1976.1" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295956">
+                <path d="M442,1984.4c-40.1,-70.5 -72.2,-144.2 -95.4,-219.3l339.7,-86.7c14.2,51 34.5,101.2 60.6,149.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1872"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="546.75" y="1846.4" font-size="50"
+                    text-anchor="middle" eid="1872" t="tc">21 B</text>
+                <path d="M442,1984.4c-40.1,-70.5 -72.2,-144.2 -95.4,-219.3l339.7,-86.7c14.2,51 34.5,101.2 60.6,149.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295976">
+                <path d="M354.2,2408.9c-32.7,-36.8 -63.8,-75.1 -92.5,-114.1l247.6,-178.5c23,30.9 47.8,61.2 73.9,90.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="422.45" y="2277.6" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">22 AS</text>
+                <path d="M354.2,2408.9c-32.7,-36.8 -63.8,-75.1 -92.5,-114.1l247.6,-178.5c23,30.9 47.8,61.2 73.9,90.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295980" data-original-title="" cursor="pointer">
+                <path
+                    d="M595.1,2196.1c-55.7,-62.3 -104.5,-128.8 -145.1,-197.8l304.7,-156.3c25.7,45.4 56.8,89.6 92.5,131.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="648.6" y="2034.05" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">22 B</text>
+                <path
+                    d="M595.1,2196.1c-55.7,-62.3 -104.5,-128.8 -145.1,-197.8l304.7,-156.3c25.7,45.4 56.8,89.6 92.5,131.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="648.6" cy="1984.05" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295975">
+                <path d="M477,2533.1c-39.4,-36 -77,-73.7 -112.1,-112.3l229,-202.2c25,27.3 51.7,54.1 79.4,79.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="519.1" y="2390.85" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">23 AD</text>
+                <path d="M477,2533.1c-39.4,-36 -77,-73.7 -112.1,-112.3l229,-202.2c25,27.3 51.7,54.1 79.4,79.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295974">
+                <path d="M608.2,2642c-41.4,-31.2 -81.5,-64.2 -119.4,-98.2l196.3,-234.6c28.4,25.7 58.3,50.9 89.3,74.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="631.6" y="2490.6" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">23 AS</text>
+                <path d="M608.2,2642c-41.4,-31.2 -81.5,-64.2 -119.4,-98.2l196.3,-234.6c28.4,25.7 58.3,50.9 89.3,74.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295979" data-original-title="" cursor="pointer">
+                <path
+                    d="M763,2354.8c-56.9,-45.7 -109.7,-95 -157.1,-146.8l251.8,-222.3c18.5,20.9 38.3,41.5 59.1,61.2l-30,198.2l-34.4,-17.6l-4,5.7c-0.8,0.8 -59.4,85.2 -85.4,121.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="761.35" y="2185.25" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">23 B</text>
+                <path
+                    d="M763,2354.8c-56.9,-45.7 -109.7,-95 -157.1,-146.8l251.8,-222.3c18.5,20.9 38.3,41.5 59.1,61.2l-30,198.2l-34.4,-17.6l-4,5.7c-0.8,0.8 -59.4,85.2 -85.4,121.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="761.35" cy="2135.25" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295973">
+                <path
+                    d="M720.1,2720.1c-33.9,-21.9 -67.1,-44.9 -99.1,-68.6l166.1,-257.7c22.5,17.1 45.9,33.8 69.4,49.7l-33.8,223l-61.8,-31.2z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="738.75" y="2571.95" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">24 A</text>
+                <path
+                    d="M720.1,2720.1c-33.9,-21.9 -67.1,-44.9 -99.1,-68.6l166.1,-257.7c22.5,17.1 45.9,33.8 69.4,49.7l-33.8,223l-61.8,-31.2z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295978">
+                <path d="M859.2,2426c-28.7,-19.6 -56.8,-40.2 -83.7,-61.3c22,-30.7 68.1,-96.9 81.9,-116.8l26.8,13.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="829.85" y="2345.95" font-size="30"
+                    text-anchor="middle" eid="804" t="tc">24 B</text>
+                <path d="M859.2,2426c-28.7,-19.6 -56.8,-40.2 -83.7,-61.3c22,-30.7 68.1,-96.9 81.9,-116.8l26.8,13.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295888">
+                <path
+                    d="M3146.8,2639.1l-54.1,25.1l-30,-214.1c21,-14 41.8,-28.6 61.9,-43.5l164.6,241.3c-32.7,24.5 -66.9,48.3 -101.8,71z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3175.95" y="2577.75" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">43 A</text>
+                <path
+                    d="M3146.8,2639.1l-54.1,25.1l-30,-214.1c21,-14 41.8,-28.6 61.9,-43.5l164.6,241.3c-32.7,24.5 -66.9,48.3 -101.8,71z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295891">
+                <path d="M3036.5,2262.7l15.8,-12l76.2,108.5l-21.4,23.7l8.2,10.6c-17.9,13.3 -36.4,26.3 -55,38.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3082.5" y="2350.55" font-size="30"
+                    text-anchor="middle" eid="804" t="tc">43 B</text>
+                <path d="M3036.5,2262.7l15.8,-12l76.2,108.5l-21.4,23.7l8.2,10.6c-17.9,13.3 -36.4,26.3 -55,38.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295887">
+                <path
+                    d="M3137.5,2396.9c32.7,-24.7 64.3,-50.7 94.2,-77.5l192.1,217.3c-38.7,35.2 -79.6,69.3 -121.8,101.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3280.65" y="2493.75" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">44 AD</text>
+                <path
+                    d="M3137.5,2396.9c32.7,-24.7 64.3,-50.7 94.2,-77.5l192.1,217.3c-38.7,35.2 -79.6,69.3 -121.8,101.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295886">
+                <path d="M3243.6,2308.7c28.3,-25.9 55.5,-53 81,-80.5l214.5,193.4c-32.5,35.8 -67.2,70.9 -103.4,104.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3391.35" y="2392.1" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">44 AS</text>
+                <path d="M3243.6,2308.7c28.3,-25.9 55.5,-53 81,-80.5l214.5,193.4c-32.5,35.8 -67.2,70.9 -103.4,104.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295890">
+                <path
+                    d="M3127.9,2383.7l21,-23.2l-93.1,-132.6l-21.9,16.6l-30,-214.3c16,-16 31.5,-32.6 46.2,-49.4l262.5,236.6c-55,59.4 -117,115.4 -184.6,166.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3158.25" y="2197.35" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">44 B</text>
+                <path
+                    d="M3127.9,2383.7l21,-23.2l-93.1,-132.6l-21.9,16.6l-30,-214.3c16,-16 31.5,-32.6 46.2,-49.4l262.5,236.6c-55,59.4 -117,115.4 -184.6,166.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295885">
+                <path d="M3335.4,2216.3c26.4,-29.3 51.5,-59.7 74.6,-90.6l235.1,166.1c-29.5,40.2 -61.5,79.8 -95.3,117.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3490.25" y="2282.6" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">45 AD</text>
+                <path d="M3335.4,2216.3c26.4,-29.3 51.5,-59.7 74.6,-90.6l235.1,166.1c-29.5,40.2 -61.5,79.8 -95.3,117.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295884">
+                <path d="M3419.5,2112.9c25.5,-35 49,-71.3 70.1,-108l255.9,131.2c-27.3,48.6 -57.8,96.6 -91,142.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3582.5" y="2156.9" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">45 AS</text>
+                <path d="M3419.5,2112.9c25.5,-35 49,-71.3 70.1,-108l255.9,131.2c-27.3,48.6 -57.8,96.6 -91,142.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295889">
+                <path d="M3060.6,1968.6c36.3,-43 68,-88.5 94.3,-135.3l320.3,164.3c-41.8,72.8 -92.8,142.7 -151.8,208z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="804"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3267.9" y="2034.45" font-size="50"
+                    text-anchor="middle" eid="804" t="tc">45 B</text>
+                <path d="M3060.6,1968.6c36.3,-43 68,-88.5 94.3,-135.3l320.3,164.3c-41.8,72.8 -92.8,142.7 -151.8,208z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295840">
+                <path d="M928.5,2502l5.6,-43.5c47.4,7.1 95.5,13.8 143.3,19.9l-5.4,42z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="589" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="1002.95" y="2498.45" transform="" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">25 AD</text>
+                <path d="M928.5,2502l5.6,-43.5c47.4,7.1 95.5,13.8 143.3,19.9l-5.4,42z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295836" data-original-title="" cursor="pointer">
+                <path
+                    d="M945.3,2763.2c-39.6,-5.9 -79.3,-12 -118.2,-18.5l44.9,-295.8c7.7,1.2 15.5,2.4 23.2,3.6c7.1,1.1 14.7,2.3 23.1,3.5l-7.7,59.7l66.7,8.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="902.2" y="2621.05" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">25 AL</text>
+                <path
+                    d="M945.3,2763.2c-39.6,-5.9 -79.3,-12 -118.2,-18.5l44.9,-295.8c7.7,1.2 15.5,2.4 23.2,3.6c7.1,1.1 14.7,2.3 23.1,3.5l-7.7,59.7l66.7,8.6z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="902.2" cy="2571.05" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295835" data-original-title="" cursor="pointer">
+                <path
+                    d="M1197.8,2795.8c-78.9,-8.7 -158.5,-18.9 -236.7,-30.2l32,-239.1l92.6,11.9l7.4,-57.8c9.2,1.2 18.5,2.3 27.6,3.4l9.7,1.2c4.5,0.5 8.9,1.1 13.4,1.6c6.5,0.8 13,1.6 19.5,2.3l-5,62.9l66.8,5.3z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1093.1" y="2653.2" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">25 AS</text>
+                <path
+                    d="M1197.8,2795.8c-78.9,-8.7 -158.5,-18.9 -236.7,-30.2l32,-239.1l92.6,11.9l7.4,-57.8c9.2,1.2 18.5,2.3 27.6,3.4l9.7,1.2c4.5,0.5 8.9,1.1 13.4,1.6c6.5,0.8 13,1.6 19.5,2.3l-5,62.9l66.8,5.3z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1093.1" cy="2603.2" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295839">
+                <path d="M1175.7,2537.2l3.7,-46.4c47.8,5.5 96,10.5 143.9,15l-3.4,42.8z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="589" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="1249.5" y="2528.7" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">26 AD</text>
+                <path d="M1175.7,2537.2l3.7,-46.4c47.8,5.5 96,10.5 143.9,15l-3.4,42.8z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295834" data-original-title="" cursor="pointer">
+                <path
+                    d="M1428.7,2817.4c-71.2,-5.5 -143.4,-12.1 -214.9,-19.9l27.5,-239.1l93.3,7.4l4.6,-58.6c37,3.4 74.5,6.5 111.7,9.3z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1332.35" y="2677.3" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">26 AS</text>
+                <path
+                    d="M1428.7,2817.4c-71.2,-5.5 -143.4,-12.1 -214.9,-19.9l27.5,-239.1l93.3,7.4l4.6,-58.6c37,3.4 74.5,6.5 111.7,9.3z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1332.35" cy="2627.3" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295850">
+                <path
+                    d="M987.2,2450.1c-19.8,-2.8 -39.6,-5.7 -59.1,-8.7c-10.2,-1.5 -20.3,-3.1 -30.5,-4.7c-8.4,-1.3 -16,-2.5 -23.3,-3.6l14.4,-94.8c36.7,4.9 74.2,9.6 111.6,14.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="937.3" y="2406.2" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">27 AD</text>
+                <path
+                    d="M987.2,2450.1c-19.8,-2.8 -39.6,-5.7 -59.1,-8.7c-10.2,-1.5 -20.3,-3.1 -30.5,-4.7c-8.4,-1.3 -16,-2.5 -23.3,-3.6l14.4,-94.8c36.7,4.9 74.2,9.6 111.6,14.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295849" data-original-title="" cursor="pointer">
+                <path
+                    d="M1184.7,2475.3c-13,-1.5 -26,-3 -38.9,-4.5c-4.5,-0.5 -8.9,-1.1 -13.4,-1.6c-2.1,-0.3 -9.7,-1.2 -9.7,-1.2c-12.7,-1.6 -24.3,-3 -35.5,-4.4c-28.2,-3.6 -56.5,-7.4 -84.2,-11.3l13.1,-98.1c43,5 86.5,9.8 129.6,14.1l-3.6,66l44.6,5.2z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1070.85" y="2430.75" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">27 AS</text>
+                <path
+                    d="M1184.7,2475.3c-13,-1.5 -26,-3 -38.9,-4.5c-4.5,-0.5 -8.9,-1.1 -13.4,-1.6c-2.1,-0.3 -9.7,-1.2 -9.7,-1.2c-12.7,-1.6 -24.3,-3 -35.5,-4.4c-28.2,-3.6 -56.5,-7.4 -84.2,-11.3l13.1,-98.1c43,5 86.5,9.8 129.6,14.1l-3.6,66l44.6,5.2z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1070.85" cy="2385.75" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295860">
+                <path
+                    d="M1268.4,2363.7c-59.8,-5.1 -120.1,-11 -179.4,-17.4l8.3,-59.8c36.2,2.9 72.8,5.6 109.1,8.1v12l67.3,8.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1165.35" y="2334.1" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">27 BC</text>
+                <path
+                    d="M1268.4,2363.7c-59.8,-5.1 -120.1,-11 -179.4,-17.4l8.3,-59.8c36.2,2.9 72.8,5.6 109.1,8.1v12l67.3,8.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295861">
+                <path
+                    d="M1073,2344.6c-60.5,-6.7 -121.7,-14.1 -181.9,-22.1l8.5,-56.3l56.9,7.9h0.2c40.7,3.9 82.6,7.6 124.4,11.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="986.1" y="2314.4" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">27 BD</text>
+                <path
+                    d="M1073,2344.6c-60.5,-6.7 -121.7,-14.1 -181.9,-22.1l8.5,-56.3l56.9,7.9h0.2c40.7,3.9 82.6,7.6 124.4,11.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295859">
+                <path
+                    d="M1452.3,2377.3c-55.7,-3.5 -112.1,-7.6 -168,-12.3l6.8,-63.4l-22.5,-2.9c62.9,3.9 126.4,7.2 189.4,9.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1363.3" y="2347" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">27 BS</text>
+                <path
+                    d="M1452.3,2377.3c-55.7,-3.5 -112.1,-7.6 -168,-12.3l6.8,-63.4l-22.5,-2.9c62.9,3.9 126.4,7.2 189.4,9.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295833">
+                <path
+                    d="M1577.3,2827.1c-44.5,-2.4 -89.1,-5.3 -132.7,-8.5l22.3,-300.8c31.6,2.3 63.6,4.4 95.2,6.3l1.4,0.1c9.1,0.5 18.5,1.1 28.1,1.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1518.1" y="2687.45" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">29 AD</text>
+                <path
+                    d="M1577.3,2827.1c-44.5,-2.4 -89.1,-5.3 -132.7,-8.5l22.3,-300.8c31.6,2.3 63.6,4.4 95.2,6.3l1.4,0.1c9.1,0.5 18.5,1.1 28.1,1.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295832">
+                <path d="M1765.8,2834.9c-57.3,-1.6 -115.2,-3.9 -172.5,-6.9l14.2,-301.3c53.6,2.8 108,5.1 161.9,6.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1681.35" y="2695.8" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">29 AS</text>
+                <path d="M1765.8,2834.9c-57.3,-1.6 -115.2,-3.9 -172.5,-6.9l14.2,-301.3c53.6,2.8 108,5.1 161.9,6.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295848">
+                <path
+                    d="M1452.1,2500.6c-40.5,-3.1 -80.6,-6.4 -119.5,-10c-43.9,-4.1 -88.2,-8.6 -132,-13.5l3.1,-51.8l-44.7,-5.2l2.7,-50.3c98.9,9.8 199.2,17.8 298.2,23.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1309.45" y="2447.2" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">30 AD</text>
+                <path
+                    d="M1452.1,2500.6c-40.5,-3.1 -80.6,-6.4 -119.5,-10c-43.9,-4.1 -88.2,-8.6 -132,-13.5l3.1,-51.8l-44.7,-5.2l2.7,-50.3c98.9,9.8 199.2,17.8 298.2,23.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295847" data-original-title="" cursor="pointer">
+                <path
+                    d="M1710.6,2515.3c-35.9,-1.4 -72.1,-3 -107.8,-5l-1.6,-0.1c-12.2,-0.7 -24.6,-1.4 -36.8,-2.1l-1.4,-0.1c-30.7,-1.8 -62.6,-3.9 -95,-6.3l7.9,-107c78.9,4.7 159.1,8.3 238.5,10.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1591.2" y="2467" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">30 AS</text>
+                <path
+                    d="M1710.6,2515.3c-35.9,-1.4 -72.1,-3 -107.8,-5l-1.6,-0.1c-12.2,-0.7 -24.6,-1.4 -36.8,-2.1l-1.4,-0.1c-30.7,-1.8 -62.6,-3.9 -95,-6.3l7.9,-107c78.9,4.7 159.1,8.3 238.5,10.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1591.2" cy="2422" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295858">
+                <path d="M1648.3,2387.3c-59.6,-2.3 -120.1,-5.3 -180.1,-8.9l5.8,-69.3c58.9,2.3 118.5,4.1 177.5,5.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1559.85" y="2357.2" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">30 BD</text>
+                <path d="M1648.3,2387.3c-59.6,-2.3 -120.1,-5.3 -180.1,-8.9l5.8,-69.3c58.9,2.3 118.5,4.1 177.5,5.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295857" data-original-title="" cursor="pointer">
+                <path
+                    d="M1850.4,2392.5c-61.8,-0.8 -124.3,-2.4 -186,-4.6l3.2,-73.1c35.9,0.7 72.2,1.2 108.3,1.5v25.9l74.5,6.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1741.4" y="2370.65" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">30 BS</text>
+                <path
+                    d="M1850.4,2392.5c-61.8,-0.8 -124.3,-2.4 -186,-4.6l3.2,-73.1c35.9,0.7 72.2,1.2 108.3,1.5v25.9l74.5,6.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1741.4" cy="2330.65" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295831" data-original-title="" cursor="pointer">
+                <path
+                    d="M1951.9,2837.4c-56.3,0 -113.5,-0.7 -170.1,-2.2l3.6,-301.5c16,0.4 31.9,0.8 47.4,1.2h0.4c12.2,0.3 24.8,0.5 37.3,0.7h2.3c12,0.2 24.1,0.3 36.1,0.5h2.2c12.7,0.1 25.4,0.2 37.6,0.3c0,0 2.2,0 3.2,0z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1866.85" y="2700.55" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">33 AD</text>
+                <path
+                    d="M1951.9,2837.4c-56.3,0 -113.5,-0.7 -170.1,-2.2l3.6,-301.5c16,0.4 31.9,0.8 47.4,1.2h0.4c12.2,0.3 24.8,0.5 37.3,0.7h2.3c12,0.2 24.1,0.3 36.1,0.5h2.2c12.7,0.1 25.4,0.2 37.6,0.3c0,0 2.2,0 3.2,0z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1866.85" cy="2650.55" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295830" data-original-title="" cursor="pointer">
+                <path
+                    d="M1967.9,2536.4c3.6,0 7.2,0 10.7,0c47.8,0 96.2,-0.5 144.1,-1.5l3.6,300.3c-52.7,1.3 -105.9,2 -158.4,2.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2047.1" y="2701.1" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">33 AS</text>
+                <path
+                    d="M1967.9,2536.4c3.6,0 7.2,0 10.7,0c47.8,0 96.2,-0.5 144.1,-1.5l3.6,300.3c-52.7,1.3 -105.9,2 -158.4,2.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2047.1" cy="2651.1" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295846">
+                <path
+                    d="M1948.7,2520.4c-12.2,-0.1 -24.8,-0.1 -37.4,-0.3h-2.2c-11.9,-0.1 -24.1,-0.3 -36,-0.5h-2.3c-12.5,-0.2 -25,-0.4 -37.2,-0.7h-0.5c-35.2,-0.7 -71,-1.8 -106.5,-3l3.9,-109.9c73.5,2.1 147.9,3.1 221.4,3.2v111.2c-1,0 -3.2,0 -3.2,0z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1839.25" y="2475.2" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">34 AD</text>
+                <path
+                    d="M1948.7,2520.4c-12.2,-0.1 -24.8,-0.1 -37.4,-0.3h-2.2c-11.9,-0.1 -24.1,-0.3 -36,-0.5h-2.3c-12.5,-0.2 -25,-0.4 -37.2,-0.7h-0.5c-35.2,-0.7 -71,-1.8 -106.5,-3l3.9,-109.9c73.5,2.1 147.9,3.1 221.4,3.2v111.2c-1,0 -3.2,0 -3.2,0z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295845">
+                <path
+                    d="M1967.9,2520.4v-111.3c70.8,-0.1 142.6,-1.1 213.5,-3.1l3.9,111.3c-1.2,0 -6.8,0.2 -6.8,0.2c-12.2,0.3 -24.2,0.7 -35.8,0.9h-1.8c-53.6,1.2 -108.1,1.9 -162,1.9c0,0.2 -7.3,0.1 -11,0.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2076.6" y="2475.2125" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">34 AS</text>
+                <path
+                    d="M1967.9,2520.4v-111.3c70.8,-0.1 142.6,-1.1 213.5,-3.1l3.9,111.3c-1.2,0 -6.8,0.2 -6.8,0.2c-12.2,0.3 -24.2,0.7 -35.8,0.9h-1.8c-53.6,1.2 -108.1,1.9 -162,1.9c0,0.2 -7.3,0.1 -11,0.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295856">
+                <path
+                    d="M1957,2393.2c-30.1,0 -60.6,-0.2 -90.6,-0.5v-58.5l-74.5,-6.7v-11.1c19.3,0.1 38.7,0.2 58,0.2c88.7,0 178.8,-1.3 268.1,-3.7v14.7l-74.5,6.7v58.6c-28.9,0.1 -57.9,0.3 -86.5,0.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1954.95" y="2362.05" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">34 BD</text>
+                <path
+                    d="M1957,2393.2c-30.1,0 -60.6,-0.2 -90.6,-0.5v-58.5l-74.5,-6.7v-11.1c19.3,0.1 38.7,0.2 58,0.2c88.7,0 178.8,-1.3 268.1,-3.7v14.7l-74.5,6.7v58.6c-28.9,0.1 -57.9,0.3 -86.5,0.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295855" data-original-title="" cursor="pointer">
+                <path
+                    d="M2059.4,2348.8l74.5,-6.7v-29.8c35.8,-1.1 72.1,-2.3 108,-3.8l3.5,79.5c-61.8,2.2 -124.3,3.7 -186.1,4.5v-43.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2172.35" y="2367.5" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">34 BS</text>
+                <path
+                    d="M2059.4,2348.8l74.5,-6.7v-29.8c35.8,-1.1 72.1,-2.3 108,-3.8l3.5,79.5c-61.8,2.2 -124.3,3.7 -186.1,4.5v-43.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2172.35" cy="2327.5" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295829" data-original-title="" cursor="pointer">
+                <path
+                    d="M2138.7,2534.6c0.8,0 4.4,-0.1 4.4,-0.1c11.7,-0.3 23.7,-0.6 35.9,-0.9l3.2,-0.1c11.6,-0.3 23.5,-0.7 35.3,-1.1l2.8,-0.1c12.5,-0.4 25,-0.9 37.2,-1.4h0.4c13.8,-0.5 28.1,-1.2 42.7,-1.8l14.1,298.9c-57.3,3 -115.2,5.3 -172.5,6.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2226.7" y="2697" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">36 AD</text>
+                <path
+                    d="M2138.7,2534.6c0.8,0 4.4,-0.1 4.4,-0.1c11.7,-0.3 23.7,-0.6 35.9,-0.9l3.2,-0.1c11.6,-0.3 23.5,-0.7 35.3,-1.1l2.8,-0.1c12.5,-0.4 25,-0.9 37.2,-1.4h0.4c13.8,-0.5 28.1,-1.2 42.7,-1.8l14.1,298.9c-57.3,3 -115.2,5.3 -172.5,6.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2226.7" cy="2647" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295828">
+                <path d="M2316.6,2528.3c41.6,-2 83.5,-4.4 124.8,-7.1l22,297.5c-43.7,3.2 -88.3,6.1 -132.7,8.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2390" y="2689.2" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">36 AS</text>
+                <path d="M2316.6,2528.3c41.6,-2 83.5,-4.4 124.8,-7.1l22,297.5c-43.7,3.2 -88.3,6.1 -132.7,8.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295844">
+                <path
+                    d="M2197.4,2405.6c78.1,-2.3 156.9,-5.8 234.7,-10.3l8.1,109.9c-60.9,4 -122.4,7.3 -183,9.7h-0.4c-12.1,0.5 -24.6,0.9 -37.1,1.4l-2.9,0.1c-5.2,0.2 -10.4,0.3 -15.6,0.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2318.8" y="2468.1" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">37 AD</text>
+                <path
+                    d="M2197.4,2405.6c78.1,-2.3 156.9,-5.8 234.7,-10.3l8.1,109.9c-60.9,4 -122.4,7.3 -183,9.7h-0.4c-12.1,0.5 -24.6,0.9 -37.1,1.4l-2.9,0.1c-5.2,0.2 -10.4,0.3 -15.6,0.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295843">
+                <path
+                    d="M2448.1,2394.4c99.8,-6 200.8,-14 300.7,-23.7l2.7,49.5l-44.7,5.2l3.4,56.9c-48.4,5 -97,9.6 -144.6,13.6c-12,1 -24.5,2 -37.4,3l-3,0.2c-11.4,0.9 -23.1,1.8 -34.8,2.6l-3.8,0.3c-10.1,0.7 -20.3,1.4 -30.4,2.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2599.8" y="2449.4" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">37 AS</text>
+                <path
+                    d="M2448.1,2394.4c99.8,-6 200.8,-14 300.7,-23.7l2.7,49.5l-44.7,5.2l3.4,56.9c-48.4,5 -97,9.6 -144.6,13.6c-12,1 -24.5,2 -37.4,3l-3,0.2c-11.4,0.9 -23.1,1.8 -34.8,2.6l-3.8,0.3c-10.1,0.7 -20.3,1.4 -30.4,2.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295854">
+                <path d="M2257.9,2307.9c58.7,-2.5 118.2,-5.5 176.9,-9l6.7,79.9c-59.9,3.6 -120.4,6.5 -180.1,8.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2349.7" y="2352.2" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">37 BD</text>
+                <path d="M2257.9,2307.9c58.7,-2.5 118.2,-5.5 176.9,-9l6.7,79.9c-59.9,3.6 -120.4,6.5 -180.1,8.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295853">
+                <path
+                    d="M2450.8,2297.9c78.4,-4.8 157.9,-10.7 236.7,-17.4v12l-68.9,9l6.9,64.1c-55.5,4.6 -111.9,8.6 -168,12.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2569.15" y="2338.1" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">37 BS</text>
+                <path
+                    d="M2450.8,2297.9c78.4,-4.8 157.9,-10.7 236.7,-17.4v12l-68.9,9l6.9,64.1c-55.5,4.6 -111.9,8.6 -168,12.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295827" data-original-title="" cursor="pointer">
+                <path
+                    d="M2457.4,2520.1c10.1,-0.7 20.3,-1.4 30.3,-2.1l3.8,-0.3c11.7,-0.9 23.4,-1.7 34.9,-2.6l3,-0.2c10,-0.8 19.9,-1.6 29.4,-2.4l4.2,53.3l103.6,-8.2l27.7,240.2c-71.6,7.6 -143.8,14.2 -214.9,19.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2575.85" y="2680" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">38 AD</text>
+                <path
+                    d="M2457.4,2520.1c10.1,-0.7 20.3,-1.4 30.3,-2.1l3.8,-0.3c11.7,-0.9 23.4,-1.7 34.9,-2.6l3,-0.2c10,-0.8 19.9,-1.6 29.4,-2.4l4.2,53.3l103.6,-8.2l27.7,240.2c-71.6,7.6 -143.8,14.2 -214.9,19.7z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2575.85" cy="2630" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295838">
+                <path d="M2574.8,2511.2c47.7,-4 96,-8.6 144,-13.7l3.1,39.7l-144.2,11.4z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="589" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="2648.35" y="2532.05" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">38 AS</text>
+                <path d="M2574.8,2511.2c47.7,-4 96,-8.6 144,-13.7l3.1,39.7l-144.2,11.4z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295842">
+                <path
+                    d="M2723.6,2439.5l44.6,-5.2l-3.6,-65.2c42.3,-4.2 85.1,-8.8 127.4,-13.6l13.9,103.6c-39.7,5.2 -80,10.2 -120,14.8c-5,0.6 -10,1.1 -15,1.7l-8.8,1c-13,1.4 -24.8,2.7 -36.1,3.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2830.75" y="2438" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">40 AD</text>
+                <path
+                    d="M2723.6,2439.5l44.6,-5.2l-3.6,-65.2c42.3,-4.2 85.1,-8.8 127.4,-13.6l13.9,103.6c-39.7,5.2 -80,10.2 -120,14.8c-5,0.6 -10,1.1 -15,1.7l-8.8,1c-13,1.4 -24.8,2.7 -36.1,3.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295841">
+                <path
+                    d="M2907.9,2353.7c41,-4.8 82.3,-9.9 123,-15.2l14.1,100.9c-6.7,1 -13.4,2 -20.1,3l-2.2,0.3c-3.2,0.5 -6.5,1 -9.7,1.4c-2.4,0.4 -4.9,0.7 -7.3,1.1l-3.7,0.5c-10.5,1.5 -21,3 -31.5,4.5c-17.3,2.4 -33.4,4.7 -48.8,6.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2976.45" y="2409.7" font-size="40"
+                    text-anchor="middle" eid="589" t="tc">40 AS</text>
+                <path
+                    d="M2907.9,2353.7c41,-4.8 82.3,-9.9 123,-15.2l14.1,100.9c-6.7,1 -13.4,2 -20.1,3l-2.2,0.3c-3.2,0.5 -6.5,1 -9.7,1.4c-2.4,0.4 -4.9,0.7 -7.3,1.1l-3.7,0.5c-10.5,1.5 -21,3 -31.5,4.5c-17.3,2.4 -33.4,4.7 -48.8,6.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295852">
+                <path
+                    d="M2636.2,2315.4l67.3,-8.8v-27.5c35.3,-3.1 71.1,-6.4 106.7,-9.8l10.8,77.9c-59.8,6.3 -120.1,12.1 -179.5,17.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2752.6" y="2325.8" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">40 BD</text>
+                <path
+                    d="M2636.2,2315.4l67.3,-8.8v-27.5c35.3,-3.1 71.1,-6.4 106.7,-9.8l10.8,77.9c-59.8,6.3 -120.1,12.1 -179.5,17.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s296468">
+                <path d="M2826.2,2267.8c44,-4.3 88,-9 131,-13.8h61.9l9.6,68.6c-63.5,8.3 -128,16 -191.8,22.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2927.45" y="2308.75" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">40 BS</text>
+                <path d="M2826.2,2267.8c44,-4.3 88,-9 131,-13.8h61.9l9.6,68.6c-63.5,8.3 -128,16 -191.8,22.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295826" data-original-title="" cursor="pointer">
+                <path
+                    d="M2682.6,2556.4l56.5,-4.5l-4.4,-56.1c9.7,-1 19.5,-2.1 29.2,-3.2l8.8,-1c5,-0.6 10,-1.1 15,-1.7c5.9,-0.7 11.8,-1.4 17.7,-2l6.5,50.4l102.8,-13.2l32.3,241.2c-78.4,11.2 -157.9,21.2 -236.8,29.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2814.8" y="2657" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">42 AD</text>
+                <path
+                    d="M2682.6,2556.4l56.5,-4.5l-4.4,-56.1c9.7,-1 19.5,-2.1 29.2,-3.2l8.8,-1c5,-0.6 10,-1.1 15,-1.7c5.9,-0.7 11.8,-1.4 17.7,-2l6.5,50.4l102.8,-13.2l32.3,241.2c-78.4,11.2 -157.9,21.2 -236.8,29.8z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2814.8" cy="2607" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295825">
+                <path
+                    d="M2930.6,2523l56.5,-7.3l-6.5,-50.7c7.9,-1.1 15.9,-2.3 23.8,-3.4l2.7,-0.4c2.8,-0.4 5.5,-0.8 8.3,-1.2c4,-0.6 8,-1.2 12,-1.8c6.7,-1 13.3,-2 20,-3l40.5,289.5c-41.3,6.7 -83.3,13.2 -124.9,19.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3009.25" y="2624.6" font-size="50"
+                    text-anchor="middle" eid="589" t="tc">42 AL</text>
+                <path
+                    d="M2930.6,2523l56.5,-7.3l-6.5,-50.7c7.9,-1.1 15.9,-2.3 23.8,-3.4l2.7,-0.4c2.8,-0.4 5.5,-0.8 8.3,-1.2c4,-0.6 8,-1.2 12,-1.8c6.7,-1 13.3,-2 20,-3l40.5,289.5c-41.3,6.7 -83.3,13.2 -124.9,19.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295837">
+                <path d="M2821.3,2486c47.3,-5.7 95.4,-11.9 143.4,-18.6l4.4,34.7l-143.4,18.4z" fill="#f1f1f1"
+                    stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="589" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="2895.2" y="2502.95" font-size="30"
+                    text-anchor="middle" eid="589" t="tc">42 AS</text>
+                <path d="M2821.3,2486c47.3,-5.7 95.4,-11.9 143.4,-18.6l4.4,34.7l-143.4,18.4z" fill="#f1f1f1"
+                    stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295870">
+                <path d="M1310.1,2285.1c-65.6,-3.8 -131.8,-8.3 -197,-13.4l32.5,-168.2c62.1,12.8 124.8,24.2 186.8,34.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1222.75" y="2209.3" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">28 BC</text>
+                <path d="M1310.1,2285.1c-65.6,-3.8 -131.8,-8.3 -197,-13.4l32.5,-168.2c62.1,12.8 124.8,24.2 186.8,34.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295871">
+                <path
+                    d="M1097,2270.4c-44.1,-3.6 -88.2,-7.4 -131.5,-11.5v-59.9l63.1,-68.2l42,-43.3c19.1,4.3 38.9,8.6 59.2,12.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1047.65" y="2187.95" font-size="30"
+                    text-anchor="middle" eid="1870" t="tc">28 BD</text>
+                <path
+                    d="M1097,2270.4c-44.1,-3.6 -88.2,-7.4 -131.5,-11.5v-59.9l63.1,-68.2l42,-43.3c19.1,4.3 38.9,8.6 59.2,12.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295869">
+                <path d="M1518.5,2294.7c-64,-2.2 -128.7,-5.2 -192.4,-8.7l22,-146c58.8,9.1 118.4,16.9 177.4,23.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1425.8" y="2232.35" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">28 BS</text>
+                <path d="M1518.5,2294.7c-64,-2.2 -128.7,-5.2 -192.4,-8.7l22,-146c58.8,9.1 118.4,16.9 177.4,23.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295868">
+                <path d="M1719,2299.6c-61.2,-0.8 -123.2,-2.3 -184.5,-4.3l7,-130.2c60.4,6.4 121.6,11.4 182.1,15z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1629.05" y="2247.35" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">32 BD</text>
+                <path d="M1719,2299.6c-61.2,-0.8 -123.2,-2.3 -184.5,-4.3l7,-130.2c60.4,6.4 121.6,11.4 182.1,15z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295867" data-original-title="" cursor="pointer">
+                <path
+                    d="M1849.8,2300.5c-38.1,0 -76.7,-0.2 -114.7,-0.7l4.6,-118.8c68.7,3.8 138.4,5.8 207.3,6v113c-32.4,0.4 -65.1,0.5 -97.2,0.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1841.05" y="2255.75" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">32 BS</text>
+                <path
+                    d="M1849.8,2300.5c-38.1,0 -76.7,-0.2 -114.7,-0.7l4.6,-118.8c68.7,3.8 138.4,5.8 207.3,6v113c-32.4,0.4 -65.1,0.5 -97.2,0.5z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="1841.05" cy="2205.75" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295866">
+                <path d="M1962.9,2187c66.1,-0.1 133.2,-1.8 199.6,-5.2l4.4,113.4c-67.9,2.2 -136.4,3.8 -204,4.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2064.9" y="2255.8" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">35 BD</text>
+                <path d="M1962.9,2187c66.1,-0.1 133.2,-1.8 199.6,-5.2l4.4,113.4c-67.9,2.2 -136.4,3.8 -204,4.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295865" data-original-title="" cursor="pointer">
+                <path d="M2178.5,2181c60.4,-3.3 121.6,-8 182.2,-14.1l6.4,119.7c-61.4,3.3 -123.3,6 -184.2,8.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2272.8" y="2245.8" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">35 BS</text>
+                <path d="M2178.5,2181c60.4,-3.3 121.6,-8 182.2,-14.1l6.4,119.7c-61.4,3.3 -123.3,6 -184.2,8.1z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="2272.8" cy="2195.8" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295863">
+                <path d="M2570.2,2140.7c62.1,-9.4 125,-20.3 187.2,-32.6l28.5,147.5c-65,6.2 -130.9,11.8 -195.9,16.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2678.05" y="2205.2" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">39 BC</text>
+                <path d="M2570.2,2140.7c62.1,-9.4 125,-20.3 187.2,-32.6l28.5,147.5c-65,6.2 -130.9,11.8 -195.9,16.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295864">
+                <path d="M2376.6,2165.4c59,-6.1 118.7,-13.6 177.8,-22.3l19.7,130.5c-63.4,4.7 -127.6,8.8 -191,12.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2475.35" y="2229.5" font-size="50"
+                    text-anchor="middle" eid="1870" t="tc">39 BD</text>
+                <path d="M2376.6,2165.4c59,-6.1 118.7,-13.6 177.8,-22.3l19.7,130.5c-63.4,4.7 -127.6,8.8 -191,12.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295862">
+                <path
+                    d="M2773.1,2105c27.9,-5.6 55.6,-11.4 82.5,-17.3l21.9,39.3l66.1,112.4c-47,5.2 -94.6,10.1 -141.7,14.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="1870"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="2858.35" y="2179.9" font-size="30"
+                    text-anchor="middle" eid="1870" t="tc">39 BS</text>
+                <path
+                    d="M2773.1,2105c27.9,-5.6 55.6,-11.4 82.5,-17.3l21.9,39.3l66.1,112.4c-47,5.2 -94.6,10.1 -141.7,14.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295892">
+                <path d="M3497.4,1991c17.5,-31.6 33.5,-64 47.7,-96.6l266.8,107.2c-17.5,40.7 -37.3,81.2 -58.8,120.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3654.65" y="2023.3" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">46 AD</text>
+                <path d="M3497.4,1991c17.5,-31.6 33.5,-64 47.7,-96.6l266.8,107.2c-17.5,40.7 -37.3,81.2 -58.8,120.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295893">
+                <path d="M3551.4,1879.6c14.7,-35.3 27.5,-71.4 38.2,-107.6l279.4,71.2c-14.1,48.3 -31.2,96.6 -50.8,143.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3710.2" y="1894.35" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">46 AS</text>
+                <path d="M3551.4,1879.6c14.7,-35.3 27.5,-71.4 38.2,-107.6l279.4,71.2c-14.1,48.3 -31.2,96.6 -50.8,143.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295900">
+                <path d="M3162.7,1819.3c24.5,-45.6 44.3,-93 58.8,-141.1l352.6,89.9c-21.8,73.8 -52.4,146.2 -90.9,215.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3368.4" y="1845.95" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">46 B</text>
+                <path d="M3162.7,1819.3c24.5,-45.6 44.3,-93 58.8,-141.1l352.6,89.9c-21.8,73.8 -52.4,146.2 -90.9,215.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295894" data-original-title="" cursor="pointer">
+                <path
+                    d="M3594,1756.6c9.5,-34.3 17.3,-69.3 23.2,-104.3h85l11.8,-28.8h15.1v17.7h35.2v18.4h33.5v15.1h36.8v20.7h25.1v19.5h40.1c-7.1,37.7 -16,75.7 -26.4,113z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3746.9" y="1740.7" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">47 AD</text>
+                <path
+                    d="M3594,1756.6c9.5,-34.3 17.3,-69.3 23.2,-104.3h85l11.8,-28.8h15.1v17.7h35.2v18.4h33.5v15.1h36.8v20.7h25.1v19.5h40.1c-7.1,37.7 -16,75.7 -26.4,113z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="3746.9" cy="1690.7" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295895">
+                <path
+                    d="M3619.8,1636.4c5.4,-35.7 9,-71.8 10.5,-107.6c0.3,-7.1 0.6,-14.4 0.7,-21.7h69.6v107l-9.1,22.4l-71.7,-0.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="1571.8" y="-3651.2" transform="rotate(90)"
+                    font-size="30" text-anchor="middle" eid="488" t="tc">47 AS</text>
+                <path
+                    d="M3619.8,1636.4c5.4,-35.7 9,-71.8 10.5,-107.6c0.3,-7.1 0.6,-14.4 0.7,-21.7h69.6v107l-9.1,22.4l-71.7,-0.1z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295901">
+                <path
+                    d="M3226,1662.8c10.3,-36.8 17.6,-74.3 21.9,-111.7c1.7,-14.7 2.9,-29.5 3.7,-44.1h363.5c-0.2,7.1 -0.4,14.1 -0.7,21c-3.3,75.7 -15.4,151.2 -35.9,224.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3420.55" y="1644.85" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">47 B</text>
+                <path
+                    d="M3226,1662.8c10.3,-36.8 17.6,-74.3 21.9,-111.7c1.7,-14.7 2.9,-29.5 3.7,-44.1h363.5c-0.2,7.1 -0.4,14.1 -0.7,21c-3.3,75.7 -15.4,151.2 -35.9,224.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295896">
+                <path d="M3631.3,1491c0.3,-42.6 -2,-85.1 -7,-126.6h71.1l5.3,17.5v109.1z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" eid="488" t="tc"
+                    style="display: none; opacity: 1;"></path><text x="1427.7" y="-3653.5" transform="rotate(90)"
+                    font-size="30" text-anchor="middle" eid="488" t="tc">48 AD</text>
+                <path d="M3631.3,1491c0.3,-42.6 -2,-85.1 -7,-126.6h71.1l5.3,17.5v109.1z" fill="#f1f1f1" stroke="#000000"
+                    stroke-width="3px" fill-opacity="0.19000000000000003" obs="true" style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295897">
+                <path
+                    d="M3714.6,1372.7l-7.3,-24.4h-85.1c-5,-36 -12,-72 -20.9,-107.1l284.1,-72.5c9.5,37 17.2,74.9 23.1,112.6h-48.7v19.5h-25.1v20.7h-36.9v15.1h-33.5v18.4h-35.2v17.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3754.9" y="1285.7" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">48 AS</text>
+                <path
+                    d="M3714.6,1372.7l-7.3,-24.4h-85.1c-5,-36 -12,-72 -20.9,-107.1l284.1,-72.5c9.5,37 17.2,74.9 23.1,112.6h-48.7v19.5h-25.1v20.7h-36.9v15.1h-33.5v18.4h-35.2v17.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295902">
+                <path d="M3252.3,1491c1.8,-54.3 -2.7,-107.1 -13.3,-157.3l346.8,-88.5c20.3,79.3 30.2,161.9 29.6,245.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3427.21286" y="1383.1" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">48 B</text>
+                <path d="M3252.3,1491c1.8,-54.3 -2.7,-107.1 -13.3,-157.3l346.8,-88.5c20.3,79.3 30.2,161.9 29.6,245.8z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295898">
+                <path d="M3597.2,1225.8c-9.8,-35.7 -21.8,-71.3 -35.7,-105.8l270.6,-111.9c19.5,47.4 36,96.2 49.3,145.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3721.45" y="1131.95" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">49 AD</text>
+                <path d="M3597.2,1225.8c-9.8,-35.7 -21.8,-71.3 -35.7,-105.8l270.6,-111.9c19.5,47.4 36,96.2 49.3,145.3z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295899">
+                <path
+                    d="M3555.4,1105.2c-15.8,-37.3 -34.1,-74.1 -54.6,-109.6l254.6,-142.2c26.5,45.3 50.1,92.3 70.4,139.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3663.3" y="994.3" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">49 AS</text>
+                <path
+                    d="M3555.4,1105.2c-15.8,-37.3 -34.1,-74.1 -54.6,-109.6l254.6,-142.2c26.5,45.3 50.1,92.3 70.4,139.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295903">
+                <path
+                    d="M3235.4,1318.1c-12.1,-50.1 -30.6,-98.3 -55.3,-143.5l306.7,-171.3c41.5,71.9 73.4,148 94.8,226.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="488"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3380.85" y="1175.7" font-size="50"
+                    text-anchor="middle" eid="488" t="tc">49 B</text>
+                <path
+                    d="M3235.4,1318.1c-12.1,-50.1 -30.6,-98.3 -55.3,-143.5l306.7,-171.3c41.5,71.9 73.4,148 94.8,226.4z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295907">
+                <path d="M3492.7,981.8c-19.8,-33.1 -41.9,-65.8 -65.8,-97.2l232.4,-173.6c32.1,41.5 61.6,84.8 88,128.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3587.1" y="861.4" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">50 AD</text>
+                <path d="M3492.7,981.8c-19.8,-33.1 -41.9,-65.8 -65.8,-97.2l232.4,-173.6c32.1,41.5 61.6,84.8 88,128.7z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295908">
+                <path d="M3417.1,871.8c-25.1,-32 -52.5,-63.3 -81.6,-93.1l215.1,-192.9c35.1,36.1 68.4,73.9 98.9,112.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3492.5" y="743.8" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">50 AS</text>
+                <path d="M3417.1,871.8c-25.1,-32 -52.5,-63.3 -81.6,-93.1l215.1,-192.9c35.1,36.1 68.4,73.9 98.9,112.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295904" data-original-title="" cursor="pointer">
+                <path
+                    d="M3172.3,1160.7c-28.6,-49.2 -65,-95.7 -108.5,-138.3l259.7,-232.9c60.7,62.2 112.8,129.5 155.1,200.2z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3271.2" y="990.1" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">50 B</text>
+                <path
+                    d="M3172.3,1160.7c-28.6,-49.2 -65,-95.7 -108.5,-138.3l259.7,-232.9c60.7,62.2 112.8,129.5 155.1,200.2z"
+                    fill="#050505" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+                <circle cx="3271.2" cy="940.1" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s295909">
+                <path
+                    d="M3324.3,767.3c-26.6,-26.6 -55.1,-52.6 -84.9,-77.4l187.4,-218.1c39.5,32.7 77.3,67.2 112.5,102.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3389.35" y="634.55" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">51 AD</text>
+                <path
+                    d="M3324.3,767.3c-26.6,-26.6 -55.1,-52.6 -84.9,-77.4l187.4,-218.1c39.5,32.7 77.3,67.2 112.5,102.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295910">
+                <path d="M3227,679.7c-30.4,-24.7 -62.7,-48.6 -96,-71.2l158.8,-238.8c43.3,29.1 85.2,60 124.6,92z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3272.7" y="539.7" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">51 AS</text>
+                <path d="M3227,679.7c-30.4,-24.7 -62.7,-48.6 -96,-71.2l158.8,-238.8c43.3,29.1 85.2,60 124.6,92z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295905">
+                <path
+                    d="M3052.3,1011.2c-19.8,-18.6 -41.2,-36.7 -63.7,-53.8l5.1,-52.5l112.8,-144.2l19.5,-136.2c68.4,46.8 131,98.3 186.3,153.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3150.45" y="832.85" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">51 B</text>
+                <path
+                    d="M3052.3,1011.2c-19.8,-18.6 -41.2,-36.7 -63.7,-53.8l5.1,-52.5l112.8,-144.2l19.5,-136.2c68.4,46.8 131,98.3 186.3,153.5z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295911">
+                <path d="M3117.7,599.6c-23.4,-15.5 -47.6,-30.6 -72.2,-45l117.8,-262.8c38.8,21.8 76.8,44.9 113.1,68.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3160.95" y="460.7" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">52 A</text>
+                <path d="M3117.7,599.6c-23.4,-15.5 -47.6,-30.6 -72.2,-45l117.8,-262.8c38.8,21.8 76.8,44.9 113.1,68.9z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+            <g sprite-identifier="s295906">
+                <path
+                    d="M2947.9,873.1l32,-53.9l-44,-20.4l102.9,-229.6c24.7,14.5 49,29.6 72.4,45.2l-20,139.7l-107.4,137.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" eid="593"
+                    t="tc" style="display: none; opacity: 1;"></path><text x="3023.55" y="745.45" font-size="50"
+                    text-anchor="middle" eid="593" t="tc">52 B</text>
+                <path
+                    d="M2947.9,873.1l32,-53.9l-44,-20.4l102.9,-229.6c24.7,14.5 49,29.6 72.4,45.2l-20,139.7l-107.4,137.6z"
+                    fill="#f1f1f1" stroke="#000000" stroke-width="3px" fill-opacity="0.19000000000000003" obs="true"
+                    style="opacity: 1;"></path>
+            </g>
+        </g>
+        <g id="Config" fill="none" fill-rule="nonzero" stroke="none" stroke-width="none" stroke-linecap="butt"
+            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+            font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+            <g id="config_field" fill="#999999">
+                <g fill="#4b8037" stroke="none" stroke-width="1">
+                    <path
+                        d="M898.4,2265.7l-13.7,-3.3l32.6,-216.9l-0.2,-0.2c-79,-69.2 -144.6,-159.7 -189.7,-261.9c-46.2,-104.8 -68.8,-217.5 -65.1,-326c3.1,-93.3 25.2,-181.5 65.5,-262.1c43.9,-87.6 108.7,-164.6 192.7,-228.7c0.4,-0.3 1.1,-0.7 0.3,-31.7c-0.3,-14.1 -0.8,-28.3 -0.9,-30.4l41.6,-31.4l-36.2,-60.8l96.2,-53.1l32.9,56.9l99.9,-40.8l7.8,16.2l81.1,-32.3l13.7,32.3l77,-22.8l7.3,22.8l82,-22.9l6.7,22.8l168.9,-40.9l-6.1,-34.6c122.6,-17.4 247.3,-26.2 370.4,-26.2c120.5,0 243,8.4 364,25.1l-6.3,35.7l170.2,40.6l6.7,-22.5l82,22.5l9.5,-23.1l73.1,23.1l5.8,-12.4l0.5,-11.7l82.9,28.8l9.5,-17.2l101.6,36.4l26.8,-47l49.5,22.7l-3.5,8.2l44.6,21.2l-34.6,54.7l51.2,23.4l-4.7,5.2l-2.8,53.5l0.2,0.2c78.3,60.9 140.4,132.4 184.5,212.4c42.8,77.6 67.9,161.7 74.6,250.1c7.8,102.3 -8.9,206.6 -49.8,310.1c-41.9,105.9 -107.5,206.7 -195.1,299.4l-0.2,0.2l29.3,217.6l-13.7,6.7h-62.1l-13,-14.6l-88.3,-154.9l-0.4,0.1c-148.2,34 -298.6,59.8 -447.2,76.8c-148.3,16.9 -298.9,25.5 -447.6,25.5c-147.1,0 -296.4,-8.4 -443.9,-25c-147.2,-16.5 -296.7,-41.7 -444.3,-74.7l-0.3,-0.1l-106.8,110.4v77.1z">
+                    </path>
+                    <g>
+                        <path
+                            d="M1963.1,689.3v1c120.3,0 242.6,8.4 363.5,25l-6.1,34.7l-0.2,0.9l0.9,0.2l169.2,40.4l0.9,0.2l0.3,-0.9l6.4,-21.6l81.1,22.3l0.9,0.2l0.3,-0.8l9.1,-22.2l72.2,22.8l0.8,0.3l0.4,-0.8l5.6,-11.9l0.1,-0.2v-0.2l0.5,-10.9l81.9,28.5l0.8,0.3l0.4,-0.7l9.1,-16.4l100.8,36.1l0.8,0.3l0.4,-0.7l26.3,-46.2l48.7,22.3l-3.1,7.3l-0.4,0.9l0.9,0.4l43.6,20.7l-34,53.7l-0.6,1l1,0.5l50.1,22.9l-4.1,4.6l-0.2,0.3v0.4l-2.8,53v0.5l0.4,0.3c78.3,60.9 140.3,132.3 184.4,212.3c42.7,77.5 67.8,161.6 74.6,249.9c3.9,50.6 1.6,102.4 -6.7,154.2c-8.3,52 -22.8,104.3 -43.1,155.7c-20.6,52 -47.3,103.5 -79.4,153c-32.8,50.6 -71.7,99.8 -115.5,146.2l-0.3,0.3l0.1,0.5l29.2,217l-13.2,6.5h-61.9l-12.8,-14.4l-88.1,-154.5l-0.4,-0.6l-0.7,0.2c-148.1,34 -298.6,59.8 -447.1,76.8c-148.3,16.9 -298.8,25.5 -447.6,25.5c-147,0 -296.4,-8.4 -443.9,-25c-147.2,-16.5 -296.7,-41.6 -444.3,-74.7l-0.5,-0.1l-0.4,0.4l-106.6,109.8l-0.3,0.3v0.4v76.3l-66,-8.6l-13.3,-3.2l32.4,-216.2l0.1,-0.5l-0.4,-0.4c-79,-69.1 -144.5,-159.6 -189.6,-261.7c-46.2,-104.7 -68.7,-217.4 -65.1,-325.8c3.1,-93.3 25.1,-181.4 65.4,-261.9c43.8,-87.6 108.6,-164.4 192.6,-228.5c0.7,-0.5 1.3,-1.3 0.6,-32.2c-0.3,-13.6 -0.8,-27.3 -0.9,-30.1l41.1,-30.9l0.7,-0.5l-0.5,-0.8l-35.7,-59.9l95.4,-52.6l32.4,56.1l0.4,0.8l0.8,-0.3l99,-40.4l7.4,15.3l0.4,0.8l0.9,-0.3l80.3,-32l13.3,31.4l0.3,0.8l0.9,-0.3l76.1,-22.6l7,21.9l0.3,0.9l0.9,-0.3l81.1,-22.6l6.4,21.9l0.3,0.9l0.9,-0.2l167.9,-40.7l0.9,-0.2l-0.2,-0.9l-5.9,-33.6c122.5,-17.4 246.9,-26.1 369.8,-26.1v-1M1963.1,689.3c-123.5,0 -247.2,8.7 -371,26.3l6.1,34.6l-167.9,40.7l-6.7,-22.9l-82,22.9l-7.3,-22.9l-77,22.9l-13.7,-32.3l-81.2,32.3l-7.8,-16.2l-99.9,40.8l-32.9,-57l-97.1,53.6l36.3,60.8l-41.5,31.3c0,0 2.1,61 0.7,62c-396.5,302.6 -288.5,830 -3.4,1079.4l-32.6,217.1l14.2,3.4l67.2,8.8v-77.5l106.4,-110.1c296.4,66.3 592.5,99.6 888.3,99.6c298.6,0 596.9,-34 894.9,-102.3l88.2,154.6l13.2,14.8h62.6l14.1,-7l-29.3,-217.7c331.6,-351.3 331.6,-803.7 -14.2,-1072.7l2.8,-53l5,-5.6l-51.3,-23.4l34.6,-54.7l-44.7,-21.2l3.5,-8.2l-50.4,-23.1l-26.8,47l-101.6,-36.4l-9.5,17.2l-83.2,-28.9l-0.6,12.3l-5.6,11.9l-73.1,-23.1l-9.5,23.1l-82,-22.5l-6.7,22.5l-169.2,-40.4l6.3,-35.7c-121.5,-16.6 -243,-25.1 -364.7,-25.1z">
+                        </path>
+                    </g>
+                </g>
+                <g id="Grass_1" stroke="none" stroke-width="1">
+                    <g>
+                        <g clip-path="url(#clip-1)">
+                            <g fill="#2b5e17">
+                                <path d="M2737.9,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M2458.5,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M2179.2,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M1899.8,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M1620.4,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M1341.1,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                            <g fill="#2b5e17">
+                                <path d="M1061.7,2272.8v-1512.7h137.4v1512.7z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Left_x5F_Goal_1" fill="none" stroke="#ffffff" stroke-width="3">
+                    <path d="M1261.4,1335c86.4,0 156.4,69.8 156.4,156c0,86.2 -70,156 -156.4,156"></path>
+                    <path d="M1061.8,1647.4v-312.8h199.6v312.8z"></path>
+                    <path d="M1027.2,1571.2v-160.3h33.9v160.3z"></path>
+                </g>
+                <g id="Right_x5F_Goal_1" fill="none" stroke="#ffffff" stroke-width="3">
+                    <path d="M2675.7,1647c-86.4,0 -156.4,-69.8 -156.4,-156c0,-86.2 70,-156 156.4,-156"></path>
+                    <path d="M2675.7,1647.4v-312.8h199.6v312.8z"></path>
+                    <path d="M2875.3,1571.2v-160.3h33.9v160.3z"></path>
+                </g>
+                <g id="Midfield_x5F_Lines_1" fill="none" stroke="#ffffff" stroke-width="3">
+                    <path d="M1968.8,1024.7v930.3"></path>
+                    <path d="M2379.1,1024.7v930.3"></path>
+                    <path d="M1567,1024.7v930.3"></path>
+                </g>
+                <path
+                    d="M1787.2,1491c0,-99.9 81.2,-180.9 181.3,-180.9c100.1,0 181.3,81 181.3,180.9c0,99.9 -81.2,180.9 -181.3,180.9c-100.1,0 -181.3,-81 -181.3,-180.9z"
+                    fill="#050505" stroke="#000000" stroke-width="3" fill-opacity="0.19000000000000003"></path>
+                <path d="M2158,1024.7c0,99.9 -81.2,180.9 -181.3,180.9c-100.1,0 -181.3,-81 -181.3,-180.9" fill="#050505"
+                    stroke="#000000" stroke-width="3" fill-opacity="0.19000000000000003"></path>
+                <g id="Shooting_x5F_Marks_1" fill="#ffffff" stroke="#ffffff" stroke-width="2">
+                    <path
+                        d="M1960.9,1491c0,-4.2 3.4,-7.6 7.6,-7.6c4.2,0 7.6,3.4 7.6,7.6c0,4.2 -3.4,7.6 -7.6,7.6c-4.2,0 -7.6,-3.4 -7.6,-7.6z">
+                    </path>
+                    <path
+                        d="M2371.5,1491c0,-4.2 3.4,-7.6 7.6,-7.6c4.2,0 7.6,3.4 7.6,7.6c0,4.2 -3.4,7.6 -7.6,7.6c-4.2,0 -7.6,-3.4 -7.6,-7.6z">
+                    </path>
+                    <path
+                        d="M1559.4,1491c0,-4.2 3.4,-7.6 7.6,-7.6c4.2,0 7.6,3.4 7.6,7.6c0,4.2 -3.4,7.6 -7.6,7.6c-4.2,0 -7.6,-3.4 -7.6,-7.6z">
+                    </path>
+                </g>
+                <path
+                    d="M2691.2,1024.7h-1445.3c-101.7,0 -184.2,82.5 -184.2,184.2v564.3c0,101.7 82.5,184.2 184.2,184.2h1445.2c101.7,0 184.2,-82.5 184.2,-184.2v-564.3c0.1,-101.8 -82.4,-184.2 -184.1,-184.2z"
+                    fill="#050505" stroke="#000000" stroke-width="3" fill-opacity="0.19000000000000003"></path>
+            </g>
+            <g id="config_sprites" fill="#cccccc" stroke="#231f20" stroke-width="3">
+                <path
+                    d="M2562.6,211.4c-48.1,-11.1 -97.5,-21 -146.9,-29.4c-46.2,-7.9 -93.3,-14.6 -140.1,-20.1c-35.7,-4.1 -72.1,-7.6 -108.4,-10.4c-68.9,-5.2 -139.1,-7.9 -208.8,-8c0,0 -3.3,0 -4,0c-69.9,0 -140.4,2.6 -209.7,7.8c-36.5,2.7 -72.9,6.2 -108.4,10.3c-46.7,5.4 -93.9,12.1 -140.1,19.9c-49.4,8.4 -98.8,18.2 -147,29.3l-35.6,-132.7c51.3,-12.6 104.2,-23.7 157.2,-33.2c48.2,-8.7 97.6,-16.1 146.7,-22.2c37.6,-4.6 76,-8.6 114.3,-11.7c73.3,-6 148.2,-9.2 222.5,-9.5c4.4,0 8.7,0 13.1,0c71.3,0 143.1,2.7 213.2,7.9c38.2,2.9 76.7,6.5 114.4,11c49.3,5.8 98.8,13 147,21.4c53.1,9.2 106.1,20.2 157.6,32.6z">
+                </path>
+                <path
+                    d="M1574.7,509.8l-133.7,24.6l-20.6,-98.5l-7.7,1.4c-117,21.6 -217.5,52.9 -306.9,95.5l-21.8,-53.4c126.2,-51.9 263.6,-92.5 408.7,-120.6c150.7,-29.2 309.5,-45 472,-46.9c10,-0.1 20.2,-0.2 30.2,-0.2c152.4,0 301.8,13.6 444,40.3c137.9,25.9 269.2,64.3 390.3,113.9l2.8,8.8l-23.7,58.1c-89.5,-42.6 -189.9,-73.9 -306.9,-95.5l-7.7,-1.4l-20.6,98.5l-133.7,-24.6l-33.7,201c-108.6,-14.3 -223.7,-21.5 -342.5,-21.5c-2.4,0 -4.9,0 -7.3,0c-121,0.3 -237.8,7.9 -347.2,22.5z">
+                </path>
+            </g>
+        </g>
+    </g>
+    <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+        <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+            <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+            <path
+                d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                class="svg-pan-zoom-control-element"></path>
+        </g>
+        <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+            <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+            <path
+                d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                class="svg-pan-zoom-control-element"></path>
+        </g>
+    </g>
+</svg>

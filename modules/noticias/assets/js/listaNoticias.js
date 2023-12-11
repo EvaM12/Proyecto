@@ -1,3 +1,7 @@
+/**
+ * Obtiene los datos de varias ligas y los muestra en el HTML.
+ * @param {string[]} ligas - Array de nombres de las ligas.
+ */
 function obtenerDatosVariasLigas(ligas) {
     var titulosAgregados = new Set();
     var articlesDiv = $('#articles');
@@ -80,7 +84,7 @@ function obtenerDatosVariasLigas(ligas) {
                 texto = texto.substring(0, texto.length / 2) + '...';
             }
 
-            articlesDiv.append(`<article class="news-list-post mb-4">
+            articlesDiv.append(`<article class="news-list-post mb-4 d-flex flex-column flex-md-row">
                 <div class="post-thumb">
                     <img src="${src}" alt="${alt}">
                 </div>

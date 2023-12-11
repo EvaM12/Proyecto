@@ -1,23 +1,20 @@
+# Este fichero YAML define la configuración de rutas para el módulo 'sesion'.
+# Contiene dos rutas: 'sesion.sesion' y 'sesion.finsesion'.
+# La ruta 'sesion.sesion' mapea a la ruta '/session' y es manejada por el método 'SesionController::sesion'.
+# La ruta 'sesion.finsesion' corresponde a la ruta '/finsesion' y es manejada por el método 'SesionController::finsesion'.
+# Ambas rutas requieren el permiso 'access content'.
 sesion.sesion:
-  path: '/session'
-  defaults:
-    _controller: '\Drupal\sesion\Controller\SesionController::sesion'
-    _title: 'Login / Sign Up'
-  requirements:
-    _permission: 'access content'
+    path: '/session'
+    defaults:
+        _controller: '\Drupal\sesion\Controller\SesionController::sesion'
+        _title: 'Login / Sign Up'
+    requirements:
+        _permission: 'access content'
 
 sesion.finsesion:
-  path: '/finsesion'
-  defaults:
-    _controller: '\Drupal\sesion\Controller\SesionController::finsesion'
-    _title: 'Login / Sign Up'
-  requirements:
-    _permission: 'access content'
-
-# sesion.personal:
-#   path: '/personal'
-#   defaults:
-#     _controller: '\Drupal\sesion\Controller\SesionController::personal'
-#     _title: 'Datos personales'
-#   requirements:
-#     _permission: 'access content'
+    path: '/finsesion'
+    defaults:
+        _controller: '\Drupal\sesion\Controller\SesionController::finsesion'
+        _title: 'Login / Sign Up'
+    requirements:
+        _permission: 'access content'

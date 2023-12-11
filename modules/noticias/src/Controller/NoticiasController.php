@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * @file
+ * Contains the NoticiasController class.
+ *
+ * This controller handles the display of noticias (news) content.
+ */
+
 namespace Drupal\noticias\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
@@ -15,16 +22,34 @@ use Drupal\general\Controller\GeneralController;
 use Drupal\Core\Database\Database;
 use Drupal\Core\Block\BlockPluginInterface;
 
+/**
+ * Defines a controller for noticias (news) content.
+ */
 class NoticiasController extends ControllerBase
 {
 
     protected $twig;
 
+    /**
+     * Constructs a NoticiasController object.
+     *
+     * @param \Drupal\Core\Template\TwigEnvironment $twig
+     *   The Twig environment service.
+     */
     public function __construct(TwigEnvironment $twig)
     {
         $this->twig = $twig;
     }
 
+    /**
+     * Crea un objeto NoticiasController.
+     *
+     * @param \Symfony\Component\DependencyInjection\ContainerInterface $container
+     * La interfaz del contenedor.
+     *
+     * @return \Drupal\noticias\Controller\NoticiasController
+     * El objeto NoticiasController.
+     */
     public static function create(ContainerInterface $container)
     {
         return new static(
@@ -32,62 +57,79 @@ class NoticiasController extends ControllerBase
         );
     }
 
+    /**
+     * Muestra el contenido de noticias sin ningún tipo específico.
+     *
+     * @return array
+     * Un array renderizado que contiene el contenido de noticias.
+     */
     public function notGeneral()
     {
         $data2 = [
             'titulo' => 'news'
         ];
-        // Cargar la primera plantilla
+        // Load the first template
         $template1 = $this->twig->load('@general/cabecera.html.twig');
         $html1 = $template1->render($data2);
 
-        // Cargar la segunda plantilla
+        // Load the second template
         $template2 = $this->twig->load('@noticias/noticias.html.twig');
         $html2 = $template2->render();
 
-        // Combinar el contenido de ambas plantillas
+        // Combine the content of both templates
         $combinedHtml = $html1 . $html2;
 
-        // Envuelve el contenido de la plantilla en un objeto renderizable
+        // Wrap the template content in a renderable object
         $content = [
             '#markup' => Markup::create($combinedHtml),
         ];
 
-        // Agrega el contenido de la plantilla al bloque "Main page content"
+        // Add the template content to the "Main page content" block
         $build['main_page_content']['#markup'] = $content['#markup'];
 
         return $build;
     }
 
+    /**
+     * Muestra el contenido de noticias de un tipo específico.
+     *
+     * @param string $tipo
+     * El tipo de contenido de noticias.
+     * @param int $id
+     * ID del contenido de noticias.
+     *
+     * @return array
+     * Un array renderizado que contiene el contenido de noticias.
+     */
     public function tipoNoticia($tipo, $id)
     {
         $data = [
             'titulo' => 'news'
         ];
-        // Cargar la primera plantilla
+        // Load the first template
         $template1 = $this->twig->load('@general/cabecera.html.twig');
         $html1 = $template1->render($data);
 
-        //obtener el id y el tipo de noticia
+        // Get the ID and type of noticias content
         if ($tipo == 'video') {
-            // Cargar la segunda plantilla
+            // Load the second template
             $template2 = $this->twig->load('@noticias/video.html.twig');
             $html2 = $template2->render(['id' => $id]);
         } elseif ($tipo == 'news') {
-            // Cargar la segunda plantilla
+            // Load the second template
             $template2 = $this->twig->load('@noticias/noticia.html.twig');
             $html2 = $template2->render(['id' => $id]);
         }
 
-        // Combinar el contenido de ambas plantillas
+        // Combine the content of both templates
         $combinedHtml = $html1 . $html2;
 
-        // Envuelve el contenido de la plantilla en un objeto renderizable
+        // Wrap the template content in a renderable object
         $content = [
             '#markup' => Markup::create($combinedHtml),
         ];
 
-        // Agrega el contenido de la plantilla al bloque "Main page content"
+        // Add the template content to the "Main page content" block
         $build['main_page_content']['#markup'] = $content['#markup'];
 
         return $build;

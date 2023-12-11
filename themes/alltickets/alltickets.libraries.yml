@@ -1,29 +1,35 @@
 # Archivo: alltickets.libraries.yml
+# Este archivo YAML define las librerías para el tema AllTickets.
+# Incluye archivos CSS y JS para las secciones de cabecera, pie de página y general.
+# La sección de cabecera incluye un archivo CSS (header.css) y un archivo JS (header.js).
+# La sección de pie de página incluye un archivo CSS (footer.css).
+# La sección general incluye un archivo CSS (general.css) y un archivo JS (general.js).
+# Todas las secciones tienen una versión especificada como 1.x.
+# Las dependencias de todas las secciones incluyen la biblioteca core/jquery.
 header:
-  version: 1.x
-  css:
-    theme:
-      assets/css/header.css: {}
-  js:
-    assets/js/header.js: {}
-  dependencies:
-    - core/jquery
+    version: 1.x
+    css:
+        theme:
+            assets/css/header.css: {}
+    js:
+        assets/js/header.js: {}
+    dependencies:
+        - core/jquery
 
 footer:
-  version: 1.x
-  css:
-    theme:
-      assets/css/footer.css: {}
-  dependencies:
-    - core/jquery
-
+    version: 1.x
+    css:
+        theme:
+            assets/css/footer.css: {}
+    dependencies:
+        - core/jquery
 
 general:
-  version: 1.x
-  css:
-    theme:
-      assets/css/general.css: {}
-  js:
-    assets/js/general.js: {}
-  dependencies:
-    - core/jquery
+    version: 1.x
+    css:
+        theme:
+            assets/css/general.css: {}
+    js:
+        assets/js/general.js: {}
+    dependencies:
+        - core/jquery

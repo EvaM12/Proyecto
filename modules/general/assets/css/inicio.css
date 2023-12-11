@@ -1,3 +1,4 @@
+/* codigo de la seccion de noticias */
 .noticias img {
     overflow: hidden;
     border-radius: 0.25em;
@@ -84,6 +85,7 @@
     /* Color del texto */
 }
 
+/* codigo de la seccion sobre nosotros */
 .nosotros {
     background-image: url('../images/balon.jpg');
     background-size: cover;
@@ -96,6 +98,7 @@
     background-color: #12121257;
 }
 
+/* codigo de la seccion de los partidos */
 .partido {
     background-color: white;
     border-radius: 0.5em;
@@ -178,6 +181,7 @@
     box-sizing: inherit
 }
 
+/* codigo de la seccion de las competiciones */
 .competiciones img {
     padding: 1em;
     width: 10%;

@@ -1,5 +1,0 @@
-listado:
-    js:
-        assets/js/listado.js: {}
-    dependencies:
-        - core/jquery

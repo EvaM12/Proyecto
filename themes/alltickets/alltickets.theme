@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Preprocesa la plantilla de bloque para el bloque alltickets_header.
+ *
+ * Esta función comprueba si existe una variable de sesión y asigna su valor a la variable $email de la plantilla.
+ *
+ * @param array $variables
+ * Un array asociativo de variables para pasar a la plantilla.
+ */
 function alltickets_preprocess_block__alltickets_header(array &$variables) {
     // Verificar si existe una variable de sesión
     if (isset($_SESSION['IDuser']) && $_SESSION['IDuser'] !== '') {

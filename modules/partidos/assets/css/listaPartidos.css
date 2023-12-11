@@ -1,3 +1,4 @@
+/* codigo del listado de partidos */
 .listaPartidos {
     background-color: #f1f1f1 !important;
     color: #121212;
@@ -12,6 +13,7 @@
     border-bottom: 1px solid #bfbfbf;
 }
 
+/* codigo de la fecha del partido */
 .partidos li>div {
     display: grid;
     align-items: center;
@@ -26,6 +28,7 @@
     font-size: 1.2em;
 }
 
+/* codigo de la informacion */
 .entradas {
     color: #121212;
     align-self: center;
@@ -33,6 +36,7 @@
     margin-left: 1em !important;
 }
 
+/* codigo del boton de enlace */
 .enlace,
 .enlace span {
     text-size-adjust: none;
@@ -85,6 +89,7 @@
     box-sizing: inherit
 }
 
+/* orden de las secciones */
 @media (max-width: 992px) {
     .col-lg-9 {
         order: 2;
@@ -95,6 +100,7 @@
     }
 }
 
+/* codigo de los filtros */
 select {
     padding: 0 0.5em;
     border-radius: 1em;
@@ -117,6 +123,7 @@ select {
     width: 60%;
 }
 
+/* responsive */
 @media(max-width:767px){
     .partidos li>div {
         display: block;

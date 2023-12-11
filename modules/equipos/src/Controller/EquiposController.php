@@ -1,12 +1,4 @@
 <?php
-
-/**
- * @file
- * Contains Drupal\equipos\Controller\EquiposController.
- *
- * Defines a controller for the Equipos module.
- */
-
 namespace Drupal\equipos\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
@@ -19,7 +11,7 @@ use Drupal\Core\Render\Markup;
 /**
  * Class EquiposController.
  *
- * Defines a controller for the Equipos module.
+ * Define un controlador para el modulo Equipos.
  */
 class EquiposController extends ControllerBase
 {

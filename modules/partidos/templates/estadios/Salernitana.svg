@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="461" height="396"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+    style="overflow: hidden; touch-action: none; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+    <g class="svg-pan-zoom_viewport"
+        transform="matrix(0.3719338116504547,0,0,0.3719338116504547,-21.795713903090814,15.205505949362774)">
+        <g sprite-identifier="s1763825" data-original-title="">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 443.402 301.659 L 914.127 301.659 L 914.127 689.164 L 443.402 689.164 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="678.765"
+                y="500.412">Floor &amp; Performance Area</text>
+        </g>
+        <g>
+            <path stroke="#000000" d="M 177.846 275.737 L 263.331 275.737 L 263.331 697.086 L 177.846 697.086 z"></path>
+            <text style="font-size: 20px;" x="220.588" y="486.412" fill="#ffffff"></text>
+            <g transform="matrix(6.123e-17, -1, 1, 6.123e-17, -256.802, 688.136)"><text style="font-size: 31.777px;"
+                    x="215.667" y="483.646" fill="#ffffff">STAGE</text></g>
+        </g>
+        <g sprite-identifier="s175202" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 207.144 840.000 L 248.955 787.059 L 984.828 787.059 L 1028.033 840.000 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="617.588"
+                y="818.529">Distinti Inferiori</text>
+            <circle cx="617.588" cy="783.529" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763851">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 305.667 153.616 L 437.170 153.616 L 437.170 206.141 L 336.587 206.141 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="371.419"
+                y="184.879">Tribuna Verde Sud</text>
+        </g>
+        <g sprite-identifier="s1763856">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 777.693 152.828 L 873.640 152.828 L 873.640 205.354 L 777.693 205.354 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="825.667"
+                y="164.091">
+                <tspan dy="1.2em" x="825.667">Tribuna VIP </tspan>
+                <tspan dy="1.2em" x="825.667">Rossa Nord</tspan>
+            </text>
+        </g>
+        <g sprite-identifier="s1763853">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 541.324 152.646 L 617.282 152.646 L 617.282 205.172 L 541.324 205.172 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="579.303"
+                y="165.909">
+                <tspan dy="1.2em" x="579.303">Tribuna </tspan>
+                <tspan dy="1.2em" x="579.303">D'onore Sud</tspan>
+            </text>
+        </g>
+        <g sprite-identifier="s1763855">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 773.352 152.828 L 697.394 152.828 L 697.394 205.354 L 773.352 205.354 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="735.373"
+                y="164.091">
+                <tspan dy="1.2em" x="735.373">Tribuna </tspan>
+                <tspan dy="1.2em" x="735.373">D'onore Nord</tspan>
+            </text>
+        </g>
+        <g sprite-identifier="s1763857" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 1009.009 153.798 L 877.505 153.798 L 877.505 206.323 L 978.089 206.323 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="938.257"
+                y="185.061">Tribuna Verde Nord</text>
+            <circle cx="938.257" cy="155.061" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763854">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 621.282 152.465 L 692.900 152.465 L 692.900 198.929 L 621.282 198.929 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="657.091"
+                y="159.697">
+                <tspan dy="1.2em" x="657.091">Tribuna </tspan>
+                <tspan dy="1.2em" x="657.091">Autorita</tspan>
+            </text>
+        </g>
+        <g sprite-identifier="s1763852">
+            <path stroke="#000000" fill="#f1f1f1"
+                d="M 441.330 153.040 L 537.276 153.040 L 537.276 205.566 L 441.330 205.566 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 10px;" x="489.303"
+                y="167.303">
+                <tspan dy="1.2em" x="489.303">Tribuna VIP </tspan>
+                <tspan dy="1.2em" x="489.303">Rossa Sud</tspan>
+            </text>
+        </g>
+        <g sprite-identifier="s1763859" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 236.471 23.529 L 236.471 23.529 L 236.471 48.235 L 254.118 81.176 L 1054.118 81.176 L 1072.941 50.588 L 1072.941 23.529 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="654.706"
+                y="57.353">Tribuna Superiore 2</text>
+            <circle cx="654.706" cy="22.353" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763858" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 242.353 92.941 L 269.412 137.647 L 1029.412 137.647 L 1061.176 92.941 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="651.765"
+                y="120.294">Tribuna Superiore 1</text>
+            <circle cx="651.765" cy="85.294" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763862">
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1509.765, -538.471)">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 746.047 459.176 L 774.374 512.118 L 1272.917 512.118 L 1302.188 459.176 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+            </g>
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1507.118, -541.118)"><text style="font-size: 20px;"
+                    x="1024.118" y="490.647">Curva Nord Inferiori</text></g>
+        </g>
+        <g sprite-identifier="s1763861" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 200.000 970.588 L 200.000 970.588 L 200.000 945.882 L 217.647 912.941 L 1017.647 912.941 L 1036.471 943.529 L 1036.471 970.588 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="618.235"
+                y="946.765">Distinti Superiori 2</text>
+            <circle cx="618.235" cy="911.765" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763863">
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1570.941, -606.706)">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 780.528 455.647 L 811.934 508.588 L 1364.667 508.588 L 1397.119 455.647 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+            </g>
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1568.294, -609.353)"><text style="font-size: 20px;"
+                    x="1088.824" y="487.118">Curva Nord Superiore 1</text></g>
+        </g>
+        <g sprite-identifier="s1763860" data-original-title="" cursor="pointer">
+            <path stroke="#000000" fill="#050505"
+                d="M 205.882 901.177 L 232.941 856.471 L 992.941 856.471 L 1024.706 901.177 z"
+                fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;" x="615.294"
+                y="883.824">Distinti Superiori 1</text>
+            <circle cx="615.294" cy="848.824" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+        </g>
+        <g sprite-identifier="s1763867">
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1629.765, -674.941)">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 827.769 450.941 L 860.834 503.882 L 1442.770 503.882 L 1476.937 450.941 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+            </g>
+            <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1627.118, -677.588)"><text style="font-size: 20px;"
+                    x="1152.353" y="482.412">Curva Nord Superiore 2</text></g>
+        </g>
+    </g>
+    <defs>
+        <style type="text/css">
+            .svg-pan-zoom-control {
+                cursor: pointer;
+                fill: white;
+                fill-opacity: 1;
+                stroke-width: 20;
+                stroke: rgb(0, 0, 0);
+            }
+
+            .svg-pan-zoom-control-background {
+                fill: grey;
+            }
+        </style>
+    </defs>
+    <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+        <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+            <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+            <path
+                d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                class="svg-pan-zoom-control-element"></path>
+        </g>
+        <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+            <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+            <path
+                d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                class="svg-pan-zoom-control-element"></path>
+        </g>
+    </g>
+</svg>

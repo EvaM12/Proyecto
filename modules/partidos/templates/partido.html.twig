@@ -1,74 +1,92 @@
+{# Asocia la libreria 'partidos/datosPartidos' a esta plantilla. #}
 {{ attach_library('partidos/datosPartidos') }}
 
 <section class="cont container mt-4 p-0 pb-2">
-    <section class="cabecera d-flex align-items-center flex-row p-3">
-    {% for local in local %}
-        {% set id = local.id %}
-        <img src="{{ file_url('modules/partidos/assets/images/' ~ local.competicion|replace({' ': ''}) ~ '.png') }}" width="150" height="150">
-        <div class="ps-3">
-            <p class="fw-light m-0 h4">{{ local.competicion }}</p>
-            <p class="fw-bold h2">{{ local.local }} vs {{ local.visitante }}</p>
-            <p class="m-0 h6">{{local.dia ~ '/' ~ local.mes ~ '/' ~ local.anio ~ ' ' ~ local.hora}}</p>
-            <p class="m-0 h4">{{ local.estadio }} ({{local.ciudad}}, {{local.pais}})</p>
-        </div>
-    {% endfor %}
-    </section>
+	{#
+        Renderiza la sección que muestra información sobre un partido.
 
-    <section class="d-md-flex pt-4">
-        <section class="mapa col-md-5 mb-3 ps-4 pe-4 col col-12">
-            <div class="estadio">
-                {% for local in local %}
-                    {% if local.svg == true %}
-                        <svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/' ~ local.local2 ~ '.svg')}}">
-                    {% else %}
-                        <svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/advertencia.svg')}}">
-                    {% endif %}
-                </svg>
-                {% endfor %}
-            </div>
-            <article class="mt-3">
-                <p class="fw-bold h3">Important</p>
-                <div class="notas">
-                    <ul class="notasLista mb-0">
-                        <li class="lh-sm">All sales are final.</li>
-                        <li class="lh-sm">Age restrictions may be apply. For more information, contact the venue where the event is being held.</li>
-                        <li class="lh-sm">The date and time of events may change, so it is up to you to check your local schedule for changes.</li>
-                        <li class="lh-sm">After your purchase, you will receive a confirmation e-mail with the information and time of delivery of your ticket.</li>
-                    </ul>
-                </div>
-            </article>
-        </section>
+	    @param local El objeto partido que contiene el equipo local, equipo visitante, competicion, dia, mes, anio, hora, estadio, ciudad, y pais.
+	#}
+	<section class="cabecera d-flex align-items-center flex-row p-3">
+		{% for local in local %}
+			{% set id = local.id %}
+			<img src="{{ file_url('modules/partidos/assets/images/' ~ local.competicion|replace({' ': ''}) ~ '.png') }}" width="150" height="150">
+			<div class="ps-3">
+				<p class="fw-light m-0 h4">{{ local.competicion }}</p>
+				<p class="fw-bold h2">{{ local.local }}
+					vs
+					{{ local.visitante }}</p>
+				<p class="m-0 h6">{{local.dia ~ '/' ~ local.mes ~ '/' ~ local.anio ~ ' ' ~ local.hora}}</p>
+				<p class="m-0 h4">{{ local.estadio }}
+					({{local.ciudad}},
+					{{local.pais}})</p>
+			</div>
+		{% endfor %}
+	</section>
 
-        <section class="entradas col-md-7 pt-3 mb-3 ps-4 pe-4 col col-12">
-            <p class="info text-center">
-                <i class="i-ok-sign align-items-center"></i>&nbsp;
-                If you buy two or more tickets, we guarantee that the seats will be together.
-            </p>
-            <div class="d-grid">
-                <div class="d-flex flex-column f-list">
-                    {% for local in local %}
-                        {% block estadio %}
-                            {% if local.secciones == true %}
-                                {{ include("@partidos/estadios/" ~ local.local2 ~ ".twig")}}
-                            {% else %}
-                                {{ include("@partidos/estadios/default.twig")}}
-                            {% endif %}
-                        {% endblock %}
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
-    </section>
-</section>
-<script>
-    $(document).ready(function () {
-        $('.hover').hover(
-            function () {
-                $(this).next().css({ "display": "block" });
-            },
-            function () {
-                $(this).next().css({ "display": "none" });
-            }
-        );
-    });
-</script>
+
+    {#
+        Esta seccion es responsable de mostrar los detalles de un partido, incluyendo el mapa del estadio,
+        notas importantes e información sobre las entradas.
+
+        @param array local Un array de datos locales, que contiene información sobre el estadio y las secciones de entradas.
+
+        @return string La salida HTML renderizada.
+    #}
+
+	<section class="d-md-flex pt-4">
+		<section class="mapa col-md-5 mb-3 ps-4 pe-4 col col-12">
+			<div class="estadio">
+				{% for local in local %}
+					{% if local.svg == true %}
+						<svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/' ~ local.local2 ~ '.svg')}}">
+						{% else %}
+							<svg xmlns="http://www.w3.org/2000/svg"><image href="http://localhost{{ file_url('modules/partidos/templates/estadios/advertencia.svg')}}">
+							{% endif %}
+						</svg>
+					{% endfor %}
+				</div>
+				<article class="mt-3">
+					<p class="fw-bold h3">Important</p>
+					<div class="notas">
+						<ul class="notasLista mb-0">
+							<li class="lh-sm">All sales are final.</li>
+							<li class="lh-sm">Age restrictions may be apply. For more information, contact the venue where the event is being held.</li>
+							<li class="lh-sm">The date and time of events may change, so it is up to you to check your local schedule for changes.</li>
+							<li class="lh-sm">After your purchase, you will receive a confirmation e-mail with the information and time of delivery of your ticket.</li>
+						</ul>
+					</div>
+				</article>
+			</section>
+
+			<section class="entradas col-md-7 pt-3 mb-3 ps-4 pe-4 col col-12">
+				<p class="info text-center">
+					<i class="i-ok-sign align-items-center"></i>&nbsp;
+						                If you buy two or more tickets, we guarantee that the seats will be together.
+				</p>
+				<div class="d-grid">
+					<div class="d-flex flex-column f-list">
+						{% for local in local %}
+							{% block estadio %}
+								{% if local.secciones == true %}
+									{{ include("@partidos/estadios/" ~ local.local2 ~ ".twig")}}
+								{% else %}
+									{{ include("@partidos/estadios/default.twig")}}
+								{% endif %}
+							{% endblock %}
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+		</section>
+	</section>
+	<script>
+        // Muestra el texto oculto cuando el usuario pasa el ratón por encima de los iconos de información.
+		$(document).ready(function () {
+            $('.hover').hover(function () {
+                $(this).next().css({"display": "block"});
+            }, function () {
+                $(this).next().css({"display": "none"});
+            });
+        });
+	</script>

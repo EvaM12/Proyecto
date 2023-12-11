@@ -14,6 +14,7 @@
     border-radius: 0.5em;
 }
 
+/* codigo del panel que gira */
 .cover {
     left: 50%;
     z-index: 98;
@@ -62,6 +63,7 @@
     font-size: 1em;
 }
 
+/* codigo de los formularios */
 .forms {
     background: #fff;
 }
@@ -152,6 +154,7 @@ i {
     display: none;
 }
 
+/* responsive */
 @media (max-width: 730px) {
     .cover {
         display: none;

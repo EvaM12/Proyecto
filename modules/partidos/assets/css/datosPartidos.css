@@ -8,7 +8,7 @@
     background-color: #fff;
     border-radius: 0.5em;
 }
-
+/* codigo de los bloques */
 .notasLista {
     padding-left: 1.5em;
     margin-bottom: 0.5em;
@@ -46,7 +46,7 @@
     border-top: 1px solid #dfdfe0;
     border-radius: 0.75em;
 }
-
+/* codigo de las secciones */
 .secciones {
     border-bottom: 2px solid #bfc0c0;
     border-right: 1px solid #dfdfe0;
@@ -83,7 +83,7 @@
 }
 
 
-
+/* codigo del estadio */
 .estadio{
     width: 100%;
     position: relative;

@@ -1,3 +1,6 @@
+# Este archivo es el archivo de información del módulo de noticias.
+# Contiene detalles sobre el módulo, como su nombre, descripción y requisitos de versión de núcleo.
+
 name: Noticias
 type: module
 description: 'Modulo de noticias.'

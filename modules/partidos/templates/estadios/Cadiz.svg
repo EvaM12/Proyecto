@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.4201071560382843,0,0,0.4201071560382843,-61.13839340209961,15.3363676071167)">
+            <g sprite-identifier="s1822876">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 328.565 148.882 L 685.553 148.882 L 685.553 202.882 L 328.565 202.882 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="507.059" y="180.882">Preferencia Baja Impar</text>
+            </g>
+            <g sprite-identifier="s1822883">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 690.918 148.882 L 1047.906 148.882 L 1047.906 202.882 L 690.918 202.882 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="869.412" y="180.882">Preferencia Baja Par</text>
+            </g>
+            <g sprite-identifier="s1822875">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 327.388 92.412 L 684.376 92.412 L 684.376 146.412 L 327.388 146.412 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="505.882" y="124.412">Tribuna Preferencia Impar</text>
+            </g>
+            <g sprite-identifier="s1822877">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 688.565 92.412 L 1045.553 92.412 L 1045.553 146.412 L 688.565 146.412 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="867.059" y="124.412">Tribuna Preferencia Par</text>
+            </g>
+            <g sprite-identifier="s1822878">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 326.212 10.625 L 683.200 10.625 L 683.200 89.375 L 326.212 89.375 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="504.706" y="55.000">Preferencia Alta Impar</text>
+            </g>
+            <g sprite-identifier="s1822882">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 687.388 10.625 L 1044.376 10.625 L 1044.376 89.375 L 687.388 89.375 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="865.882" y="55.000">Preferencia Alta Par</text>
+            </g>
+            <g sprite-identifier="s1822872">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 688.249 656.315 L 1038.810 656.315 L 1038.810 754.274 L 688.249 754.274 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="863.529" y="710.294">Tribuna Baja Par</text>
+            </g>
+            <g sprite-identifier="s1822871">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 329.425 656.315 L 679.986 656.315 L 679.986 754.274 L 329.425 754.274 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="504.706" y="710.294">Tribuna Baja Impar</text>
+            </g>
+            <g sprite-identifier="s1822873" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 328.249 761.020 L 678.810 761.020 L 678.810 858.980 L 328.249 858.980 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="503.529" y="815">Tribuna Alta Impar</text>
+                <circle cx="503.529" cy="780" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s1822874" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 687.072 761.020 L 1037.634 761.020 L 1037.634 858.980 L 687.072 858.980 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="862.353" y="815">Tribuna Alta Par</text>
+                <circle cx="862.353" cy="780" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g>
+                <path stroke="#000000" fill="#050505"
+                    d="M 994.180 255.704 Q 990.500 252.358 985.480 252.358 L 372.166 252.358 Q 366.980 252.358 363.466 255.704 Q 359.786 259.217 359.786 264.068 L 359.786 610.877 Q 359.786 615.562 363.466 619.242 Q 366.980 622.589 372.166 622.589 L 985.480 622.589 Q 990.500 622.589 994.180 619.242 Q 997.861 615.562 997.861 610.877 L 997.861 264.068 Q 997.861 259.217 994.180 255.704 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                    d="M 994.180 255.704 Q 997.861 259.217 997.861 264.068 L 997.861 610.877 Q 997.861 615.562 994.180 619.242 Q 990.500 622.589 985.480 622.589 L 372.166 622.589 Q 366.980 622.589 363.466 619.242 Q 359.786 615.562 359.786 610.877 L 359.786 264.068 Q 359.786 259.217 363.466 255.704 Q 366.980 252.358 372.166 252.358 L 985.480 252.358 Q 990.500 252.358 994.180 255.704 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 973.770 599.668 L 385.550 599.668 L 385.550 275.110 L 973.770 275.110 L 973.770 599.668 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 679.660 275.612 L 679.660 599.334"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 713.120 405.602 Q 727.006 418.820 727.006 437.390 Q 727.006 455.959 713.120 469.176 Q 699.234 482.392 679.660 482.392 Q 660.086 482.392 646.200 469.176 Q 632.148 455.959 632.148 437.390 Q 632.148 418.820 646.200 405.602 Q 660.086 392.386 679.660 392.386 Q 699.234 392.386 713.120 405.602 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 480.073 400.081 L 480.073 331.490 L 386.052 331.490 L 386.052 543.289 L 480.073 543.289 L 480.073 474.697"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 480.073 400.081 L 480.073 474.697 Q 489.777 468.674 495.298 458.804 Q 501.153 448.932 501.153 437.390 Q 501.153 426.013 495.298 415.976 Q 489.777 406.272 480.073 400.081 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 878.745 400.081 L 878.745 331.490 L 973.770 331.490 L 973.770 543.289 L 878.745 543.289 L 878.745 474.697"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 878.745 400.081 L 878.745 474.697 Q 869.041 468.674 863.354 458.804 Q 857.498 448.932 857.498 437.390 Q 857.498 426.013 863.354 415.976 Q 869.041 406.272 878.745 400.081 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 423.024 395.397 L 423.024 479.213 L 387.056 479.213 L 387.056 395.397 L 423.024 395.397 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 972.098 395.397 L 972.098 479.213 L 935.961 479.213 L 935.961 395.397 L 972.098 395.397 z"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

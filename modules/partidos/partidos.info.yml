@@ -1,3 +1,8 @@
+# Este archivo de configuración define las propiedades del módulo de Partidos.
+# El módulo se utiliza para mostrar un listado de partidos y su información asociada.
+# Requiere una versión de Drupal core igual o superior a 8, 9 o 10.
+# El módulo pertenece al paquete "Custom".
+
 name: Partidos
 type: module
 description: 'Muestra el listado de partidos y su informacion.'

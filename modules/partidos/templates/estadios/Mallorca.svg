@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+            style="overflow: hidden; touch-action: none; user-select: none;" width="455" height="396"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+            <g class="svg-pan-zoom_viewport"
+                transform="matrix(0.367570698261261,0,0,0.367570698261261,-22.77549171447754,18.8448543548584)">
+                <g sprite-identifier="s296722" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 1004.778 792.137 L 1004.778 792.137 C 1047.929 780.977 1088.393 767.305 1125.231 751.177 L 1158.172 870.000 C 1122.676 884.395 1084.338 896.788 1043.754 907.113"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <path stroke="#000000" fill="#050505"
+                        d="M 173.466 845.294 L 173.466 845.294 L 215.819 742.941 C 258.952 760.088 304.316 774.606 351.069 786.546 L 315.391 891.881 C 267.005 878.845 219.490 863.340 173.466 845.294 L 173.466 845.294"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 14px;"
+                        x="1088.172" y="842.968">Trib. Cub. Lat.</text><text style="font-size: 14px;" x="257.584"
+                        y="831.204">Trib. Cub. Lat.</text>
+                    <circle cx="1088.172" cy="810.968" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+                    <circle cx="257.584" cy="799.204" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s88231" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 235.819 100.588 L 274.642 217.059 C 499.348 122.941 885.231 125.294 1086.407 218.235 L 1140.525 100.588 C 899.348 6.471 496.995 6.471 235.819 100.588"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="688.172" y="129.118">Tribuna Sol Alta</text>
+                    <circle cx="688.172" cy="94.118" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s296721" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 339.348 204.000 L 355.819 271.177 C 569.171 219.759 841.214 221.418 995.819 271.177 L 1034.642 204.000 C 851.167 137.648 567.512 137.648 339.348 201.765"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="686.995" y="217.565">Tribuna Sol Baja</text>
+                    <circle cx="686.995" cy="182.565" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s296717" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 1009.937 264.118 L 1042.878 206.471 C 1311.113 295.882 1294.642 685.294 1042.878 774.706 L 1020.525 724.118 C 1176.995 626.471 1206.407 346.471 1011.113 265.294"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <g transform="matrix(6.123e-17, 1, -1, 6.123e-17, 1675.891, -701.447)"><text
+                            style="font-size: 20px;" x="1188.637" y="494.412">Fondo Sur</text></g>
+                    <circle cx="1188.637" cy="459.412" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s296716" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 346.407 272.353 L 328.760 204.118 C 48.515 298.235 64.986 687.647 321.701 775.882 L 339.103 726.471 C 182.633 628.824 153.221 348.824 346.407 272.353"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <g transform="matrix(6.123e-17, -1, 1, 6.123e-17, -302.072, 659.431)"><text style="font-size: 20px;"
+                            x="178.660" y="487.941">Fondo Norte</text></g>
+                    <circle cx="178.660" cy="452.941" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s1333474" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 309.765 332.341 L 353.765 332.341 L 353.765 659.424 L 309.765 659.424 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <g transform="matrix(6.123e-17, -1, 1, 6.123e-17, -161.899, 825.486)"><text style="font-size: 20px;"
+                            x="331.765" y="500.882">LLuis Sitjar</text></g>
+                    <circle cx="331.765" cy="465.882" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s296719" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 329.937 774.706 L 345.231 731.177 C 562.112 781.969 834.155 780.883 1012.290 728.824 L 1034.642 778.235 C 844.108 835.766 560.453 835.766 329.937 774.706"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="688.172" y="797.535">Tribuna Descubierta</text>
+                    <circle cx="688.172" cy="762.535" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s296718" data-original-title="" cursor="pointer">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 351.069 786.546 L 351.069 786.546 C 566.996 841.689 812.553 841.849 1004.778 792.137 L 1043.754 907.113 C 833.523 960.600 563.043 958.600 315.391 891.881 L 351.069 786.546"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="679.572" y="870.676">Tribuna Cubierta</text>
+                    <circle cx="679.572" cy="835.676" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g>
+                    <path stroke="#000000" fill="#050505"
+                        d="M 962.355 328.982 Q 958.991 325.924 954.403 325.924 L 393.831 325.924 Q 389.091 325.924 385.880 328.982 Q 382.516 332.194 382.516 336.628 L 382.516 653.612 Q 382.516 657.895 385.880 661.257 Q 389.091 664.317 393.831 664.317 L 954.403 664.317 Q 958.991 664.317 962.355 661.257 Q 965.719 657.895 965.719 653.612 L 965.719 336.628 Q 965.719 332.194 962.355 328.982 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                        d="M 962.355 328.982 Q 965.719 332.194 965.719 336.628 L 965.719 653.612 Q 965.719 657.895 962.355 661.257 Q 958.991 664.317 954.403 664.317 L 393.831 664.317 Q 389.091 664.317 385.880 661.257 Q 382.516 657.895 382.516 653.612 L 382.516 336.628 Q 382.516 332.194 385.880 328.982 Q 389.091 325.924 393.831 325.924 L 954.403 325.924 Q 958.991 325.924 962.355 328.982 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 943.700 643.367 L 406.065 643.367 L 406.065 346.720 L 943.700 346.720 L 943.700 643.367 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 674.882 347.179 L 674.882 643.062"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 705.465 465.990 Q 718.156 478.071 718.156 495.044 Q 718.156 512.016 705.465 524.097 Q 692.773 536.176 674.882 536.176 Q 656.992 536.176 644.300 524.097 Q 631.456 512.016 631.456 495.044 Q 631.456 478.071 644.300 465.990 Q 656.992 453.911 674.882 453.911 Q 692.773 453.911 705.465 465.990 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 492.459 460.944 L 492.459 398.251 L 406.523 398.251 L 406.523 591.836 L 492.459 591.836 L 492.459 529.143"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 492.459 460.944 L 492.459 529.143 Q 501.328 523.638 506.374 514.617 Q 511.726 505.594 511.726 495.044 Q 511.726 484.645 506.374 475.471 Q 501.328 466.602 492.459 460.944 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 856.847 460.944 L 856.847 398.251 L 943.700 398.251 L 943.700 591.836 L 856.847 591.836 L 856.847 529.143"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 856.847 460.944 L 856.847 529.143 Q 847.978 523.638 842.779 514.617 Q 837.426 505.594 837.426 495.044 Q 837.426 484.645 842.779 475.471 Q 847.978 466.602 856.847 460.944 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 440.316 456.662 L 440.316 533.271 L 407.441 533.271 L 407.441 456.662 L 440.316 456.662 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                        d="M 942.171 456.662 L 942.171 533.271 L 909.142 533.271 L 909.142 456.662 L 942.171 456.662 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+            </g>
+            <defs>
+                <style type="text/css">
+                    .svg-pan-zoom-control {
+                        cursor: pointer;
+                        fill: white;
+                        fill-opacity: 1;
+                        stroke-width: 20;
+                        stroke: rgb(0, 0, 0);
+                    }
+
+                    .svg-pan-zoom-control-background {
+                        fill: grey;
+                    }
+                </style>
+            </defs>
+            <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+                <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                    <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                    <path
+                        d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                        class="svg-pan-zoom-control-element"></path>
+                </g>
+                <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                    <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                    <path
+                        d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                        class="svg-pan-zoom-control-element"></path>
+                </g>
+            </g>
+        </svg>

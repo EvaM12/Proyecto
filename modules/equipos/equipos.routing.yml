@@ -1,14 +1,22 @@
+# Esta ruta define la ruta y el controlador para mostrar una lista de equipos.
+# Requiere que el usuario tenga el permiso 'access content'.
 equipos.listado:
-  path: '/teams'
-  defaults:
-    _controller: '\Drupal\equipos\Controller\EquiposController::equipos'
-    _title: 'Teams list'
-  requirements:
-    _permission: 'access content'
+    path: '/teams'
+    defaults:
+        _controller: '\Drupal\equipos\Controller\EquiposController::equipos'
+        _title: 'Teams list'
+    requirements:
+        _permission: 'access content'
+
+# Esta ruta define el camino para acceder a los jugadores de un equipo específico.
+# El parámetro {nombre} de la ruta representa el nombre del equipo.
+# El _controller especifica la clase de controlador y el método responsable de gestionar la petición.
+# El _title proporciona un título para la página.
+# El _permission asegura que el usuario tiene el permiso necesario para acceder al contenido.
 equipos.equipos:
-  path: '/teams/{nombre}'
-  defaults:
-    _controller: '\Drupal\equipos\Controller\EquiposController::jugadores'
-    _title: 'Team players' 
-  requirements:
-    _permission: 'access content'
+    path: '/teams/{nombre}'
+    defaults:
+        _controller: '\Drupal\equipos\Controller\EquiposController::jugadores'
+        _title: 'Team players'
+    requirements:
+        _permission: 'access content'

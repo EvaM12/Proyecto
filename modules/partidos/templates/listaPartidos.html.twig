@@ -1,4 +1,20 @@
+{# Asocia la libreria 'partidos/listaPartidos' a esta plantilla. #}
 {{ attach_library('partidos/listaPartidos') }}
+
+{#
+    Este archivo de plantilla muestra una lista de partidos. Incluye las siguientes secciones:
+    - Un contenedor para la lista de partidos
+    - Cada coincidencia se muestra como un elemento de la lista con la siguiente información:
+        - Fecha (mes, día, año)
+        - Competición
+        - Equipos (local vs visitante)
+        - Hora y ubicación (hora, estadio, ciudad, país)
+        - Enlace a las entradas para el partido
+    - Una sección para filtros, que incluye opciones para filtrar por liga, equipo y fecha de inicio, así como un botón de búsqueda.
+
+    Utilización: Incluye este archivo de plantilla en otra plantilla Twig para mostrar la lista de partidos y filtros.
+
+#}
 <section class="listaPartidos">
     <div class="container d-flex pt-3 pb-3 div">
         <div class="col-lg-9 col col-12 p-1">

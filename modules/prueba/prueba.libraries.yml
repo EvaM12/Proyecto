@@ -1,6 +1,0 @@
-prueba:
-  version: 1.x
-  js:
-    assets/js/prueba.js: {}
-  dependencies:
-    - core/jquery

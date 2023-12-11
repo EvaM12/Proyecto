@@ -1,3 +1,6 @@
+# Este fichero YAML define las librerías para el módulo sesion.
+# La biblioteca sesion incluye archivos CSS y JS para mostrar los formularios de inicio de sesión y registro de usuarios.
+
 sesion:
     version: 1.x
     css:

@@ -1,3 +1,9 @@
+# Este fichero YAML define las librerías utilizadas en el módulo General.
+# Incluye las bibliotecas "cabecera" e "inicio", junto con sus respectivas versiones, archivos CSS y archivos JS.
+# La librería "cabecera" incluye el fichero "cabecera.css" y depende de la librería "core/jquery".
+# La librería "inicio" incluye los ficheros "inicio.css", "owl.carousel.min.css", y "owl.theme.default.min.css",
+# así como los archivos "inicio.js" y "owl.carousel.min.js". También depende de la biblioteca "core/jquery".
+
 cabecera:
     version: 1.x
     css:

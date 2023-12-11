@@ -1,7 +1,12 @@
+# Esta ruta define la ruta '/inicio' para la ruta 'general.inicio'.
+# Se asigna al método del controlador '\Drupal\general\Controller\GeneralController::inicio'.
+# El título de la página se establece en 'AllTickets'.
+# El usuario debe tener el permiso 'access content' para acceder a esta ruta.
+
 general.inicio:
-  path: '/inicio'
-  defaults:
-    _controller: '\Drupal\general\Controller\GeneralController::inicio'
-    _title: 'AllTickets'
-  requirements:
-    _permission: 'access content'
+    path: '/inicio'
+    defaults:
+        _controller: '\Drupal\general\Controller\GeneralController::inicio'
+        _title: 'AllTickets'
+    requirements:
+        _permission: 'access content'

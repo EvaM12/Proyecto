@@ -1,11 +1,8 @@
-main {
-    font-size: 16px;
-}
-
 .container {
     border-radius: 0.5em;
 }
 
+/* colores */
 .bAzul5 {
     background-color: #072273 !important;
 }
@@ -15,7 +12,6 @@ main {
 }
 
 /* estilos de la tabla de puntos */
-
 .point-table {
     border-radius: 0.5em;
     border: 1px solid #e1e1e1;
@@ -58,21 +54,15 @@ main {
     justify-content: center; /* Centrar el contenido horizontalmente */
 }
 
-@media(max-width:1023px){
-    .listado {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
-    }
-}
-
-@media(max-width:767px){
+@media(max-width:1023.5px){
     .listado {
         grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual ancho */
     }
 }
 
-@media(min-width:1023.5px){
+@media(min-width:1024px){
     .listado {
-        grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual ancho */
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
     }
 }
 

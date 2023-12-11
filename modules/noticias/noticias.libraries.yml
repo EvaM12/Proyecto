@@ -1,3 +1,8 @@
+# Este fichero YAML define las librerías para el módulo equipos.
+# Incluye dos bibliotecas: listaNoticias y noticia.
+# La biblioteca listaNoticias incluye archivos CSS y JS para la lista de noticias.
+# La biblioteca noticia incluye archivos CSS y JS para el listado de las plantillas de las noticias.
+
 listaNoticias:
     version: 1.x
     css:
@@ -13,5 +18,3 @@ noticia:
         theme:
             assets/css/noticia.css: {}
             assets/css/responsive.css: {}
-    # js:
-    #     assets/js/listaNoticias.js: {}

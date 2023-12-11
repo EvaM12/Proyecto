@@ -1,7 +1,3 @@
-main {
-    font-size: 16px;
-}
-
 .container {
     border-radius: 0.5em;
 }
@@ -10,6 +6,7 @@ main {
     background-color: #fff !important
 }
 
+/* codigo de los dorsales */
 .num {
 	position: absolute;
 	right: 1em;
@@ -48,6 +45,7 @@ main {
 	border-bottom: 10px solid #6f1fbf;
 }
 
+/* codigo del contenedor de cada jugador */
 .jugador {
 	width: 100%;
 	border-radius: 0.25em;
@@ -88,6 +86,7 @@ main {
 	-webkit-transition: all ease-in-out 0.5s;
 }
 
+/* codigo de la informacion de cada jugador */
 .datos h4 {
 	color: #e5e5e5;
     text-shadow: 1px 1px 3px gray;
@@ -138,6 +137,7 @@ main {
     background-color: #d8d8d825;
 }
 
+/* coodigo de distribucion de los jugadores */
 .listado {
     display: grid;
     grid-auto-rows: minmax(100px, auto); /* Altura mínima de 100px, altura máxima automática */

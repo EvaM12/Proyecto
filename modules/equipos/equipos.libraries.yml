@@ -1,3 +1,8 @@
+# Este fichero YAML define las librerías para el módulo equipos.
+# Incluye dos bibliotecas: listaEquipos y equipos.
+# La biblioteca listaEquipos incluye archivos CSS y JS para la lista de equipos.
+# La biblioteca equipos incluye archivos CSS y JS para el listado de las plantillas de los equipos.
+
 listaEquipos:
     version: 1.x
     css:

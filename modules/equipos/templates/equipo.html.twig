@@ -1,3 +1,4 @@
+{# Asocia la libreria 'equipos/equipos' a esta plantilla. #}
 {{ attach_library('equipos/equipos') }}
 
 <div class="container bWht p-2 mt-3 mb-3">
@@ -8,6 +9,12 @@
 </div>
 
 <script>
+    {#
+        Este código realiza una solicitud AJAX para cada jugador en la lista de jugadores.
+        Luego, utiliza los datos obtenidos de la API para generar el HTML correspondiente a cada jugador.
+        El HTML generado se agrega al área correspondiente según la posición del jugador.
+        Finalmente, se manejan los errores en caso de que la solicitud AJAX falle.
+    #}
     var porSection = $('.porteros .listado');
     var defSection = $('.defensas .listado');
     var medSection = $('.centrocampistas .listado');
@@ -18,7 +25,6 @@
         jugadores.push('{{ jug.idJugador }}');
     {% endfor %}
 
-    // Realizar la solicitud AJAX para cada jugador
     jugadores.forEach(function (jugadorId) {
         $.ajax({
             url: "https://site.web.api.espn.com/apis/common/v3/sports/soccer/espn/athletes/" + jugadorId,

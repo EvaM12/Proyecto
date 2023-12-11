@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.3884764313697815,0,0,0.3884764313697815,-37.57805633544922,5.818386077880859)">
+            <g>
+                <path stroke="#000000" fill="#050505"
+                    d="M 951.926 356.211 Q 948.779 353.351 944.489 353.351 L 420.216 353.351 Q 415.783 353.351 412.780 356.211 Q 409.633 359.214 409.633 363.361 L 409.633 659.819 Q 409.633 663.825 412.780 666.970 Q 415.783 669.831 420.216 669.831 L 944.489 669.831 Q 948.779 669.831 951.926 666.970 Q 955.072 663.825 955.072 659.819 L 955.072 363.361 Q 955.072 359.214 951.926 356.211 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                    d="M 951.926 356.211 Q 955.072 359.214 955.072 363.361 L 955.072 659.819 Q 955.072 663.825 951.926 666.970 Q 948.779 669.831 944.489 669.831 L 420.216 669.831 Q 415.783 669.831 412.780 666.970 Q 409.633 663.825 409.633 659.819 L 409.633 363.361 Q 409.633 359.214 412.780 356.211 Q 415.783 353.351 420.216 353.351 L 944.489 353.351 Q 948.779 353.351 951.926 356.211 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 934.478 650.238 L 431.657 650.238 L 431.657 372.800 L 934.478 372.800 L 934.478 650.238 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 683.068 373.229 L 683.068 649.953"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 711.670 484.347 Q 723.540 495.645 723.540 511.520 Q 723.540 527.393 711.670 538.691 Q 699.800 549.988 683.068 549.988 Q 666.336 549.988 654.466 538.691 Q 642.453 527.393 642.453 511.520 Q 642.453 495.645 654.466 484.347 Q 666.336 473.050 683.068 473.050 Q 699.800 473.050 711.670 484.347 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 512.458 479.628 L 512.458 420.994 L 432.086 420.994 L 432.086 602.044 L 512.458 602.044 L 512.458 543.411"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 512.458 479.628 L 512.458 543.411 Q 520.752 538.262 525.472 529.825 Q 530.476 521.386 530.476 511.520 Q 530.476 501.794 525.472 493.214 Q 520.752 484.920 512.458 479.628 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 853.249 479.628 L 853.249 420.994 L 934.478 420.994 L 934.478 602.044 L 853.249 602.044 L 853.249 543.411"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 853.249 479.628 L 853.249 543.411 Q 844.955 538.262 840.093 529.825 Q 835.087 521.386 835.087 511.520 Q 835.087 501.794 840.093 493.214 Q 844.955 484.920 853.249 479.628 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 463.691 475.623 L 463.691 547.271 L 432.944 547.271 L 432.944 475.623 L 463.691 475.623 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 933.049 475.623 L 933.049 547.271 L 902.159 547.271 L 902.159 475.623 L 933.049 475.623 z"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+            <g sprite-identifier="s1825421" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 421.397 767.938 L 936.250 767.938 L 936.250 908.533 L 421.397 908.533 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="678.824" y="843.235">Lepagnot</text>
+            </g>
+            <g sprite-identifier="s1825420" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1009.412 259.824 L 1209.412 259.824 L 1209.412 757.824 L 1009.412 757.824 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1109.412" y="513.824">Delacourt</text>
+            </g>
+            <g sprite-identifier="s1825418" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 155.294 262.176 L 355.294 262.176 L 355.294 760.176 L 155.294 760.176 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="255.294" y="516.176">Trannin</text>
+                <circle cx="255.294" cy="481.17600000000004" fill="#a3d165" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s1825419">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 424.926 80.879 L 939.779 80.879 L 939.779 221.474 L 424.926 221.474 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="682.353" y="156.176">Marek / Xerces</text>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

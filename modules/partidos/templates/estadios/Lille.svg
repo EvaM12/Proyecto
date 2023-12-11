@@ -1,0 +1,913 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+        xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+        style="overflow: hidden; touch-action: none; user-select: none;">
+        <g class="svg-pan-zoom_viewport"
+            transform="matrix(0.36685997247695923,0,0,0.36685997247695923,-28.97292709350586,6.664188385009766)">
+            <g sprite-identifier="s307973">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1157.861 638.163 L 1149.106 595.823 L 1054.955 609.028 L 1060.409 645.626 L 1157.861 638.163 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1106.408" y="625.725">E1</text>
+            </g>
+            <g sprite-identifier="s308063">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1189.149 567.003 L 1150.685 573.606 L 1175.228 692.299 L 1175.228 692.586 Q 1175.228 736.074 1150.829 772.816 Q 1126.573 809.558 1085.382 828.072 L 1110.355 858.930 Q 1159.010 841.564 1188.862 800.659 Q 1218.715 759.755 1218.859 710.096 L 1189.149 567.003 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1196.826" y="727.378">E</text>
+            </g>
+            <g sprite-identifier="s307972" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1048.955 558.738 L 1055.270 600.647 L 1148.991 587.442 L 1141.097 549.122 L 1048.955 558.738 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1098.973" y="579.884">D4</text>
+            </g>
+            <g sprite-identifier="s307971">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1129.874 503.251 L 1041.033 515.307 L 1047.061 555.063 L 1138.486 545.303 L 1129.874 503.251 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1089.760" y="534.157">D3</text>
+            </g>
+            <g sprite-identifier="s307925">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1188.288 531.094 L 1197.330 575.300 L 1325.784 547.599 L 1316.598 501.385 L 1188.288 531.094 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1257.036" y="543.342">D24</text>
+            </g>
+            <g sprite-identifier="s307938">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 648.640 64.930 L 601.995 64.930 L 601.995 183.194 L 648.640 183.194 L 648.640 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="625.318" y="129.062">N23</text>
+            </g>
+            <g sprite-identifier="s307937">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 595.824 64.930 L 549.896 64.930 L 549.896 183.194 L 595.824 183.194 L 595.824 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="572.860" y="129.062">N22</text>
+            </g>
+            <g sprite-identifier="s307936">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 543.581 64.930 L 504.830 64.930 L 504.830 183.194 L 543.581 183.194 L 543.581 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="524.206" y="129.062">N21</text>
+            </g>
+            <g sprite-identifier="s307998">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 654.812 228.260 L 654.812 309.064 L 692.989 309.064 L 692.989 228.260 L 654.812 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="673.901" y="273.662">N2</text>
+            </g>
+            <g sprite-identifier="s307997">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 648.640 228.260 L 599.699 228.260 Q 598.838 255.242 602.856 309.064 L 648.640 309.064 L 648.640 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="624.094" y="273.662">N1</text>
+            </g>
+            <g sprite-identifier="s308071" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 524.923 189.365 L 524.923 222.088 L 701.457 222.088 L 701.457 189.365 L 524.923 189.365 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="613.190" y="210.727">N</text>
+                <circle cx="613.190" cy="175.727" fill="#e53935" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307994">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 558.508 309.064 L 596.541 309.064 Q 592.666 256.104 593.527 228.260 L 558.508 228.260 L 558.508 309.064 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="577.525" y="273.662">M4</text>
+            </g>
+            <g sprite-identifier="s307993" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 552.193 228.260 L 514.877 228.260 L 514.877 309.351 Q 521.192 309.064 527.507 309.064 L 552.193 309.064 L 552.193 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="533.535" y="273.805">M3</text>
+            </g>
+            <g sprite-identifier="s307924">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1315.450 495.213 L 1306.121 448.999 L 1178.385 483.875 L 1186.997 525.066 L 1315.450 495.213 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1246.918" y="492.033">D23</text>
+            </g>
+            <g sprite-identifier="s307966">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 498.515 64.930 L 450.291 64.930 L 455.314 183.194 L 498.515 183.194 L 498.515 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="474.403" y="129.062">M23</text>
+            </g>
+            <g sprite-identifier="s307965">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 448.712 183.194 L 448.999 183.194 L 444.263 64.930 L 392.595 64.930 L 410.248 187.069 Q 429.480 183.194 448.712 183.194 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="420.797" y="131.000">M22</text>
+            </g>
+            <g sprite-identifier="s307964">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 386.423 64.930 L 376.377 64.930 Q 354.274 64.930 332.458 69.236 L 378.816 196.254 Q 391.447 191.374 404.220 188.360 L 386.423 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="368.339" y="135.592">M21</text>
+            </g>
+            <g sprite-identifier="s307992" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 508.562 228.260 L 468.949 228.260 L 468.949 313.369 Q 486.890 310.499 508.562 309.638 L 508.562 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="488.755" y="275.815">M2</text>
+                <circle cx="488.755" cy="240.815" fill="#e53935" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307991">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 444.694 318.967 Q 452.875 316.527 462.778 314.661 L 462.778 228.403 Q 446.847 228.691 432.925 230.269 L 444.694 318.967 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="447.851" y="278.685">M1</text>
+            </g>
+            <g sprite-identifier="s308070" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 518.752 222.088 L 518.752 189.365 L 448.712 189.365 Q 415.989 189.365 383.983 200.991 L 392.882 231.848 Q 426.036 222.088 472.681 222.088 L 518.752 222.088 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="451.367" y="215.607">M</text>
+                <circle cx="451.367" cy="180.607" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308097">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 426.610 231.130 Q 407.091 233.714 390.729 239.024 L 427.184 325.425 Q 432.351 323.129 438.809 320.833 L 426.610 231.130 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="414.769" y="283.278">L6</text>
+            </g>
+            <g sprite-identifier="s308096">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 352.265 258.256 L 415.702 331.310 Q 419.864 328.870 421.443 328.152 L 384.844 241.034 Q 366.043 247.923 352.265 258.256 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="386.854" y="291.172">L5</text>
+            </g>
+            <g sprite-identifier="s308095">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 402.354 340.782 Q 406.373 337.481 410.248 334.754 L 347.385 262.275 Q 332.315 274.762 322.268 293.276 L 402.354 340.782 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="366.258" y="306.529">L4</text>
+            </g>
+            <g sprite-identifier="s308094">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 319.398 298.873 Q 314.805 308.202 311.217 319.971 L 395.752 347.528 L 397.762 345.375 L 319.398 298.873 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="354.489" y="328.201">L3</text>
+            </g>
+            <g sprite-identifier="s307923">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1304.973 442.684 L 1296.361 400.201 L 1168.339 435.651 L 1177.093 477.704 L 1304.973 442.684 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1236.656" y="443.952">D22</text>
+            </g>
+            <g sprite-identifier="s307963" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 326.287 70.528 Q 308.777 74.403 290.406 81.436 L 352.839 208.310 Q 363.459 202.569 372.932 198.551 L 326.287 70.528 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="331.669" y="144.419">L27</text>
+                <circle cx="331.669" cy="109.41900000000001" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s307962" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 284.665 83.875 Q 257.683 95.070 234.001 112.150 L 325.569 226.107 Q 336.046 217.926 347.528 211.324 L 284.665 83.875 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="290.765" y="159.991">L26</text>
+                <circle cx="290.765" cy="124.99100000000001" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s307961" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 305.476 243.760 Q 312.365 236.728 320.689 229.982 L 228.978 115.881 Q 207.880 131.669 190.944 151.044 L 305.476 243.760 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="255.817" y="184.821">L25</text>
+                <circle cx="255.817" cy="149.821" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307960" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 186.782 155.637 Q 168.842 177.166 156.355 201.278 L 284.378 268.877 Q 291.841 258.256 301.170 248.210 L 186.782 155.637 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="228.763" y="217.257">L24</text>
+                <circle cx="228.763" cy="182.257" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307922">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1295.213 394.173 L 1285.884 346.810 L 1157.574 384.270 L 1167.047 429.623 L 1295.213 394.173 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1226.394" y="393.217">D21</text>
+            </g>
+            <g sprite-identifier="s307959" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 153.485 206.875 Q 144.586 225.246 139.276 244.478 L 270.169 292.702 Q 275.049 283.229 280.790 274.044 L 153.485 206.875 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="210.033" y="254.788">L23</text>
+                <circle cx="210.033" cy="219.788" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307958" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 132.100 279.928 L 132.100 280.072 L 128.081 299.448 L 255.530 335.185 Q 259.261 316.383 267.442 298.299 L 137.554 250.363 Q 133.679 265.863 132.100 279.928 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="197.762" y="297.774">L22</text>
+                <circle cx="197.762" cy="262.774" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307957" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 126.789 305.476 L 118.465 345.375 L 246.344 380.825 L 253.521 347.815 Q 253.808 345.949 254.525 341.356 L 126.789 305.476 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="186.495" y="348.150">L21</text>
+                <circle cx="186.495" cy="313.15" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307970">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1033.857 466.939 L 1040.172 509.135 L 1128.583 497.079 L 1119.828 455.027 L 1033.857 466.939 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1081.220" y="487.081">D2</text>
+            </g>
+            <g sprite-identifier="s307969">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1118.536 448.999 L 1110.212 409.243 L 1026.825 419.720 L 1032.996 460.624 L 1118.536 448.999 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1072.680" y="439.934">D1</text>
+            </g>
+            <g sprite-identifier="s308062">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1153.010 386.997 L 1115.837 399.627 L 1150.426 566.401 L 1188.891 559.655 L 1153.010 386.997 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1152.364" y="481.699">D</text>
+            </g>
+            <g sprite-identifier="s308081">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1021.084 384.557 Q 1022.949 390.728 1023.523 397.331 L 1025.963 413.692 L 1109.063 403.071 L 1102.318 370.779 L 1021.084 384.557 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1065.073" y="397.235">C6</text>
+            </g>
+            <g sprite-identifier="s308093">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 309.495 325.999 Q 305.476 339.921 303.036 357.144 L 381.256 374.367 Q 384.557 362.598 391.590 352.695 L 309.495 325.999 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="347.313" y="355.183">L2</text>
+            </g>
+            <g sprite-identifier="s308080">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1012.616 365.612 Q 1016.634 372.070 1019.074 378.672 L 1101.170 364.751 Q 1099.591 350.111 1097.582 339.204 L 1012.616 365.612 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1056.893" y="363.938">C5</text>
+            </g>
+            <g sprite-identifier="s308092">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 301.142 363.315 L 300.711 366.186 L 293.105 401.349 L 373.765 411.970 L 377.496 386.566 Q 378.071 382.261 378.645 380.538 L 301.142 363.315 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="335.875" y="392.643">L1</text>
+            </g>
+            <g sprite-identifier="s308069">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 386.997 233.714 L 378.099 203.287 Q 329.588 222.519 297.582 261.988 Q 265.289 301.600 259.692 348.676 L 259.549 348.963 L 251.655 385.418 L 287.679 402.354 L 295.860 365.038 Q 301.601 316.957 317.675 288.540 Q 340.065 249.501 386.997 233.714 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="319.326" y="307.820">L</text>
+            </g>
+            <g sprite-identifier="s308091">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 367.335 461.916 L 374.080 418.141 L 292.989 407.377 L 282.943 453.305 L 367.335 461.916 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="328.511" y="439.647">K4</text>
+            </g>
+            <g sprite-identifier="s308079">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1004.004 354.274 Q 1006.588 357.144 1008.884 360.158 L 1096.433 332.889 Q 1093.419 318.536 1088.827 306.337 L 1004.004 354.274 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1050.219" y="338.247">C4</text>
+            </g>
+            <g sprite-identifier="s308090">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 360.589 507.269 L 366.330 468.231 L 281.508 459.476 L 273.040 498.514 L 360.589 507.269 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="319.685" y="488.373">K3</text>
+            </g>
+            <g sprite-identifier="s307956" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 117.173 351.403 L 108.705 392.307 L 236.298 427.183 L 244.909 386.997 L 117.173 351.403 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="176.807" y="394.293">K24</text>
+                <circle cx="176.807" cy="359.293" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307955" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 226.682 471.102 L 234.862 433.211 L 107.414 398.479 L 97.798 444.119 L 226.682 471.102 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="166.330" y="439.790">K23</text>
+                <circle cx="166.330" cy="404.79" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307954">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 214.339 527.363 L 225.390 476.986 L 96.649 450.291 L 86.172 500.380 L 214.339 527.363 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="155.781" y="493.827">K22</text>
+            </g>
+            <g sprite-identifier="s307953" data-original-title="">
+                <g transform="matrix(0.995, -0.105, 0.105, 0.995, -56.344, 17.861)">
+                    <path stroke="#000000" fill="#f1f1f1"
+                        d="M 70.430 555.485 L 196.428 594.753 L 214.031 539.822 L 86.778 498.214 L 71.600 555.608 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="142.231" y="551.483">K21</text>
+            </g>
+            <g sprite-identifier="s308078">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 997.833 347.958 L 999.699 349.824 L 1086.530 300.452 Q 1076.340 277.488 1059.117 262.562 L 997.833 347.958 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1042.182" y="311.193">C3</text>
+            </g>
+            <g sprite-identifier="s308089" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 262.706 546.451 L 353.413 553.484 L 359.584 513.584 L 271.748 504.686 L 262.706 546.451 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="311.145" y="534.085">K2</text>
+                <circle cx="311.145" cy="499.08500000000004" fill="#a3d165" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s308088" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 261.271 552.479 L 251.655 596.541 L 345.375 607.162 L 352.552 559.655 L 261.271 552.479 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="302.103" y="584.820">K1</text>
+                <circle cx="302.103" cy="549.82" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308068" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 245.914 593.958 L 286.387 408.525 L 250.363 391.590 L 209.459 579.175 L 245.914 593.958 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="247.923" y="497.774">K</text>
+            </g>
+            <g sprite-identifier="s307952" data-original-title="" cursor="pointer">
+                <g transform="matrix(0.956, -0.292, 0.292, 0.956, -208.896, 61.186)">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 37.515 693.140 L 26.982 744.126 L 163.759 765.803 L 173.529 721.228 L 37.515 693.140 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="105.902" y="733.471">J23</text>
+                <circle cx="105.902" cy="698.471" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307951" data-original-title="" cursor="pointer">
+                <g transform="matrix(1.000, -0.017, 0.017, 1.000, -10.647, 2.352)">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 72.941 565.294 L 60 633.529 L 187.059 657.059 L 198.824 594.706 L 72.941 566.471 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="129.412" y="616.176">J22</text>
+                <circle cx="129.412" cy="581.176" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307950" data-original-title="" cursor="pointer">
+                <g transform="matrix(0.996, 0.087, -0.087, 0.996, 59.394, -6.931)">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 180.688 696.653 Q 178.105 682.587 178.105 668.809 L 178.105 668.522 L 181.119 654.887 L 51.374 642.114 L 37.022 711.292 L 180.688 696.653 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="109.070" y="681.703">J21</text>
+                <circle cx="109.070" cy="646.703" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307996" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 248.807 601.429 L 239.801 642.798 L 342.994 651.499 L 348.948 612.878 L 248.807 601.429 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="294.374" y="638.522">J2</text>
+            </g>
+            <g sprite-identifier="s307995" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 344.018 655.710 L 239.603 647.009 L 229.223 694.026 Q 229.223 696.468 229.681 702.574 L 351.803 693.720 Q 344.476 675.402 344.018 655.710 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="292.866" y="682.144">J1</text>
+            </g>
+            <g sprite-identifier="s308067" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 181.185 708.920 Q 181.185 715.952 181.759 722.842 L 226.108 711.216 Q 224.816 701.600 224.816 691.410 L 224.816 691.123 L 244.479 600.129 L 208.167 585.346 L 181.185 708.920 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="212.832" y="659.094">J</text>
+                <circle cx="212.832" cy="624.094" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308085" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 350.686 702.031 L 348.533 697.725 L 231.849 706.049 Q 233.714 723.559 239.742 739.634 L 350.686 702.031 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="291.267" y="723.679">I4</text>
+                <circle cx="291.267" cy="688.679" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308084" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 360.445 717.818 Q 357.144 713.513 353.700 707.772 L 242.039 745.518 Q 253.090 771.209 273.614 791.589 L 360.445 717.818 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="301.242" y="754.680">I3</text>
+                <circle cx="301.242" cy="719.68" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308108">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 190.307 771.278 Q 185.043 759.499 182.411 747.450 L 33.270 761.530 L 31.954 767.352 Q 31.954 798.761 42.481 828.952 L 190.307 771.278 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 21.6px;"
+                    x="111.130" y="788.495">I24</text>
+            </g>
+            <g sprite-identifier="s308105">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 206.732 803.932 Q 195.968 789.436 188.935 773.649 L 43.402 834.790 Q 53.162 862.633 70.241 886.745 L 206.732 803.932 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="125.067" y="835.197">I23</text>
+            </g>
+            <g sprite-identifier="s308107">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 210.464 808.812 L 73.973 891.769 Q 94.210 918.751 122.053 938.557 L 231.849 831.058 Q 220.080 820.868 210.464 808.812 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="152.911" y="878.685">I22</text>
+            </g>
+            <g sprite-identifier="s308106" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 267.442 855.027 Q 250.650 846.415 236.585 835.077 L 127.076 942.145 Q 155.494 961.090 188.217 970.276 L 267.442 855.027 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="197.259" y="907.676">I21</text>
+            </g>
+            <g sprite-identifier="s308083" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 371.784 731.022 Q 368.196 727.434 364.177 722.842 L 278.207 795.751 Q 291.841 808.238 308.203 816.849 L 371.784 731.022 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="324.995" y="774.845">I2</text>
+                <circle cx="324.995" cy="739.845" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308082" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 382.117 740.351 Q 379.391 738.199 376.377 735.472 L 313.800 819.720 Q 335.042 830.054 358.436 833.355 L 382.117 740.351 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="347.959" y="789.413">I1</text>
+                <circle cx="347.959" cy="754.413" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308066" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 259.979 785.992 Q 234.145 755.708 226.969 717.388 L 182.476 729.157 Q 189.222 777.667 223.381 814.266 Q 257.396 851.008 307.055 862.920 L 323.416 830.771 Q 285.670 816.275 259.979 785.992 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="252.946" y="795.154">I</text>
+                <circle cx="252.946" cy="760.154" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307990" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 422.448 761.449 Q 403.502 755.708 387.428 744.370 L 364.751 834.072 Q 372.788 835.077 380.826 835.077 L 401.493 835.077 L 422.448 761.449 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="393.599" y="794.723">H4</text>
+                <circle cx="393.599" cy="759.723" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307989" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 428.476 763.028 L 407.952 835.077 L 452.587 835.077 L 466.796 766.616 L 457.898 766.616 Q 443.115 766.616 428.476 763.028 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="437.374" y="804.052">H3</text>
+                <circle cx="437.374" cy="769.052" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307949" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 306.481 868.059 Q 289.688 864.040 273.183 856.577 L 194.532 970.678 Q 219.649 976.993 245.770 976.993 L 266.007 976.993 L 306.481 868.059 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="250.507" y="921.785">H25</text>
+                <circle cx="250.507" cy="886.785" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307948" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 373.076 873.828 L 347.098 873.828 Q 329.875 873.828 312.652 870.527 L 272.753 978.170 L 336.334 978.170 L 373.076 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="322.914" y="929.348">H24</text>
+                <circle cx="322.914" cy="894.348" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307947" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 433.929 873.828 L 379.678 873.828 L 342.936 978.170 L 405.799 978.170 L 433.929 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="388.433" y="930.999">H23</text>
+                <circle cx="388.433" cy="895.999" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307946" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 498.228 873.828 L 440.388 873.828 L 412.114 978.170 L 479.570 978.170 L 498.228 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="455.171" y="930.999">H22</text>
+                <circle cx="455.171" cy="895.999" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307945">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 562.383 873.828 L 504.543 873.828 L 485.885 978.170 L 554.920 978.170 L 562.383 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="524.134" y="930.999">H21</text>
+            </g>
+            <g sprite-identifier="s307988" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 521.622 766.616 L 473.111 766.616 L 459.046 835.077 L 515.307 835.077 L 521.622 766.616 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="490.334" y="805.846">H2</text>
+                <circle cx="490.334" cy="770.846" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307987">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 521.479 835.077 L 570.994 835.077 L 581.615 766.616 L 527.937 766.616 L 521.479 835.077 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="551.547" y="805.846">H1</text>
+            </g>
+            <g sprite-identifier="s308087">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 380.826 841.248 Q 354.561 841.248 329.444 832.924 L 313.370 864.212 Q 330.162 867.657 347.098 867.657 L 564.966 867.657 L 571.281 841.248 L 380.826 841.248 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="442.326" y="855.290">H</text>
+            </g>
+            <g sprite-identifier="s307986">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 635.436 766.616 L 587.786 766.616 L 577.309 835.077 L 635.436 835.077 L 635.436 766.616 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="606.373" y="805.846">G4</text>
+            </g>
+            <g sprite-identifier="s307985" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 641.751 766.616 L 641.751 835.077 L 692.989 835.077 L 692.989 766.616 L 641.751 766.616 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="667.370" y="805.846">G3</text>
+                <circle cx="667.370" cy="770.846" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307944">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 625.390 873.828 L 568.698 873.828 L 561.091 978.170 L 625.390 978.170 L 625.390 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="593.240" y="930.999">G24</text>
+            </g>
+            <g sprite-identifier="s307943">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 696.864 873.828 L 631.561 873.828 L 631.561 978.170 L 696.864 978.170 L 696.864 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="664.213" y="930.999">G23</text>
+            </g>
+            <g sprite-identifier="s307942" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 763.746 873.828 L 703.036 873.828 L 703.036 978.170 L 763.746 978.170 L 763.746 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="733.391" y="930.999">G22</text>
+                <circle cx="733.391" cy="895.999" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307941">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 826.322 873.828 L 770.061 873.828 L 770.061 978.170 L 834.790 978.170 L 826.322 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="802.426" y="930.999">G21</text>
+            </g>
+            <g sprite-identifier="s307984">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 746.667 766.616 L 699.304 766.616 L 699.304 835.077 L 746.667 835.077 L 746.667 766.616 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="722.986" y="805.846">G2</text>
+            </g>
+            <g sprite-identifier="s307928">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1150.111 347.958 L 1156.426 378.098 L 1284.592 340.639 L 1276.986 303.179 L 1147.815 333.463 Q 1149.393 341.069 1150.111 347.958 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1216.204" y="345.639">C27</text>
+            </g>
+            <g sprite-identifier="s307983">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 752.838 835.077 L 813.549 835.077 L 813.549 766.616 L 752.838 766.616 L 752.838 835.077 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="783.194" y="805.846">G1</text>
+            </g>
+            <g sprite-identifier="s308086" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 576.420 841.248 L 570.248 867.657 L 868.059 867.657 L 861.744 841.248 L 576.420 841.248 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="719.154" y="859.452">G</text>
+                <circle cx="719.154" cy="824.452" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307982" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 872.680 766.616 L 819.864 766.616 L 819.864 835.077 L 872.680 835.077 L 872.680 766.616 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="846.272" y="805.846">F4</text>
+            </g>
+            <g sprite-identifier="s307981">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 929.412 837.794 L 928.235 768.088 L 877.190 768.703 L 877.190 836.894 L 930.131 836.894 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="903.660" y="807.941">F3</text>
+            </g>
+            <g sprite-identifier="s307917">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 892.056 873.828 L 832.637 873.828 L 841.105 978.170 L 903.538 978.170 L 892.056 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="868.088" y="930.999">F25</text>
+            </g>
+            <g sprite-identifier="s307916" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 909.853 978.170 L 979.892 978.170 L 956.211 873.828 L 898.371 873.828 L 909.853 978.170 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="939.132" y="930.999">F24</text>
+                <circle cx="939.132" cy="895.999" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307940" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1015.486 873.828 L 962.526 873.828 L 986.351 978.170 L 1044.908 978.170 L 1015.486 873.828 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1003.717" y="930.999">F23</text>
+                <circle cx="1003.717" cy="895.999" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307927">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1275.981 297.008 L 1272.393 280.072 L 1272.393 279.928 Q 1270.958 264.571 1266.939 248.927 L 1132.458 290.980 Q 1141.787 308.490 1146.379 327.291 L 1275.981 297.008 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1204.219" y="293.109">C26</text>
+            </g>
+            <g sprite-identifier="s307939">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1082.396 870.499 Q 1068.188 872.652 1053.979 872.652 L 1023.121 872.652 L 1052.543 976.993 L 1127.032 976.993 L 1082.396 870.499 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1075.077" y="928.746">F22</text>
+            </g>
+            <g sprite-identifier="s307915">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1127.434 857.466 Q 1108.346 866.365 1087.535 870.527 L 1132.601 978.170 L 1154.273 978.170 Q 1180.825 978.170 1206.659 971.568 L 1127.434 857.466 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1147.097" y="922.818">F21</text>
+            </g>
+            <g sprite-identifier="s307980">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 943.529 768.824 L 932.941 768.824 L 935.294 835.882 L 999.292 835.077 L 958.824 771.176 Q 957.647 771.176 951.765 770 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="966.117" y="807.353">F2</text>
+            </g>
+            <g sprite-identifier="s307979">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 983.529 767.647 Q 977.647 766.471 964.706 768.824 L 1010.131 838.366 L 1011.307 838.366 Q 1030.131 834.837 1043.072 832.484 L 995.294 766.471 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1003.889" y="807.418">F1</text>
+            </g>
+            <g sprite-identifier="s308064">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1052.802 867.657 Q 1079.067 867.657 1104.040 859.906 L 1079.354 829.623 Q 1050.506 841.248 1019.074 841.248 L 869.379 841.248 L 875.551 867.657 L 1052.802 867.657 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="991.416" y="859.522">F</text>
+            </g>
+            <g sprite-identifier="s307978">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1001.176 755.882 L 995.294 758.235 L 1048.248 832.601 Q 1061.176 831.176 1075.294 827.647 L 1015.294 744.118 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1035.294" y="793.359">E6</text>
+            </g>
+            <g sprite-identifier="s307977">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1076.197 824.169 Q 1104.758 812.831 1126.286 791.589 L 1035.723 722.842 Q 1028.260 732.027 1018.787 739.634 L 1076.197 824.169 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1072.537" y="778.505">E5</text>
+            </g>
+            <g sprite-identifier="s307976">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1051.080 698.443 Q 1045.913 709.207 1039.455 717.962 L 1130.735 786.996 Q 1150.111 766.329 1159.871 740.782 L 1051.080 698.443 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1099.663" y="747.720">E4</text>
+            </g>
+            <g sprite-identifier="s307975">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1162.024 734.898 Q 1169.056 713.800 1169.056 691.840 L 1166.903 681.076 L 1056.821 683.373 Q 1055.673 687.248 1053.520 692.702 L 1162.024 734.898 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1111.288" y="712.987">E3</text>
+            </g>
+            <g sprite-identifier="s308104">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1264.499 947.456 L 1164.320 834.216 Q 1149.681 846.272 1133.175 854.740 L 1213.118 969.845 Q 1240.100 962.095 1264.499 947.456 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1198.837" y="907.030">E27</text>
+            </g>
+            <g sprite-identifier="s308103">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1269.810 944.155 Q 1301.672 923.774 1324.492 893.778 L 1186.853 812.113 Q 1179.103 821.442 1169.056 830.197 L 1269.810 944.155 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1246.774" y="883.134">E26</text>
+            </g>
+            <g sprite-identifier="s308102">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1210.247 775.515 Q 1202.354 792.450 1190.728 807.233 L 1328.224 888.755 Q 1346.308 863.782 1356.928 834.359 L 1210.247 775.515 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1273.828" y="837.135">E25</text>
+            </g>
+            <g sprite-identifier="s308101">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1368.841 763.746 L 1365.970 749.393 L 1219.576 749.393 Q 1217.137 759.296 1212.831 769.774 L 1358.794 828.331 Q 1368.841 796.756 1368.841 763.746 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1297.895" y="785.627">E24</text>
+            </g>
+            <g sprite-identifier="s307920">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1221.729 692.989 L 1225.030 708.346 L 1225.030 708.633 Q 1225.030 725.999 1221.299 743.222 L 1364.822 743.222 L 1353.053 684.377 L 1221.729 692.989 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1293.060" y="718.800">E23</text>
+            </g>
+            <g sprite-identifier="s307919">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1351.905 678.206 L 1340.567 621.801 L 1210.965 640.316 L 1220.581 686.817 L 1351.905 678.206 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1281.435" y="659.309">E22</text>
+            </g>
+            <g sprite-identifier="s307918" data-original-title="">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1198.622 581.327 L 1209.530 634.144 L 1339.418 615.773 L 1327.075 553.771 L 1198.622 581.327 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1269.020" y="598.958">E21</text>
+            </g>
+            <g sprite-identifier="s307974">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1165.468 674.905 L 1159.153 644.191 L 1061.414 651.797 L 1061.414 651.941 L 1061.414 652.085 Q 1061.414 664.715 1058.543 677.201 L 1165.468 674.905 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1112.006" y="665.696">E2</text>
+            </g>
+            <g sprite-identifier="s307926">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1121.981 273.326 Q 1126.143 279.641 1129.444 285.382 L 1265.217 242.899 Q 1259.045 221.801 1248.712 202.139 L 1121.981 273.326 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1193.599" y="248.761">C25</text>
+            </g>
+            <g sprite-identifier="s307932" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1108.346 255.386 Q 1113.226 261.127 1118.392 268.303 L 1245.841 196.541 Q 1232.637 173.147 1213.979 152.193 L 1108.346 255.386 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1177.094" y="215.248">C24</text>
+                <circle cx="1177.094" cy="180.248" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307931">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1079.354 227.829 Q 1092.845 238.594 1104.040 250.793 L 1209.817 147.600 Q 1194.173 130.808 1175.228 116.455 L 1079.354 227.829 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1144.585" y="188.624">C23</text>
+            </g>
+            <g sprite-identifier="s307930" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1053.950 210.607 Q 1064.284 216.491 1074.331 224.098 L 1170.204 112.724 Q 1147.384 96.362 1121.693 85.024 L 1053.950 210.607 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1112.077" y="159.561">C22</text>
+                <circle cx="1112.077" cy="124.561" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s307929" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1115.953 82.727 Q 1090.405 72.107 1063.279 67.801 L 1026.681 197.259 Q 1037.732 201.852 1048.497 207.593 L 1115.953 82.727 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1071.317" y="142.697">C21</text>
+                <circle cx="1071.317" cy="107.697" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308077">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 981.758 335.903 Q 987.786 339.778 993.097 343.940 L 1054.237 258.687 Q 1036.871 245.196 1011.468 238.020 L 981.758 335.903 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1017.998" y="295.980">C2</text>
+            </g>
+            <g sprite-identifier="s308076" data-original-title="" cursor="pointer">
+                <g transform="matrix(0.940, -0.342, 0.342, 0.940, -33.955, 353.616)">
+                    <path stroke="#000000" fill="#050505"
+                        d="M 1002.437 239.522 Q 986.543 228.271 964.823 218.369 L 955.957 327.816 L 955.957 327.816 L 1015.545 247.309 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="985.751" y="278.093">C1</text>
+                <circle cx="985.751" cy="243.09300000000002" fill="#ffeb99" r="10" stroke="#000" stroke-width="2">
+                </circle>
+            </g>
+            <g sprite-identifier="s308061">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1023.695 202.282 L 1014.797 232.135 Q 1062.877 246.344 1084.980 281.794 Q 1103.064 310.929 1108.661 365.038 L 1114.546 393.599 L 1151.862 380.825 L 1145.116 348.963 L 1145.116 348.676 Q 1140.380 302.318 1106.939 261.988 Q 1073.641 221.801 1023.695 202.282 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1082.153" y="302.941">C</text><text style="font-size: 20px;" x="1083.329" y="302.941">C</text>
+            </g>
+            <g sprite-identifier="s308075">
+                <g transform="matrix(0.848, -0.530, 0.530, 0.848, -3.596, 540.666)">
+                    <path stroke="#000000" fill="#f1f1f1"
+                        d="M 955.240 231.957 Q 943.891 223.478 933.290 218.241 L 916.090 310.151 Q 929.683 317.258 938.040 334.965 L 965.840 237.194 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                </g><text style="font-size: 20px;" x="937.436" y="281.603">B4</text>
+            </g>
+            <g sprite-identifier="s308074">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 929.093 314.601 L 900 226.471 L 895.294 226.471 L 895.294 308.824 Q 908.982 311.232 929.093 314.601 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="908.664" y="302.595">B3</text>
+            </g>
+            <g sprite-identifier="s308100" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 1057.108 66.796 Q 1042.612 64.930 1028.690 64.930 L 1012.616 64.930 L 989.078 186.351 Q 1005.009 189.365 1020.797 195.106 L 1057.108 66.796 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="1023.093" y="135.018">B23</text>
+                <circle cx="1023.093" cy="100.018" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g sprite-identifier="s308099">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1006.444 64.930 L 957.359 64.930 L 957.359 183.194 Q 969.846 183.337 983.050 185.346 L 1006.444 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="981.902" y="130.138">B22</text>
+            </g>
+            <g sprite-identifier="s308098">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 951.188 183.194 L 951.188 64.930 L 894.496 64.930 L 894.496 183.194 L 951.188 183.194 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="922.842" y="129.062">B21</text>
+            </g>
+            <g sprite-identifier="s308073">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 891.338 228.260 L 845.411 228.260 L 845.411 309.064 L 875.264 309.064 Q 882.727 309.064 891.338 309.781 L 891.338 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="868.375" y="274.021">B2</text>
+            </g>
+            <g sprite-identifier="s308072">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 839.239 228.260 L 805.798 228.260 L 805.798 309.064 L 839.239 309.064 L 839.239 228.260 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="822.519" y="273.662">B1</text>
+            </g>
+            <g sprite-identifier="s308060">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 1007.592 230.413 L 1016.634 200.129 Q 986.064 189.365 955.350 189.365 L 892.917 189.365 L 892.917 222.088 L 930.951 222.088 Q 975.587 222.088 1007.592 230.413 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="954.776" y="214.889">B</text>
+            </g>
+            <g sprite-identifier="s307935">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 888.324 64.930 L 857.180 64.930 L 857.180 183.194 L 888.324 183.194 L 888.324 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="872.752" y="129.062">A23</text>
+            </g>
+            <g sprite-identifier="s307934">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 850.865 64.930 L 803.359 64.930 L 803.359 183.194 L 850.865 183.194 L 850.865 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="827.112" y="129.062">A22</text>
+            </g>
+            <g sprite-identifier="s307933">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 797.187 64.930 L 742.074 64.930 L 742.074 183.194 L 797.187 183.194 L 797.187 64.930 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="769.631" y="129.062">A21</text>
+            </g>
+            <g sprite-identifier="s307968">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 757.014 308.900 L 802.505 308.900 L 802.505 222.956 L 757.014 222.956 L 757.014 308.900 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="781.760" y="273.928">A02</text>
+            </g>
+            <g sprite-identifier="s307967">
+                <path stroke="#000000" fill="#f1f1f1"
+                    d="M 753.686 222.427 L 699.188 222.427 L 699.188 308.371 L 753.686 308.371 L 753.686 222.427 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="731.261" y="272.399">A01</text>
+            </g>
+            <g sprite-identifier="s308059" data-original-title="" cursor="pointer">
+                <path stroke="#000000" fill="#050505"
+                    d="M 886.602 222.088 L 886.602 189.365 L 707.772 189.365 L 707.772 222.088 L 886.602 222.088 z"
+                    fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                    x="797.187" y="210.727">A</text>
+                <circle cx="797.187" cy="175.727" fill="#e53935" r="10" stroke="#000" stroke-width="2"></circle>
+            </g>
+            <g>
+                <path stroke="#000000" fill="#050505"
+                    d="M 1006.793 368.058 Q 1003.267 364.853 998.459 364.853 L 410.952 364.853 Q 405.985 364.853 402.619 368.058 Q 399.093 371.424 399.093 376.071 L 399.093 708.286 Q 399.093 712.774 402.619 716.299 Q 405.985 719.505 410.952 719.505 L 998.459 719.505 Q 1003.267 719.505 1006.793 716.299 Q 1010.318 712.774 1010.318 708.286 L 1010.318 376.071 Q 1010.318 371.424 1006.793 368.058 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="1.8" stroke="#000000" fill="#050505"
+                    d="M 1006.793 368.058 Q 1010.318 371.424 1010.318 376.071 L 1010.318 708.286 Q 1010.318 712.774 1006.793 716.299 Q 1003.267 719.505 998.459 719.505 L 410.952 719.505 Q 405.985 719.505 402.619 716.299 Q 399.093 712.774 399.093 708.286 L 399.093 376.071 Q 399.093 371.424 402.619 368.058 Q 405.985 364.853 410.952 364.853 L 998.459 364.853 Q 1003.267 364.853 1006.793 368.058 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 987.241 697.549 L 423.773 697.549 L 423.773 386.649 L 987.241 386.649 L 987.241 697.549 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505" d="M 705.507 387.129 L 705.507 697.229"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 737.559 511.649 Q 750.861 524.310 750.861 542.099 Q 750.861 559.887 737.559 572.548 Q 724.257 585.208 705.507 585.208 Q 686.757 585.208 673.455 572.548 Q 659.994 559.887 659.994 542.099 Q 659.994 524.310 673.455 511.649 Q 686.757 498.989 705.507 498.989 Q 724.257 498.989 737.559 511.649 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 514.319 506.361 L 514.319 440.655 L 424.254 440.655 L 424.254 643.542 L 514.319 643.542 L 514.319 577.837"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 514.319 506.361 L 514.319 577.837 Q 523.614 572.067 528.903 562.612 Q 534.511 553.156 534.511 542.099 Q 534.511 531.201 528.903 521.586 Q 523.614 512.291 514.319 506.361 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 896.215 506.361 L 896.215 440.655 L 987.241 440.655 L 987.241 643.542 L 896.215 643.542 L 896.215 577.837"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 896.215 506.361 L 896.215 577.837 Q 886.919 572.067 881.471 562.612 Q 875.861 553.156 875.861 542.099 Q 875.861 531.201 881.471 521.586 Q 886.919 512.291 896.215 506.361 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 459.671 501.873 L 459.671 582.163 L 425.215 582.163 L 425.215 501.873 L 459.671 501.873 z"
+                    fill-opacity="0.19000000000000003"></path>
+                <path stroke-width="2.25" stroke="#000000" fill="#050505"
+                    d="M 985.639 501.873 L 985.639 582.163 L 951.023 582.163 L 951.023 501.873 L 985.639 501.873 z"
+                    fill-opacity="0.19000000000000003"></path>
+            </g>
+        </g>
+        <defs>
+            <style type="text/css">
+                .svg-pan-zoom-control {
+                    cursor: pointer;
+                    fill: white;
+                    fill-opacity: 1;
+                    stroke-width: 20;
+                    stroke: rgb(0, 0, 0);
+                }
+
+                .svg-pan-zoom-control-background {
+                    fill: grey;
+                }
+            </style>
+        </defs>
+        <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+            <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+            <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                <path
+                    d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                    class="svg-pan-zoom-control-element"></path>
+            </g>
+        </g>
+    </svg>

@@ -1,9 +1,13 @@
-{#
-    poner el desplegable de las opciones (por deecto sera españa)
-    listar todos los equipos y sus escudos
-    mostrar tabla de puntos ( pensarla para las europeas )
- #}
+{# Asocia la libreria 'equipos/listaEquipos' a esta plantilla. #}
 {{ attach_library('equipos/listaEquipos') }}
+{#
+    El elemneto <select> se usa para crear una lista despegable de opciones.
+    Permite al usuario seleccionar una opción de la lista.
+    El atributo name se utiliza para identificar el elemento del formulario cuando se envía.
+    El atributo id se utiliza para identificar unívocamente el elemento.
+    Los elementos <option> definen las opciones disponibles en la lista desplegable.
+    Cada opción tiene un atributo value que representa el valor seleccionado cuando se envía el formulario.
+#}
 <div class="container bWht p-2 mt-3 pb-3">
     <div class="d-block d-md-flex">
         <div class="col-md-7 col-lg-8 col col-12 bWht pe-md-2">

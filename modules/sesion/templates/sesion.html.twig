@@ -1,5 +1,24 @@
+{# Asocia la libreria 'sesion/sesion' a esta plantilla. #}
 {{ attach_library('sesion/sesion') }}
+
+{# Renderiza la variable 'redireccion' sin escapar HTML. #}
 {{ redireccion|raw }}
+    {#
+        Contiene código HTML y Twig para mostrar los formularios de inicio de sesión y registro.
+
+        La estructura del archivo es la siguiente
+        - Un div contenedor con clase "gen" que centra el contenido vertical y horizontalmente.
+        - Dentro del contenedor, hay un div con clase "general" que actúa como envoltorio del contenido.
+        - El contenido se divide en dos secciones: un formulario de inicio de sesión y un formulario de registro.
+        - El formulario de inicio de sesión se muestra por defecto, y el formulario de registro está oculto.
+        - Los formularios están diseñados con clases de Bootstrap.
+        - El formulario de inicio de sesión contiene campos de entrada para el correo electrónico y la contraseña, junto con un botón "Sign in".
+        - El formulario de registro contiene campos de entrada para nombre, apellidos, correo electrónico, contraseña y teléfono, junto con un botón "Sign up".
+        - Ambos formularios tienen un enlace para cambiar de uno a otro.
+
+        Nota: Las URL de envío de formularios están configuradas actualmente en "http://localhost/AllTickets/sesion" y puede que sea necesario actualizarlas.
+    #}
+
     <div class="gen d-flex ustify-content-center align-items-center">
         <div class="general w-100 position-relative m-auto">
             <input type="checkbox" id="flip">
@@ -77,7 +96,7 @@
                                     </div>
                                 </div>
                                 <div class="button input-box p-0">
-                                    <input type="submit" value="Sumbit" class="w-100 h-100 fw-semibold bLila">
+                                    <input type="submit" value="Sign up" class="w-100 h-100 fw-semibold bLila">
                                 </div>
                                 <div class="text text-center mt-4">Already have an account? <label for="flip" class="cLila">Sign in now</label>
                                 </div>

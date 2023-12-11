@@ -1,0 +1,158 @@
+<svg
+            xmlns="http://www.w3.org/2000/svg" version="1.1" width="455" height="396"
+            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+            style="overflow: hidden; touch-action: none; user-select: none;">
+            <g class="svg-pan-zoom_viewport"
+                transform="matrix(0.37223806977272034,0,0,0.37223806977272034,-31.301496505737305,-13.747385025024414)">
+                <g sprite-identifier="s330127" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1012 349 L 1073.8 292 L 278.7 292 L 338.1 352.3 L 338.1 349 L 1012 349 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="676.250" y="327.150">Lateral Baja</text>
+                    <circle cx="676.250" cy="292.15" fill="#a3d165" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330126" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1150 221.9 L 1150 221 L 208.6 221 L 274.8 288 L 1078.2 288 L 1150 221.9 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="679.300" y="259.5">LATERAL ALTA</text>
+                    <circle cx="679.300" cy="224.5" fill="#ffeb99" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330136">
+                    <path fill="#f1f1f1" stroke="#000000" d="M 599 726 L 599 757.5 L 759 757.5 L 759 726 L 599 726 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="679" y="746.75">ANTEPALCO</text>
+                </g>
+                <g sprite-identifier="s330125">
+                    <path fill="#f1f1f1" stroke="#000000" d="M 599 761.5 L 599 793 L 759 793 L 759 761.5 L 599 761.5 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="679" y="782.25">PALCO</text>
+                </g>
+                <g sprite-identifier="s330133" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1072.7 722 L 1010.8 665 L 678.5 665 L 678.5 722 L 1072.7 722 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="875.600" y="698.5">Tribuna Baja Par</text>
+                    <circle cx="875.600" cy="663.5" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330135" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000" d="M 1149.8 793 L 1077 726 L 763 726 L 763 793 L 1149.8 793 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="956.400" y="764.5">TRIBUNA CUBIERTA PAR</text>
+                    <circle cx="956.400" cy="729.5" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330134" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000" d="M 278.8 726 L 212.6 793 L 595 793 L 595 726 L 278.8 726 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="403.800" y="764.5">TRIBUNA CUBIERTA IMPAR</text>
+                    <circle cx="403.800" cy="729.5" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330132" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 331.765 665.294 L 674.303 665.369 L 674.303 721.690 L 281.697 721.690 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path><text style="font-size: 20px;"
+                        x="478" y="698.492">Tribuna Baja Impar</text>
+                    <circle cx="478" cy="663.492" fill="#f0ad4e" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g>
+                    <path fill="#050505" stroke="#000000"
+                        d="M 927.5 375.6 Q 927.5 371.8 924.6 369.1 Q 921.8 366.4 917.8 366.4 L 442.2 366.4 Q 438.2 366.4 435.4 369.1 Q 432.5 371.8 432.5 375.6 L 432.5 644.5 Q 432.5 648.3 435.4 651 Q 438.2 653.7 442.2 653.7 L 917.8 653.7 Q 921.8 653.7 924.6 651 Q 927.5 648.3 927.5 644.5 L 927.5 375.6 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="1.8" fill="#050505" stroke="#000000"
+                        d="M 927.5 375.6 L 927.5 644.5 Q 927.5 648.3 924.6 651 Q 921.8 653.7 917.8 653.7 L 442.2 653.7 Q 438.2 653.7 435.4 651 Q 432.5 648.3 432.5 644.5 L 432.5 375.6 Q 432.5 371.8 435.4 369.1 Q 438.2 366.4 442.2 366.4 L 917.8 366.4 Q 921.8 366.4 924.6 369.1 Q 927.5 371.8 927.5 375.6 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 908.8 635.8 L 452.6 635.8 L 452.6 384.2 L 908.8 384.2 L 908.8 635.8 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000" d="M 680.7 384.5 L 680.7 635.5"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 706.5 485.4 Q 717.3 495.6 717.3 510 Q 717.3 524.5 706.5 534.7 Q 695.8 544.8 680.6 544.8 Q 665.4 544.8 654.6 534.7 Q 643.9 524.5 643.9 510 Q 643.9 495.6 654.6 485.4 Q 665.4 475.2 680.6 475.2 Q 695.8 475.2 706.5 485.4 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 525.9 481.1 L 525.9 427.9 L 452.9 427.9 L 452.9 592.2 L 525.9 592.2 L 525.9 539"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 525.9 481.1 L 525.9 539 Q 533.4 534.2 537.6 526.7 Q 542.1 519 542.1 510 Q 542.1 501.1 537.6 493.4 Q 533.4 485.9 525.9 481.1 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 835 481.1 L 835 427.9 L 908.8 427.9 L 908.8 592.2 L 835 592.2 L 835 539"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 835 539 Q 827.5 534.2 823.2 526.7 Q 818.7 519 818.7 510 Q 818.7 501.1 823.2 493.4 Q 827.5 485.9 835 481.1 L 835 539 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 481.6 477.4 L 481.6 542.3 L 453.7 542.3 L 453.7 477.4 L 481.6 477.4 z"
+                        fill-opacity="0.19000000000000003"></path>
+                    <path stroke-width="2.25" fill="#050505" stroke="#000000"
+                        d="M 907.4 477.4 L 907.4 542.3 L 879.5 542.3 L 879.5 477.4 L 907.4 477.4 z"
+                        fill-opacity="0.19000000000000003"></path>
+                </g>
+                <g sprite-identifier="s330128" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1080 290 L 1149.412 225.582 L 1149.412 788.824 L 1081.176 720.588 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <g transform="matrix(-0.017, 1.000, -1.000, -0.017, 1638.699, -601.251)"><text
+                            style="font-size: 20px;" x="1114.706" y="512.203">Fondo Sur Alto</text></g>
+                    <circle cx="1114.706" cy="477.203" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330130" data-original-title="" cursor="pointer">
+                    <path fill="#050505" stroke="#000000"
+                        d="M 1017.647 351.176 L 1076.471 295.882 L 1075.294 717.059 L 1015.294 661.765 z"
+                        fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    <g transform="matrix(0.017, 1.000, -1.000, 0.017, 1531.458, -550.767)"><text
+                            style="font-size: 20px;" x="1045.882" y="511.471">Fondo Sur Bajo</text></g>
+                    <circle cx="1045.882" cy="476.471" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+                <g sprite-identifier="s330129" data-original-title="" cursor="pointer">
+                    <g transform="matrix(-1, -1.225e-16, 1.225e-16, -1, 603.529, 1017.647)">
+                        <path fill="#050505" stroke="#000000"
+                            d="M 274.118 355.882 L 328.235 295.882 L 331.765 721.765 L 271.765 666.471 z"
+                            fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    </g>
+                    <g transform="matrix(0.017, -1.000, 1.000, 0.017, -209.527, 799.128)"><text style="font-size: 20px;"
+                            x="301.765" y="513.824">Fondo Norte Bajo</text></g>
+                    <circle cx="301.765" cy="478.82399999999996" fill="#a3d165" r="10" stroke="#000" stroke-width="2">
+                    </circle>
+                </g>
+                <g sprite-identifier="s330131" data-original-title="" cursor="pointer">
+                    <g transform="matrix(-1, 1.225e-16, -1.225e-16, -1, 470.588, 1012.053)">
+                        <path fill="#050505" stroke="#000000"
+                            d="M 200.000 282.053 L 265.882 219.700 L 270.588 792.353 L 202.353 724.118 z"
+                            fill-opacity="0.19000000000000003" style="opacity: 1;"></path>
+                    </g>
+                    <g transform="matrix(-0.017, -1.000, 1.000, -0.017, -263.823, 747.491)"><text
+                            style="font-size: 20px;" x="235.294" y="511.026">Fondo Norte Alto</text></g>
+                    <circle cx="235.294" cy="476.026" fill="#f87a44" r="10" stroke="#000" stroke-width="2"></circle>
+                </g>
+            </g>
+            <defs>
+                <style type="text/css">
+                    .svg-pan-zoom-control {
+                        cursor: pointer;
+                        fill: white;
+                        fill-opacity: 1;
+                        stroke-width: 20;
+                        stroke: rgb(0, 0, 0);
+                    }
+
+                    .svg-pan-zoom-control-background {
+                        fill: grey;
+                    }
+                </style>
+            </defs>
+            <g id="svg-pan-zoom-controls" transform="translate(-12 7) scale(0.75)" class="svg-pan-zoom-control">
+                <g id="svg-pan-zoom-zoom-in" transform="translate(30.5 5) scale(0.015)" class="svg-pan-zoom-control">
+                    <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                    <path
+                        d="M1280 576v128q0 26 -19 45t-45 19h-320v320q0 26 -19 45t-45 19h-128q-26 0 -45 -19t-19 -45v-320h-320q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h320v-320q0 -26 19 -45t45 -19h128q26 0 45 19t19 45v320h320q26 0 45 19t19 45zM1536 1120v-960 q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5t84.5 -203.5z"
+                        class="svg-pan-zoom-control-element"></path>
+                </g>
+                <g id="svg-pan-zoom-zoom-out" transform="translate(30.5 40) scale(0.015)" class="svg-pan-zoom-control">
+                    <rect x="100" y="100" width="1200" height="1200" class="svg-pan-zoom-control-background"></rect>
+                    <path
+                        d="M1280 576v128q0 26 -19 45t-45 19h-896q-26 0 -45 -19t-19 -45v-128q0 -26 19 -45t45 -19h896q26 0 45 19t19 45zM1536 1120v-960q0 -119 -84.5 -203.5t-203.5 -84.5h-960q-119 0 -203.5 84.5t-84.5 203.5v960q0 119 84.5 203.5t203.5 84.5h960q119 0 203.5 -84.5 t84.5 -203.5z"
+                        class="svg-pan-zoom-control-element"></path>
+                </g>
+            </g>
+        </svg>

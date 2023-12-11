@@ -1,3 +1,7 @@
+# Este archivo YAML define la información general del módulo "General".
+# El módulo contiene páginas generales y requiere una versión de núcleo de Drupal 8, 9 o 10.
+# El paquete del módulo es custom.
+
 name: General
 type: module
 description: 'Modulo de paginas generales.'

@@ -1,3 +1,11 @@
+# Este fichero YAML define la configuración de rutas para el módulo "partidos".
+# Contiene tres rutas: "partidos.listado", "partidos.partido", y "partidos.compra".
+# Cada ruta especifica una ruta, un controlador, un título y un requisito de permiso.
+# La ruta "partidos.listado" muestra una lista de partidos.
+# La ruta "partidos.partido" muestra los datos de una coincidencia concreta.
+# La ruta "partidos.compra" gestiona el proceso de compra de entradas para un partido.
+# Todas las rutas requieren el permiso "access content".
+
 partidos.listado:
   path: '/matches'
   defaults:

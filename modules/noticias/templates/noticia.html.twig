@@ -1,5 +1,12 @@
+{# Asocia la libreria 'noticias/noticia' a esta plantilla. #}
  {{ attach_library('noticias/noticia') }}
 <script>
+    /**
+     * Realiza una solicitud AJAX a la API de ESPN para obtener los datos de una noticia.
+     * Luego, muestra los datos obtenidos en una tabla en el documento HTML.
+     *
+     * @param {number} id - El ID de la noticia a obtener.
+     */
     $(document).ready(function () {
         $.ajax({
             url: "https://now.core.api.espn.com/v1/sports/news/" + {{id}},

@@ -1,5 +1,13 @@
+{# Asocia la libreria 'partidos/compra' a esta plantilla. #}
 {{ attach_library('partidos/compra') }}
+{# Renderiza el contenido de la variable 'sesionPago' sin escapar HTML.#}
 {{sesionPago|raw}}
+{#
+    Contiene un bucle que itera sobre la variable 'eqLocal' y muestra información sobre un evento local.
+    La plantilla incluye secciones para detalles del pedido, información del evento, detalles de las entradas e indicaciones especiales.
+    También incluye un temporizador de cuenta atrás y un botón para abandonar la compra de entradas.
+    La plantilla utiliza varias clases CSS e iconos SVG para el estilo y los elementos visuales.
+#}
 {% for local in eqLocal %}
 	<section class="contenido container d-flex ps-3  pt-4">
 		<section class="informacion col-md-4 col col-12 mb-3 pe-md-2">

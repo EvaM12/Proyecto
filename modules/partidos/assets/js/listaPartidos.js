@@ -3,7 +3,6 @@ if ($(window).width() < 992) {
     $('.div').addClass('flex-column');
     $('.filtros').removeClass('flex-column');
     $('.filtros').addClass('flex-row');
-
 }
 
 // Verificar el ancho de la pantalla al cambiar su tamaño
@@ -22,6 +21,11 @@ $(window).resize(function () {
     }
 });
 
+/**
+ * Recoge los datos de los partidos de la liga seleccionada.
+ * @param {string} liga - La liga seleccionada.
+ * @returns {Promise<Array<number>>} - Una promesa que se resuelve con un array de valores coincidentes.
+ */
 function partidos(liga) { //recoge los datos de los partidos de la liga seleccionada
     return new Promise(function (resolve, reject) {
         var datos = [
@@ -95,6 +99,13 @@ function partidos(liga) { //recoge los datos de los partidos de la liga seleccio
     });
 }
 
+/**
+ * Recupera y muestra detalles de partidos de fútbol basados en la liga, equipo y fecha proporcionados.
+ *
+ * @param {string} liga - Identificador de la liga.
+ * @param {string} equipo - El identificador del equipo.
+ * @param {string} fecha - La fecha en el formato 'AAAA-MM-DD'.
+ */
 function detalles(liga, equipo, fecha) {
     partidos(liga).then(function (lista) {
         var partidosDiv = $(".partidos");
@@ -210,6 +221,12 @@ function detalles(liga, equipo, fecha) {
 }
 
 
+/**
+ * Obtiene los equipos de una liga específica.
+ * @param {string} liga - El nombre de la liga.
+ * @returns {Promise<Array>} - Una promesa que se resuelve con un array de equipos, donde cada equipo es un array con el id y el nombre.
+ * @throws {string} - Un mensaje de error si no se pueden obtener los datos de la API.
+ */
 function equipos(liga) {
     return new Promise(function (resolve, reject) {
         $.ajax({
@@ -234,6 +251,11 @@ function equipos(liga) {
     });
 }
 
+/**
+ * Formatea una fecha en el formato 'YYYY-MM-DDTHH:MMZ'.
+ * @param {Date} fecha - La fecha a formatear.
+ * @returns {string} La fecha formateada.
+ */
 function fechaFormat(fecha) {
     // Verificar si fecha es un objeto de tipo Date
     if (!(fecha instanceof Date)) {

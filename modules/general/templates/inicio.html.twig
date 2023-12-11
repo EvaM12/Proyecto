@@ -1,5 +1,11 @@
+{# Asocia la libreria 'general/inicio' a esta plantilla. #}
 {{ attach_library('general/inicio')}}
 
+{#
+    Renderiza una sección con un carrusel de tarjetas en el que se muestra la informacion de los proximos 10 partidos.
+
+    @param array partidos Contiene los datos de los partidos.
+#}
 <p class="h1 text-center mb-3 mt-4">Next Matches</p>
 <div class="owl-carousel owl-theme container mb-4">
 	{% for partido in partidos %}
@@ -9,14 +15,12 @@
 				<article class="local col col-5">
 					<img
 					src="{{partido.logoLocal}}" alt="local" class="m-auto p-2">
-					<!-- poner selector en el css con important-->
 					<p class="text-uppercase fw-bold p-2 h3">{{partido.local}}</p>
 				</article>
 				<p class="col col-2 fs-2">vs</p>
 				<article class="visitante col col-5">
 					<img
 					src="{{partido.logoVisitante}}" alt="visitante" class="m-auto p-2">
-					<!-- alinear veritcalemnte, lh-1-->
 					<p class="text-uppercase fw-bold p-2 h3">{{partido.visitante}}</p>
 				</article>
 			</section>
@@ -38,6 +42,9 @@
 	{% endfor %}
 </div>
 
+{#
+    Muestra una sección con información sobre la empresa.
+#}
 <section class="nosotros position-relative mt-4 mb-4 ">
 	<div class="izquierda p-4">
         <p class="h1 pt-3 pb-3 text-center">About us<p>
@@ -46,8 +53,15 @@ Unlike other tools, our application focuses exclusively on providing a complete 
 	</div>
 </section>
 
+{#
+    Muestra las ultimas noticias.
+
+    @param array noticias Contiene los elementos de las noticias.
+
+    El elemento loop.index hace referencia al indice del bucle.
+#}
 <section class="noticias container pb-3 pb-md-0">
-	<p class="h1 mb-3 mt-4 title text-center">Latest news</p>
+    <p class="h1 mb-3 mt-4 title text-center">Latest news</p>
     {% for news in noticias %}
         {% if loop.index == 3 %}
         <div class="news1 ms-1 ms-lg-2 me-1 ms-lg-2 mb-2 position-relative">
@@ -91,6 +105,11 @@ Unlike other tools, our application focuses exclusively on providing a complete 
     {% endfor %}
 </section>
 
+{#
+    Renderiza una sección con imágenes de diferentes competiciones.
+
+    la funcion file_url sirve para obtener la ruta relativa de un archivo y hacer que al cargar la web muestre su ruta absoluta.
+#}
 <section class="competiciones mt-4 pb-4 d-md-flex align-items-center justify-content-center m-auto d-none">
     <img src="{{ file_url('modules/partidos/assets/images/GermanBundesliga.png') }}" alt="bundesliga">
     <img src="{{ file_url('modules/partidos/assets/images/EnglishPremierLeague.png') }}" alt="premier">
