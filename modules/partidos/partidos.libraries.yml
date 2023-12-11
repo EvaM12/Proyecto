@@ -19,8 +19,6 @@ datosPartidos:
             assets/css/datosPartidos.css: {}
             assets/css/iconos.css: {}
             assets/css/colores.css: {}
-    js:
-        assets/js/datosPartidos.js: {}
 
 compra:
     version: 1.x

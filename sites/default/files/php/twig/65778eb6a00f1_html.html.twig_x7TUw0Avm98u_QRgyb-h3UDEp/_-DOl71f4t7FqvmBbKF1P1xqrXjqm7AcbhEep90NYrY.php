@@ -35,20 +35,20 @@ class __TwigTemplate_9de92caf8fa36cbaf5ff74873f722fa0 extends Template
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
+        // line 13
         echo "<!DOCTYPE html>
 <html";
-        // line 2
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["html_attributes"] ?? null), 2, $this->source), "html", null, true);
+        // line 14
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["html_attributes"] ?? null), 14, $this->source), "html", null, true);
         echo ">
 \t<head>
 \t\t<head-placeholder token=\"";
-        // line 4
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 4, $this->source), "html", null, true);
+        // line 16
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 16, $this->source), "html", null, true);
         echo "\">
         <title>";
-        // line 5
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->extensions['Drupal\Core\Template\TwigExtension']->safeJoin($this->env, $this->sandbox->ensureToStringAllowed(($context["head_title"] ?? null), 5, $this->source), " | "));
+        // line 17
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->renderVar($this->extensions['Drupal\Core\Template\TwigExtension']->safeJoin($this->env, $this->sandbox->ensureToStringAllowed(($context["head_title"] ?? null), 17, $this->source), " | "));
         echo "</title>
         <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65\" crossorigin=\"anonymous\">
         <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4\" crossorigin=\"anonymous\"></script>
@@ -57,33 +57,33 @@ class __TwigTemplate_9de92caf8fa36cbaf5ff74873f722fa0 extends Template
         <link rel=\"stylesheet\" type=\"text/css\" href=\"https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css\">
         <script src=\"https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js\" integrity=\"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q\" crossorigin=\"anonymous\"></script>
         <css-placeholder token=\"";
-        // line 12
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 12, $this->source), "html", null, true);
+        // line 24
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 24, $this->source), "html", null, true);
         echo "\">
         <js-placeholder token=\"";
-        // line 13
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 13, $this->source), "html", null, true);
+        // line 25
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 25, $this->source), "html", null, true);
         echo "\">
     </head>
     <body";
-        // line 15
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["attributes"] ?? null), 15, $this->source), "html", null, true);
+        // line 27
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["attributes"] ?? null), 27, $this->source), "html", null, true);
         echo ">
         ";
-        // line 16
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page_top"] ?? null), 16, $this->source), "html", null, true);
+        // line 28
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page_top"] ?? null), 28, $this->source), "html", null, true);
         echo "
         ";
-        // line 17
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page"] ?? null), 17, $this->source), "html", null, true);
+        // line 29
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page"] ?? null), 29, $this->source), "html", null, true);
         echo "
         ";
-        // line 18
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page_bottom"] ?? null), 18, $this->source), "html", null, true);
+        // line 30
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["page_bottom"] ?? null), 30, $this->source), "html", null, true);
         echo "
         <js-bottom-placeholder token=\"";
-        // line 19
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 19, $this->source), "html", null, true);
+        // line 31
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["placeholder_token"] ?? null), 31, $this->source), "html", null, true);
         echo "\"></body>
     </html>
 ";
@@ -101,7 +101,7 @@ class __TwigTemplate_9de92caf8fa36cbaf5ff74873f722fa0 extends Template
 
     public function getDebugInfo()
     {
-        return array (  86 => 19,  82 => 18,  78 => 17,  74 => 16,  70 => 15,  65 => 13,  61 => 12,  51 => 5,  47 => 4,  42 => 2,  39 => 1,);
+        return array (  86 => 31,  82 => 30,  78 => 29,  74 => 28,  70 => 27,  65 => 25,  61 => 24,  51 => 17,  47 => 16,  42 => 14,  39 => 13,);
     }
 
     public function getSourceContext()
@@ -112,7 +112,7 @@ class __TwigTemplate_9de92caf8fa36cbaf5ff74873f722fa0 extends Template
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("escape" => 2, "safe_join" => 5);
+        static $filters = array("escape" => 14, "safe_join" => 17);
         static $functions = array();
 
         try {

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * Contains Drupal\partidos\Controller\PartidosController.
@@ -338,10 +339,12 @@ class PartidosController extends ControllerBase
      * precio por entrada
      *
      */
-    public function ticket($user, $match, $cant, $seccion, $precio){
+    public function ticket($user, $match, $cant, $seccion, $precio)
+    {
         $mysql = mysqli_connect("localhost", "root", "");
         $mysql->select_db("alltickets");
         $fecha = date('d/m/Y H:i');
+        $precio = $precio * $cant;
 
         $query = "INSERT INTO `compra`(`id`,`user`, `match`, `cant`, `seccion`, `precio`, `fecha`) VALUES ('0','$user','$match','$cant','$seccion','$precio','$fecha')";
         $mysql->query($query);
@@ -478,7 +481,7 @@ class PartidosController extends ControllerBase
         $precio = $this->request->request->get('precio');
 
         //si la sesion ya esta iniciada de antes, este codigo evita que se muestren los formulario de nicio o registro
-        if(isset($_SESSION['IDuser'])){
+        if (isset($_SESSION['IDuser'])) {
             $sesionIni = 'd-none';
             $pago = '<script>$(document).ready(function() {
                 $("#ocultarDatos").click(function () {
@@ -507,7 +510,7 @@ class PartidosController extends ControllerBase
             'pago' => '',
             'fallo' => '',
             'sesionIni' => $sesionIni,
-            'sesionPago'=> $pago
+            'sesionPago' => $pago
         ];
 
         //si se ha pulsado el submit del formulario de inicio de sesion
@@ -525,7 +528,7 @@ class PartidosController extends ControllerBase
                     'pago' => '',
                     'fallo' => '',
                     'sesionIni' => $sesionIni,
-                    'sesionPago'=> $pago
+                    'sesionPago' => $pago
                 ];
             } else {
                 $data2 = [
@@ -540,7 +543,7 @@ class PartidosController extends ControllerBase
                     'pago' => '',
                     'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">Incorrect email or password.</p></div>',
                     'sesionIni' => $sesionIni,
-                    'sesionPago'=> $pago
+                    'sesionPago' => $pago
                 ];
             }
         }
@@ -561,7 +564,7 @@ class PartidosController extends ControllerBase
                     'pago' => '',
                     'fallo' => '',
                     'sesionIni' => $sesionIni,
-                    'sesionPago'=> $pago
+                    'sesionPago' => $pago
                 ];
             } else {
                 $data2 = [
@@ -576,14 +579,14 @@ class PartidosController extends ControllerBase
                     'pago' => '',
                     'fallo' => '<div class="error mb-3 p-3 d-flex flex-row"><img src="https://i.imgur.com/GnyDvKN.png" width="30" height="30"><p class="m-0">This user already exists in our page.</p></div>',
                     'sesionIni' => $sesionIni,
-                    'sesionPago'=> $pago
+                    'sesionPago' => $pago
                 ];
             }
         }
 
         //si se ha pulsado el submit del formulario de pago
         if ($this->request->request->get('pago') !== null) {
-            $this->ticket($_SESSION['IDuser'],$id, $this->request->request->get('entradas'), $this->request->request->get('seccion'),$this->request->request->get('precio'));
+            $this->ticket($_SESSION['IDuser'], $id, $this->request->request->get('entradas'), $this->request->request->get('seccion'), $this->request->request->get('precio'));
             $data2 = [
                 'pago' => 'hide',
                 'eqLocal' => $this->eqLocal($id),
@@ -596,7 +599,7 @@ class PartidosController extends ControllerBase
                 'sesion' => '',
                 'fallo' => '',
                 'sesionIni' => $sesionIni,
-                'sesionPago'=> $pago
+                'sesionPago' => $pago
             ];
         }
         // Cargar la primera plantilla

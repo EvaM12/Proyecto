@@ -16,5 +16,3 @@ equipos:
     css:
         theme:
             assets/css/equipos.css: {}
-    js:
-        assets/js/equipos.js: {}

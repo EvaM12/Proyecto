@@ -197,7 +197,7 @@ function detalles(liga, equipo, fecha) {
                             </div>
                             <div class="entradas text-end col-2 m-0 p-0">
                                 <a href="http://localhost/AllTickets/matches/`+id+`" data-testid="event-list-link" class="enlace d-inine-block position-relative">
-                                    <span>Entradas</span>
+                                    <span>Tickets</span>
                                     <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1.5em" height="1.5em"
                                         aria-hidden="true" focusable="false">
                                         <path d="M3.47 8.26 4.53 7.2 12 14.67l7.47-7.47 1.06 1.06L12 16.8 3.47 8.26Z">

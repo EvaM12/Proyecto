@@ -85,14 +85,14 @@ function obtenerDatosVariasLigas(ligas) {
             }
 
             articlesDiv.append(`<article class="news-list-post mb-4 d-flex flex-column flex-md-row">
-                <div class="post-thumb">
+                <div class="post-thumb col-md-4">
                     <img src="${src}" alt="${alt}">
                 </div>
-                <div class="post-txt">
-                    <h4>
+                <div class="post-txt col-md-8">
+                    <h3>
                         <a href="${enlace}">${article.headline}</a>
-                    </h4>
-                    <span>${formattedDate}</span>
+                    </h3>
+                    <span class="pt-3 pb-4">${formattedDate}</span>
                     <p>${texto}</p>
                 </div>
             </article>`);

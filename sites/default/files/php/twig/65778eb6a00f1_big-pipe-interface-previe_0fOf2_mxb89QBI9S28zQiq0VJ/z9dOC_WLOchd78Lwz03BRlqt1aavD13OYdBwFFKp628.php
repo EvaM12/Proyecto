@@ -12,8 +12,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* themes/alltickets/page.html.twig */
-class __TwigTemplate_088af545fe6538de8917b37f462d5bec extends Template
+/* core/modules/big_pipe/templates/big-pipe-interface-preview.html.twig */
+class __TwigTemplate_a8fd8f1e0a3dc61de190eff41b6fb021 extends Template
 {
     private $source;
     private $macros = [];
@@ -35,30 +35,15 @@ class __TwigTemplate_088af545fe6538de8917b37f462d5bec extends Template
     protected function doDisplay(array $context, array $blocks = [])
     {
         $macros = $this->macros;
-        // line 1
-        echo "<body>
-    ";
-        // line 2
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "header", [], "any", false, false, true, 2), 2, $this->source), "html", null, true);
+        // line 9
+        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(($context["preview"] ?? null), 9, $this->source), "html", null, true);
         echo "
-    <main>
-        ";
-        // line 4
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "content", [], "any", false, false, true, 4), 4, $this->source), "html", null, true);
-        echo "
-    </main>
-    <footer>
-        ";
-        // line 7
-        echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, ($context["page"] ?? null), "footer", [], "any", false, false, true, 7), 7, $this->source), "html", null, true);
-        echo "
-    </footer>
-</body>";
+";
     }
 
     public function getTemplateName()
     {
-        return "themes/alltickets/page.html.twig";
+        return "core/modules/big_pipe/templates/big-pipe-interface-preview.html.twig";
     }
 
     public function isTraitable()
@@ -68,18 +53,18 @@ class __TwigTemplate_088af545fe6538de8917b37f462d5bec extends Template
 
     public function getDebugInfo()
     {
-        return array (  53 => 7,  47 => 4,  42 => 2,  39 => 1,);
+        return array (  39 => 9,);
     }
 
     public function getSourceContext()
     {
-        return new Source("", "themes/alltickets/page.html.twig", "C:\\xampp\\htdocs\\AllTickets\\themes\\alltickets\\page.html.twig");
+        return new Source("", "core/modules/big_pipe/templates/big-pipe-interface-preview.html.twig", "C:\\xampp\\htdocs\\AllTickets\\core\\modules\\big_pipe\\templates\\big-pipe-interface-preview.html.twig");
     }
     
     public function checkSecurity()
     {
         static $tags = array();
-        static $filters = array("escape" => 2);
+        static $filters = array("escape" => 9);
         static $functions = array();
 
         try {

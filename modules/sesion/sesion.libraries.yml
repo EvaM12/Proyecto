@@ -7,5 +7,3 @@ sesion:
         theme:
             assets/css/sesion.css: {}
             assets/css/iconos.css: {}
-    js:
-        assets/js/sesion.js: {}

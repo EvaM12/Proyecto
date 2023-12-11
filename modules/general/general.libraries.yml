@@ -21,6 +21,7 @@ inicio:
             assets/css/owl.theme.default.min.css: {}
     js:
         assets/js/inicio.js: {}
+        assets/js/jquery.min.js: {}
         assets/js/owl.carousel.min.js: {}
     dependencies:
         - core/jquery

@@ -42,8 +42,9 @@ class __TwigTemplate_18bd0e72e07df51d5a4e1e77925f4d8d extends Template
         // line 2
         echo $this->extensions['Drupal\Core\Template\TwigExtension']->escapeFilter($this->env, $this->extensions['Drupal\Core\Template\TwigExtension']->attachLibrary("alltickets/general"), "html", null, true);
         echo "
-
-<header class=\"d-flex flex-row text-wrap position-fixed\">
+";
+        // line 4
+        echo "<header class=\"d-flex flex-row text-wrap position-fixed\">
 \t<div class=\"logo\">
 \t\t<a href=\"http://localhost/AllTickets/inicio\">
 \t\t\t<img src=\"";
@@ -116,7 +117,7 @@ class __TwigTemplate_18bd0e72e07df51d5a4e1e77925f4d8d extends Template
 
     public function getDebugInfo()
     {
-        return array (  97 => 34,  93 => 32,  87 => 30,  85 => 29,  80 => 26,  76 => 24,  70 => 22,  68 => 21,  51 => 7,  43 => 2,  39 => 1,);
+        return array (  98 => 34,  94 => 32,  88 => 30,  86 => 29,  81 => 26,  77 => 24,  71 => 22,  69 => 21,  52 => 7,  47 => 4,  43 => 2,  39 => 1,);
     }
 
     public function getSourceContext()

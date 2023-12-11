@@ -873,5 +873,5 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_wPw44qrxej5VcMkyK66i6sdblvzaUwGJbNZYXSy0VTMp4nWz6ImSGTjQnDknxl0n_awTHLFBYQ/sync';
-$config['system.logging']['error_level'] = 'verbose';
-$config['system.logging']['error_file'] = './errors.log';
+// $config['system.logging']['error_level'] = 'verbose';
+// $config['system.logging']['error_file'] = './errors.log';
