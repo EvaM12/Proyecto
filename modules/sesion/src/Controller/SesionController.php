@@ -145,7 +145,7 @@ class SesionController extends ControllerBase
         if ($this->request->request->get('SignIn') !== null) {
             if ($this->inicioSesion($this->request->request->get('userIn'), $this->request->request->get('passIn'))) {
                 $dataSesion = [
-                    'redireccion' => '<script>window.location.href = "http://localhost/AllTickets/inicio"</script>'
+                    'redireccion' => '<script>window.location.href = "'.$_SERVER["HTTP_HOST"].'/inicio"</script>'
                 ];
             } else {
                 $dataSesion = [
@@ -158,7 +158,7 @@ class SesionController extends ControllerBase
             if ($this->registro($this->request->request->get('name'), $this->request->request->get('surname'), $this->request->request->get('pass'), $this->request->request->get('email'), $this->request->request->get('phone'))) {
                 // Go to the home page and send email
                 $dataSesion = [
-                    'redireccion' => '<script>window.location.href = "http://localhost/AllTickets/inicio"</script>'
+                    'redireccion' => '<script>window.location.href = "'.$_SERVER["HTTP_HOST"].'/inicio"</script>'
                 ];
             } else {
                 $dataSesion = [
@@ -199,7 +199,7 @@ class SesionController extends ControllerBase
         if (isset($_SESSION['IDuser'])) {
             session_destroy();
             $dataSesion = [
-                'redireccion' => '<script>window.location.href = "http://localhost/AllTickets/inicio"</script>',
+                'redireccion' => '<script>window.location.href = "'.$_SERVER["HTTP_HOST"].'/inicio"</script>',
                 'fallo' => '',
                 'pass' => '',
                 'email' => ''

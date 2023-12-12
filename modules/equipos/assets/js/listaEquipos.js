@@ -2,7 +2,7 @@
  * Obtiene los equipos de una liga utilizando una API externa.
  * @param {string} liga - El nombre de la liga de fútbol.
  */
-function obtenerEquipos(liga){
+function obtenerEquipos(liga) {
     $.ajax({
         url: "https://site.api.espn.com/apis/site/v2/sports/soccer/" + liga + "/teams",
         method: "GET",
@@ -12,9 +12,9 @@ function obtenerEquipos(liga){
             equiposDiv.empty();
 
             var teams = data.sports[0].leagues[0].teams;
-            var equipos='';
-            for (var i = 0; i <teams.length; i++) {
-                ruta = 'http://localhost/AllTickets/teams/'+enlace(teams[i].team.shortDisplayName);
+            var equipos = '';
+            for (var i = 0; i < teams.length; i++) {
+                ruta = '{{ url('<front>') }}teams/' + enlace(teams[i].team.shortDisplayName);
 
                 equipos += `<article class="d-flex flex-column"><img src="${teams[i].team.logos[0].href}" alt="${teams[i].team.logos[0].alt}" width="100" height="100"><a class="fs-3" href="${ruta}">${teams[i].team.displayName}</a></article>`;
             }
@@ -33,7 +33,7 @@ function obtenerEquipos(liga){
  * @param {string} equipo - El nombre del equipo.
  * @returns {string} - El enlace generado a partir del nombre del equipo.
  */
-function enlace(equipo){
+function enlace(equipo) {
     // Quitar espacios
     let sinEspacios = equipo.replace(/\s/g, '');
 
@@ -90,7 +90,7 @@ function tabla(liga) {
             promises.push(promise);
         }
 
-        if(liga.includes('.1')){
+        if (liga.includes('.1')) {
             Promise.all(promises).then(function (responses) {
                 var texto = '<table class="w-100 overflow-hidden"><thead class="bAzul5"><tr><th>Team</th><th>PJ</th><th class="ps-1 pe-1">W</th><th class="ps-1 pe-1">D</th><th class="ps-1 pe-1">L</th><th>Pts</th></tr></thead><tbody>';
 
@@ -131,7 +131,7 @@ function tabla(liga) {
 
                 var subtablaDiv = [];
                 for (var i = 1; i <= 8; i++) {
-                    subtablaDiv[i] ='<h5>Group '+i+'</h5><table class="w-100 overflow-hidden"><thead class="bAzul5"><tr><th>Team</th><th>PJ</th><th class="ps-1 pe-1">W</th><th class="ps-1 pe-1">D</th><th class="ps-1 pe-1">L</th><th>Pts</th></tr></thead><tbody>';
+                    subtablaDiv[i] = '<h5>Group ' + i + '</h5><table class="w-100 overflow-hidden"><thead class="bAzul5"><tr><th>Team</th><th>PJ</th><th class="ps-1 pe-1">W</th><th class="ps-1 pe-1">D</th><th class="ps-1 pe-1">L</th><th>Pts</th></tr></thead><tbody>';
                 }
 
                 responses.forEach(function (data) {
@@ -142,8 +142,8 @@ function tabla(liga) {
                     var emp = data.team.record.items[0].stats[7].value;
                     var derr = data.team.record.items[0].stats[1].value;
 
-                    for(i=1; i<=8; i++){
-                        if(data.team.groups.id == i){
+                    for (i = 1; i <= 8; i++) {
+                        if (data.team.groups.id == i) {
                             subtablaDiv[i] += '<tr><td>' + nombre + '</td>';
                             subtablaDiv[i] += '<td>' + pj + '</td>';
                             subtablaDiv[i] += '<td class="ps-1 pe-1">' + vic + '</td>';
@@ -153,7 +153,7 @@ function tabla(liga) {
                         }
                     }
                 });
-                for(i=1; i<=8; i++){
+                for (i = 1; i <= 8; i++) {
                     subtablaDiv[i] += '</tbody></table><br>';
                     tablaDiv.append(subtablaDiv[i]);
                 }

@@ -207,9 +207,9 @@ class GeneralController extends ControllerBase
                 $id = end($trozos);
 
                 if (strpos($news[$i]['links']['api']['news']['href'], 'video') !== false) {
-                    $enlace = 'http://localhost/AllTickets/news/video/' . $id;
+                    $enlace = ''.$_SERVER["HTTP_HOST"].'/news/video/' . $id;
                 } else {
-                    $enlace = 'http://localhost/AllTickets/news/news/' . $id;
+                    $enlace = ''.$_SERVER["HTTP_HOST"].'/news/news/' . $id;
                 }
 
                 $fechaOriginal = $news[$i]['published'];

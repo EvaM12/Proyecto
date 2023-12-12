@@ -181,13 +181,13 @@ function detalles(liga, equipo, fecha) {
                             break;
                     }
                     texto += `
-                        <li class="d-flex">
-                            <div class="text-center col-2">
+                        <li class="d-flex flex-md-row flex-column">
+                            <div class="text-center col-md-2 col col-12">
                                 <span class="month">`+ mes +`</span>
                                 <span class="day fw-bold">`+ dia +`</span>
                                 <span class="year">`+ anio +`</span>
                             </div>
-                            <div class="col-7 text-wrap pe-0">
+                            <div class="col-md-7 col col-12 text-wrap pe-0">
                                 <p class="h5 mt-1">`+comp+`</p>
                                 <p class="h3 fw-bold has-spacing">` +local +` vs `+ visitante+ `</p>
                                 <p class="m-0">
@@ -195,8 +195,8 @@ function detalles(liga, equipo, fecha) {
                                     <span>`+estadio +` (`+ciudad+`, `+pais+`)</span>
                                 </p>
                             </div>
-                            <div class="entradas text-end col-2 m-0 p-0">
-                                <a href="http://localhost/AllTickets/matches/`+id+`" data-testid="event-list-link" class="enlace d-inine-block position-relative">
+                            <div class="entradas text-end col-md-2 col col-12 m-0 p-0">
+                                <a href="matches/`+id+`" data-testid="event-list-link" class="enlace d-inine-block position-relative">
                                     <span>Tickets</span>
                                     <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1.5em" height="1.5em"
                                         aria-hidden="true" focusable="false">

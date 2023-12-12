@@ -405,7 +405,7 @@
                 </ul>
                 <div id="js-siPanel" class="">
                     {{fallo|raw}}
-                    <form action="http://localhost/AllTickets/matches/{{id}}/buy" class="" id="sign-in-html" method="post">
+                    <form action="{{ url('<front>') }}matches/{{id}}/buy" class="" id="sign-in-html" method="post">
                         <div class="tile m-3 mt-0">
                             <div class="mb-3">
                                 <label for="userIn">Email</label><br>
@@ -434,9 +434,9 @@
                     </form>
                 </div>
                 <div id="js-nuPanel" class="hide">
-                    <form action="http://localhost/AllTickets/matches/{{id}}/buy" class="sign-up-htm" method="post">
+                    <form action="{{ url('<front>') }}matches/{{id}}/buy" class="sign-up-htm" method="post">
                         <div class="tile m-3 mt-0">
-                            <div class="mb-3 d-flex" id="nombre">
+                            <div class="mb-3 d-flex flex-column flex-md-row" id="nombre">
                                 <div class="col-md-6 col col-12">
                                     <label for="name">Name</label><br>
                                     <span class="position-relative">
@@ -509,7 +509,7 @@
 
             <div id="pago" class="tile {{presesion}} {{pago}}">
                 <div id="js-payPanel" class="">
-                    <form action="http://localhost/AllTickets/matches/{{id}}/buy" class="" id="SignIn" method="post">
+                    <form action="{{ url('<front>') }}matches/{{id}}/buy" class="" id="SignIn" method="post">
                         <div class="tile m-3 mt-0">
                             <div class="mb-3 ps-2 pe-2">
                                 <label for="CardNumber">Card number</label><br>

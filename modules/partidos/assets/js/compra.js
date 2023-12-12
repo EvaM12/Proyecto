@@ -38,7 +38,12 @@ $(document).ready(function () {
             $('.fondo').removeClass('hide');
 
             setTimeout(function () {
-                window.location.href = 'http://localhost/AllTickets/matches';
+                var urlActual = window.location.href;
+                var parteVariable = urlActual.split('/')[2];
+                var nuevaURL = 'http://' + parteVariable + '/AllTickets/matches';
+
+                // Redireccionar a la nueva URL
+                window.location.href = nuevaURL;
             }, 5000);
         }
     };
@@ -55,7 +60,12 @@ $(document).ready(function () {
     });
 
     $('.user-select-close').click(function () {
-        window.location.href = 'http://localhost/AllTickets/matches';
+        var urlActual = window.location.href;
+        var parteVariable = urlActual.split('/')[2];
+        var nuevaURL = 'http://' + parteVariable + '/AllTickets/matches';
+
+        // Redireccionar a la nueva URL
+        window.location.href = nuevaURL;
     });
 
     $('.user-select-none').click(function () {
@@ -112,7 +122,12 @@ $(document).ready(function () {
 
     if ($('#conf').attr('class') === '') {
         // Redirigir al usuario a la nueva página
-        window.location.href = 'http://localhost/AllTickets/inicio';
+        var urlActual = window.location.href;
+        var parteVariable = urlActual.split('/')[2];
+        var nuevaURL = 'http://' + parteVariable + '/AllTickets/inicio';
+
+        // Redireccionar a la nueva URL
+        window.location.href = nuevaURL;
     }
 
     /* codigo de cambios de tamaño del pantalla */

@@ -50,12 +50,12 @@ function obtenerDatosVariasLigas(ligas) {
                 var partes = article.links.api.news.href.split('/');
                 var id = partes[partes.length - 1];
 
-                enlace = `http://localhost/AllTickets/news/video/${id}`;
+                enlace = `news/video/${id}`;
             } else {
                 var partes = article.links.api.news.href.split('/');
                 var id = partes[partes.length - 1];
 
-                enlace = `http://localhost/AllTickets/news/news/${id}`;
+                enlace = `news/news/${id}`;
             }
 
             if (article.images[0] !== undefined && article.images[0] !== null) {

@@ -3,33 +3,33 @@
 {# plantilla con el contenido del header #}
 <header class="d-flex flex-row text-wrap position-fixed">
 	<div class="logo">
-		<a href="http://localhost/AllTickets/inicio">
+		<a href="{{ url('<front>') }}inicio">
 			<img src="{{ file_url('themes/alltickets/assets/images/logo.png') }}" alt="logo">
 		</a>
 	</div>
 	<ul class="menu">
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/matches">Matches</a>
+			<a class="nav-link" href="{{ url('<front>') }}matches">Matches</a>
 		</li>
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/news">News</a>
+			<a class="nav-link" href="{{ url('<front>') }}news">News</a>
 		</li>
 		<li>
-			<a class="nav-link" href="http://localhost/AllTickets/teams">Teams</a>
+			<a class="nav-link" href="{{ url('<front>') }}teams">Teams</a>
 		</li>
 		<li>
             {% if email is not empty %}
-                <a class="nav-link d-md-none d-block" href="http://localhost/AllTickets/finsesion">{{ email }}</a>
+                <a class="nav-link d-md-none d-block" href="{{ url('<front>') }}finsesion">{{ email }}</a>
             {% else %}
-                <a class="nav-link d-md-none d-block" href="http://localhost/AllTickets/sesion">Login / Sign up</a>
+                <a class="nav-link d-md-none d-block" href="{{ url('<front>') }}session">Login / Sign up</a>
             {% endif %}
 		</li>
 	</ul>
 	<div>
         {% if email is not empty %}
-            <a class="nav-link d-md-block d-none sesion" href="http://localhost/AllTickets/finsesion">{{ email }}</a>
+            <a class="nav-link d-md-block d-none sesion" href="{{ url('<front>') }}finsesion">{{ email }}</a>
         {% else %}
-            <a class="nav-link d-md-block d-none sesion" href="http://localhost/AllTickets/sesion">Login / Sign up</a>
+            <a class="nav-link d-md-block d-none sesion" href="{{ url('<front>') }}sesion">Login / Sign up</a>
         {% endif %}
 	</div>
 	<div class="header-bar d-md-none d-block">

@@ -16,7 +16,7 @@
         - El formulario de registro contiene campos de entrada para nombre, apellidos, correo electrónico, contraseña y teléfono, junto con un botón "Sign up".
         - Ambos formularios tienen un enlace para cambiar de uno a otro.
 
-        Nota: Las URL de envío de formularios están configuradas actualmente en "http://localhost/AllTickets/sesion" y puede que sea necesario actualizarlas.
+        Nota: Las URL de envío de formularios están configuradas actualmente en "{{ url('<front>') }}session" y puede que sea necesario actualizarlas.
     #}
 
     <div class="gen d-flex ustify-content-center align-items-center">
@@ -36,7 +36,7 @@
                     <div class="signin-form">
                         <div class="title fw-semibold position-relative">Sign in</div>
                         {{ fallo|raw }}
-                        <form onsubmit="return validarFormulario()" method="post" action="http://localhost/AllTickets/sesion">
+                        <form onsubmit="return validarFormulario()" method="post" action="{{ url('<front>') }}session">
                             <div class="mt-4">
                                 <div class="input-box d-flex align-items-center w-100 position-relative mt-2 mb-2">
                                     <i class="cLila i-mail"></i>
@@ -50,14 +50,14 @@
                                 <div class="button input-box p-0">
                                     <input type="submit" class="w-100 h-100 fw-semibold bLila" name="SignIn" id="SignIn" value="SignIn">
                                 </div>
-                                <div class="text text-center mt-4">Don't have an account? <label for="flip" class="cLila">Sigup now</label></div>
+                                <div class="text text-center mt-4">Don't have an account? <label for="flip" class="cLila">Sign up now</label></div>
                             </div>
                         </form>
                     </div>
                     <div class="signup-form">
                         <div class="title fw-semibold position-relative">Sign up</div>
                         {{ fallo|raw }}
-                        <form onsubmit="return validarFormulario()" method="post" action="http://localhost/AllTickets/sesion" class="sign-up-form">
+                        <form onsubmit="return validarFormulario()" method="post" action="{{ url('<front>') }}session" class="sign-up-form">
                             <div class="mt-4">
                                 <div class="box d-md-flex flex-row">
                                     <div class="input-box p-2 d-flex align-items-center w-100 position-relative mt-2 mb-2">

@@ -28,7 +28,7 @@
 			<section class="d-flex flex-row m-auto text-center align-items-center justify-items-center">
 				<p class="fecha col col-6">{{partido.dia ~ ' ' ~ partido.mes ~ ' ' ~ partido.anio ~ ' ' ~ partido.hora }}</p>
 				<div class="entradas text-end col-2 m-0 p-0 d-grid align-items-center m-auto">
-                        <a href="http://localhost/AllTickets/matches/{{partido.id}}" data-testid="event-list-link" class="enlace d-inine-block position-relative">
+                        <a href="{{ url('<front>') }}matches/{{partido.id}}" data-testid="event-list-link" class="enlace d-inine-block position-relative">
                             <span>Tickets</span>
                             <svg class="flecha flex-shrink-0 d-inline text-nowrap text-center" viewBox="0 0 24 24" width="1em" height="1em"
                                 aria-hidden="true" focusable="false">
